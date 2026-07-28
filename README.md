@@ -1,76 +1,270 @@
 # Electrical Engineering Coursework Portfolio
 
-[English](README.en.md) · [GitHub Pages](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/) · [Validation workflow](https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/actions/workflows/coursework-validation.yml)
+[English](README.en.md) · [GitHub Pages](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/) · [Source Provenance](SOURCE_PROVENANCE.md)
 
-단국대학교 전자전기공학 전공과목에서 수행한 설계·해석·시뮬레이션 과제를, 공개 가능한 근거만 남겨 하나의 검증 가능한 포트폴리오로 재구성했습니다. 핵심은 결과 화면의 나열이 아니라 **입력 조건 → 설계 판단 → 계산/구현 → 검증 → 한계**의 흐름입니다.
+![Portfolio hero](docs/assets/hero/coursework_portfolio_hero.png)
 
-> 공개 범위: 원본 보고서에서 확인된 사실과 계산값, 직접 작성한 코드, 공개용 재도식화 자료만 포함합니다. 팀원 이름·학번·로컬 경로·라이선스 종속 파일·원본 과제 PDF는 공개하지 않습니다.
+단국대학교 전자전기공학 전공과목에서 수행한 설계·계산·RTL·시뮬레이션·연구 제안을 공개 가능한 근거로 다시 구성한 포트폴리오입니다.
 
-## 한눈에 보기
+## 포트폴리오 원칙
 
-| 학년-학기 | 과목 / 프로젝트 | 핵심 산출물 | 공개 검증 상태 |
+- Recovered Original: 제출물에서 회수한 직접 작성 소스
+- Portable Reconstruction: 원본 기능을 공개 환경에서 다시 검증하기 위한 재구성
+- Independent Recalculation: 보고서 입력과 식을 별도 코드로 재계산
+- Existing Result Archive: 기존 PSIM·MATLAB·Cadence·PowerWorld 화면이며 현재 환경 재실행 아님
+- Portfolio Redraw: 원본 내용을 바탕으로 공개용으로 다시 그린 도식
+- Concept / Proposal: 구현·학습·실증이 완료되지 않은 연구 설계
+
+## 채용 담당자용 30초 요약
+
+| Term | Case study | Core output | Evidence state |
 |---|---|---|---|
-| 2-2 | Controller Logic | VHDL 조합·순차회로, self-checking testbench | GHDL 7/7 PASS |
-| 3-1 | Electrical Machines | 900 W 변압기 설계 및 코어 비교 | 독립 계산 스크립트 |
-| 3-1 | Power Systems | 765 kV 장거리 송전선로와 전력정책 검토 | Zc/SIL 재계산, 출처 교차검증 |
-| 3-2 | Motor Control | 직류전동기 이중 PI 제어와 토크 리플 | 이득·리플 재계산, 기존 결과 보존 |
-| 4-1 | RF/Microwave | Microstrip, matching, Wilkinson, hybrid | 기존 Cadence 결과 아카이브 |
-| 4-1 | Sensor Applications | AESA-SAR·Physics-Guided Diffusion 연구 제안 | 개념설계·검증 로드맵 |
+| 2-2 | [Controller Logic — VHDL 설계와 Portable Verification](00_digital_hardware/controller_logic/README.md) | 조합회로에서 FSM·범용 시프트 레지스터까지 7개 RTL 블록을 self-checking testbench로 재검증했습니다. | GHDL 7/7 PASS |
+| 3-1 | [Electrical Machines — 900 W 변압기 설계](01_electrical_machines/transformer_design/README.md) | 220/110 V, 900 W, 300 Hz 조건에서 DU·EI·UI 코어를 계산 비교하고 UI-100 설계를 선택했습니다. | Independent recalculation |
+| 3-1 | [Power Systems — 765 kV 송전선로와 전력정책 검토](02_power_systems/transmission_line_and_policy/README.md) | 분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다. | Zc 255.38 Ω · SIL 2.292 GW |
+| 3-2 | [Motor Control — 직류전동기 이중 PI 제어](03_motor_control/dc_motor_pi_control/README.md) | 500 Hz 전류 루프와 25 Hz 속도 루프, 전류 제한·anti-windup·field weakening을 하나의 제어 구조로 정리했습니다. | Calculation + existing simulation archive |
+| 4-1 | [RF/Microwave — 수동회로 설계와 Cadence 결과](04_rf_microwave/passive_network_design/README.md) | Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybrid를 이론과 기존 Cadence 결과로 비교했습니다. | Theory + existing Cadence archive |
+| 4-1 | [Sensor Applications — AESA-SAR와 Physics-Guided Diffusion](05_sensor_applications/aesa_sar_diffusion_concept/README.md) | AESA 수집, SAR 복원, physics-conditioned diffusion을 연결한 연구 제안과 단계별 검증 로드맵입니다. | Concept / Proposal Only |
 
-## Evidence status
+## Visual Case Study 지도
 
-- **Recovered Original**: 제출물 아카이브에서 회수한 직접 작성 소스
-- **Portable Reconstruction**: 보고서·회수 소스의 인터페이스를 근거로 재작성한 공개/CI용 구현
-- **Independent Recalculation**: 공개 계산식으로 다시 계산한 결과
-- **Existing Result Archive**: 기존 제출물에 포함된 시뮬레이션 화면이며 이번 환경에서 재실행하지 않음
-- **Concept / Proposal**: 구현·학습·실증 완료가 아닌 연구 제안
-- **Publicly Withheld**: 개인정보, 팀원 정보, 라이선스 종속 파일, 원본 보고서
+### 1. Controller Logic — VHDL 설계와 Portable Verification
 
-## 주요 사례
+![Controller Logic — VHDL 설계와 Portable Verification](docs/assets/digital/controller_logic_progression.svg)
 
-### 1. Controller Logic — portable RTL verification
+조합회로에서 FSM·범용 시프트 레지스터까지 7개 RTL 블록을 self-checking testbench로 재검증했습니다.
 
-회수된 VHDL 네 개와 공개용 재구성 세 개를 GHDL에서 동일한 회귀 테스트로 검증했습니다. 모든 testbench는 성공 시 `PASS`를 보고하고 오류 시 assertion으로 실패합니다.
+- **Status:** GHDL 7/7 PASS
+- **Evidence:** Recovered Original · Portable Reconstruction · GHDL Rerun
+- **Source:** [00_digital_hardware/controller_logic](00_digital_hardware/controller_logic/)
+- **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/controller-logic/)
+
+- Design units: 7
+- Self-checking TB: 7
+- Regression: 7 PASS / 0 FAIL
+- Portable target: Ubuntu + GHDL
+
+> 원본 Vivado 프로젝트, device constraint, synthesis/timing report, 보드 실증 자료는 확인되지 않았습니다. 따라서 LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다. 재구성 usr_4bit의 asynchronous clear는 공개 검증용 가정입니다.
+
+### 2. Electrical Machines — 900 W 변압기 설계
+
+![Electrical Machines — 900 W 변압기 설계](docs/assets/transformer/transformer_winding_architecture.svg)
+
+220/110 V, 900 W, 300 Hz 조건에서 DU·EI·UI 코어를 계산 비교하고 UI-100 설계를 선택했습니다.
+
+- **Status:** Independent recalculation
+- **Evidence:** Source-Derived · Workbook Snapshot · Independent Recalculation
+- **Source:** [01_electrical_machines/transformer_design](01_electrical_machines/transformer_design/)
+- **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/)
+
+- Primary / secondary: 180 / 93 turns
+- Copper loss: 10.2267 W
+- Core loss: 23.7760 W
+- Efficiency: 96.360%
+- Regulation: 1.136%
+
+> 최종 제작, 온도상승, 절연 내력, 무부하·단락 시험의 실물 증거는 확인되지 않았습니다. 결과는 계산 기반 설계입니다. Workbook 화면은 셀 값을 렌더링한 snapshot이며 Excel 애플리케이션 실행 화면이 아닙니다.
+
+### 3. Power Systems — 765 kV 송전선로와 전력정책 검토
+
+![Power Systems — 765 kV 송전선로와 전력정책 검토](docs/assets/power/transmission_line_pi_model.svg)
+
+분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다.
+
+- **Status:** Zc 255.38 Ω · SIL 2.292 GW
+- **Evidence:** Source-Derived · Independent Recalculation · Existing Model Archive
+- **Source:** [02_power_systems/transmission_line_and_policy](02_power_systems/transmission_line_and_policy/)
+- **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/)
+
+- Voltage / length: 765 kV / 350 km
+- Surge impedance: 255.38 Ω
+- SIL: 2.292 GW
+- SIL current: 1.729 kA
+- 2038 energy: 735.1 → 624.5 TWh
+- 2038 peak: 145.6 → 129.3 GW
+
+> 동적 안정도, 보호계전, N-1, 실계통 조류 검증은 수행 증거가 없습니다. 비수렴 PowerWorld 화면은 모델 구축·오류 인지 증거이지 PASS가 아닙니다. 정책 보고서의 AI 보조 작성 사실도 숨기지 않습니다.
+
+### 4. Motor Control — 직류전동기 이중 PI 제어
+
+![Motor Control — 직류전동기 이중 PI 제어](docs/assets/motor/dc_motor_system_architecture.svg)
+
+500 Hz 전류 루프와 25 Hz 속도 루프, 전류 제한·anti-windup·field weakening을 하나의 제어 구조로 정리했습니다.
+
+- **Status:** Calculation + existing simulation archive
+- **Evidence:** Recovered Original · Independent Recalculation · Existing PSIM/MATLAB Archive
+- **Source:** [03_motor_control/dc_motor_pi_control](03_motor_control/dc_motor_pi_control/)
+- **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/motor-control/)
+
+- Current loop: 500 Hz
+- Current PI: 62.832 / 314.16
+- Speed loop: 25 Hz
+- Speed PI: 24.8 / 3898 report
+- Source Ki: 3895
+- Torque ripple: 2.28 → 0.38 N·m
+
+> PSIM/MATLAB 프로젝트를 라이선스 독립적으로 재실행할 자료는 회수되지 않았습니다. 화면은 Existing Result Archive이며 새 실행 결과가 아닙니다. 파일명 25 kHz와 본문 30 kHz의 불일치는 그대로 표시합니다. 하드웨어 실험은 주장하지 않습니다.
+
+### 5. RF/Microwave — 수동회로 설계와 Cadence 결과
+
+![RF/Microwave — 수동회로 설계와 Cadence 결과](docs/assets/rf/microstrip_design_flow.svg)
+
+Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybrid를 이론과 기존 Cadence 결과로 비교했습니다.
+
+- **Status:** Theory + existing Cadence archive
+- **Evidence:** Source-Derived · Portfolio Redraw · Existing Cadence Result Archive
+- **Source:** [04_rf_microwave/passive_network_design](04_rf_microwave/passive_network_design/)
+- **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/)
+
+- Microstrip target: 3.5 GHz · 50 Ω · 270°
+- Calculated W / L: 0.4815 / 24.97 mm
+- Archive marker: 3.7 GHz only
+- L-section: 0.461 pF · 19.5 nH
+- Wilkinson split: ≈ −3 dB archive
+- Isolation: ≈ −18 dB archive
+
+> Cadence 프로젝트와 라이선스 자료는 공개하지 않습니다. 3.7 GHz marker를 3.5 GHz의 정확한 검증으로 바꾸어 말하지 않습니다. 제작 공차, connector launch, calibration, VNA 측정은 증거 범위 밖입니다.
+
+### 6. Sensor Applications — AESA-SAR와 Physics-Guided Diffusion
+
+![Sensor Applications — AESA-SAR와 Physics-Guided Diffusion](docs/assets/sensor/aesa_system_architecture.svg)
+
+AESA 수집, SAR 복원, physics-conditioned diffusion을 연결한 연구 제안과 단계별 검증 로드맵입니다.
+
+- **Status:** Concept / Proposal Only
+- **Evidence:** Research Concept · Architecture · Validation Roadmap · No Implemented Result
+- **Source:** [05_sensor_applications/aesa_sar_diffusion_concept](05_sensor_applications/aesa_sar_diffusion_concept/)
+- **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/)
+
+- Implementation: Not performed
+- Dataset: Not published
+- Hardware: Not built
+- Performance gain: Not claimed
+- Deliverable: Architecture + validation plan
+
+> 학습 모델, 데이터셋, AESA prototype, field/flight test, 정량 성능 향상은 존재한다고 주장하지 않습니다. 군사 운용 절차나 구현 가능한 공격 정보가 아니라 공개 가능한 시스템 계층과 검증 방법만 다룹니다.
+
+## Interactive Calculator
+
+| Tool | Scope | Link |
+|---|---|---|
+| Transformer Case | Loss, efficiency, regulation | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transformer-case-calculator/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transformer-case-calculator/) |
+| Motor PI | Current-loop gains + preserved discrepancy | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/motor-pi-calculator/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/motor-pi-calculator/) |
+| Transmission Line | Zc, SIL, current | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transmission-line-calculator/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transmission-line-calculator/) |
+
+## 저장소 구조
 
 ```text
-Combinational logic → arithmetic → selection → sequence detection → shift/register control
+00_digital_hardware/      VHDL sources, testbenches, VCD results
+01_electrical_machines/   transformer calculations and workbook audit
+02_power_systems/         line arithmetic, policy reconciliation
+03_motor_control/         PI calculations, recovered source, archived plots
+04_rf_microwave/          passive network cases and Cadence archive
+05_sensor_applications/   AESA-SAR research architecture
+docs/                     bilingual multi-page portfolio and visual assets
+scripts/                  calculation, build, and publication QA
 ```
 
-[상세 Case Study](00_digital_hardware/controller_logic/README.md)
-
-### 2. Transformer Design — 설계안 비교
-
-220 V를 110 V로 변환하는 900 W, 300 Hz 조건에서 DU/EI/UI 코어를 비교했습니다. 최종 UI-100 설계는 원본 보고서 기준 1차 180턴, 2차 93턴, 효율 96.360%, 전압변동률 1.136%입니다. 별도 계산기는 보고서 수치를 재계산하며, 입력 조건이 다른 스프레드시트 사례는 혼합하지 않습니다.
-
-[상세 Case Study](01_electrical_machines/transformer_design/README.md)
-
-### 3. Power Systems — 계산과 모델 실패의 분리
-
-765 kV, 350 km 선로의 특성 임피던스와 SIL을 재계산했습니다. PowerWorld 아카이브의 비정상 전압은 실제 계통 결과로 해석하지 않고 **비수렴 모델링 사례**로 분류했습니다. 정책 보고서의 날짜와 설비 수치는 정부 원문과 교차검증했습니다.
-
-[상세 Case Study](02_power_systems/transmission_line_and_policy/README.md)
-
-### 4. Motor Control — 계층형 PI 설계
-
-500 Hz 전류 루프와 25 Hz 속도 루프를 분리해 이득을 산정하고, 원본 C++ 계산기와 이식 가능한 CI용 계산기를 함께 보존했습니다. 토크 리플 계산과 그림 파일명의 25/30 kHz 불일치도 숨기지 않고 기록했습니다.
-
-[상세 Case Study](03_motor_control/dc_motor_pi_control/README.md)
-
-### 5–6. RF/Microwave & Sensor Systems
-
-RF 수동회로는 이론 설계값과 기존 Cadence 결과를 구분해 정리했습니다. 센서 응용은 AESA-SAR와 Physics-Guided Diffusion을 연결한 연구 제안이며, 구현·학습·실증을 주장하지 않습니다.
-
-[RF/Microwave](04_rf_microwave/passive_network_design/README.md) · [Sensor Applications](05_sensor_applications/aesa_sar_diffusion_concept/README.md)
-
-## 재현
+## 재현과 검증
 
 ```bash
 python scripts/run_all_calculations.py
+python scripts/build_visual_assets.py
+python scripts/build_coursework_site.py
+python scripts/validate_svg_bounds.py
+node scripts/test_calculators.mjs
 python scripts/validate_publication.py
 ```
 
-VHDL은 GitHub Actions에서 GHDL로, 이식형 C++ 계산기는 `g++`로 빌드·실행합니다. 공개 범위와 provenance는 [SOURCE_PROVENANCE.md](SOURCE_PROVENANCE.md), [PUBLICATION_MATRIX.md](PUBLICATION_MATRIX.md), [LICENSE_NOTICE.md](LICENSE_NOTICE.md)에 기록했습니다.
+공개 CI는 가능한 범위에서 GHDL과 g++를 사용합니다.
 
-## 역할 표기
+## 검증 매트릭스
 
-개인 단독 수행이 원본에서 확인되지 않는 과제는 모두 **Team Project / individual contribution unconfirmed**로 표시했습니다. 면접 또는 제출 전에 [ROLE_CONFIRMATION_REQUIRED.md](ROLE_CONFIRMATION_REQUIRED.md)를 사용자 확인으로 갱신해야 합니다.
+| Area | Reproducible now | Archive only | Not claimed |
+|---|---|---|---|
+| Controller Logic | GHDL 7/7 regression | Original Vivado context unavailable | FPGA timing / board result |
+| Transformer | Python loss/efficiency check | Workbook snapshots | Fabrication and hardware tests |
+| Power Systems | Zc/SIL arithmetic | PowerWorld divergence view | Validated grid power flow |
+| Motor Control | PI/ripple calculations | PSIM/MATLAB screenshots | New licensed simulation or hardware test |
+| RF/Microwave | Source-derived equations | Cadence screenshots | VNA measurement / exact 3.5 GHz rerun |
+| Sensor Applications | Architecture review plan | None | Dataset, model, prototype, gain |
+
+## 공개 범위와 기여도
+
+개인정보, 학번, 로컬 경로, 라이선스 종속 프로젝트, 제3자 교재는 공개하지 않습니다.
+
+팀 과제는 작성자가 역할을 확정하기 전까지 **Team Project · Individual contribution unconfirmed**로 표시합니다.
+
+See [ROLE_CONFIRMATION_REQUIRED.md](ROLE_CONFIRMATION_REQUIRED.md), [PUBLICATION_MATRIX.md](PUBLICATION_MATRIX.md), and [LICENSE_NOTICE.md](LICENSE_NOTICE.md).
+
+## 시각 자료 추적성
+
+Every generated/cropped asset is listed in [`docs/assets/asset_manifest.yaml`](docs/assets/asset_manifest.yaml). Labels on the site distinguish archive, redraw, recalculation, and proposal evidence.
+
+## License notice
+
+The repository license applies only to public, directly authored or reconstructed material. Withheld originals and third-party material are not relicensed.
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
+
+<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->

@@ -1,0 +1,131 @@
+<!doctype html>
+        <html lang="ko">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <meta name="theme-color" content="#08111f">
+          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <title>Motor Control — 직류전동기 이중 PI 제어</title>
+          <link rel="stylesheet" href="../../styles.css">
+        </head>
+        <body>
+          <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+          <header class="site-header">
+            <a class="brand" href="../../"><span class="brand-mark">EE</span>학부 과제 포트폴리오</a>
+            <nav aria-label="Primary">
+              <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">GitHub</a>
+              <a href="../../en/courses/motor-control/">English</a>
+            </nav>
+          </header>
+          <main id="main">
+        <section class="case-hero accent-emerald">
+          <div>
+            <p class="eyebrow">3-2학기 · Visual Engineering Case Study</p>
+            <h1>Motor Control — 직류전동기 이중 PI 제어</h1>
+            <p class="lede">500 Hz 전류 루프와 25 Hz 속도 루프, 전류 제한·anti-windup·field weakening을 하나의 제어 구조로 정리했습니다.</p>
+            <div class="actions"><a class="button primary" href="../../tools/motor-pi-calculator/">Motor PI Calculator</a><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/03_motor_control/dc_motor_pi_control">Source directory</a></div>
+          </div>
+          <button class="image-button hero-visual" data-lightbox="../../assets/motor/dc_motor_system_architecture.svg">
+            <img src="../../assets/motor/dc_motor_system_architecture.svg" alt="Motor Control — 직류전동기 이중 PI 제어 architecture">
+          </button>
+        </section>
+        <section class="snapshot section">
+          <div class="section-heading"><span>01</span><h2>30초 요약</h2></div>
+          <div class="snapshot-grid">
+            <p>500 Hz 전류 루프와 25 Hz 속도 루프, 전류 제한·anti-windup·field weakening을 하나의 제어 구조로 정리했습니다.</p>
+            <dl>
+              <div><dt>Status</dt><dd>Calculation + existing simulation archive</dd></div>
+              <div><dt>Evidence</dt><dd>Recovered Original · Independent Recalculation · Existing PSIM/MATLAB Archive</dd></div>
+              <div><dt>Contribution</dt><dd>Team Project · Individual contribution unconfirmed</dd></div>
+            </dl>
+          </div>
+        </section>
+        <section class="section split">
+          <div><div class="section-heading"><span>02</span><h2>문제 정의와 설계 판단</h2></div><p>전기적으로 빠른 전류 동특성과 느린 기계 속도 동특성을 분리해 cascade controller를 설계했습니다. 계산식, 회수 C/C++ 상수, 기존 PSIM/MATLAB 화면 사이의 차이를 숨기지 않고 parameter consistency audit로 관리했습니다.</p><ul class="decision-list"><li>전류 루프 대역폭 500 Hz에서 Kp=62.832, Ki=314.16을 재계산했습니다.</li><li>속도 루프 25 Hz의 보고서 값 Kp=24.8, Ki≈3898과 회수 소스 Ki=3895를 모두 보존했습니다.</li><li>속도 지령은 0→850 rpm, hold, 850→1200 rpm 순서로 구성됩니다.</li><li>±10 A current limit, ±200 V voltage saturation, field weakening 구간을 제어 흐름에 포함했습니다.</li></ul></div>
+          <figure class="visual-card featured"><button class="image-button" data-lightbox="../../assets/motor/cascaded_pi_controller.svg"><img src="../../assets/motor/cascaded_pi_controller.svg" alt="Engineering flow"></button><figcaption><span class="evidence-badge">Portfolio Redraw</span>Architecture and decision flow</figcaption></figure>
+        </section>
+        <section class="section"><div class="section-heading"><span>03</span><h2>설계·검증 근거</h2></div>
+          <div class="gallery">
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/motor/current_loop_design.svg" aria-label="이미지 확대: 500 Hz inner-loop design">
+    <img src="../../assets/motor/current_loop_design.svg" alt="500 Hz inner-loop design" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>500 Hz inner-loop design</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/motor/speed_loop_design.svg" aria-label="이미지 확대: 25 Hz outer-loop design">
+    <img src="../../assets/motor/speed_loop_design.svg" alt="25 Hz outer-loop design" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>25 Hz outer-loop design</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/motor/saturation_anti_windup.svg" aria-label="이미지 확대: Limiter and anti-windup behavior">
+    <img src="../../assets/motor/saturation_anti_windup.svg" alt="Limiter and anti-windup behavior" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>Limiter and anti-windup behavior</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/archive/motor/psim_circuit_archive.png" aria-label="이미지 확대: Recovered simulation schematic">
+    <img src="../../assets/archive/motor/psim_circuit_archive.png" alt="Recovered simulation schematic" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Existing PSIM Archive</span>Recovered simulation schematic</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/archive/motor/speed_response_psim_archive.png" aria-label="이미지 확대: Recovered speed response">
+    <img src="../../assets/archive/motor/speed_response_psim_archive.png" alt="Recovered speed response" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Existing PSIM Archive</span>Recovered speed response</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/motor/torque_ripple_comparison.png" aria-label="이미지 확대: Torque-ripple comparison">
+    <img src="../../assets/motor/torque_ripple_comparison.png" alt="Torque-ripple comparison" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Independent Recalculation</span>Torque-ripple comparison</figcaption>
+</figure>
+</div>
+        </section>
+
+        <section class="section"><div class="section-heading"><span>04</span><h2>코드 근거</h2></div>
+          <div class="gallery code-gallery">
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/code/motor_reference_profile.svg" aria-label="이미지 확대: 0→850→1200 rpm reference">
+    <img src="../../assets/code/motor_reference_profile.svg" alt="0→850→1200 rpm reference" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Recovered Original</span>0→850→1200 rpm reference</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/code/motor_current_pi_saturation.svg" aria-label="이미지 확대: Current PI and ±200 V saturation">
+    <img src="../../assets/code/motor_current_pi_saturation.svg" alt="Current PI and ±200 V saturation" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Recovered Original</span>Current PI and ±200 V saturation</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/code/motor_speed_pi_limiter.svg" aria-label="이미지 확대: Speed PI and ±10 A limit">
+    <img src="../../assets/code/motor_speed_pi_limiter.svg" alt="Speed PI and ±10 A limit" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Recovered Original</span>Speed PI and ±10 A limit</figcaption>
+</figure>
+</div>
+        </section>
+        <section class="section"><div class="section-heading"><span>05</span><h2>핵심 결과</h2></div>
+          <div class="metrics"><div class="metric"><span>Current loop</span><strong>500 Hz</strong></div><div class="metric"><span>Current PI</span><strong>62.832 / 314.16</strong></div><div class="metric"><span>Speed loop</span><strong>25 Hz</strong></div><div class="metric"><span>Speed PI</span><strong>24.8 / 3898 report</strong></div><div class="metric"><span>Source Ki</span><strong>3895</strong></div><div class="metric"><span>Torque ripple</span><strong>2.28 → 0.38 N·m</strong></div></div>
+        </section>
+        <section class="section boundary"><div class="section-heading"><span>06</span><h2>검증 경계와 한계</h2></div><p>PSIM/MATLAB 프로젝트를 라이선스 독립적으로 재실행할 자료는 회수되지 않았습니다. 화면은 Existing Result Archive이며 새 실행 결과가 아닙니다. 파일명 25 kHz와 본문 30 kHz의 불일치는 그대로 표시합니다. 하드웨어 실험은 주장하지 않습니다.</p></section>
+        <section class="section source-panel"><div><h2>소스와 재현</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/03_motor_control/dc_motor_pi_control">Open source</a><a class="button" href="../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <nav class="case-nav"><a href="../../">← 전체 과목 보기</a></nav>
+</main>
+          <footer>
+            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
+          </footer>
+          <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>
+          <script src="../../script.js" defer></script>
+        </body>
+        </html>

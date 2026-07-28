@@ -1,0 +1,107 @@
+# Generated and source-derived public asset provenance.
+assets:
+  - id: coursework_hero
+    course: portfolio
+    title_ko: 전자전기공학 포트폴리오 Hero
+    title_en: Core Electrical Engineering Portfolio Hero
+    source_file: generated from public portfolio evidence
+    source_page: null
+    source_type: portfolio_redraw
+    evidence_status: Concept Architecture
+    public_file: docs/assets/hero/coursework_portfolio_hero.png
+    crop_description: none
+    privacy_action: no personal data included
+    recreated: true
+    actual_result: false
+    caption_ko: 공개 증거 범주를 결합한 Portfolio Redraw
+    caption_en: Portfolio redraw combining public evidence categories
+  - id: ghdl_waveforms
+    course: controller_logic
+    title_ko: GHDL 회귀 파형 7종
+    title_en: Seven GHDL Regression Waveforms
+    source_file: 00_digital_hardware/controller_logic/results/vcd/*.vcd
+    source_page: null
+    source_type: reproduced_result
+    evidence_status: Portable GHDL Regression Result
+    public_file: docs/assets/results/digital/
+    crop_description: signals rendered from retained VCD
+    privacy_action: regenerated VCD contains no local user path
+    recreated: true
+    actual_result: true
+    caption_ko: 실제 GHDL VCD를 렌더링한 파형
+    caption_en: Waveforms rendered from executed GHDL VCD files
+  - id: transformer_workbooks
+    course: electrical_machines
+    title_ko: 변압기 계산기 워크북 스냅샷
+    title_en: Transformer Workbook Snapshots
+    source_file: audited XLSX workbooks
+    source_page: worksheet cells
+    source_type: workbook_render
+    evidence_status: Workbook Snapshot
+    public_file: docs/assets/calculators/transformer_workbook_*.png
+    crop_description: rendered from workbook cells, not Excel UI
+    privacy_action: workbook metadata and formulas audited; original workbook withheld
+    recreated: true
+    actual_result: true
+    caption_ko: Workbook Snapshot — rendered from workbook cells
+    caption_en: Workbook Snapshot — rendered from workbook cells
+  - id: motor_archives
+    course: motor_control
+    title_ko: PSIM·MATLAB 결과 아카이브
+    title_en: PSIM and MATLAB Result Archive
+    source_file: user-created motor-control report
+    source_page: report result pages
+    source_type: existing_result_archive
+    evidence_status: Existing Result Archive
+    public_file: docs/assets/archive/motor/
+    crop_description: result regions only
+    privacy_action: cover, team names, and local paths excluded
+    recreated: false
+    actual_result: true
+    caption_ko: 기존 보고서에 보존된 결과이며 현재 재실행 결과가 아님
+    caption_en: Preserved report result; not rerun in the current environment
+  - id: rf_archives
+    course: rf_microwave
+    title_ko: Cadence 결과 아카이브
+    title_en: Cadence Result Archive
+    source_file: user-created RF homework reports
+    source_page: 9-20 by case
+    source_type: existing_result_archive
+    evidence_status: Existing Cadence Virtuoso Result Archive
+    public_file: docs/assets/archive/rf/
+    crop_description: schematic, stackup, Smith chart, and S-parameter regions
+    privacy_action: cover, student number, instructor name, and full report excluded
+    recreated: false
+    actual_result: true
+    caption_ko: 3.5 GHz 설계와 3.7 GHz archive marker를 구분함
+    caption_en: 3.5 GHz design target kept separate from the 3.7 GHz archive marker
+  - id: powerworld_archives
+    course: power_systems
+    title_ko: PowerWorld 모델·비수렴 결과
+    title_en: PowerWorld Model and Non-Convergence Archive
+    source_file: user-created transmission-line report
+    source_page: 5-7
+    source_type: existing_result_archive
+    evidence_status: Existing Result Archive
+    public_file: docs/assets/archive/power/
+    crop_description: one-line, setup, and solver-result regions
+    privacy_action: cover, student number, and full report excluded
+    recreated: false
+    actual_result: true
+    caption_ko: 비수렴을 실패가 아니라 모델·solver 경계 증거로 보존
+    caption_en: Non-convergence retained as evidence of the model/solver boundary
+  - id: sensor_redraws
+    course: sensor_applications
+    title_ko: AESA–SAR 연구 구조도
+    title_en: AESA–SAR Research Redraws
+    source_file: user-created proposal report
+    source_page: concept sections
+    source_type: portfolio_redraw
+    evidence_status: Proposal Only
+    public_file: docs/assets/sensor/
+    crop_description: clean-room redraw
+    privacy_action: no report pages or third-party figures copied
+    recreated: true
+    actual_result: false
+    caption_ko: 제안 구조이며 학습 결과나 하드웨어 구현이 아님
+    caption_en: Proposal architecture; not a training result or built prototype

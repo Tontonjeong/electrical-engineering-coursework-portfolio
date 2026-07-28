@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+<svg width="960" height="460" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
   <title id="title">Cascaded motor control architecture</title>
   <desc id="desc">A 25 hertz speed loop commands a 500 hertz current loop connected to an H bridge and DC motor.</desc>
   <rect width="960" height="460" rx="36" fill="#0c1425"/>

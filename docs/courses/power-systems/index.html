@@ -1,0 +1,117 @@
+<!doctype html>
+        <html lang="ko">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <meta name="theme-color" content="#08111f">
+          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <title>Power Systems — 765 kV 송전선로와 전력정책 검토</title>
+          <link rel="stylesheet" href="../../styles.css">
+        </head>
+        <body>
+          <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+          <header class="site-header">
+            <a class="brand" href="../../"><span class="brand-mark">EE</span>학부 과제 포트폴리오</a>
+            <nav aria-label="Primary">
+              <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">GitHub</a>
+              <a href="../../en/courses/power-systems/">English</a>
+            </nav>
+          </header>
+          <main id="main">
+        <section class="case-hero accent-violet">
+          <div>
+            <p class="eyebrow">3-1학기 · Visual Engineering Case Study</p>
+            <h1>Power Systems — 765 kV 송전선로와 전력정책 검토</h1>
+            <p class="lede">분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다.</p>
+            <div class="actions"><a class="button primary" href="../../tools/transmission-line-calculator/">Transmission-Line Calculator</a><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/02_power_systems/transmission_line_and_policy">Source directory</a></div>
+          </div>
+          <button class="image-button hero-visual" data-lightbox="../../assets/power/transmission_line_pi_model.svg">
+            <img src="../../assets/power/transmission_line_pi_model.svg" alt="Power Systems — 765 kV 송전선로와 전력정책 검토 architecture">
+          </button>
+        </section>
+        <section class="snapshot section">
+          <div class="section-heading"><span>01</span><h2>30초 요약</h2></div>
+          <div class="snapshot-grid">
+            <p>분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다.</p>
+            <dl>
+              <div><dt>Status</dt><dd>Zc 255.38 Ω · SIL 2.292 GW</dd></div>
+              <div><dt>Evidence</dt><dd>Source-Derived · Independent Recalculation · Existing Model Archive</dd></div>
+              <div><dt>Contribution</dt><dd>Team Project · Individual contribution unconfirmed</dd></div>
+            </dl>
+          </div>
+        </section>
+        <section class="section split">
+          <div><div class="section-heading"><span>02</span><h2>문제 정의와 설계 판단</h2></div><p>계산 가능한 전송선로 파라미터, 수렴하지 않은 모델 화면, 정책 보고서 수치를 한 가지 ‘결과’로 묶지 않고 증거 수준을 분리하는 것이 핵심입니다. 선로 계산은 독립 재계산했고, 모델 비수렴은 디버깅 증거로만 남겼습니다.</p><ul class="decision-list"><li>765 kV, 350 km, z=j0.3 Ω/km, y=j4.6 µS/km 조건으로 lossless Zc와 SIL을 계산했습니다.</li><li>독립 계산 결과 Zc≈255.38 Ω, SIL≈2.292 GW, SIL 전류≈1.729 kA입니다.</li><li>PowerWorld full-load case의 비현실적 pu 전압과 blackout 상태는 실제 계통 성능으로 해석하지 않았습니다.</li><li>2038 수요·피크·설비 수치는 보고서와 공개 정책 출처의 맥락을 분리해 표시했습니다.</li></ul></div>
+          <figure class="visual-card featured"><button class="image-button" data-lightbox="../../assets/power/model_result_boundary.svg"><img src="../../assets/power/model_result_boundary.svg" alt="Engineering flow"></button><figcaption><span class="evidence-badge">Portfolio Redraw</span>Architecture and decision flow</figcaption></figure>
+        </section>
+        <section class="section"><div class="section-heading"><span>03</span><h2>설계·검증 근거</h2></div>
+          <div class="gallery">
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/power/zc_sil_formula_flow.svg" aria-label="이미지 확대: Distributed-line calculation flow">
+    <img src="../../assets/power/zc_sil_formula_flow.svg" alt="Distributed-line calculation flow" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>Distributed-line calculation flow</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/power/demand_forecast_chart.png" aria-label="이미지 확대: 2038 energy demand comparison">
+    <img src="../../assets/power/demand_forecast_chart.png" alt="2038 energy demand comparison" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Source-Derived Redraw</span>2038 energy demand comparison</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/power/peak_demand_chart.png" aria-label="이미지 확대: 2038 peak-demand comparison">
+    <img src="../../assets/power/peak_demand_chart.png" alt="2038 peak-demand comparison" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Source-Derived Redraw</span>2038 peak-demand comparison</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/power/effective_capacity_chart.png" aria-label="이미지 확대: Confirmed effective capacity values">
+    <img src="../../assets/power/effective_capacity_chart.png" alt="Confirmed effective capacity values" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Source-Derived Redraw</span>Confirmed effective capacity values</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/archive/power/powerworld_one_line_archive.png" aria-label="이미지 확대: Recovered one-line model view">
+    <img src="../../assets/archive/power/powerworld_one_line_archive.png" alt="Recovered one-line model view" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Existing PowerWorld Archive</span>Recovered one-line model view</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/archive/power/powerworld_nonconvergence_archive.png" aria-label="이미지 확대: Non-convergence evidence; not a validated grid result">
+    <img src="../../assets/archive/power/powerworld_nonconvergence_archive.png" alt="Non-convergence evidence; not a validated grid result" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Existing PowerWorld Archive</span>Non-convergence evidence; not a validated grid result</figcaption>
+</figure>
+</div>
+        </section>
+
+        <section class="section"><div class="section-heading"><span>04</span><h2>코드 근거</h2></div>
+          <div class="gallery code-gallery">
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/code/calc_transmission.svg" aria-label="이미지 확대: Zc, SIL, and current equations">
+    <img src="../../assets/code/calc_transmission.svg" alt="Zc, SIL, and current equations" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Independent Recalculation</span>Zc, SIL, and current equations</figcaption>
+</figure>
+</div>
+        </section>
+        <section class="section"><div class="section-heading"><span>05</span><h2>핵심 결과</h2></div>
+          <div class="metrics"><div class="metric"><span>Voltage / length</span><strong>765 kV / 350 km</strong></div><div class="metric"><span>Surge impedance</span><strong>255.38 Ω</strong></div><div class="metric"><span>SIL</span><strong>2.292 GW</strong></div><div class="metric"><span>SIL current</span><strong>1.729 kA</strong></div><div class="metric"><span>2038 energy</span><strong>735.1 → 624.5 TWh</strong></div><div class="metric"><span>2038 peak</span><strong>145.6 → 129.3 GW</strong></div></div>
+        </section>
+        <section class="section boundary"><div class="section-heading"><span>06</span><h2>검증 경계와 한계</h2></div><p>동적 안정도, 보호계전, N-1, 실계통 조류 검증은 수행 증거가 없습니다. 비수렴 PowerWorld 화면은 모델 구축·오류 인지 증거이지 PASS가 아닙니다. 정책 보고서의 AI 보조 작성 사실도 숨기지 않습니다.</p></section>
+        <section class="section source-panel"><div><h2>소스와 재현</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/02_power_systems/transmission_line_and_policy">Open source</a><a class="button" href="../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <nav class="case-nav"><a href="../../">← 전체 과목 보기</a></nav>
+</main>
+          <footer>
+            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
+          </footer>
+          <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>
+          <script src="../../script.js" defer></script>
+        </body>
+        </html>

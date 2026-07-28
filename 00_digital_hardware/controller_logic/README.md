@@ -1,49 +1,146 @@
-# Controller Logic — VHDL Design & Portable Verification
+# Controller Logic — VHDL 설계와 Portable Verification
 
-**Term:** 2-2 · **Evidence:** Recovered Original / Portable Reconstruction / GHDL Rerun
+**학기:** 2-2 · **프로젝트 유형:** Team Project · Individual contribution unconfirmed
+**Evidence:** Recovered Original · Portable Reconstruction · GHDL Rerun
 
-## Problem
+![Architecture](../../docs/assets/digital/controller_logic_progression.svg)
 
-조합회로에서 순차회로로 확장되는 기본 RTL 블록을 VHDL로 작성하고, 특정 FPGA 툴에 묶이지 않는 테스트 환경에서 동작을 검증하는 과제입니다.
+## 30초 요약
 
-## Design progression
+조합회로에서 FSM·범용 시프트 레지스터까지 7개 RTL 블록을 self-checking testbench로 재검증했습니다.
 
-| Block | Function | Source status | Public verification |
-|---|---|---|---|
-| `fulladd` | 1-bit full adder | Recovered Original | Exhaustive 8 vectors |
-| `add_4bits` | 4-bit ripple-carry adder | Recovered Original | Exhaustive 512 vectors |
-| `dec_3to8` | 3-to-8 active-high decoder | Portable Reconstruction | Exhaustive 8 vectors |
-| `mux_8to1` | 8-to-1 scalar mux | Recovered Original | All selections |
-| `mux_8to1_4bits` | 8-to-1, 4-bit bus mux | Portable Reconstruction | All selections |
-| `mealy_101` | Overlapping `101` sequence detector | Recovered Original | Directed sequence |
-| `usr_4bit` | Hold/shift-left/shift-right/load register | Portable Reconstruction | Directed mode test |
+| 항목 | 내용 |
+|---|---|
+| 공개 상태 | GHDL 7/7 PASS |
+| 소스 상태 | Recovered Original · Portable Reconstruction · GHDL Rerun |
+| Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/controller-logic/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/controller-logic/) |
 
-## Verification architecture
+## 문제 정의
 
-```text
-VHDL source → GHDL analysis/elaboration → self-checking testbench
-                                             ├─ assertion failure: CI FAIL
-                                             └─ PASS report + VCD artifact
+과제 원본의 핵심은 단일 회로가 아니라, 논리식 → 계층화 → 상태기계 → 레지스터 제어로 확장되는 RTL 사고 과정입니다. 회수된 소스만으로는 모든 블록을 동일 환경에서 검증할 수 없었기 때문에, 원본과 재구성을 디렉터리·표시·검증 결과에서 분리했습니다.
+
+## 설계 판단
+
+1. 작은 조합회로는 입력공간을 완전탐색해 예제 벡터만 맞는 착시를 제거했습니다.
+2. 순차회로는 reset, hold, load, 양방향 shift, overlap 검출을 directed test로 분리했습니다.
+3. 비표준 산술 패키지 의존을 피하고 공개 재구성 testbench에는 numeric_std를 사용했습니다.
+4. 모든 testbench는 assertion 실패 시 CI가 실패하고, 성공 시 PASS와 VCD를 남깁니다.
+
+## 구조와 설계 흐름
+
+![Engineering flow](../../docs/assets/digital/rtl-flow.svg)
+
+## 핵심 수치
+
+| Metric | Value |
+|---|---:|
+| Design units | 7 |
+| Self-checking TB | 7 |
+| Regression | 7 PASS / 0 FAIL |
+| Portable target | Ubuntu + GHDL |
+
+## 시각 근거
+
+### 1-bit full-adder gate structure
+
+**Portfolio Redraw**
+
+![1-bit full-adder gate structure](../../docs/assets/digital/one_bit_full_adder_gate.svg)
+
+### 4-bit ripple-carry hierarchy
+
+**Portfolio Redraw**
+
+![4-bit ripple-carry hierarchy](../../docs/assets/digital/four_bit_ripple_carry.svg)
+
+### Overlapping 101 Mealy FSM
+
+**Portfolio Redraw**
+
+![Overlapping 101 Mealy FSM](../../docs/assets/digital/mealy_101_state_diagram.svg)
+
+### Hold, shift, and load modes
+
+**Portfolio Redraw**
+
+![Hold, shift, and load modes](../../docs/assets/digital/universal_shift_register.svg)
+
+### Exhaustive adder regression waveform
+
+**Portable GHDL Result**
+
+![Exhaustive adder regression waveform](../../docs/assets/results/digital/tb_add_4bits_waveform.svg)
+
+### Directed overlapping-sequence waveform
+
+**Portable GHDL Result**
+
+![Directed overlapping-sequence waveform](../../docs/assets/results/digital/tb_mealy_101_waveform.svg)
+
+## 코드 근거
+
+### Full-adder concurrent assignments
+
+**Recovered Original**
+
+![Full-adder concurrent assignments](../../docs/assets/code/vhdl_full_adder.svg)
+
+### Mealy detector state logic
+
+**Recovered Original**
+
+![Mealy detector state logic](../../docs/assets/code/vhdl_mealy_fsm.svg)
+
+### Universal shift-register mode selection
+
+**Portable Reconstruction**
+
+![Universal shift-register mode selection](../../docs/assets/code/vhdl_usr_mode.svg)
+
+## 검증 상태
+
+| 질문 | 답변 |
+|---|---|
+| 지금 재현 가능한가? | GHDL 7/7 PASS 범위에서 가능 |
+| 과거 결과 화면인가? | Existing Result Archive로 표시된 항목만 해당 |
+| 재구성인가? | Portable Reconstruction 또는 Portfolio Redraw로 표시 |
+| 실물 구현인가? | 원본이 지원하지 않으면 주장하지 않음 |
+
+## 검증 경계
+
+> 원본 Vivado 프로젝트, device constraint, synthesis/timing report, 보드 실증 자료는 확인되지 않았습니다. 따라서 LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다. 재구성 usr_4bit의 asynchronous clear는 공개 검증용 가정입니다.
+
+## 재현 절차
+
+```bash
+python scripts/run_all_calculations.py
+python scripts/validate_publication.py
 ```
 
-`src/original`은 제출물에서 회수한 원본입니다. `src/portable_reconstruction`은 회수되지 않은 블록을 보고서의 기능과 공개 가능한 인터페이스를 기준으로 재작성했습니다. 재구성 파일은 원본으로 주장하지 않습니다.
+세부 소스와 계산은 이 디렉터리의 `src/`, `tb/`, `calculations/`, `data/`, `results/` 중 존재하는 경로를 참조합니다.
 
-## Key engineering decisions
+## Source classification
 
-- `std_logic_unsigned` 같은 비표준 산술 패키지 대신 공개 재구성과 testbench에서 `numeric_std`를 사용했습니다.
-- 모든 입력 조합을 완전탐색할 수 있는 작은 조합회로는 exhaustive test를 적용했습니다.
-- 순차회로는 reset, hold, load, shift, overlap detection을 명시적으로 자극했습니다.
-- 성공 로그뿐 아니라 파형 VCD를 CI artifact로 생성합니다.
+- **Source-Derived:** 보고서 또는 회수 소스에 직접 존재
+- **Portable Reconstruction:** 공개 검증을 위해 기능을 재작성
+- **Independent Recalculation:** 원본 입력을 별도 코드로 계산
+- **Existing Result Archive:** 과거 제출물의 결과 화면
+- **Portfolio Redraw:** 공개 설명을 위한 재도식화
+- **Publicly Withheld:** 개인정보·라이선스·제3자 권리 때문에 미공개
 
-## Result
+## Navigation
 
-| Metric | Result |
-|---|---:|
-| Compiled design units | 7 |
-| Self-checking testbenches | 7 |
-| Local GHDL regression | 7 PASS / 0 FAIL |
-| Portable CI target | Ubuntu + GHDL |
+- [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/controller-logic/)
+- [Portfolio home](../../README.md)
+- [Asset manifest](../../docs/assets/asset_manifest.yaml)
+- [Source provenance](../../SOURCE_PROVENANCE.md)
 
-## Boundary
+<!-- Source-bounded case study; no unsupported claim is implied. -->
 
-재구성 `usr_4bit`은 공개용 가정으로 asynchronous clear를 사용합니다. 원본 Vivado 프로젝트, device constraint, synthesis/timing 결과가 없으므로 FPGA 자원·Fmax·보드 실증은 주장하지 않습니다.
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->

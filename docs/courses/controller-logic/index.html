@@ -1,0 +1,131 @@
+<!doctype html>
+        <html lang="ko">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <meta name="theme-color" content="#08111f">
+          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <title>Controller Logic — VHDL 설계와 Portable Verification</title>
+          <link rel="stylesheet" href="../../styles.css">
+        </head>
+        <body>
+          <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+          <header class="site-header">
+            <a class="brand" href="../../"><span class="brand-mark">EE</span>학부 과제 포트폴리오</a>
+            <nav aria-label="Primary">
+              <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">GitHub</a>
+              <a href="../../en/courses/controller-logic/">English</a>
+            </nav>
+          </header>
+          <main id="main">
+        <section class="case-hero accent-cyan">
+          <div>
+            <p class="eyebrow">2-2학기 · Visual Engineering Case Study</p>
+            <h1>Controller Logic — VHDL 설계와 Portable Verification</h1>
+            <p class="lede">조합회로에서 FSM·범용 시프트 레지스터까지 7개 RTL 블록을 self-checking testbench로 재검증했습니다.</p>
+            <div class="actions"><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/00_digital_hardware/controller_logic">Source directory</a></div>
+          </div>
+          <button class="image-button hero-visual" data-lightbox="../../assets/digital/controller_logic_progression.svg">
+            <img src="../../assets/digital/controller_logic_progression.svg" alt="Controller Logic — VHDL 설계와 Portable Verification architecture">
+          </button>
+        </section>
+        <section class="snapshot section">
+          <div class="section-heading"><span>01</span><h2>30초 요약</h2></div>
+          <div class="snapshot-grid">
+            <p>조합회로에서 FSM·범용 시프트 레지스터까지 7개 RTL 블록을 self-checking testbench로 재검증했습니다.</p>
+            <dl>
+              <div><dt>Status</dt><dd>GHDL 7/7 PASS</dd></div>
+              <div><dt>Evidence</dt><dd>Recovered Original · Portable Reconstruction · GHDL Rerun</dd></div>
+              <div><dt>Contribution</dt><dd>Team Project · Individual contribution unconfirmed</dd></div>
+            </dl>
+          </div>
+        </section>
+        <section class="section split">
+          <div><div class="section-heading"><span>02</span><h2>문제 정의와 설계 판단</h2></div><p>과제 원본의 핵심은 단일 회로가 아니라, 논리식 → 계층화 → 상태기계 → 레지스터 제어로 확장되는 RTL 사고 과정입니다. 회수된 소스만으로는 모든 블록을 동일 환경에서 검증할 수 없었기 때문에, 원본과 재구성을 디렉터리·표시·검증 결과에서 분리했습니다.</p><ul class="decision-list"><li>작은 조합회로는 입력공간을 완전탐색해 예제 벡터만 맞는 착시를 제거했습니다.</li><li>순차회로는 reset, hold, load, 양방향 shift, overlap 검출을 directed test로 분리했습니다.</li><li>비표준 산술 패키지 의존을 피하고 공개 재구성 testbench에는 numeric_std를 사용했습니다.</li><li>모든 testbench는 assertion 실패 시 CI가 실패하고, 성공 시 PASS와 VCD를 남깁니다.</li></ul></div>
+          <figure class="visual-card featured"><button class="image-button" data-lightbox="../../assets/digital/rtl-flow.svg"><img src="../../assets/digital/rtl-flow.svg" alt="Engineering flow"></button><figcaption><span class="evidence-badge">Portfolio Redraw</span>Architecture and decision flow</figcaption></figure>
+        </section>
+        <section class="section"><div class="section-heading"><span>03</span><h2>설계·검증 근거</h2></div>
+          <div class="gallery">
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/digital/one_bit_full_adder_gate.svg" aria-label="이미지 확대: 1-bit full-adder gate structure">
+    <img src="../../assets/digital/one_bit_full_adder_gate.svg" alt="1-bit full-adder gate structure" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>1-bit full-adder gate structure</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/digital/four_bit_ripple_carry.svg" aria-label="이미지 확대: 4-bit ripple-carry hierarchy">
+    <img src="../../assets/digital/four_bit_ripple_carry.svg" alt="4-bit ripple-carry hierarchy" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>4-bit ripple-carry hierarchy</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/digital/mealy_101_state_diagram.svg" aria-label="이미지 확대: Overlapping 101 Mealy FSM">
+    <img src="../../assets/digital/mealy_101_state_diagram.svg" alt="Overlapping 101 Mealy FSM" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>Overlapping 101 Mealy FSM</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/digital/universal_shift_register.svg" aria-label="이미지 확대: Hold, shift, and load modes">
+    <img src="../../assets/digital/universal_shift_register.svg" alt="Hold, shift, and load modes" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>Hold, shift, and load modes</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/results/digital/tb_add_4bits_waveform.svg" aria-label="이미지 확대: Exhaustive adder regression waveform">
+    <img src="../../assets/results/digital/tb_add_4bits_waveform.svg" alt="Exhaustive adder regression waveform" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portable GHDL Result</span>Exhaustive adder regression waveform</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/results/digital/tb_mealy_101_waveform.svg" aria-label="이미지 확대: Directed overlapping-sequence waveform">
+    <img src="../../assets/results/digital/tb_mealy_101_waveform.svg" alt="Directed overlapping-sequence waveform" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portable GHDL Result</span>Directed overlapping-sequence waveform</figcaption>
+</figure>
+</div>
+        </section>
+
+        <section class="section"><div class="section-heading"><span>04</span><h2>코드 근거</h2></div>
+          <div class="gallery code-gallery">
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/code/vhdl_full_adder.svg" aria-label="이미지 확대: Full-adder concurrent assignments">
+    <img src="../../assets/code/vhdl_full_adder.svg" alt="Full-adder concurrent assignments" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Recovered Original</span>Full-adder concurrent assignments</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/code/vhdl_mealy_fsm.svg" aria-label="이미지 확대: Mealy detector state logic">
+    <img src="../../assets/code/vhdl_mealy_fsm.svg" alt="Mealy detector state logic" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Recovered Original</span>Mealy detector state logic</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/code/vhdl_usr_mode.svg" aria-label="이미지 확대: Universal shift-register mode selection">
+    <img src="../../assets/code/vhdl_usr_mode.svg" alt="Universal shift-register mode selection" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portable Reconstruction</span>Universal shift-register mode selection</figcaption>
+</figure>
+</div>
+        </section>
+        <section class="section"><div class="section-heading"><span>05</span><h2>핵심 결과</h2></div>
+          <div class="metrics"><div class="metric"><span>Design units</span><strong>7</strong></div><div class="metric"><span>Self-checking TB</span><strong>7</strong></div><div class="metric"><span>Regression</span><strong>7 PASS / 0 FAIL</strong></div><div class="metric"><span>Portable target</span><strong>Ubuntu + GHDL</strong></div></div>
+        </section>
+        <section class="section boundary"><div class="section-heading"><span>06</span><h2>검증 경계와 한계</h2></div><p>원본 Vivado 프로젝트, device constraint, synthesis/timing report, 보드 실증 자료는 확인되지 않았습니다. 따라서 LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다. 재구성 usr_4bit의 asynchronous clear는 공개 검증용 가정입니다.</p></section>
+        <section class="section source-panel"><div><h2>소스와 재현</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/00_digital_hardware/controller_logic">Open source</a><a class="button" href="../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <nav class="case-nav"><a href="../../">← 전체 과목 보기</a></nav>
+</main>
+          <footer>
+            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
+          </footer>
+          <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>
+          <script src="../../script.js" defer></script>
+        </body>
+        </html>

@@ -111,6 +111,53 @@ def manifest_scan() -> list[str]:
     return [f"manifest missing path: {item}" for item in paths if not (ROOT / item).is_dir()]
 
 
+def required_output_scan() -> list[str]:
+    required = [
+        "README.md",
+        "README.en.md",
+        "docs/index.html",
+        "docs/en/index.html",
+        "docs/assets/asset_manifest.yaml",
+        "docs/assets/hero/coursework_portfolio_hero.webp",
+        "docs/tools/transformer-case-calculator/index.html",
+        "docs/tools/motor-pi-calculator/index.html",
+        "docs/tools/transmission-line-calculator/index.html",
+    ]
+    course_ids = [
+        "controller-logic",
+        "electrical-machines",
+        "power-systems",
+        "motor-control",
+        "rf-microwave",
+        "sensor-applications",
+    ]
+    for course_id in course_ids:
+        required.extend(
+            [
+                f"docs/courses/{course_id}/index.html",
+                f"docs/en/courses/{course_id}/index.html",
+            ]
+        )
+    issues = [f"required output missing: {item}" for item in required if not (ROOT / item).is_file()]
+    top_lines = len((ROOT / "README.md").read_text(encoding="utf-8").splitlines())
+    if not 250 <= top_lines <= 450:
+        issues.append(f"README.md line target missed: {top_lines} (expected 250–450)")
+    detail_paths = re.findall(
+        r"^\s+path:\s+(.+?)\s*$",
+        (ROOT / "portfolio-manifest.yaml").read_text(encoding="utf-8"),
+        flags=re.M,
+    )
+    for item in detail_paths:
+        readme = ROOT / item / "README.md"
+        if readme.exists():
+            count = len(readme.read_text(encoding="utf-8").splitlines())
+            if not 120 <= count <= 300:
+                issues.append(
+                    f"{readme.relative_to(ROOT)} line target missed: {count} (expected 120–300)"
+                )
+    return issues
+
+
 def main() -> None:
     files = text_files()
     issues = (
@@ -118,6 +165,7 @@ def main() -> None:
         + withheld_file_scan()
         + relative_link_scan(files)
         + manifest_scan()
+        + required_output_scan()
     )
     if issues:
         print("PUBLICATION VALIDATION FAILED")

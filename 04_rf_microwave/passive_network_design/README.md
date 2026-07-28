@@ -1,63 +1,146 @@
-# RF/Microwave — Passive Network Design
+# RF/Microwave — 수동회로 설계와 Cadence 결과
 
-**Term:** 4-1 · **Project type:** Team Project · Individual contribution unconfirmed  
-**Evidence:** Source-Derived / Existing Cadence Simulation Result Archive / Portfolio Redraw
+**학기:** 4-1 · **프로젝트 유형:** Team Project · Individual contribution unconfirmed
+**Evidence:** Source-Derived · Portfolio Redraw · Existing Cadence Result Archive
 
-## Scope
+![Architecture](../../docs/assets/rf/microstrip_design_flow.svg)
 
-Alumina 기판 기반 microstrip transmission line, impedance matching, Wilkinson power divider, branch-line hybrid를 이론식으로 설계하고 기존 Cadence 결과와 비교했습니다.
+## 30초 요약
 
-## 1. Microstrip line
+Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybrid를 이론과 기존 Cadence 결과로 비교했습니다.
 
-| Parameter | Value |
+| 항목 | 내용 |
+|---|---|
+| 공개 상태 | Theory + existing Cadence archive |
+| 소스 상태 | Source-Derived · Portfolio Redraw · Existing Cadence Result Archive |
+| Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/) |
+
+## 문제 정의
+
+회로식으로 얻은 이상 설계와 substrate·layout·tuning이 반영된 EM/circuit simulation archive를 분리해 설명합니다. 특히 microstrip 설계 주파수는 3.5 GHz이지만 회수된 marker는 3.7 GHz이므로 이를 정확히 구분했습니다.
+
+## 설계 판단
+
+1. Alumina εr=9.9, h=0.5 mm, tanδ=0.001 조건에서 50 Ω, 270° microstrip을 설계했습니다.
+2. 1 GHz L-section과 3.5 GHz single-stub의 두 해를 물리 길이로 정리했습니다.
+3. Wilkinson은 이론 70.7 Ω λ/4 branch와 100 Ω isolation resistor를 기준으로 봤습니다.
+4. Branch-line hybrid는 35.35 Ω/50 Ω branch를 사용한 기존 설계 결과를 보존했습니다.
+
+## 구조와 설계 흐름
+
+![Engineering flow](../../docs/assets/rf/passive-networks.svg)
+
+## 핵심 수치
+
+| Metric | Value |
 |---|---:|
-| Relative permittivity | 9.9 |
-| Substrate height | 0.5 mm |
-| Loss tangent | 0.001 |
-| Design frequency | 3.5 GHz |
-| Characteristic impedance | 50 Ω |
-| Electrical length | 270° |
-| Width / length | ≈0.4815 mm / ≈24.97 mm |
+| Microstrip target | 3.5 GHz · 50 Ω · 270° |
+| Calculated W / L | 0.4815 / 24.97 mm |
+| Archive marker | 3.7 GHz only |
+| L-section | 0.461 pF · 19.5 nH |
+| Wilkinson split | ≈ −3 dB archive |
+| Isolation | ≈ −18 dB archive |
 
-The recovered marker is at **3.7 GHz**, with `S21 ≈ −0.095 dB` and phase `≈ −284.49°`. It does not constitute an exact 3.5 GHz validation.
+## 시각 근거
 
-## 2. Matching networks
+### Alumina microstrip geometry
 
-### L-section at 1 GHz
+**Portfolio Redraw**
 
-`Z0 = 100 Ω`, `ZL = 200 − j100 Ω`
+![Alumina microstrip geometry](../../docs/assets/rf/microstrip_cross_section.svg)
 
-| Component | Value |
-|---|---:|
-| Shunt capacitor | 0.461 pF |
-| Series inductor | 19.5 nH |
+### Impedance-matching interpretation
 
-### Single-stub at 3.5 GHz
+**Portfolio Redraw**
 
-| Solution | Distance d | Stub length l | Physical d / l |
-|---|---:|---:|---:|
-| 1 | 0.1104 λ | 0.0950 λ | 3.66 / 3.15 mm |
-| 2 | 0.2594 λ | 0.4050 λ | 8.61 / 13.44 mm |
+![Impedance-matching interpretation](../../docs/assets/rf/smith_chart_movement.svg)
 
-## 3. Wilkinson divider
+### Quarter-wave divider structure
 
-Theory uses `70.7 Ω` quarter-wave branches and a `100 Ω` isolation resistor. The reported tuned geometry uses approximately `94 Ω`, `W = 270 µm`, `L = 6.65 mm`.
+**Portfolio Redraw**
 
-| Existing result marker | Approximate value |
-|---|---:|
-| S21, S31 | −3 dB |
-| S11 | −15 dB |
-| S23 | −18 dB |
+![Quarter-wave divider structure](../../docs/assets/rf/wilkinson_structure.svg)
 
-## 4. Branch-line hybrid
+### Recovered marker at 3.7 GHz
 
-| Branch | Impedance | Width | Length |
-|---|---:|---:|---:|
-| Horizontal | 35.35 Ω | 908 µm | 7.0 mm |
-| Vertical | 50 Ω | 483 µm | 7.2 mm |
+**Existing Cadence Archive**
 
-The archived curves show approximately −3 dB through/coupled paths and response dips near 3.5 GHz.
+![Recovered marker at 3.7 GHz](../../docs/assets/archive/rf/microstrip_loss_3p7ghz.png)
 
-## Boundary
+### Divider S-parameter view
 
-Cadence project files and licensed tutorial material are not published. Results are reported as an **Existing Cadence Simulation Result Archive**, not a rerun. Fabrication tolerance, connector launch, calibration, and VNA measurement are outside the evidence.
+**Existing Cadence Archive**
+
+![Divider S-parameter view](../../docs/assets/archive/rf/wilkinson_sparameter_archive.png)
+
+### Hybrid S-parameter view
+
+**Existing Cadence Archive**
+
+![Hybrid S-parameter view](../../docs/assets/archive/rf/hybrid_sparameter_archive.png)
+
+## 검증 상태
+
+| 질문 | 답변 |
+|---|---|
+| 지금 재현 가능한가? | Theory + existing Cadence archive 범위에서 가능 |
+| 과거 결과 화면인가? | Existing Result Archive로 표시된 항목만 해당 |
+| 재구성인가? | Portable Reconstruction 또는 Portfolio Redraw로 표시 |
+| 실물 구현인가? | 원본이 지원하지 않으면 주장하지 않음 |
+
+## 검증 경계
+
+> Cadence 프로젝트와 라이선스 자료는 공개하지 않습니다. 3.7 GHz marker를 3.5 GHz의 정확한 검증으로 바꾸어 말하지 않습니다. 제작 공차, connector launch, calibration, VNA 측정은 증거 범위 밖입니다.
+
+## 재현 절차
+
+```bash
+python scripts/run_all_calculations.py
+python scripts/validate_publication.py
+```
+
+세부 소스와 계산은 이 디렉터리의 `src/`, `tb/`, `calculations/`, `data/`, `results/` 중 존재하는 경로를 참조합니다.
+
+## Source classification
+
+- **Source-Derived:** 보고서 또는 회수 소스에 직접 존재
+- **Portable Reconstruction:** 공개 검증을 위해 기능을 재작성
+- **Independent Recalculation:** 원본 입력을 별도 코드로 계산
+- **Existing Result Archive:** 과거 제출물의 결과 화면
+- **Portfolio Redraw:** 공개 설명을 위한 재도식화
+- **Publicly Withheld:** 개인정보·라이선스·제3자 권리 때문에 미공개
+
+## Navigation
+
+- [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/)
+- [Portfolio home](../../README.md)
+- [Asset manifest](../../docs/assets/asset_manifest.yaml)
+- [Source provenance](../../SOURCE_PROVENANCE.md)
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->
+
+<!-- Source-bounded case study; no unsupported claim is implied. -->

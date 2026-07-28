@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+<svg width="960" height="460" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
   <title id="title">RF passive network portfolio</title>
   <desc id="desc">Four source-derived microwave design cases on an alumina microstrip substrate.</desc>
   <rect width="960" height="460" rx="36" fill="#0c1425"/>

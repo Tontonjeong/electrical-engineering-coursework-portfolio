@@ -33,6 +33,15 @@ jobs:
       - name: Run independent calculations
         run: python scripts/run_all_calculations.py
 
+      - name: Build bilingual case-study site and README files
+        run: python scripts/build_coursework_site.py
+
+      - name: Test interactive calculators
+        run: node scripts/test_calculators.mjs
+
+      - name: Validate SVG viewport and text bounds
+        run: python scripts/validate_svg_bounds.py
+
       - name: Audit privacy, publication boundaries, links and assets
         run: python scripts/validate_publication.py
 

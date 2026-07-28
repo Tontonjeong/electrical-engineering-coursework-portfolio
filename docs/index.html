@@ -1,107 +1,83 @@
 <!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="검증 가능한 전자전기공학 학부 과제 포트폴리오: VHDL, 변압기, 전력계통, 모터제어, RF, AESA-SAR.">
-  <title>Electrical Engineering Coursework Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <a class="skip" href="#content">본문으로 이동</a>
-  <header class="nav-wrap">
-    <nav class="nav" aria-label="주요 탐색">
-      <a class="brand" href="#"><span>EE</span> Coursework</a>
-      <div class="nav-links">
-        <a href="#projects">Projects</a>
-        <a href="#evidence">Evidence</a>
-        <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">Repository</a>
-        <a class="lang" href="en/">EN</a>
-      </div>
-    </nav>
-  </header>
+        <html lang="ko">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <meta name="theme-color" content="#08111f">
+          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <title>Electrical Engineering Coursework Portfolio</title>
+          <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+          <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+          <header class="site-header">
+            <a class="brand" href="./"><span class="brand-mark">EE</span>학부 과제 포트폴리오</a>
+            <nav aria-label="Primary">
+              <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">GitHub</a>
+              <a href="en/">English</a>
+            </nav>
+          </header>
+          <main id="main">
+        <section class="home-hero">
+          <div><p class="eyebrow">RTL · Machines · Power · Control · RF · Sensors</p><h1>Electrical Engineering Coursework Portfolio</h1><p class="lede">전자전기공학 전공과목에서 수행한 설계·계산·RTL·시뮬레이션·연구 제안을 증거 수준과 함께 재구성했습니다.</p>
+            <div class="actions"><a class="button primary" href="#courses">프로젝트 보기</a><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">GitHub Repository</a></div>
+          </div>
+          <button class="image-button hero-visual" data-lightbox="assets/hero/coursework_portfolio_hero.png"><picture><source srcset="assets/hero/coursework_portfolio_hero.webp" type="image/webp"><img src="assets/hero/coursework_portfolio_hero.png" alt="Coursework portfolio map"></picture></button>
+        </section>
+        <section class="evidence-strip"><strong>Evidence-first</strong><p>원본, 재구성, 재계산, 기존 결과 화면, 제안 단계를 같은 색으로 포장하지 않습니다. 각 시각 자료와 주장에 증거 상태를 표시했습니다.</p><a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Provenance</a></section>
+        <section id="courses" class="section"><div class="section-heading"><span>01</span><h2>6개 엔지니어링 Case Study</h2></div><div class="course-grid">
+<article class="course-card accent-cyan">
+  <img src="assets/digital/controller_logic_progression.svg" alt="" loading="lazy">
+  <div><p class="eyebrow">2-2 · Recovered Original</p><h2>Controller Logic — VHDL 설계와 Portable Verification</h2><p>조합회로에서 FSM·범용 시프트 레지스터까지 7개 RTL 블록을 self-checking testbench로 재검증했습니다.</p>
+  <div class="card-meta"><span>GHDL 7/7 PASS</span><a href="courses/controller-logic/">Case Study 보기 →</a></div></div>
+</article>
 
-  <main id="content">
-    <div class="hero">
-      <div>
-        <div class="eyebrow">Electrical Engineering · Evidence First</div>
-        <h1>과제를 <span class="gradient">검증 가능한 설계 경험</span>으로.</h1>
-        <p class="lede">Controller Logic부터 전기기기, 전력계통, 모터제어, RF/Microwave, 센서 시스템까지. 입력·판단·계산·검증·한계를 하나의 엔지니어링 흐름으로 재구성했습니다.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">프로젝트 보기</a>
-          <a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">Source & CI ↗</a>
-        </div>
-      </div>
-      <aside class="hero-note">
-        <strong>Public evidence boundary</strong>
-        <p>원본 보고서에서 확인된 사실, 회수한 작성 코드, 독립 재계산, 공개용 재도식화만 포함합니다. 개인정보·원본 과제 PDF·라이선스 종속 파일은 제외했습니다.</p>
-      </aside>
-    </div>
+<article class="course-card accent-amber">
+  <img src="assets/transformer/transformer_winding_architecture.svg" alt="" loading="lazy">
+  <div><p class="eyebrow">3-1 · Source-Derived</p><h2>Electrical Machines — 900 W 변압기 설계</h2><p>220/110 V, 900 W, 300 Hz 조건에서 DU·EI·UI 코어를 계산 비교하고 UI-100 설계를 선택했습니다.</p>
+  <div class="card-meta"><span>Independent recalculation</span><a href="courses/electrical-machines/">Case Study 보기 →</a></div></div>
+</article>
 
-    <div class="metrics" aria-label="포트폴리오 지표">
-      <div class="metric"><strong>6</strong><span>course domains</span></div>
-      <div class="metric"><strong>7/7</strong><span>GHDL tests passed</span></div>
-      <div class="metric"><strong>4</strong><span>portable calculations</span></div>
-      <div class="metric"><strong>KO / EN</strong><span>bilingual documentation</span></div>
-    </div>
+<article class="course-card accent-violet">
+  <img src="assets/power/transmission_line_pi_model.svg" alt="" loading="lazy">
+  <div><p class="eyebrow">3-1 · Source-Derived</p><h2>Power Systems — 765 kV 송전선로와 전력정책 검토</h2><p>분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다.</p>
+  <div class="card-meta"><span>Zc 255.38 Ω · SIL 2.292 GW</span><a href="courses/power-systems/">Case Study 보기 →</a></div></div>
+</article>
 
-    <section id="projects">
-      <div class="section-head">
-        <div><div class="eyebrow">Portfolio Map</div><h2>전공 흐름을 따라<br>확장된 여섯 사례</h2></div>
-        <p>단순 결과 모음이 아니라, 디지털 논리에서 에너지 변환·계통·제어·고주파·센서 연구로 이어지는 학습의 깊이를 보여줍니다.</p>
-      </div>
-      <div class="project-grid">
-        <article class="project-card" style="--accent:#43d9ff"><span class="term">2-2 · DIGITAL HARDWARE</span><h3>Controller Logic</h3><p>회수 원본과 재구성 RTL을 분리하고, 7개 self-checking testbench로 이식성을 확인했습니다.</p><div class="tags"><span class="tag">VHDL</span><span class="tag">GHDL</span><span class="tag">FSM</span></div><a class="deep-link" data-track="digital" href="#digital">Case Study ↓</a></article>
-        <article class="project-card" style="--accent:#65f0ce"><span class="term">3-1 · ELECTRICAL MACHINES</span><h3>Transformer Design</h3><p>900 W 설계에서 DU/EI/UI 코어의 효율·전압변동률·창 이용률을 비교해 UI-100을 선택했습니다.</p><div class="tags"><span class="tag">Magnetics</span><span class="tag">Loss</span><span class="tag">Trade-off</span></div><a class="deep-link" data-track="transformer" href="#transformer">Case Study ↓</a></article>
-        <article class="project-card" style="--accent:#ffbe55"><span class="term">3-1 · POWER SYSTEMS</span><h3>Transmission Line</h3><p>765 kV 선로의 Zc와 SIL을 재계산하고 비수렴 모델과 정책 출처를 별도로 검증했습니다.</p><div class="tags"><span class="tag">765 kV</span><span class="tag">SIL</span><span class="tag">Source QA</span></div><a class="deep-link" data-track="power" href="#power">Case Study ↓</a></article>
-        <article class="project-card" style="--accent:#9a8cff"><span class="term">3-2 · MOTOR CONTROL</span><h3>Cascaded PI Control</h3><p>500 Hz 전류 루프와 25 Hz 속도 루프, 제한기, 계자약화, 토크 리플을 근거별로 정리했습니다.</p><div class="tags"><span class="tag">PI Control</span><span class="tag">H-Bridge</span><span class="tag">PSIM</span></div><a class="deep-link" data-track="motor" href="#motor">Case Study ↓</a></article>
-        <article class="project-card" style="--accent:#ff758f"><span class="term">4-1 · RF/MICROWAVE</span><h3>Passive Networks</h3><p>Microstrip, matching, Wilkinson, hybrid의 이론 설계와 기존 Cadence 결과를 구분했습니다.</p><div class="tags"><span class="tag">3.5 GHz</span><span class="tag">Microstrip</span><span class="tag">S-parameter</span></div><a class="deep-link" data-track="rf" href="#rf">Case Study ↓</a></article>
-        <article class="project-card" style="--accent:#43d9ff"><span class="term">4-1 · SENSOR APPLICATIONS</span><h3>AESA-SAR Research Concept</h3><p>DBF·SAR 영상화·physics-guided diffusion을 연결한 연구 아키텍처와 검증 로드맵입니다.</p><div class="tags"><span class="tag">AESA</span><span class="tag">SAR</span><span class="tag">Diffusion</span></div><a class="deep-link" data-track="sensor" href="#sensor">Case Study ↓</a></article>
-      </div>
-    </section>
+<article class="course-card accent-emerald">
+  <img src="assets/motor/dc_motor_system_architecture.svg" alt="" loading="lazy">
+  <div><p class="eyebrow">3-2 · Recovered Original</p><h2>Motor Control — 직류전동기 이중 PI 제어</h2><p>500 Hz 전류 루프와 25 Hz 속도 루프, 전류 제한·anti-windup·field weakening을 하나의 제어 구조로 정리했습니다.</p>
+  <div class="card-meta"><span>Calculation + existing simulation archive</span><a href="courses/motor-control/">Case Study 보기 →</a></div></div>
+</article>
 
-    <section class="case" id="digital" style="--accent:#43d9ff">
-      <div class="case-layout"><div><span class="status">GHDL RERUN</span><h2>Portable RTL Verification</h2><p>네 개의 회수 원본과 세 개의 명시적 재구성 RTL을 같은 회귀 테스트에서 분석·elaborate·simulate했습니다.</p><div class="result-list"><div class="result"><strong>7 / 7 PASS</strong><span>self-checking testbenches</span></div><div class="result"><strong>512 vectors</strong><span>4-bit adder exhaustive test</span></div></div><a class="deep-link" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/00_digital_hardware/controller_logic">Source details ↗</a></div><div class="case-visual"><img src="assets/digital/rtl-flow.svg" alt="VHDL 검증 흐름"></div></div>
-    </section>
+<article class="course-card accent-rose">
+  <img src="assets/rf/microstrip_design_flow.svg" alt="" loading="lazy">
+  <div><p class="eyebrow">4-1 · Source-Derived</p><h2>RF/Microwave — 수동회로 설계와 Cadence 결과</h2><p>Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybrid를 이론과 기존 Cadence 결과로 비교했습니다.</p>
+  <div class="card-meta"><span>Theory + existing Cadence archive</span><a href="courses/rf-microwave/">Case Study 보기 →</a></div></div>
+</article>
 
-    <section class="case" id="transformer" style="--accent:#65f0ce">
-      <div class="case-layout"><div><span class="status">INDEPENDENT RECALCULATION</span><h2>Transformer Core Trade-off</h2><p>220→110 V, 900 W, 300 Hz 설계에서 손실·효율·전압변동률·창 이용률을 기준으로 UI-100을 최종 선택했습니다.</p><div class="result-list"><div class="result"><strong>96.360%</strong><span>reported efficiency</span></div><div class="result"><strong>1.136%</strong><span>reported regulation</span></div><div class="result"><strong>180 / 93</strong><span>primary / secondary turns</span></div><div class="result"><strong>≈34.0 W</strong><span>recalculated total loss</span></div></div></div><div class="case-visual"><img src="assets/transformer/core-tradeoff.svg" alt="변압기 코어별 효율 비교"></div></div>
-    </section>
-
-    <section class="case" id="power" style="--accent:#ffbe55">
-      <div class="case-layout"><div><span class="status warn">MODEL DIVERGENCE DISCLOSED</span><h2>Power-System Evidence Boundary</h2><p>선로 수식은 독립 계산으로 검증했지만, PowerWorld full-load 사례는 비수렴 디버깅 증거로만 남겼습니다. 정책 수치는 정부 원문과 교차검증했습니다.</p><div class="result-list"><div class="result"><strong>255.6 Ω</strong><span>surge impedance</span></div><div class="result"><strong>2.29 GW</strong><span>surge impedance loading</span></div></div></div><div class="case-visual"><img src="assets/power/line-model.svg" alt="송전선로 계산과 비수렴 모델의 경계"></div></div>
-    </section>
-
-    <section class="case" id="motor" style="--accent:#9a8cff">
-      <div class="case-layout"><div><span class="status warn">EXISTING RESULT ARCHIVE</span><h2>Cascaded PI Motor Control</h2><p>전류 루프와 속도 루프의 이득을 재계산하고, 원본 소스와 보고서의 speed Ki 차이를 보존했습니다. 기존 PSIM 화면은 재실행 결과가 아닙니다.</p><div class="result-list"><div class="result"><strong>500 / 25 Hz</strong><span>current / speed bandwidth</span></div><div class="result"><strong>2.28 → 0.38 N·m</strong><span>reported ripple cases</span></div></div><a class="deep-link" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/03_motor_control/dc_motor_pi_control">Parameter audit ↗</a></div><div class="case-visual"><img src="assets/motor/cascaded-control.svg" alt="이중 PI 직류전동기 제어 구조"></div></div>
-      <div class="archive-grid">
-        <figure><img src="assets/motor/psim_circuit_archive.png" alt="기존 PSIM 회로 화면"><figcaption>Existing Result Archive · PSIM circuit</figcaption></figure>
-        <figure><img src="assets/motor/speed_response_psim_archive.png" alt="기존 PSIM 속도 응답 화면"><figcaption>Existing Result Archive · speed response</figcaption></figure>
-      </div>
-    </section>
-
-    <section class="case" id="rf" style="--accent:#ff758f">
-      <div class="case-layout"><div><span class="status warn">CADENCE ARCHIVE</span><h2>RF Passive Networks</h2><p>3.5 GHz alumina microstrip 설계를 네 가지 회로로 확장했습니다. 이론 수치와 기존 simulation marker를 분리하고, 3.7 GHz marker를 3.5 GHz 검증으로 과장하지 않았습니다.</p><div class="result-list"><div class="result"><strong>4 networks</strong><span>line · matching · divider · hybrid</span></div><div class="result"><strong>εr 9.9</strong><span>alumina substrate</span></div></div></div><div class="case-visual"><img src="assets/rf/passive-networks.svg" alt="RF 수동회로 설계 네 종류"></div></div>
-    </section>
-
-    <section class="case" id="sensor" style="--accent:#43d9ff">
-      <div class="case-layout"><div><span class="status warn">CONCEPT / PROPOSAL</span><h2>AESA-SAR Research Architecture</h2><p>AESA T/R·DBF·기존 SAR 영상화·물리 조건 diffusion·평가를 하나의 연구 파이프라인으로 분해했습니다. 모델 학습, 하드웨어, 성능 향상은 주장하지 않습니다.</p><div class="result-list"><div class="result"><strong>5 layers</strong><span>sensing to evaluation</span></div><div class="result"><strong>7 steps</strong><span>proposed validation roadmap</span></div></div></div><div class="case-visual"><img src="assets/sensor/aesa-sar.svg" alt="AESA SAR와 물리 기반 diffusion 연구 구조"></div></div>
-    </section>
-
-    <section id="evidence">
-      <div class="section-head"><div><div class="eyebrow">Evidence System</div><h2>주장의 강도를<br>근거에 맞췄습니다</h2></div><p>“완료”라는 한 단어 대신 원본, 재구성, 재계산, 기존 아카이브, 제안의 상태를 구분합니다.</p></div>
-      <div class="evidence-grid">
-        <div class="evidence-item"><strong>Recovered Original</strong><p>과제 아카이브에서 회수한 직접 작성 소스</p></div>
-        <div class="evidence-item"><strong>Portable Reconstruction</strong><p>근거가 있는 기능을 공개 CI용으로 재작성</p></div>
-        <div class="evidence-item"><strong>Independent Recalculation</strong><p>문서 입력과 식을 별도 스크립트로 확인</p></div>
-        <div class="evidence-item"><strong>Existing Result Archive</strong><p>이번 환경에서 재실행하지 않은 기존 화면</p></div>
-        <div class="evidence-item"><strong>Concept / Proposal</strong><p>구현·실증이 아닌 시스템 설계와 연구 계획</p></div>
-        <div class="evidence-item"><strong>Publicly Withheld</strong><p>개인정보·원본 PDF·라이선스 종속 파일</p></div>
-      </div>
-    </section>
-  </main>
-
-  <footer><div class="footer-inner"><span>Electrical Engineering Coursework Portfolio</span><span>Evidence-bounded · Reproducible · <span data-year></span></span></div></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<article class="course-card accent-blue">
+  <img src="assets/sensor/aesa_system_architecture.svg" alt="" loading="lazy">
+  <div><p class="eyebrow">4-1 · Research Concept</p><h2>Sensor Applications — AESA-SAR와 Physics-Guided Diffusion</h2><p>AESA 수집, SAR 복원, physics-conditioned diffusion을 연결한 연구 제안과 단계별 검증 로드맵입니다.</p>
+  <div class="card-meta"><span>Concept / Proposal Only</span><a href="courses/sensor-applications/">Case Study 보기 →</a></div></div>
+</article>
+</div></section>
+        <section class="section tools-section"><div class="section-heading"><span>02</span><h2>직접 확인하는 계산</h2></div>
+          <div class="tool-grid">
+            <a class="tool-card" href="tools/transformer-case-calculator/"><span>01</span><h3>Transformer Case</h3><p>Loss, efficiency, regulation</p></a>
+            <a class="tool-card" href="tools/motor-pi-calculator/"><span>02</span><h3>Motor PI</h3><p>Current-loop gains and source discrepancy</p></a>
+            <a class="tool-card" href="tools/transmission-line-calculator/"><span>03</span><h3>Transmission Line</h3><p>Zc, SIL, three-phase current</p></a>
+          </div>
+        </section>
+        <section class="section boundary"><div class="section-heading"><span>03</span><h2>공개 범위</h2></div>
+          <p>개인정보·학번·로컬 경로·라이선스 종속 원본·제3자 교재는 공개하지 않습니다. 팀 과제의 개인 기여도는 확인 전까지 확정 표현을 사용하지 않습니다.</p>
+        </section>
+</main>
+          <footer>
+            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
+          </footer>
+          <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>
+          <script src="script.js" defer></script>
+        </body>
+        </html>

@@ -1,0 +1,36 @@
+<!doctype html>
+        <html lang="ko">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <meta name="theme-color" content="#08111f">
+          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <title>Motor PI Calculator</title>
+          <link rel="stylesheet" href="../../styles.css">
+        </head>
+        <body>
+          <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+          <header class="site-header">
+            <a class="brand" href="../../"><span class="brand-mark">EE</span>학부 과제 포트폴리오</a>
+            <nav aria-label="Primary">
+              <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">GitHub</a>
+              <a href="../../en/">English</a>
+            </nav>
+          </header>
+          <main id="main">
+<section class="tool-hero"><p class="eyebrow">Interactive · Client-side · Source-linked</p><h1>Motor PI Calculator</h1><p class="lede">전류 루프의 pole-cancellation PI gain과 보고서·회수 소스의 속도 Ki 차이를 함께 표시합니다.</p></section>
+<section class="calculator-layout">
+  <form id="calculator" class="calculator-panel"><div class="field-grid"><label>Armature R (Ω)<input id="ra" name="ra" type="number" step="any" value="0.1" required></label><label>Armature L (H)<input id="la" name="la" type="number" step="any" value="0.02" required></label><label>Inertia J (kg·m²)<input id="j" name="j" type="number" step="any" value="0.075" required></label><label>Torque constant Kt<input id="kt" name="kt" type="number" step="any" value="1.9" required></label><label>Current bandwidth (Hz)<input id="fcc" name="fcc" type="number" step="any" value="500" required></label><label>Speed bandwidth (Hz)<input id="fcs" name="fcs" type="number" step="any" value="25" required></label></div><div class="actions"><button class="button primary" type="submit">Calculate</button><button class="button" type="reset">Reset</button></div><p class="form-error" role="alert" hidden></p></form>
+  <section class="result-panel" aria-live="polite"><p class="eyebrow">Calculated result</p><div id="result"></div></section>
+</section>
+<section class="section boundary"><h2>Evidence boundary</h2><p>전류 PI는 Kp=L·ωc, Ki=R·ωc로 계산합니다. 속도 PI는 원본 보고서 Kp=24.8, Ki≈3898과 회수 C/C++ Ki=3895를 참고값으로 보존하며 입력만으로 새 gain을 단정하지 않습니다.</p></section>
+<nav class="case-nav"><a href="../../">← Portfolio</a><a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/scripts">Calculation sources →</a></nav>
+</main>
+          <footer>
+            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
+          </footer>
+          <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>
+          <script src="../../script.js" defer></script>
+        <script type="module" src="motor-pi-calculator.js"></script></body>
+        </html>

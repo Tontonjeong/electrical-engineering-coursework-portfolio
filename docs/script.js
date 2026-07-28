@@ -1,11 +1,18 @@
-const projectLinks = document.querySelectorAll("[data-track]");
-projectLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    document.documentElement.dataset.lastNavigation = link.dataset.track;
+(() => {
+  const dialog = document.querySelector('#lightbox');
+  if (!dialog) return;
+  const image = dialog.querySelector('img');
+  const caption = dialog.querySelector('p');
+  const close = dialog.querySelector('.lightbox-close');
+  document.querySelectorAll('[data-lightbox]').forEach((button) => {
+    button.addEventListener('click', () => {
+      image.src = button.dataset.lightbox;
+      image.alt = button.querySelector('img')?.alt || '';
+      caption.textContent = button.closest('figure')?.querySelector('figcaption')?.textContent?.trim() || image.alt;
+      dialog.showModal();
+      close.focus();
+    });
   });
-});
-
-const yearNodes = document.querySelectorAll("[data-year]");
-yearNodes.forEach((node) => {
-  node.textContent = new Date().getFullYear();
-});
+  close.addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', (event) => { if (event.target === dialog) dialog.close(); });
+})();

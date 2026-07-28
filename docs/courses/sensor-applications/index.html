@@ -1,0 +1,107 @@
+<!doctype html>
+        <html lang="ko">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <meta name="theme-color" content="#08111f">
+          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <title>Sensor Applications — AESA-SAR와 Physics-Guided Diffusion</title>
+          <link rel="stylesheet" href="../../styles.css">
+        </head>
+        <body>
+          <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+          <header class="site-header">
+            <a class="brand" href="../../"><span class="brand-mark">EE</span>학부 과제 포트폴리오</a>
+            <nav aria-label="Primary">
+              <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">GitHub</a>
+              <a href="../../en/courses/sensor-applications/">English</a>
+            </nav>
+          </header>
+          <main id="main">
+        <section class="case-hero accent-blue">
+          <div>
+            <p class="eyebrow">4-1학기 · Visual Engineering Case Study</p>
+            <h1>Sensor Applications — AESA-SAR와 Physics-Guided Diffusion</h1>
+            <p class="lede">AESA 수집, SAR 복원, physics-conditioned diffusion을 연결한 연구 제안과 단계별 검증 로드맵입니다.</p>
+            <div class="actions"><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/05_sensor_applications/aesa_sar_diffusion_concept">Source directory</a></div>
+          </div>
+          <button class="image-button hero-visual" data-lightbox="../../assets/sensor/aesa_system_architecture.svg">
+            <img src="../../assets/sensor/aesa_system_architecture.svg" alt="Sensor Applications — AESA-SAR와 Physics-Guided Diffusion architecture">
+          </button>
+        </section>
+        <section class="snapshot section">
+          <div class="section-heading"><span>01</span><h2>30초 요약</h2></div>
+          <div class="snapshot-grid">
+            <p>AESA 수집, SAR 복원, physics-conditioned diffusion을 연결한 연구 제안과 단계별 검증 로드맵입니다.</p>
+            <dl>
+              <div><dt>Status</dt><dd>Concept / Proposal Only</dd></div>
+              <div><dt>Evidence</dt><dd>Research Concept · Architecture · Validation Roadmap · No Implemented Result</dd></div>
+              <div><dt>Contribution</dt><dd>Team Project · Individual contribution unconfirmed</dd></div>
+            </dl>
+          </div>
+        </section>
+        <section class="section split">
+          <div><div class="section-heading"><span>02</span><h2>문제 정의와 설계 판단</h2></div><p>AESA 하드웨어와 SAR 영상형성, 생성모델을 한 문장으로 묶는 대신 RF sensing, DBF, conventional reconstruction, conditional diffusion, evaluation으로 계층화했습니다. 이 페이지의 성과는 구현 결과가 아니라 검증 가능한 연구 설계입니다.</p><ul class="decision-list"><li>RDA/CSA/BPA 중 하나를 먼저 baseline으로 고정한 뒤 학습 모델과 비교하도록 했습니다.</li><li>관측 열화·undersampling 조건과 train/validation/test 분리를 사전에 문서화합니다.</li><li>영상 품질 지표와 physics-consistency 지표를 함께 사용하도록 제안했습니다.</li><li>conditioning과 loss term의 ablation, noise·model mismatch robustness를 검증 순서에 포함했습니다.</li></ul></div>
+          <figure class="visual-card featured"><button class="image-button" data-lightbox="../../assets/sensor/validation_roadmap.svg"><img src="../../assets/sensor/validation_roadmap.svg" alt="Engineering flow"></button><figcaption><span class="evidence-badge">Portfolio Redraw</span>Architecture and decision flow</figcaption></figure>
+        </section>
+        <section class="section"><div class="section-heading"><span>03</span><h2>설계·검증 근거</h2></div>
+          <div class="gallery">
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/sensor/tr_module_block.svg" aria-label="이미지 확대: T/R module abstraction">
+    <img src="../../assets/sensor/tr_module_block.svg" alt="T/R module abstraction" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>T/R module abstraction</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/sensor/digital_beamforming_chain.svg" aria-label="이미지 확대: Digital beamforming chain">
+    <img src="../../assets/sensor/digital_beamforming_chain.svg" alt="Digital beamforming chain" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>Digital beamforming chain</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/sensor/sar_image_formation.svg" aria-label="이미지 확대: Conventional SAR baseline">
+    <img src="../../assets/sensor/sar_image_formation.svg" alt="Conventional SAR baseline" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>Conventional SAR baseline</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/sensor/physics_guided_diffusion.svg" aria-label="이미지 확대: Physics-conditioned refinement">
+    <img src="../../assets/sensor/physics_guided_diffusion.svg" alt="Physics-conditioned refinement" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Portfolio Redraw</span>Physics-conditioned refinement</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/sensor/rda_csa_bpa_comparison.png" aria-label="이미지 확대: Baseline algorithm comparison">
+    <img src="../../assets/sensor/rda_csa_bpa_comparison.png" alt="Baseline algorithm comparison" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Engineering Interpretation</span>Baseline algorithm comparison</figcaption>
+</figure>
+
+<figure class="visual-card">
+  <button class="image-button" data-lightbox="../../assets/sensor/implementation_boundary.svg" aria-label="이미지 확대: Proposal versus implementation">
+    <img src="../../assets/sensor/implementation_boundary.svg" alt="Proposal versus implementation" loading="lazy">
+  </button>
+  <figcaption><span class="evidence-badge">Evidence Boundary</span>Proposal versus implementation</figcaption>
+</figure>
+</div>
+        </section>
+
+        <section class="section"><div class="section-heading"><span>05</span><h2>핵심 결과</h2></div>
+          <div class="metrics"><div class="metric"><span>Implementation</span><strong>Not performed</strong></div><div class="metric"><span>Dataset</span><strong>Not published</strong></div><div class="metric"><span>Hardware</span><strong>Not built</strong></div><div class="metric"><span>Performance gain</span><strong>Not claimed</strong></div><div class="metric"><span>Deliverable</span><strong>Architecture + validation plan</strong></div></div>
+        </section>
+        <section class="section boundary"><div class="section-heading"><span>06</span><h2>검증 경계와 한계</h2></div><p>학습 모델, 데이터셋, AESA prototype, field/flight test, 정량 성능 향상은 존재한다고 주장하지 않습니다. 군사 운용 절차나 구현 가능한 공격 정보가 아니라 공개 가능한 시스템 계층과 검증 방법만 다룹니다.</p></section>
+        <section class="section source-panel"><div><h2>소스와 재현</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/05_sensor_applications/aesa_sar_diffusion_concept">Open source</a><a class="button" href="../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <nav class="case-nav"><a href="../../">← 전체 과목 보기</a></nav>
+</main>
+          <footer>
+            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
+          </footer>
+          <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>
+          <script src="../../script.js" defer></script>
+        </body>
+        </html>
