@@ -1,0 +1,16 @@
+schema_version: 1
+site_languages: [ko, en]
+project_ids:
+  - controller-logic
+  - transformer-design
+  - power-systems
+  - motor-control
+  - rf-microwave
+  - sensor-applications
+assets:
+  - assets/digital/rtl-flow.svg
+  - assets/transformer/core-tradeoff.svg
+  - assets/power/line-model.svg
+  - assets/motor/cascaded-control.svg
+  - assets/rf/passive-networks.svg
+  - assets/sensor/aesa-sar.svg

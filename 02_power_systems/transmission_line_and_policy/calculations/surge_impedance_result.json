@@ -1,0 +1,9 @@
+{
+  "evidence_status": "independent-recalculation",
+  "line_voltage_v": 765000.0,
+  "series_reactance_ohm_per_km": 0.3,
+  "shunt_susceptance_s_per_km": 4.6e-06,
+  "surge_impedance_ohm": 255.37695922762458,
+  "sil_mw": 2291.612374781128,
+  "sil_current_a": 1729.4941456969436
+}

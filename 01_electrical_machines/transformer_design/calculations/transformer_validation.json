@@ -1,0 +1,11 @@
+{
+  "evidence_status": "independent-recalculation",
+  "output_w": 900.0,
+  "copper_loss_w": 10.2267,
+  "core_loss_w": 23.776,
+  "calculated_total_loss_w": 34.0027,
+  "reported_total_loss_w": 33.9998,
+  "calculated_efficiency_pct": 96.3594644854881,
+  "reported_efficiency_pct": 96.36,
+  "reported_regulation_pct": 1.136
+}

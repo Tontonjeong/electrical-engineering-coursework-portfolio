@@ -1,0 +1,5 @@
+case,primary_v,secondary_v,power_w,frequency_hz,bmax_t,primary_turns,secondary_turns,efficiency_pct,regulation_pct,window_utilization,status
+Report UI-100,220,110,900,300,1.5,180,93,96.360,1.136,0.312,Selected source-derived design
+Workbook base,115,115,250,47,1.6,250,263,94.8,4.67,0.388,Separate input case
+Workbook EI-190,110,220,600,50,1.8,139,292,98.5,0.53,0.351,Separate case; workbook contains an error cell
+Workbook UI,110,220,600,50,1.6,148,311,98.3,0.51,0.378,Separate input case

@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio",
+  "pages_ko": "https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/",
+  "pages_en": "https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/en/",
+  "workflow": "https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/actions/workflows/coursework-validation.yml"
+}

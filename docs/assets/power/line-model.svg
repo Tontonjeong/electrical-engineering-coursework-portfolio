@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">Transmission line calculation and model boundary</title>
+  <desc id="desc">A 765 kilovolt line calculation is validated while the non-convergent model remains a debugging artifact.</desc>
+  <rect width="960" height="460" rx="36" fill="#0c1425"/>
+  <text x="56" y="64" fill="#eef5ff" font-family="Arial" font-size="28" font-weight="700">765 kV · 350 km Transmission Line</text>
+  <text x="56" y="99" fill="#9fb0c9" font-family="Arial" font-size="16">Calculation evidence and solver evidence are separated</text>
+  <g font-family="Arial">
+    <rect x="56" y="140" width="386" height="242" rx="22" fill="#111f35" stroke="#43d9ff" stroke-width="2"/>
+    <text x="88" y="181" fill="#43d9ff" font-size="16" font-weight="700">INDEPENDENT RECALCULATION</text>
+    <text x="88" y="226" fill="#eef5ff" font-size="22">Zc = √(z / y)</text>
+    <text x="88" y="266" fill="#eef5ff" font-size="22">SIL = V² / Zc</text>
+    <text x="88" y="320" fill="#65f0ce" font-size="26" font-weight="700">255.6 Ω · 2.29 GW</text>
+    <rect x="518" y="140" width="386" height="242" rx="22" fill="#111f35" stroke="#ffbe55" stroke-width="2"/>
+    <text x="550" y="181" fill="#ffbe55" font-size="16" font-weight="700">EXISTING MODEL ARCHIVE</text>
+    <text x="550" y="226" fill="#eef5ff" font-size="22">3-bus full-load case</text>
+    <text x="550" y="266" fill="#ff758f" font-size="24" font-weight="700">NON-CONVERGENT</text>
+    <text x="550" y="310" fill="#9fb0c9" font-size="16">Not a physical grid result</text>
+    <text x="550" y="338" fill="#9fb0c9" font-size="16">Not a validated collapse claim</text>
+  </g>
+</svg>

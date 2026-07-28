@@ -1,0 +1,7 @@
+design,frequency_ghz,substrate_er,key_dimensions_or_components,evidence_status
+Microstrip 50 ohm 270 deg,3.5,9.9,W=0.4815 mm; L=24.97 mm,Source-derived
+L-section match,1.0,,Cp=0.461 pF; Ls=19.5 nH,Source-derived
+Single stub solution 1,3.5,9.9,d=3.66 mm; l=3.15 mm,Source-derived
+Single stub solution 2,3.5,9.9,d=8.61 mm; l=13.44 mm,Source-derived
+Wilkinson tuned,3.5,9.9,W=270 um; L=6.65 mm; R=100 ohm,Existing simulation archive
+Branch-line hybrid,3.5,9.9,horizontal 908 um x 7.0 mm; vertical 483 um x 7.2 mm,Existing simulation archive

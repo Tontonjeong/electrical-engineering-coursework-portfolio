@@ -1,0 +1,106 @@
+name: Coursework Validation and Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install open-source toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ghdl g++
+
+      - name: Run independent calculations
+        run: python scripts/run_all_calculations.py
+
+      - name: Audit privacy, publication boundaries, links and assets
+        run: python scripts/validate_publication.py
+
+      - name: Build and execute portable C++ calculator
+        run: |
+          mkdir -p build/cpp
+          g++ -std=c++17 -Wall -Wextra -pedantic \
+            03_motor_control/dc_motor_pi_control/src/pi_gain_calculator_portable.cpp \
+            -o build/cpp/pi_gain_calculator
+          build/cpp/pi_gain_calculator
+
+      - name: Analyze VHDL
+        working-directory: 00_digital_hardware/controller_logic
+        run: |
+          mkdir -p build
+          ghdl -a --std=08 --workdir=build \
+            src/original/fulladd.vhd \
+            src/original/add_4bits.vhd \
+            src/original/mux_8to1.vhd \
+            src/original/mealy_101.vhd \
+            src/portable_reconstruction/dec_3to8.vhd \
+            src/portable_reconstruction/mux_8to1_4bits.vhd \
+            src/portable_reconstruction/usr_4bit.vhd \
+            tb/tb_fulladd.vhd \
+            tb/tb_add_4bits.vhd \
+            tb/tb_dec_3to8.vhd \
+            tb/tb_mux_8to1.vhd \
+            tb/tb_mux_8to1_4bits.vhd \
+            tb/tb_mealy_101.vhd \
+            tb/tb_usr_4bit.vhd
+
+      - name: Execute self-checking VHDL regression
+        working-directory: 00_digital_hardware/controller_logic
+        run: |
+          set -euo pipefail
+          for test in \
+            tb_fulladd tb_add_4bits tb_dec_3to8 tb_mux_8to1 \
+            tb_mux_8to1_4bits tb_mealy_101 tb_usr_4bit
+          do
+            ghdl -e --std=08 --workdir=build "$test"
+            ghdl -r --std=08 --workdir=build "$test" \
+              --assert-level=error --vcd="build/${test}.vcd"
+          done
+
+      - name: Upload VHDL waveforms
+        uses: actions/upload-artifact@v4
+        with:
+          name: controller-logic-vcd
+          path: 00_digital_hardware/controller_logic/build/*.vcd
+
+      - name: Configure Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

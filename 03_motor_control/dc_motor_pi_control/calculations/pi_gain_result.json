@@ -1,0 +1,11 @@
+{
+  "evidence_status": "independent-recalculation-plus-preserved-source-discrepancy",
+  "current_bandwidth_hz": 500.0,
+  "current_kp": 62.83185307179586,
+  "current_ki": 314.1592653589793,
+  "speed_bandwidth_hz": 25.0,
+  "speed_loop_inertia_term": 11.780972450961725,
+  "speed_kp_reported": 24.8,
+  "speed_ki_report_calculation": 3898.0,
+  "speed_ki_recovered_source": 3895.0
+}

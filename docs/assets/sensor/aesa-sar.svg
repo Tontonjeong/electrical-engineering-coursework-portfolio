@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">AESA SAR physics-guided diffusion research concept</title>
+  <desc id="desc">A proposed pipeline from array sensing and digital beamforming through conventional SAR imaging to diffusion refinement and validation.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#43d9ff"/><stop offset="1" stop-color="#8b7dff"/></linearGradient></defs>
+  <rect width="960" height="460" rx="36" fill="#0c1425"/>
+  <text x="56" y="64" fill="#eef5ff" font-family="Arial" font-size="28" font-weight="700">AESA-SAR · Physics-Guided Diffusion</text>
+  <text x="56" y="99" fill="#9fb0c9" font-family="Arial" font-size="16">Research concept and validation roadmap — no implementation claim</text>
+  <g font-family="Arial" text-anchor="middle">
+    <g fill="#14233d" stroke-width="2">
+      <rect x="50" y="167" width="150" height="82" rx="16" stroke="#43d9ff"/><rect x="228" y="167" width="150" height="82" rx="16" stroke="#43d9ff"/>
+      <rect x="406" y="167" width="150" height="82" rx="16" stroke="#43d9ff"/><rect x="584" y="167" width="150" height="82" rx="16" stroke="#8b7dff"/>
+      <rect x="762" y="167" width="150" height="82" rx="16" stroke="#65f0ce"/>
+    </g>
+    <g fill="#eef5ff" font-size="17">
+      <text x="125" y="201">AESA T/R</text><text x="125" y="226" fill="#9fb0c9">echo capture</text>
+      <text x="303" y="201">DBF</text><text x="303" y="226" fill="#9fb0c9">beam synthesis</text>
+      <text x="481" y="201">SAR</text><text x="481" y="226" fill="#9fb0c9">RDA / CSA / BPA</text>
+      <text x="659" y="201">Diffusion</text><text x="659" y="226" fill="#9fb0c9">physics condition</text>
+      <text x="837" y="201">Evaluation</text><text x="837" y="226" fill="#9fb0c9">quality + consistency</text>
+    </g>
+    <path d="M200 208h28m150 0h28m150 0h28m150 0h28" stroke="url(#g)" stroke-width="5"/>
+    <rect x="282" y="307" width="396" height="64" rx="32" fill="#171d3b" stroke="#8b7dff"/>
+    <text x="480" y="347" fill="#c8c1ff" font-size="17" font-weight="700">PROPOSAL · TRAINING AND VALIDATION PENDING</text>
+  </g>
+</svg>

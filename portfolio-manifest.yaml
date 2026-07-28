@@ -1,0 +1,30 @@
+schema_version: 1
+portfolio:
+  title: Electrical Engineering Coursework Portfolio
+  languages: [ko, en]
+  public_site: https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/
+projects:
+  - id: controller-logic
+    term: "2-2"
+    path: 00_digital_hardware/controller_logic
+    evidence: [recovered-original, portable-reconstruction, ghdl-rerun]
+  - id: transformer-design
+    term: "3-1"
+    path: 01_electrical_machines/transformer_design
+    evidence: [source-derived, independent-recalculation]
+  - id: power-systems
+    term: "3-1"
+    path: 02_power_systems/transmission_line_and_policy
+    evidence: [source-derived, independent-recalculation, source-verification]
+  - id: motor-control
+    term: "3-2"
+    path: 03_motor_control/dc_motor_pi_control
+    evidence: [recovered-original, independent-recalculation, existing-result-archive]
+  - id: rf-microwave
+    term: "4-1"
+    path: 04_rf_microwave/passive_network_design
+    evidence: [source-derived, existing-result-archive]
+  - id: sensor-applications
+    term: "4-1"
+    path: 05_sensor_applications/aesa_sar_diffusion_concept
+    evidence: [concept-proposal, portfolio-redraw]

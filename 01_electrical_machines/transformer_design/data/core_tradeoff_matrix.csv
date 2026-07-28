@@ -1,0 +1,5 @@
+core_case,efficiency_pct,regulation_pct,window_utilization,decision
+DU-75,95.985,,,Rejected on efficiency
+EI-112 first,96.264,2.018,0.454,Rejected on window utilization
+EI-112 redesigned,96.014,2.289,0.359,Feasible alternative
+UI-100 final,96.360,1.136,0.312,Selected

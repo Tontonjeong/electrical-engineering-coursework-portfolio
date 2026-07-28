@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">Cascaded motor control architecture</title>
+  <desc id="desc">A 25 hertz speed loop commands a 500 hertz current loop connected to an H bridge and DC motor.</desc>
+  <rect width="960" height="460" rx="36" fill="#0c1425"/>
+  <text x="56" y="64" fill="#eef5ff" font-family="Arial" font-size="28" font-weight="700">Cascaded DC Motor Control</text>
+  <text x="56" y="99" fill="#9fb0c9" font-family="Arial" font-size="16">Bandwidth separation · current limiting · field weakening</text>
+  <g font-family="Arial" text-anchor="middle">
+    <g fill="#14233d" stroke-width="2">
+      <rect x="56" y="174" width="170" height="84" rx="16" stroke="#8b7dff"/>
+      <rect x="271" y="174" width="170" height="84" rx="16" stroke="#43d9ff"/>
+      <rect x="486" y="174" width="170" height="84" rx="16" stroke="#43d9ff"/>
+      <rect x="701" y="174" width="203" height="84" rx="16" stroke="#65f0ce"/>
+    </g>
+    <g fill="#eef5ff" font-size="18">
+      <text x="141" y="208">Speed PI</text><text x="141" y="235" fill="#9fb0c9">25 Hz</text>
+      <text x="356" y="208">Current PI</text><text x="356" y="235" fill="#9fb0c9">500 Hz</text>
+      <text x="571" y="208">H-Bridge</text><text x="571" y="235" fill="#9fb0c9">200 V</text>
+      <text x="803" y="208">DC Motor</text><text x="803" y="235" fill="#9fb0c9">12 N·m load</text>
+    </g>
+    <path d="M226 216h45m170 0h45m170 0h45" stroke="#43d9ff" stroke-width="5"/>
+    <path d="M803 258v86H356v-86" fill="none" stroke="#61708a" stroke-width="3" stroke-dasharray="9 8"/>
+    <text x="580" y="376" fill="#9fb0c9" font-size="16">speed / current feedback</text>
+    <rect x="298" y="114" width="116" height="34" rx="17" fill="#3a2d14"/>
+    <text x="356" y="136" fill="#ffbe55" font-size="14" font-weight="700">LIMIT 10 A</text>
+  </g>
+</svg>

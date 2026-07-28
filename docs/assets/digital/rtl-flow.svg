@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">Controller logic verification flow</title>
+  <desc id="desc">Seven VHDL blocks progress from combinational logic to sequential control and self-checking simulation.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#43d9ff"/><stop offset="1" stop-color="#8b7dff"/></linearGradient></defs>
+  <rect width="960" height="460" rx="36" fill="#0c1425"/>
+  <text x="56" y="66" fill="#eef5ff" font-family="Arial" font-size="28" font-weight="700">Portable RTL Verification</text>
+  <text x="56" y="100" fill="#9fb0c9" font-family="Arial" font-size="16">Recovered Original + clearly labeled reconstruction</text>
+  <g font-family="Arial" font-size="16" text-anchor="middle">
+    <g fill="#14233d" stroke="#43d9ff" stroke-width="2">
+      <rect x="56" y="145" width="170" height="76" rx="14"/><rect x="280" y="145" width="170" height="76" rx="14"/>
+      <rect x="504" y="145" width="170" height="76" rx="14"/><rect x="728" y="145" width="176" height="76" rx="14"/>
+    </g>
+    <g fill="#eef5ff">
+      <text x="141" y="178">Full Adder</text><text x="141" y="201" fill="#9fb0c9">8 vectors</text>
+      <text x="365" y="178">4-bit Adder</text><text x="365" y="201" fill="#9fb0c9">512 vectors</text>
+      <text x="589" y="178">Mux / Decoder</text><text x="589" y="201" fill="#9fb0c9">exhaustive</text>
+      <text x="816" y="178">FSM / Register</text><text x="816" y="201" fill="#9fb0c9">directed sequence</text>
+    </g>
+  </g>
+  <path d="M226 183h54m170 0h54m170 0h54" stroke="url(#g)" stroke-width="5" fill="none"/>
+  <path d="M128 270h704a18 18 0 0118 18v34a18 18 0 01-18 18H128a18 18 0 01-18-18v-34a18 18 0 0118-18z" fill="#101d33" stroke="#8b7dff" stroke-width="2"/>
+  <text x="480" y="312" text-anchor="middle" fill="#eef5ff" font-family="Arial" font-size="20" font-weight="700">GHDL · self-checking assertions · VCD artifacts</text>
+  <rect x="356" y="374" width="248" height="48" rx="24" fill="url(#g)"/>
+  <text x="480" y="405" text-anchor="middle" fill="#07101e" font-family="Arial" font-size="20" font-weight="700">7 / 7 PASS</text>
+</svg>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Evidence-first electrical engineering coursework portfolio: VHDL, transformers, power systems, motor control, RF and AESA-SAR.">
+  <title>Electrical Engineering Coursework Portfolio</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#"><span>EE</span> Coursework</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a><a href="#evidence">Evidence</a>
+        <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">Repository</a>
+        <a class="lang" href="../">KO</a>
+      </div>
+    </nav>
+  </header>
+  <main id="content">
+    <div class="hero">
+      <div>
+        <div class="eyebrow">Electrical Engineering · Evidence First</div>
+        <h1>Coursework as <span class="gradient">reviewable engineering</span>.</h1>
+        <p class="lede">A source-bounded progression from controller logic to electrical machines, power systems, motor control, RF/microwave, and sensor research.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore projects</a><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio">Source & CI ↗</a></div>
+      </div>
+      <aside class="hero-note"><strong>Public evidence boundary</strong><p>Only source-supported facts, recovered author code, independent calculations, and portfolio redraws are public. Identifiers, raw reports, and licensed projects are withheld.</p></aside>
+    </div>
+    <div class="metrics"><div class="metric"><strong>6</strong><span>course domains</span></div><div class="metric"><strong>7/7</strong><span>GHDL tests passed</span></div><div class="metric"><strong>4</strong><span>portable calculations</span></div><div class="metric"><strong>KO / EN</strong><span>bilingual documentation</span></div></div>
+
+    <section id="projects">
+      <div class="section-head"><div><div class="eyebrow">Portfolio Map</div><h2>Six cases,<br>one learning arc</h2></div><p>The work progresses from digital logic to energy conversion, grids, feedback control, microwave networks, and a sensor-research proposal.</p></div>
+      <div class="project-grid">
+        <article class="project-card" style="--accent:#43d9ff"><span class="term">2-2 · DIGITAL HARDWARE</span><h3>Controller Logic</h3><p>Recovered and reconstructed RTL verified by seven self-checking GHDL testbenches.</p><div class="tags"><span class="tag">VHDL</span><span class="tag">GHDL</span><span class="tag">FSM</span></div><a class="deep-link" href="#digital">Case Study ↓</a></article>
+        <article class="project-card" style="--accent:#65f0ce"><span class="term">3-1 · ELECTRICAL MACHINES</span><h3>Transformer Design</h3><p>A 900 W DU/EI/UI core trade study covering loss, efficiency, regulation, and window utilization.</p><div class="tags"><span class="tag">Magnetics</span><span class="tag">Loss</span><span class="tag">Trade-off</span></div><a class="deep-link" href="#transformer">Case Study ↓</a></article>
+        <article class="project-card" style="--accent:#ffbe55"><span class="term">3-1 · POWER SYSTEMS</span><h3>Transmission Line</h3><p>765 kV Zc/SIL calculations, a disclosed non-convergent model, and policy-source reconciliation.</p><div class="tags"><span class="tag">765 kV</span><span class="tag">SIL</span><span class="tag">Source QA</span></div><a class="deep-link" href="#power">Case Study ↓</a></article>
+        <article class="project-card" style="--accent:#9a8cff"><span class="term">3-2 · MOTOR CONTROL</span><h3>Cascaded PI Control</h3><p>500 Hz current and 25 Hz speed loops, limiting, field weakening, and torque-ripple checks.</p><div class="tags"><span class="tag">PI Control</span><span class="tag">H-Bridge</span><span class="tag">PSIM</span></div><a class="deep-link" href="#motor">Case Study ↓</a></article>
+        <article class="project-card" style="--accent:#ff758f"><span class="term">4-1 · RF/MICROWAVE</span><h3>Passive Networks</h3><p>Theory and archived Cadence results for microstrip, matching, Wilkinson, and hybrid networks.</p><div class="tags"><span class="tag">3.5 GHz</span><span class="tag">Microstrip</span><span class="tag">S-parameter</span></div><a class="deep-link" href="#rf">Case Study ↓</a></article>
+        <article class="project-card" style="--accent:#43d9ff"><span class="term">4-1 · SENSOR APPLICATIONS</span><h3>AESA-SAR Concept</h3><p>A system architecture and validation roadmap linking DBF, SAR imaging, and physics-guided diffusion.</p><div class="tags"><span class="tag">AESA</span><span class="tag">SAR</span><span class="tag">Diffusion</span></div><a class="deep-link" href="#sensor">Case Study ↓</a></article>
+      </div>
+    </section>
+
+    <section class="case" id="digital" style="--accent:#43d9ff"><div class="case-layout"><div><span class="status">GHDL RERUN</span><h2>Portable RTL Verification</h2><p>Four recovered originals and three explicit reconstructions were analyzed, elaborated, and simulated in one regression.</p><div class="result-list"><div class="result"><strong>7 / 7 PASS</strong><span>self-checking testbenches</span></div><div class="result"><strong>512 vectors</strong><span>4-bit adder exhaustive test</span></div></div></div><div class="case-visual"><img src="../assets/digital/rtl-flow.svg" alt="Portable VHDL verification flow"></div></div></section>
+    <section class="case" id="transformer" style="--accent:#65f0ce"><div class="case-layout"><div><span class="status">INDEPENDENT RECALCULATION</span><h2>Transformer Core Trade-off</h2><p>A 220-to-110 V, 900 W, 300 Hz calculation selected UI-100 after comparing losses, efficiency, regulation, and window utilization.</p><div class="result-list"><div class="result"><strong>96.360%</strong><span>reported efficiency</span></div><div class="result"><strong>1.136%</strong><span>reported regulation</span></div><div class="result"><strong>180 / 93</strong><span>primary / secondary turns</span></div><div class="result"><strong>≈34.0 W</strong><span>recalculated loss</span></div></div></div><div class="case-visual"><img src="../assets/transformer/core-tradeoff.svg" alt="Transformer core efficiency trade study"></div></div></section>
+    <section class="case" id="power" style="--accent:#ffbe55"><div class="case-layout"><div><span class="status warn">MODEL DIVERGENCE DISCLOSED</span><h2>Power-System Evidence Boundary</h2><p>The line equations are independently verified. The full-load PowerWorld case remains debugging evidence because it did not converge. Policy claims were reconciled with a government primary source.</p><div class="result-list"><div class="result"><strong>255.6 Ω</strong><span>surge impedance</span></div><div class="result"><strong>2.29 GW</strong><span>surge impedance loading</span></div></div></div><div class="case-visual"><img src="../assets/power/line-model.svg" alt="Boundary between a validated line calculation and a non-convergent model"></div></div></section>
+    <section class="case" id="motor" style="--accent:#9a8cff"><div class="case-layout"><div><span class="status warn">EXISTING RESULT ARCHIVE</span><h2>Cascaded PI Motor Control</h2><p>PI gains and torque ripple are recalculated, while the source/report Ki difference and the 25/30 kHz provenance conflict remain visible.</p><div class="result-list"><div class="result"><strong>500 / 25 Hz</strong><span>current / speed bandwidth</span></div><div class="result"><strong>2.28 → 0.38 N·m</strong><span>reported ripple cases</span></div></div></div><div class="case-visual"><img src="../assets/motor/cascaded-control.svg" alt="Cascaded PI motor control architecture"></div></div></section>
+    <section class="case" id="rf" style="--accent:#ff758f"><div class="case-layout"><div><span class="status warn">CADENCE ARCHIVE</span><h2>RF Passive Networks</h2><p>Four alumina-microstrip designs distinguish theory values from existing simulation markers. A 3.7 GHz marker is not presented as an exact 3.5 GHz validation.</p><div class="result-list"><div class="result"><strong>4 networks</strong><span>line · matching · divider · hybrid</span></div><div class="result"><strong>εr 9.9</strong><span>alumina substrate</span></div></div></div><div class="case-visual"><img src="../assets/rf/passive-networks.svg" alt="Four RF passive-network designs"></div></div></section>
+    <section class="case" id="sensor" style="--accent:#43d9ff"><div class="case-layout"><div><span class="status warn">CONCEPT / PROPOSAL</span><h2>AESA-SAR Research Architecture</h2><p>A research pipeline connects AESA sensing, DBF, conventional SAR reconstruction, physics-conditioned diffusion, and evaluation. No model, hardware, or performance gain is claimed.</p><div class="result-list"><div class="result"><strong>5 layers</strong><span>sensing to evaluation</span></div><div class="result"><strong>7 steps</strong><span>proposed validation roadmap</span></div></div></div><div class="case-visual"><img src="../assets/sensor/aesa-sar.svg" alt="AESA SAR physics-guided diffusion concept"></div></div></section>
+
+    <section id="evidence"><div class="section-head"><div><div class="eyebrow">Evidence System</div><h2>Claim strength<br>matches evidence</h2></div><p>Recovered source, reconstruction, recalculation, archived results, and proposals are intentionally different states.</p></div><div class="evidence-grid"><div class="evidence-item"><strong>Recovered Original</strong><p>Author source recovered from the archive.</p></div><div class="evidence-item"><strong>Portable Reconstruction</strong><p>Source-bounded implementation for public CI.</p></div><div class="evidence-item"><strong>Independent Recalculation</strong><p>Equations rerun from documented inputs.</p></div><div class="evidence-item"><strong>Existing Result Archive</strong><p>Historical screen, not rerun here.</p></div><div class="evidence-item"><strong>Concept / Proposal</strong><p>Architecture and plan, not implementation.</p></div><div class="evidence-item"><strong>Publicly Withheld</strong><p>Private, raw, or licensed material.</p></div></div></section>
+  </main>
+  <footer><div class="footer-inner"><span>Electrical Engineering Coursework Portfolio</span><span>Evidence-bounded · Reproducible · <span data-year></span></span></div></footer>
+  <script src="../script.js"></script>
+</body>
+</html>
