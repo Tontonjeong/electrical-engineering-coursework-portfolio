@@ -1,0 +1,103 @@
+$date
+  Thu Jul 30 00:29:07 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module fulladd_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # cin $end
+$var reg 1 $ s $end
+$var reg 1 % cout $end
+$scope module uut $end
+$var reg 1 & a $end
+$var reg 1 ' b $end
+$var reg 1 ( cin $end
+$var reg 1 ) s $end
+$var reg 1 * cout $end
+$var reg 1 + t1 $end
+$var reg 1 , t2 $end
+$var reg 1 - t3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+#20000000
+1#
+1$
+1(
+1)
+#40000000
+1"
+0#
+1$
+1'
+0(
+1)
+1+
+#60000000
+1#
+0$
+1%
+1(
+0)
+1*
+1-
+#80000000
+1!
+0"
+0#
+1$
+0%
+1&
+0'
+0(
+1)
+0*
+0-
+#100000000
+1#
+0$
+1%
+1(
+0)
+1*
+1-
+#120000000
+1"
+0#
+0$
+1'
+0(
+0)
+0+
+1,
+0-
+#140000000
+1#
+1$
+1(
+1)
