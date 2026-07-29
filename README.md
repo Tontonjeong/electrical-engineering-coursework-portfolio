@@ -127,7 +127,7 @@ Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybr
 - Wilkinson split: ≈ −3 dB archive
 - Isolation: ≈ −18 dB archive
 
-> Cadence 프로젝트와 라이선스 자료는 공개하지 않습니다. 3.7 GHz marker를 3.5 GHz의 정확한 검증으로 바꾸어 말하지 않습니다. 제작 공차, connector launch, calibration, VNA 측정은 증거 범위 밖입니다.
+> Cadence 프로젝트와 라이선스 자료는 공개하지 않습니다. 3.7 GHz marker를 3.5 GHz의 정확한 검증으로 바꾸어 말하지 않습니다. Homework 5 Ex. 12-3은 식별 가능한 최종 결과가 없어 INCOMPLETE_WORK로 분류했습니다. 제작 공차, connector launch, calibration, VNA 측정은 증거 범위 밖입니다.
 
 ### 6. Sensor Applications — AESA-SAR와 Physics-Guided Diffusion
 

@@ -127,7 +127,7 @@ Microstrip, L-section and single-stub matching, a Wilkinson divider, and a branc
 - Wilkinson split: ≈ −3 dB archive
 - Isolation: ≈ −18 dB archive
 
-> Cadence projects and licensed material are not published. The 3.7 GHz marker is not restated as exact 3.5 GHz validation. Fabrication tolerance, connector launch, calibration, and VNA measurement are outside the evidence.
+> Cadence projects and licensed material are not published. The 3.7 GHz marker is not restated as exact 3.5 GHz validation. Homework 5 Ex. 12-3 has no identifiable final result and is classified as INCOMPLETE_WORK. Fabrication tolerance, connector launch, calibration, and VNA measurement are outside the evidence.
 
 ### 6. Sensor Applications — AESA-SAR & Physics-Guided Diffusion
 
