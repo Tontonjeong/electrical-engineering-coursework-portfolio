@@ -1,0 +1,341 @@
+{
+  "description": "Minimum public visual-evidence coverage across coursework and research repositories.",
+  "projects": {
+    "Controller Logic": {
+      "source_code": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/code/vhdl_full_adder.svg"],
+        "evidence_status": "Recovered Original",
+        "caption_ko": "VHDL full-adder source logic",
+        "alt_en": "VHDL full-adder source logic"
+      },
+      "waveform": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/controller-logic/full-adder-waveform.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "4-bit adder directed-vector waveform",
+        "alt_en": "Four-bit adder directed-vector waveform"
+      },
+      "schematic": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/digital/one_bit_full_adder_gate.svg"],
+        "evidence_status": "Portfolio Redraw",
+        "caption_ko": "1-bit full-adder gate schematic",
+        "alt_en": "One-bit full-adder gate schematic"
+      },
+      "module_hierarchy": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/controller-logic/full-adder-hierarchy.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "4-bit ripple-carry module hierarchy",
+        "alt_en": "Four-bit ripple-carry module hierarchy"
+      },
+      "test_result": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/controller-logic/universal-shift-register-waveform.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "Universal shift-register mode test result",
+        "alt_en": "Universal shift-register mode test result"
+      }
+    },
+    "Electrical Machines": {
+      "assignment_condition": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/transformer/transformer_requirements_card.png"],
+        "evidence_status": "Portfolio Redraw",
+        "caption_ko": "Transformer assignment conditions",
+        "alt_en": "Transformer assignment conditions"
+      },
+      "formula": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/code/calc_transformer.svg"],
+        "evidence_status": "Independent Recalculation",
+        "caption_ko": "Transformer loss and efficiency formulas",
+        "alt_en": "Transformer loss and efficiency formulas"
+      },
+      "excel": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/calculators/transformer_workbook_general.png"],
+        "evidence_status": "Workbook Snapshot",
+        "caption_ko": "Rendered transformer workbook values",
+        "alt_en": "Rendered transformer workbook values"
+      },
+      "result_comparison": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/transformer/efficiency_regulation_chart.png"],
+        "evidence_status": "Portfolio Redraw",
+        "caption_ko": "Core-case efficiency and regulation comparison",
+        "alt_en": "Core-case efficiency and regulation comparison"
+      }
+    },
+    "Power Systems": {
+      "schematic": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/power-systems/powerworld-baseline-case.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "PowerWorld multi-area one-line model",
+        "alt_en": "PowerWorld multi-area one-line model"
+      },
+      "calculation": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/code/calc_transmission.svg"],
+        "evidence_status": "Independent Recalculation",
+        "caption_ko": "Zc, SIL, and current calculation",
+        "alt_en": "Zc SIL and current calculation"
+      },
+      "simulation": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/power-systems/powerworld-baseline-case.png"],
+        "evidence_status": "Existing Model Archive",
+        "caption_ko": "Source-derived PowerWorld baseline screen",
+        "alt_en": "Source-derived PowerWorld baseline screen"
+      },
+      "warning_blackout": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/power-systems/powerworld-overload-contingency.png"],
+        "evidence_status": "Diagnostic Evidence",
+        "caption_ko": "Overload and outage diagnostic screen",
+        "alt_en": "Overload and outage diagnostic screen"
+      },
+      "policy_chart": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/power/demand_forecast_chart.png"],
+        "evidence_status": "Source-Derived Redraw",
+        "caption_ko": "2038 energy demand comparison",
+        "alt_en": "2038 energy demand comparison"
+      }
+    },
+    "Motor Control": {
+      "psim_circuit": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/archive/motor/psim_circuit_archive.png"],
+        "evidence_status": "Existing PSIM Archive",
+        "caption_ko": "Recovered PSIM circuit",
+        "alt_en": "Recovered PSIM circuit"
+      },
+      "reference_speed": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/archive/motor/reference_speed_profile_archive.png"],
+        "evidence_status": "Existing PSIM Archive",
+        "caption_ko": "Reference speed profile",
+        "alt_en": "Reference speed profile"
+      },
+      "speed_response": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/archive/motor/speed_response_psim_archive.png", "docs/assets/archive/motor/speed_response_matlab_archive.png"],
+        "evidence_status": "Existing Result Archive",
+        "caption_ko": "PSIM and MATLAB speed responses",
+        "alt_en": "PSIM and MATLAB speed responses"
+      },
+      "current_response": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/archive/motor/current_response_psim_archive.png", "docs/assets/archive/motor/current_response_matlab_archive.png"],
+        "evidence_status": "Existing Result Archive",
+        "caption_ko": "PSIM and MATLAB current responses",
+        "alt_en": "PSIM and MATLAB current responses"
+      },
+      "torque_ripple": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/archive/motor/torque_ripple_10khz_archive.png", "docs/assets/archive/motor/torque_ripple_25khz_archive.png"],
+        "evidence_status": "Existing Result Archive",
+        "caption_ko": "Torque-ripple comparison cases",
+        "alt_en": "Torque-ripple comparison cases"
+      }
+    },
+    "RF/Microwave": {
+      "microstrip": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/rf-microwave/microstrip-schematic.png", "docs/gallery/rf-microwave/microstrip-stackup-editor.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "Microstrip schematic and substrate stack-up",
+        "alt_en": "Microstrip schematic and substrate stack-up"
+      },
+      "matching": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/rf-microwave/l-section-smith-response.png", "docs/gallery/rf-microwave/single-stub-solution-1.png", "docs/gallery/rf-microwave/single-stub-solution-2.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "L-section and single-stub matching evidence",
+        "alt_en": "L-section and single-stub matching evidence"
+      },
+      "wilkinson": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/rf-microwave/wilkinson-schematic.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "Wilkinson divider schematic",
+        "alt_en": "Wilkinson divider schematic"
+      },
+      "hybrid": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/rf-microwave/hybrid-schematic.png", "docs/gallery/rf-microwave/hybrid-line-parameter-a.png", "docs/gallery/rf-microwave/hybrid-line-parameter-b.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "Branch-line hybrid circuit and line parameters",
+        "alt_en": "Branch-line hybrid circuit and line parameters"
+      },
+      "s_parameter": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/gallery/rf-microwave/wilkinson-sparameter.png", "docs/gallery/rf-microwave/hybrid-sparameter.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "Wilkinson and hybrid S-parameter responses",
+        "alt_en": "Wilkinson and hybrid S-parameter responses"
+      }
+    },
+    "Sensor Applications": {
+      "block_diagram": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/sensor/tr_module_block.svg", "docs/assets/sensor/aesa_system_architecture.svg"],
+        "evidence_status": "Portfolio Redraw",
+        "caption_ko": "AESA and T/R module block diagrams",
+        "alt_en": "AESA and transmit receive module block diagrams"
+      },
+      "algorithm_flow": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/sensor/processing_hierarchy.svg", "docs/assets/sensor/validation_roadmap.svg"],
+        "evidence_status": "Portfolio Redraw",
+        "caption_ko": "SAR processing and staged validation flow",
+        "alt_en": "SAR processing and staged validation flow"
+      },
+      "proposed_only_visual": {
+        "status": "Published",
+        "repository": "coursework",
+        "public_paths": ["docs/assets/sensor/implementation_boundary.svg"],
+        "evidence_status": "Evidence Boundary",
+        "caption_ko": "Proposal-only implementation boundary",
+        "alt_en": "Proposal-only implementation boundary"
+      }
+    },
+    "PPG-HRV": {
+      "circuit": {
+        "status": "Published",
+        "repository": "ppg",
+        "public_paths": ["docs/figures/circuit/ppg_analog_frontend_circuit.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "PPG analog front-end circuit",
+        "alt_en": "PPG analog front-end circuit"
+      },
+      "firmware_stm": {
+        "status": "Published",
+        "repository": "ppg",
+        "public_paths": ["docs/figures/stm_screenshots/stm_pinout_overview.png"],
+        "evidence_status": "Source-Derived",
+        "caption_ko": "STM32 pin and peripheral configuration",
+        "alt_en": "STM32 pin and peripheral configuration"
+      },
+      "preprocessing": {
+        "status": "Published",
+        "repository": "ppg",
+        "public_paths": ["docs/figures/infographics/stm32_signal_pipeline.png"],
+        "evidence_status": "Portfolio Redraw",
+        "caption_ko": "PPG acquisition and preprocessing flow",
+        "alt_en": "PPG acquisition and preprocessing flow"
+      },
+      "hrv": {
+        "status": "Published",
+        "repository": "ppg",
+        "public_paths": ["docs/figures/results/aggregate-source-evidence/group-hrv-boxplots.png", "docs/figures/results/aggregate-source-evidence/group-hrv-heatmap.png"],
+        "evidence_status": "Source-Derived Aggregate",
+        "caption_ko": "Group-level HRV feature evidence",
+        "alt_en": "Group-level HRV feature evidence"
+      },
+      "learning_curve": {
+        "status": "Published",
+        "repository": "ppg",
+        "public_paths": ["docs/figures/results/aggregate-source-evidence/accuracy-loss-history.png"],
+        "evidence_status": "Source-Derived Aggregate",
+        "caption_ko": "Training accuracy and loss history",
+        "alt_en": "Training accuracy and loss history"
+      },
+      "confusion_roc_pr": {
+        "status": "Published",
+        "repository": "ppg",
+        "public_paths": ["docs/figures/results/aggregate-source-evidence/kfold-confusion-matrix.png", "docs/figures/results/fold_5/roc_pr_cal.jpg"],
+        "evidence_status": "Source-Derived Aggregate",
+        "caption_ko": "K-fold confusion and ROC PR calibration evidence",
+        "alt_en": "K-fold confusion and ROC PR calibration evidence"
+      },
+      "nback_result": {
+        "status": "Published",
+        "repository": "ppg",
+        "public_paths": ["docs/figures/results/nback_block_result_example.png"],
+        "evidence_status": "Public Example",
+        "caption_ko": "N-back block result example",
+        "alt_en": "N-back block result example"
+      }
+    },
+    "FMCW Radar": {
+      "original_figure_source": {
+        "status": "Published",
+        "repository": "radar",
+        "public_paths": ["docs/figures/paper-source/acquisition-to-aoac-workflow.png"],
+        "evidence_status": "Paper Source-Derived",
+        "caption_ko": "Paper-source multimodal AO/AC workflow",
+        "alt_en": "Paper-source multimodal AO AC workflow"
+      },
+      "experimental_waveform": {
+        "status": "Published",
+        "repository": "radar",
+        "public_paths": ["docs/figures/paper-source/ecg-scg-radar-waveform-excerpt.png"],
+        "evidence_status": "Paper Source-Derived",
+        "caption_ko": "ECG SCG Radar waveform excerpt",
+        "alt_en": "ECG SCG radar waveform excerpt"
+      },
+      "ao_ac_result": {
+        "status": "Published",
+        "repository": "radar",
+        "public_paths": ["docs/figures/paper-source/beat-relative-aoac-landmarks.png", "docs/figures/paper-source/scg-radar-relative-timing-boxplot.png"],
+        "evidence_status": "Paper Source-Derived",
+        "caption_ko": "Beat-relative AO/AC landmarks and relative timing",
+        "alt_en": "Beat-relative AO AC landmarks and relative timing"
+      },
+      "result_csv_log": {
+        "status": "Published",
+        "repository": "radar",
+        "public_paths": ["docs/output_reference.md", "docs/fmcw_paper_visual_audit.md"],
+        "evidence_status": "Documented Boundary",
+        "caption_ko": "Result export contract and missing subject-level CSV boundary",
+        "alt_en": "Result export contract and missing subject-level CSV boundary"
+      },
+      "actual_hardware": {
+        "status": "Published",
+        "repository": "radar",
+        "public_paths": ["docs/assets/photos/experiment/06_bgt60tr13c_radar.jpg"],
+        "evidence_status": "User-Captured Photograph",
+        "caption_ko": "BGT60TR13C radar experiment hardware",
+        "alt_en": "BGT60TR13C radar experiment hardware"
+      },
+      "current_published_assets": {
+        "status": "Published",
+        "repository": "radar",
+        "public_paths": ["docs/figures/radar_range_fft_example.svg", "docs/figures/beat_alignment_before_after.svg", "docs/figures/detector_fusion_example.svg"],
+        "evidence_status": "Synthetic Explanatory Redraw",
+        "caption_ko": "Current public radar processing assets",
+        "alt_en": "Current public radar processing assets"
+      }
+    }
+  }
+}

@@ -79,6 +79,64 @@
 
 ![Torque-ripple comparison](../../docs/assets/motor/torque_ripple_comparison.png)
 
+## 검토된 원본 시각 증거
+
+고해상도 원본 후보를 전수 감사한 뒤 개인정보·학번·로컬 경로·제3자 교재를 제외한 공개 가능 산출물입니다.
+
+### Recovered PSIM control and plant model
+
+**Existing PSIM Archive**
+
+![Recovered PSIM control and plant model](../../docs/assets/archive/motor/psim_circuit_archive.png)
+
+### 0→850→1200 rpm reference profile
+
+**Existing PSIM Archive**
+
+![0→850→1200 rpm reference profile](../../docs/assets/archive/motor/reference_speed_profile_archive.png)
+
+### Recovered PSIM speed response
+
+**Existing PSIM Archive**
+
+![Recovered PSIM speed response](../../docs/assets/archive/motor/speed_response_psim_archive.png)
+
+### Recovered MATLAB speed response
+
+**Existing MATLAB Archive**
+
+![Recovered MATLAB speed response](../../docs/assets/archive/motor/speed_response_matlab_archive.png)
+
+### Recovered PSIM current response
+
+**Existing PSIM Archive**
+
+![Recovered PSIM current response](../../docs/assets/archive/motor/current_response_psim_archive.png)
+
+### Recovered MATLAB current response
+
+**Existing MATLAB Archive**
+
+![Recovered MATLAB current response](../../docs/assets/archive/motor/current_response_matlab_archive.png)
+
+### Recovered field-weakening response
+
+**Existing PSIM Archive**
+
+![Recovered field-weakening response](../../docs/assets/archive/motor/field_weakening_archive.png)
+
+### Recovered torque-ripple case A
+
+**Existing Result Archive**
+
+![Recovered torque-ripple case A](../../docs/assets/archive/motor/torque_ripple_10khz_archive.png)
+
+### Recovered torque-ripple case B
+
+**Existing Result Archive**
+
+![Recovered torque-ripple case B](../../docs/assets/archive/motor/torque_ripple_25khz_archive.png)
+
 ## 코드 근거
 
 ### 0→850→1200 rpm reference
@@ -136,11 +194,3 @@ python scripts/validate_publication.py
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->

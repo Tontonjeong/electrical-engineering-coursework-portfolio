@@ -79,6 +79,88 @@ Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybr
 
 ![Hybrid S-parameter view](../../docs/assets/archive/rf/hybrid_sparameter_archive.png)
 
+## 검토된 원본 시각 증거
+
+고해상도 원본 후보를 전수 감사한 뒤 개인정보·학번·로컬 경로·제3자 교재를 제외한 공개 가능 산출물입니다.
+
+### Cadence microstrip-line schematic
+
+**Source-Derived**
+
+![Cadence microstrip-line schematic](../../docs/gallery/rf-microwave/microstrip-schematic.png)
+
+### Alumina substrate stack-up definition
+
+**Source-Derived**
+
+![Alumina substrate stack-up definition](../../docs/gallery/rf-microwave/microstrip-stackup-editor.png)
+
+### Recovered microstrip response marker
+
+**Source-Derived**
+
+![Recovered microstrip response marker](../../docs/gallery/rf-microwave/microstrip-response-marker.png)
+
+### 1 GHz L-section matching schematic
+
+**Source-Derived**
+
+![1 GHz L-section matching schematic](../../docs/gallery/rf-microwave/l-section-schematic.png)
+
+### L-section Smith-chart and return-loss response
+
+**Source-Derived**
+
+![L-section Smith-chart and return-loss response](../../docs/gallery/rf-microwave/l-section-smith-response.png)
+
+### Single-stub physical solution 1
+
+**Source-Derived**
+
+![Single-stub physical solution 1](../../docs/gallery/rf-microwave/single-stub-solution-1.png)
+
+### Single-stub physical solution 2
+
+**Source-Derived**
+
+![Single-stub physical solution 2](../../docs/gallery/rf-microwave/single-stub-solution-2.png)
+
+### Wilkinson divider schematic
+
+**Source-Derived**
+
+![Wilkinson divider schematic](../../docs/gallery/rf-microwave/wilkinson-schematic.png)
+
+### Wilkinson divider S-parameter response
+
+**Source-Derived**
+
+![Wilkinson divider S-parameter response](../../docs/gallery/rf-microwave/wilkinson-sparameter.png)
+
+### Branch-line quadrature hybrid schematic
+
+**Source-Derived**
+
+![Branch-line quadrature hybrid schematic](../../docs/gallery/rf-microwave/hybrid-schematic.png)
+
+### Hybrid transmission-line parameter A
+
+**Source-Derived**
+
+![Hybrid transmission-line parameter A](../../docs/gallery/rf-microwave/hybrid-line-parameter-a.png)
+
+### Hybrid transmission-line parameter B
+
+**Source-Derived**
+
+![Hybrid transmission-line parameter B](../../docs/gallery/rf-microwave/hybrid-line-parameter-b.png)
+
+### Quadrature hybrid S-parameter response
+
+**Source-Derived**
+
+![Quadrature hybrid S-parameter response](../../docs/gallery/rf-microwave/hybrid-sparameter.png)
+
 ## 검증 상태
 
 | 질문 | 답변 |
@@ -116,31 +198,3 @@ python scripts/validate_publication.py
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->

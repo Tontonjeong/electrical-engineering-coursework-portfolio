@@ -201,19 +201,19 @@ See [ROLE_CONFIRMATION_REQUIRED.md](ROLE_CONFIRMATION_REQUIRED.md), [PUBLICATION
 
 Every generated/cropped asset is listed in [`docs/assets/asset_manifest.yaml`](docs/assets/asset_manifest.yaml). Labels on the site distinguish archive, redraw, recalculation, and proposal evidence.
 
+## Visual source audit
+
+The July 2026 archive audit inventories standalone and embedded visuals, exact/near duplicates, privacy decisions, preferred sources, and public coverage.
+
+- [All source visuals](docs/audit/all_source_visuals.md)
+- [Missing visuals report](docs/audit/missing_visuals_report.md)
+- [Unused high-value visuals](docs/audit/unused_high_value_visuals.md)
+- [Disposition matrix](docs/audit/visual_disposition_matrix.csv)
+- [Contact sheets](docs/audit/contact_sheets/)
+
 ## License notice
 
 The repository license applies only to public, directly authored or reconstructed material. Withheld originals and third-party material are not relicensed.
-
-<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
-
-<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
-
-<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
-
-<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
-
-<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
 
 <!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
 

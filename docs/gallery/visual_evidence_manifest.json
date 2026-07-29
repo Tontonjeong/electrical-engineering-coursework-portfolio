@@ -1,0 +1,186 @@
+{
+  "generated_by": "scripts/publish_selected_visuals.py",
+  "privacy_policy": "Only reviewed project-level evidence is published. Participant-level PPG signals, subject screenshots, student IDs, local paths, and third-party teaching materials are excluded.",
+  "assets": [
+    {
+      "asset_id": "COU-436f3751ab76",
+      "public_path": "docs/gallery/controller-logic/full-adder-hierarchy.png",
+      "width": 1223,
+      "height": 809,
+      "caption_ko": "4-bit ripple-carry adder: VHDL hierarchy and carry-chain mapping",
+      "caption_en": "4-bit ripple-carry adder hierarchy and carry-chain mapping in the recovered presentation evidence.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-6f036e432eb9",
+      "public_path": "docs/gallery/controller-logic/full-adder-waveform.png",
+      "width": 1114,
+      "height": 638,
+      "caption_ko": "4-bit full-adder directed test vectors and Vivado waveform",
+      "caption_en": "Directed 4-bit addition cases with expected sum and carry compared against the Vivado waveform.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-406801e8f887",
+      "public_path": "docs/gallery/controller-logic/decoder-3to8-waveform.png",
+      "width": 966,
+      "height": 697,
+      "caption_ko": "3-to-8 decoder exhaustive waveform",
+      "caption_en": "One-hot decoder outputs over the complete 3-bit input sequence.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-675c2bbfe8b2",
+      "public_path": "docs/gallery/controller-logic/mealy-101-waveform.png",
+      "width": 1208,
+      "height": 514,
+      "caption_ko": "Overlapping 101 Mealy detector waveform",
+      "caption_en": "Annotated state and output transitions for repeated, overlapping 101 input patterns.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-455288b051f9",
+      "public_path": "docs/gallery/controller-logic/universal-shift-register-waveform.png",
+      "width": 1234,
+      "height": 709,
+      "caption_ko": "Universal shift-register mode waveform",
+      "caption_en": "Hold, shift-right, shift-left, and parallel-load behavior annotated against the simulated output.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-86611360e139",
+      "public_path": "docs/gallery/power-systems/powerworld-baseline-case.png",
+      "width": 883,
+      "height": 520,
+      "caption_ko": "PowerWorld multi-area baseline model",
+      "caption_en": "Source-derived multi-area one-line model used for loading and contingency studies.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-6867edc9efa3",
+      "public_path": "docs/gallery/power-systems/powerworld-overload-contingency.png",
+      "width": 981,
+      "height": 529,
+      "caption_ko": "PowerWorld overload and outage case",
+      "caption_en": "Source-derived contingency screen retained as diagnostic evidence, not as a validated grid result.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-ff2c82c306c0",
+      "public_path": "docs/gallery/rf-microwave/microstrip-schematic.png",
+      "width": 802,
+      "height": 719,
+      "caption_ko": "Cadence microstrip-line schematic",
+      "caption_en": "Recovered Cadence schematic for the microstrip transmission-line design case.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-349ce2b220d5",
+      "public_path": "docs/gallery/rf-microwave/microstrip-stackup-editor.png",
+      "width": 765,
+      "height": 550,
+      "caption_ko": "Microstrip substrate stack-up definition",
+      "caption_en": "Recovered substrate editor showing conductor, alumina dielectric, and ground layers.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-9c54b85fa193",
+      "public_path": "docs/gallery/rf-microwave/microstrip-response-marker.png",
+      "width": 1000,
+      "height": 813,
+      "caption_ko": "Microstrip AC-response marker",
+      "caption_en": "Recovered Cadence response view; the archive marker is reported separately from the 3.5 GHz design target.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-725732f7f445",
+      "public_path": "docs/gallery/rf-microwave/l-section-schematic.png",
+      "width": 836,
+      "height": 534,
+      "caption_ko": "L-section impedance-matching schematic",
+      "caption_en": "Recovered 1 GHz L-section matching circuit in Cadence.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-38c6b2759b18",
+      "public_path": "docs/gallery/rf-microwave/l-section-smith-response.png",
+      "width": 1916,
+      "height": 884,
+      "caption_ko": "L-section Smith-chart and S-parameter response",
+      "caption_en": "Recovered Smith-chart trajectory and return-loss response for the L-section case.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-8328aad8813a",
+      "public_path": "docs/gallery/rf-microwave/single-stub-solution-1.png",
+      "width": 1101,
+      "height": 615,
+      "caption_ko": "Single-stub physical solution 1",
+      "caption_en": "First recovered single-stub implementation with line and stub parameters.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-c4a72d4144f6",
+      "public_path": "docs/gallery/rf-microwave/single-stub-solution-2.png",
+      "width": 1092,
+      "height": 764,
+      "caption_ko": "Single-stub physical solution 2",
+      "caption_en": "Second recovered single-stub implementation demonstrating the alternative Smith-chart solution.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-fb3ab9fd7b16",
+      "public_path": "docs/gallery/rf-microwave/wilkinson-schematic.png",
+      "width": 1206,
+      "height": 676,
+      "caption_ko": "Wilkinson divider schematic",
+      "caption_en": "Recovered equal-split Wilkinson divider schematic with quarter-wave branches and isolation resistor.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-3b161adce444",
+      "public_path": "docs/gallery/rf-microwave/wilkinson-sparameter.png",
+      "width": 980,
+      "height": 786,
+      "caption_ko": "Wilkinson divider S-parameter response",
+      "caption_en": "Recovered divider response used to inspect split, match, and isolation behavior.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-3667bbeca788",
+      "public_path": "docs/gallery/rf-microwave/hybrid-schematic.png",
+      "width": 938,
+      "height": 664,
+      "caption_ko": "Branch-line quadrature hybrid schematic",
+      "caption_en": "Recovered branch-line hybrid topology with four ports and alternating line impedances.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-d94c17e5a33b",
+      "public_path": "docs/gallery/rf-microwave/hybrid-line-parameter-a.png",
+      "width": 1244,
+      "height": 959,
+      "caption_ko": "Hybrid line-section parameter A",
+      "caption_en": "Recovered element-property evidence for one branch-line hybrid transmission-line section.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-f39336d0303a",
+      "public_path": "docs/gallery/rf-microwave/hybrid-line-parameter-b.png",
+      "width": 1318,
+      "height": 964,
+      "caption_ko": "Hybrid line-section parameter B",
+      "caption_en": "Recovered element-property evidence for the complementary branch-line hybrid section.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    },
+    {
+      "asset_id": "COU-74926fa0428e",
+      "public_path": "docs/gallery/rf-microwave/hybrid-sparameter.png",
+      "width": 1892,
+      "height": 896,
+      "caption_ko": "Quadrature hybrid S-parameter response",
+      "caption_en": "Recovered multi-trace S-parameter view for the branch-line hybrid case.",
+      "source_policy": "Reviewed allow-list; metadata stripped; private archive path withheld"
+    }
+  ]
+}

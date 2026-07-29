@@ -77,6 +77,40 @@
 
 ![Directed overlapping-sequence waveform](../../docs/assets/results/digital/tb_mealy_101_waveform.svg)
 
+## 검토된 원본 시각 증거
+
+고해상도 원본 후보를 전수 감사한 뒤 개인정보·학번·로컬 경로·제3자 교재를 제외한 공개 가능 산출물입니다.
+
+### 4-bit adder hierarchy and carry-chain mapping
+
+**Source-Derived**
+
+![4-bit adder hierarchy and carry-chain mapping](../../docs/gallery/controller-logic/full-adder-hierarchy.png)
+
+### Directed adder vectors and Vivado waveform
+
+**Source-Derived**
+
+![Directed adder vectors and Vivado waveform](../../docs/gallery/controller-logic/full-adder-waveform.png)
+
+### Exhaustive 3-to-8 decoder waveform
+
+**Source-Derived**
+
+![Exhaustive 3-to-8 decoder waveform](../../docs/gallery/controller-logic/decoder-3to8-waveform.png)
+
+### Annotated overlapping-101 Mealy waveform
+
+**Source-Derived**
+
+![Annotated overlapping-101 Mealy waveform](../../docs/gallery/controller-logic/mealy-101-waveform.png)
+
+### Hold, shift, and load mode waveform
+
+**Source-Derived**
+
+![Hold, shift, and load mode waveform](../../docs/gallery/controller-logic/universal-shift-register-waveform.png)
+
 ## 코드 근거
 
 ### Full-adder concurrent assignments
@@ -134,13 +168,3 @@ python scripts/validate_publication.py
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->

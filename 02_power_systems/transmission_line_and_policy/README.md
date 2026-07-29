@@ -79,6 +79,22 @@
 
 ![Non-convergence evidence; not a validated grid result](../../docs/assets/archive/power/powerworld_nonconvergence_archive.png)
 
+## 검토된 원본 시각 증거
+
+고해상도 원본 후보를 전수 감사한 뒤 개인정보·학번·로컬 경로·제3자 교재를 제외한 공개 가능 산출물입니다.
+
+### Multi-area PowerWorld baseline model
+
+**Source-Derived**
+
+![Multi-area PowerWorld baseline model](../../docs/gallery/power-systems/powerworld-baseline-case.png)
+
+### Overload and outage case; not a validated grid result
+
+**Diagnostic Evidence**
+
+![Overload and outage case; not a validated grid result](../../docs/gallery/power-systems/powerworld-overload-contingency.png)
+
 ## 코드 근거
 
 ### Zc, SIL, and current equations
@@ -124,22 +140,6 @@ python scripts/validate_publication.py
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
 
 <!-- Source-bounded case study; no unsupported claim is implied. -->
 

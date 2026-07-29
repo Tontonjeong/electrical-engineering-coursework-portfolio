@@ -37,6 +37,13 @@ COURSES = [
             ("assets/results/digital/tb_add_4bits_waveform.svg", "Portable GHDL Result", "Exhaustive adder regression waveform"),
             ("assets/results/digital/tb_mealy_101_waveform.svg", "Portable GHDL Result", "Directed overlapping-sequence waveform"),
         ],
+        "source_visuals": [
+            ("gallery/controller-logic/full-adder-hierarchy.png", "Source-Derived", "4-bit adder hierarchy and carry-chain mapping"),
+            ("gallery/controller-logic/full-adder-waveform.png", "Source-Derived", "Directed adder vectors and Vivado waveform"),
+            ("gallery/controller-logic/decoder-3to8-waveform.png", "Source-Derived", "Exhaustive 3-to-8 decoder waveform"),
+            ("gallery/controller-logic/mealy-101-waveform.png", "Source-Derived", "Annotated overlapping-101 Mealy waveform"),
+            ("gallery/controller-logic/universal-shift-register-waveform.png", "Source-Derived", "Hold, shift, and load mode waveform"),
+        ],
         "code": [
             ("assets/code/vhdl_full_adder.svg", "Recovered Original", "Full-adder concurrent assignments"),
             ("assets/code/vhdl_mealy_fsm.svg", "Recovered Original", "Mealy detector state logic"),
@@ -134,6 +141,10 @@ COURSES = [
             ("assets/archive/power/powerworld_one_line_archive.png", "Existing PowerWorld Archive", "Recovered one-line model view"),
             ("assets/archive/power/powerworld_nonconvergence_archive.png", "Existing PowerWorld Archive", "Non-convergence evidence; not a validated grid result"),
         ],
+        "source_visuals": [
+            ("gallery/power-systems/powerworld-baseline-case.png", "Source-Derived", "Multi-area PowerWorld baseline model"),
+            ("gallery/power-systems/powerworld-overload-contingency.png", "Diagnostic Evidence", "Overload and outage case; not a validated grid result"),
+        ],
         "code": [
             ("assets/code/calc_transmission.svg", "Independent Recalculation", "Zc, SIL, and current equations"),
         ],
@@ -182,6 +193,17 @@ COURSES = [
             ("assets/archive/motor/psim_circuit_archive.png", "Existing PSIM Archive", "Recovered simulation schematic"),
             ("assets/archive/motor/speed_response_psim_archive.png", "Existing PSIM Archive", "Recovered speed response"),
             ("assets/motor/torque_ripple_comparison.png", "Independent Recalculation", "Torque-ripple comparison"),
+        ],
+        "source_visuals": [
+            ("assets/archive/motor/psim_circuit_archive.png", "Existing PSIM Archive", "Recovered PSIM control and plant model"),
+            ("assets/archive/motor/reference_speed_profile_archive.png", "Existing PSIM Archive", "0→850→1200 rpm reference profile"),
+            ("assets/archive/motor/speed_response_psim_archive.png", "Existing PSIM Archive", "Recovered PSIM speed response"),
+            ("assets/archive/motor/speed_response_matlab_archive.png", "Existing MATLAB Archive", "Recovered MATLAB speed response"),
+            ("assets/archive/motor/current_response_psim_archive.png", "Existing PSIM Archive", "Recovered PSIM current response"),
+            ("assets/archive/motor/current_response_matlab_archive.png", "Existing MATLAB Archive", "Recovered MATLAB current response"),
+            ("assets/archive/motor/field_weakening_archive.png", "Existing PSIM Archive", "Recovered field-weakening response"),
+            ("assets/archive/motor/torque_ripple_10khz_archive.png", "Existing Result Archive", "Recovered torque-ripple case A"),
+            ("assets/archive/motor/torque_ripple_25khz_archive.png", "Existing Result Archive", "Recovered torque-ripple case B"),
         ],
         "code": [
             ("assets/code/motor_reference_profile.svg", "Recovered Original", "0→850→1200 rpm reference"),
@@ -233,6 +255,21 @@ COURSES = [
             ("assets/archive/rf/microstrip_loss_3p7ghz.png", "Existing Cadence Archive", "Recovered marker at 3.7 GHz"),
             ("assets/archive/rf/wilkinson_sparameter_archive.png", "Existing Cadence Archive", "Divider S-parameter view"),
             ("assets/archive/rf/hybrid_sparameter_archive.png", "Existing Cadence Archive", "Hybrid S-parameter view"),
+        ],
+        "source_visuals": [
+            ("gallery/rf-microwave/microstrip-schematic.png", "Source-Derived", "Cadence microstrip-line schematic"),
+            ("gallery/rf-microwave/microstrip-stackup-editor.png", "Source-Derived", "Alumina substrate stack-up definition"),
+            ("gallery/rf-microwave/microstrip-response-marker.png", "Source-Derived", "Recovered microstrip response marker"),
+            ("gallery/rf-microwave/l-section-schematic.png", "Source-Derived", "1 GHz L-section matching schematic"),
+            ("gallery/rf-microwave/l-section-smith-response.png", "Source-Derived", "L-section Smith-chart and return-loss response"),
+            ("gallery/rf-microwave/single-stub-solution-1.png", "Source-Derived", "Single-stub physical solution 1"),
+            ("gallery/rf-microwave/single-stub-solution-2.png", "Source-Derived", "Single-stub physical solution 2"),
+            ("gallery/rf-microwave/wilkinson-schematic.png", "Source-Derived", "Wilkinson divider schematic"),
+            ("gallery/rf-microwave/wilkinson-sparameter.png", "Source-Derived", "Wilkinson divider S-parameter response"),
+            ("gallery/rf-microwave/hybrid-schematic.png", "Source-Derived", "Branch-line quadrature hybrid schematic"),
+            ("gallery/rf-microwave/hybrid-line-parameter-a.png", "Source-Derived", "Hybrid transmission-line parameter A"),
+            ("gallery/rf-microwave/hybrid-line-parameter-b.png", "Source-Derived", "Hybrid transmission-line parameter B"),
+            ("gallery/rf-microwave/hybrid-sparameter.png", "Source-Derived", "Quadrature hybrid S-parameter response"),
         ],
         "code": [],
         "ko_problem": "회로식으로 얻은 이상 설계와 substrate·layout·tuning이 반영된 EM/circuit simulation archive를 분리해 설명합니다. 특히 microstrip 설계 주파수는 3.5 GHz이지만 회수된 marker는 3.7 GHz이므로 이를 정확히 구분했습니다.",
@@ -446,12 +483,25 @@ def course_page(course: dict, lang: str) -> str:
             "prev": "All courses",
         },
     }[lang]
+    section_number = 4
+    source_visual_section = ""
+    if course.get("source_visuals"):
+        source_title = "검토된 원본 시각 증거" if ko else "Reviewed source evidence"
+        source_visual_section = f"""
+        <section class="section"><div class="section-heading"><span>{section_number:02d}</span><h2>{source_title}</h2></div>
+          <p class="section-note">High-resolution, manually reviewed project evidence. Private identifiers, participant-level data, local paths, and third-party teaching material are excluded.</p>
+          <div class="gallery source-gallery">{gallery_html(course['source_visuals'], prefix, lang)}</div>
+        </section>"""
+        section_number += 1
     code_section = ""
     if course["code"]:
         code_section = f"""
-        <section class="section"><div class="section-heading"><span>04</span><h2>{sections['code']}</h2></div>
+        <section class="section"><div class="section-heading"><span>{section_number:02d}</span><h2>{sections['code']}</h2></div>
           <div class="gallery code-gallery">{gallery_html(course['code'], prefix, lang)}</div>
         </section>"""
+        section_number += 1
+    results_number = section_number
+    boundary_number = section_number + 1
     body = dedent(
         f"""
         <section class="case-hero accent-{course['accent']}">
@@ -483,11 +533,12 @@ def course_page(course: dict, lang: str) -> str:
         <section class="section"><div class="section-heading"><span>03</span><h2>{sections['evidence']}</h2></div>
           <div class="gallery">{gallery_html(course['visuals'], prefix, lang)}</div>
         </section>
+        {source_visual_section}
         {code_section}
-        <section class="section"><div class="section-heading"><span>05</span><h2>{sections['results']}</h2></div>
+        <section class="section"><div class="section-heading"><span>{results_number:02d}</span><h2>{sections['results']}</h2></div>
           <div class="metrics">{metrics_html(course['metrics'])}</div>
         </section>
-        <section class="section boundary"><div class="section-heading"><span>06</span><h2>{sections['boundary']}</h2></div><p>{escape(boundary)}</p></section>
+        <section class="section boundary"><div class="section-heading"><span>{boundary_number:02d}</span><h2>{sections['boundary']}</h2></div><p>{escape(boundary)}</p></section>
         <section class="section source-panel"><div><h2>{sections['source']}</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="{repo_path}">Open source</a><a class="button" href="{prefix}assets/asset_manifest.yaml">Asset manifest</a></div></section>
         <nav class="case-nav"><a href="{'../../' if ko else '../../../en/'}">← {sections['prev']}</a></nav>
         """
@@ -761,6 +812,16 @@ def root_readme(lang: str) -> str:
         "## Asset traceability" if not ko else "## 시각 자료 추적성", "",
         "Every generated/cropped asset is listed in [`docs/assets/asset_manifest.yaml`](docs/assets/asset_manifest.yaml). Labels on the site distinguish archive, redraw, recalculation, and proposal evidence.",
         "",
+        "## Visual source audit",
+        "",
+        "The July 2026 archive audit inventories standalone and embedded visuals, exact/near duplicates, privacy decisions, preferred sources, and public coverage.",
+        "",
+        "- [All source visuals](docs/audit/all_source_visuals.md)",
+        "- [Missing visuals report](docs/audit/missing_visuals_report.md)",
+        "- [Unused high-value visuals](docs/audit/unused_high_value_visuals.md)",
+        "- [Disposition matrix](docs/audit/visual_disposition_matrix.csv)",
+        "- [Contact sheets](docs/audit/contact_sheets/)",
+        "",
         "## License notice", "",
         "The repository license applies only to public, directly authored or reconstructed material. Withheld originals and third-party material are not relicensed.",
     ]
@@ -790,6 +851,15 @@ def course_readme(course: dict) -> str:
     lines += ["", "## 시각 근거", ""]
     for src, label, caption in course["visuals"]:
         lines += [f"### {caption}", "", f"**{label}**", "", f"![{caption}](../../docs/{src})", ""]
+    if course.get("source_visuals"):
+        lines += [
+            "## 검토된 원본 시각 증거",
+            "",
+            "고해상도 원본 후보를 전수 감사한 뒤 개인정보·학번·로컬 경로·제3자 교재를 제외한 공개 가능 산출물입니다.",
+            "",
+        ]
+        for src, label, caption in course["source_visuals"]:
+            lines += [f"### {caption}", "", f"**{label}**", "", f"![{caption}](../../docs/{src})", ""]
     if course["code"]:
         lines += ["## 코드 근거", ""]
         for src, label, caption in course["code"]:

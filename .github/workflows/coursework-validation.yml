@@ -25,6 +25,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install visual-audit dependencies
+        run: python -m pip install --disable-pip-version-check numpy olefile pillow pypdf
+
       - name: Install open-source toolchain
         run: |
           sudo apt-get update
@@ -44,6 +47,18 @@ jobs:
 
       - name: Audit privacy, publication boundaries, links and assets
         run: python scripts/validate_publication.py
+
+      - name: Validate committed source-visual inventory
+        run: python scripts/audit_all_visual_sources.py --validate-only
+
+      - name: Validate exact and near-duplicate groups
+        run: python scripts/detect_visual_duplicates.py
+
+      - name: Validate minimum visual coverage
+        run: python scripts/check_visual_coverage.py
+
+      - name: Validate visual references, captions, and file integrity
+        run: python scripts/check_visual_references.py
 
       - name: Build and execute portable C++ calculator
         run: |
