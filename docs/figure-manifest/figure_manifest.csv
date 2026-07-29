@@ -1,0 +1,9 @@
+figure_id,course,path,format,evidence_class,claim_supported,public_boundary
+FIG-DIG-001,Controller Logic,docs/assets/digital/controller_logic_progression.svg,SVG,Portfolio Redraw,RTL learning/design progression,Not a synthesis result
+FIG-DIG-002,Controller Logic,docs/assets/results/digital/tb_add_4bits_waveform.svg,SVG,Tool Rerun,GHDL self-check signal trace,Portable simulation only
+FIG-DIG-003,Controller Logic,docs/assets/results/digital/tb_mealy_101_waveform.svg,SVG,Tool Rerun,Directed overlapping sequence trace,Portable simulation only
+FIG-TRF-001,Electrical Machines,docs/assets/transformer/transformer_winding_architecture.svg,SVG,Portfolio Redraw,220/110 V winding design,Calculation design only
+FIG-PWR-001,Power Systems,docs/assets/power/transmission_line_pi_model.svg,SVG,Portfolio Redraw,Distributed-line model,Not a production-grid model
+FIG-MTR-001,Motor Control,docs/assets/motor/dc_motor_system_architecture.svg,SVG,Portfolio Redraw,Cascaded PI system structure,Not hardware evidence
+FIG-RF-001,RF/Microwave,docs/assets/rf/microstrip_design_flow.svg,SVG,Portfolio Redraw,Microstrip design flow,Not a measured result
+FIG-SEN-001,Sensor Applications,docs/assets/sensor/aesa_system_architecture.svg,SVG,Portfolio Redraw,AESA-SAR processing concept,No implemented model or classified detail

@@ -1,0 +1,912 @@
+﻿source_id,subject,relative_path,parser,status,units,unit_count,text_chars,formula_count,table_count,embedded_visual_count,notes
+SRC-0001,VRET (withheld),[WITHHELD]/VRET-0001.hwp,withheld,withheld,,,,,,,Content metadata withheld pending disclosure review.
+SRC-0002,VRET (withheld),[WITHHELD]/VRET-0002.docx,withheld,withheld,,,,,,,Content metadata withheld pending disclosure review.
+SRC-0003,VRET (withheld),[WITHHELD]/VRET-0003.pdf,withheld,withheld,,,,,,,Content metadata withheld pending disclosure review.
+SRC-0004,VRET (withheld),[WITHHELD]/VRET-0004.pdf,withheld,withheld,,,,,,,Content metadata withheld pending disclosure review.
+SRC-0005,VRET (withheld),[WITHHELD]/VRET-0005.xlsx,withheld,withheld,,,,,,,Content metadata withheld pending disclosure review.
+SRC-0006,VRET (withheld),[WITHHELD]/VRET-0006.txt,withheld,withheld,,,,,,,Content metadata withheld pending disclosure review.
+SRC-0007,VRET (withheld),[WITHHELD]/VRET-0007.hwpx,withheld,withheld,,,,,,,Content metadata withheld pending disclosure review.
+SRC-0008,VRET (withheld),[WITHHELD]/VRET-0008.hwpx,withheld,withheld,,,,,,,Content metadata withheld pending disclosure review.
+SRC-0009,VRET (withheld),[WITHHELD]/VRET-0009.hwpx,withheld,withheld,,,,,,,Content metadata withheld pending disclosure review.
+SRC-0010,고주파공학,Cadence Tutorial (3).pdf,pypdf,parsed,pages,59,7774,,,338,
+SRC-0011,고주파공학,Cadence Tutorial2 (1).pdf,pypdf,parsed,pages,77,10721,,,440,
+SRC-0012,고주파공학,고주파공학 1분반_homework2_[STUDENT-ID]_[AUTHOR].pdf,pypdf,parsed,pages,12,2577,,,12,
+SRC-0013,고주파공학,고주파공학 1분반_homework4_[STUDENT-ID]_[AUTHOR].pdf,pypdf,parsed,pages,21,4977,,,11,
+SRC-0014,고주파공학,고주파공학 1분반_homework5_[STUDENT-ID]_[AUTHOR].pdf,pypdf,parsed,pages,21,8381,,,6,
+SRC-0015,고주파공학,사진\homework2\dessign1.png,Pillow,parsed,pixels,143995,,,,1,929x155; mode=RGBA
+SRC-0016,고주파공학,사진\homework2\homework2.pdf,pypdf,parsed,pages,3,478,,,11,
+SRC-0017,고주파공학,사진\homework2\KakaoTalk_20260414_221106302.png,Pillow,parsed,pixels,673740,,,,1,985x684; mode=RGBA
+SRC-0018,고주파공학,사진\homework2\KakaoTalk_20260414_221117923.png,Pillow,parsed,pixels,674804,,,,1,988x683; mode=RGBA
+SRC-0019,고주파공학,사진\homework2\KakaoTalk_20260414_221352505.png,Pillow,parsed,pixels,576638,,,,1,802x719; mode=RGBA
+SRC-0020,고주파공학,사진\homework2\KakaoTalk_20260414_221403220.png,Pillow,parsed,pixels,456950,,,,1,481x950; mode=RGBA
+SRC-0021,고주파공학,사진\homework2\KakaoTalk_20260414_221425558.png,Pillow,parsed,pixels,455520,,,,1,480x949; mode=RGBA
+SRC-0022,고주파공학,사진\homework2\KakaoTalk_20260414_221451343.png,Pillow,parsed,pixels,456950,,,,1,481x950; mode=RGBA
+SRC-0023,고주파공학,사진\homework2\KakaoTalk_20260414_221506800.png,Pillow,parsed,pixels,453628,,,,1,476x953; mode=RGBA
+SRC-0024,고주파공학,사진\homework2\KakaoTalk_20260414_221514460.png,Pillow,parsed,pixels,420750,,,,1,765x550; mode=RGBA
+SRC-0025,고주파공학,사진\homework2\KakaoTalk_20260414_221522227.png,Pillow,parsed,pixels,427576,,,,1,776x551; mode=RGBA
+SRC-0026,고주파공학,사진\homework2\KakaoTalk_20260414_221548576.png,Pillow,parsed,pixels,409252,,,,1,404x1013; mode=RGBA
+SRC-0027,고주파공학,사진\homework2\고주파공학 1분반_homework2_[STUDENT-ID]_[AUTHOR].pdf,pypdf,parsed,pages,12,2577,,,12,
+SRC-0028,고주파공학,사진\homework2\스크린샷 2026-04-14 222606.png,Pillow,parsed,pixels,813000,,,,1,1000x813; mode=RGBA
+SRC-0029,고주파공학,사진\homework2\합치기.hwpx,HWPX XML,parsed,sections,1,2589,,,12,
+SRC-0030,고주파공학,사진\homework4\ex5-1\1.png,Pillow,parsed,pixels,446424,,,,1,836x534; mode=RGBA
+SRC-0031,고주파공학,사진\homework4\ex5-1\2.png,Pillow,parsed,pixels,597780,,,,1,972x615; mode=RGBA
+SRC-0032,고주파공학,사진\homework4\ex5-1\3.png,Pillow,parsed,pixels,649740,,,,1,980x663; mode=RGBA
+SRC-0033,고주파공학,사진\homework4\ex5-1\4.png,Pillow,parsed,pixels,652732,,,,1,986x662; mode=RGBA
+SRC-0034,고주파공학,사진\homework4\ex5-1\5.png,Pillow,parsed,pixels,1693744,,,,1,1916x884; mode=RGBA
+SRC-0035,고주파공학,사진\homework4\ex5-1\design ex5-6.png,Pillow,parsed,pixels,191675,,,,1,1025x187; mode=RGBA
+SRC-0036,고주파공학,사진\homework4\ex5-1\회로도.png,Pillow,parsed,pixels,443700,,,,1,1020x435; mode=RGBA
+SRC-0037,고주파공학,사진\homework4\ex5-2\db20sol1.PNG,Pillow,parsed,pixels,780704,,,,1,992x787; mode=RGBA
+SRC-0038,고주파공학,사진\homework4\ex5-2\db20sol2.PNG,Pillow,parsed,pixels,672072,,,,1,984x683; mode=RGBA
+SRC-0039,고주파공학,사진\homework4\ex5-2\design ex5-7.png,Pillow,parsed,pixels,187000,,,,1,1000x187; mode=RGBA
+SRC-0040,고주파공학,사진\homework4\ex5-2\main sol1.PNG,Pillow,parsed,pixels,729525,,,,1,1065x685; mode=RGBA
+SRC-0041,고주파공학,사진\homework4\ex5-2\main sol2.PNG,Pillow,parsed,pixels,760026,,,,1,1286x591; mode=RGBA
+SRC-0042,고주파공학,사진\homework4\ex5-2\stub sol1.PNG,Pillow,parsed,pixels,677115,,,,1,1101x615; mode=RGBA
+SRC-0043,고주파공학,사진\homework4\ex5-2\stub sol2.PNG,Pillow,parsed,pixels,834288,,,,1,1092x764; mode=RGBA
+SRC-0044,고주파공학,사진\homework4\ex5-2\회로도.PNG,Pillow,parsed,pixels,464112,,,,1,879x528; mode=RGBA
+SRC-0045,고주파공학,사진\homework4\homework 4.pdf,pypdf,parsed,pages,7,1974,,,16,
+SRC-0046,고주파공학,사진\homework4\고주파공학 1분반_homework4_[STUDENT-ID]_[AUTHOR].pdf,pypdf,parsed,pages,21,4977,,,11,
+SRC-0047,고주파공학,사진\homework4\합치기.hwpx,HWPX XML,parsed,sections,1,4661,,,11,
+SRC-0048,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\1.png,Pillow,parsed,pixels,836991,,,,1,1017x823; mode=RGBA
+SRC-0049,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\10.png,Pillow,parsed,pixels,682040,,,,1,1003x680; mode=RGBA
+SRC-0050,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\11.png,Pillow,parsed,pixels,801000,,,,1,1000x801; mode=RGBA
+SRC-0051,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\2.png,Pillow,parsed,pixels,298683,,,,1,693x431; mode=RGBA
+SRC-0052,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\3.png,Pillow,parsed,pixels,773971,,,,1,991x781; mode=RGBA
+SRC-0053,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\4.png,Pillow,parsed,pixels,893144,,,,1,1148x778; mode=RGBA
+SRC-0054,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\5.png,Pillow,parsed,pixels,335296,,,,1,676x496; mode=RGBA
+SRC-0055,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\6.png,Pillow,parsed,pixels,807665,,,,1,991x815; mode=RGBA
+SRC-0056,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\8.png,Pillow,parsed,pixels,814432,,,,1,992x821; mode=RGBA
+SRC-0057,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\9.png,Pillow,parsed,pixels,770066,,,,1,986x781; mode=RGBA
+SRC-0058,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\스크린샷 2026-07-29 104524.png,Pillow,parsed,pixels,299260,,,,1,1151x260; mode=RGBA
+SRC-0059,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\스크린샷 2026-07-29 104534.png,Pillow,parsed,pixels,651050,,,,1,898x725; mode=RGBA
+SRC-0060,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\스크린샷 2026-07-29 104541.png,Pillow,parsed,pixels,571680,,,,1,794x720; mode=RGBA
+SRC-0061,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\스크린샷 2026-07-29 104547.png,Pillow,parsed,pixels,704700,,,,1,972x725; mode=RGBA
+SRC-0062,고주파공학,사진\homework5\ex12-3(시뮬하다가 중단)\스크린샷 2026-07-29 104550.png,Pillow,parsed,pixels,273360,,,,1,804x340; mode=RGBA
+SRC-0063,고주파공학,사진\homework5\ex7-2\1.png,Pillow,parsed,pixels,815256,,,,1,1206x676; mode=RGBA
+SRC-0064,고주파공학,사진\homework5\ex7-2\2.png,Pillow,parsed,pixels,1099528,,,,1,1336x823; mode=RGBA
+SRC-0065,고주파공학,사진\homework5\ex7-2\3.png,Pillow,parsed,pixels,770280,,,,1,980x786; mode=RGBA
+SRC-0066,고주파공학,사진\homework5\ex7-2\4.png,Pillow,parsed,pixels,340065,,,,1,687x495; mode=RGBA
+SRC-0067,고주파공학,사진\homework5\ex7-2\5.png,Pillow,parsed,pixels,784124,,,,1,1004x781; mode=RGBA
+SRC-0068,고주파공학,사진\homework5\ex7-2\6.png,Pillow,parsed,pixels,1165180,,,,1,1564x745; mode=RGBA
+SRC-0069,고주파공학,사진\homework5\ex7-2\7.png,Pillow,parsed,pixels,310072,,,,1,686x452; mode=RGBA
+SRC-0070,고주파공학,사진\homework5\ex7-2\8.png,Pillow,parsed,pixels,779332,,,,1,989x788; mode=RGBA
+SRC-0071,고주파공학,사진\homework5\ex7-2\ex7.2.png,Pillow,parsed,pixels,194820,,,,1,1020x191; mode=RGBA
+SRC-0072,고주파공학,사진\homework5\ex7-5\1.png,Pillow,parsed,pixels,622832,,,,1,938x664; mode=RGBA
+SRC-0073,고주파공학,사진\homework5\ex7-5\2.png,Pillow,parsed,pixels,338142,,,,1,679x498; mode=RGBA
+SRC-0074,고주파공학,사진\homework5\ex7-5\3.png,Pillow,parsed,pixels,821354,,,,1,998x823; mode=RGBA
+SRC-0075,고주파공학,사진\homework5\ex7-5\4-1.png,Pillow,parsed,pixels,1192996,,,,1,1244x959; mode=RGBA
+SRC-0076,고주파공학,사진\homework5\ex7-5\4-2.png,Pillow,parsed,pixels,1270552,,,,1,1318x964; mode=RGBA
+SRC-0077,고주파공학,사진\homework5\ex7-5\5.png,Pillow,parsed,pixels,667575,,,,1,989x675; mode=RGBA
+SRC-0078,고주파공학,사진\homework5\ex7-5\6.png,Pillow,parsed,pixels,1695232,,,,1,1892x896; mode=RGBA
+SRC-0079,고주파공학,사진\homework5\ex7-5\ex7.5.png,Pillow,parsed,pixels,274380,,,,1,1020x269; mode=RGBA
+SRC-0080,고주파공학,사진\homework5\Ex7_2_Ex7_5_RF_Design_Report.docx,python-docx,parsed,paragraphs,77,7988,,6,6,
+SRC-0081,고주파공학,사진\homework5\homework 5.pdf,pypdf,parsed,pages,9,1758,,,27,
+SRC-0082,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-13 230356.png,Pillow,parsed,pixels,48600,,,,1,600x81; mode=RGBA
+SRC-0083,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-13 230413.png,Pillow,parsed,pixels,209814,,,,1,726x289; mode=RGBA
+SRC-0084,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 132756.png,Pillow,parsed,pixels,245931,,,,1,1029x239; mode=RGBA
+SRC-0085,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 133338.png,Pillow,parsed,pixels,304780,,,,1,622x490; mode=RGBA
+SRC-0086,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 133510.png,Pillow,parsed,pixels,256944,,,,1,1212x212; mode=RGBA
+SRC-0087,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 135049.png,Pillow,parsed,pixels,441688,,,,1,806x548; mode=RGBA
+SRC-0088,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 135152.png,Pillow,parsed,pixels,417792,,,,1,768x544; mode=RGBA
+SRC-0089,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 135358.png,Pillow,parsed,pixels,184434,,,,1,521x354; mode=RGBA
+SRC-0090,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 135602.png,Pillow,parsed,pixels,427025,,,,1,775x551; mode=RGBA
+SRC-0091,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 135937.png,Pillow,parsed,pixels,422730,,,,1,770x549; mode=RGBA
+SRC-0092,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 140037.png,Pillow,parsed,pixels,793686,,,,1,1074x739; mode=RGBA
+SRC-0093,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 140114.png,Pillow,parsed,pixels,244392,,,,1,408x599; mode=RGBA
+SRC-0094,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 143646.png,Pillow,parsed,pixels,357075,,,,1,621x575; mode=RGBA
+SRC-0095,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 144610.png,Pillow,parsed,pixels,376660,,,,1,509x740; mode=RGBA
+SRC-0096,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 144626.png,Pillow,parsed,pixels,321024,,,,1,608x528; mode=RGBA
+SRC-0097,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 144634.png,Pillow,parsed,pixels,313020,,,,1,470x666; mode=RGBA
+SRC-0098,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 144743.png,Pillow,parsed,pixels,195826,,,,1,358x547; mode=RGBA
+SRC-0099,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 154838.png,Pillow,parsed,pixels,162900,,,,1,543x300; mode=RGBA
+SRC-0100,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 154930.png,Pillow,parsed,pixels,92880,,,,1,688x135; mode=RGBA
+SRC-0101,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 154945.png,Pillow,parsed,pixels,184080,,,,1,708x260; mode=RGBA
+SRC-0102,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 155733.png,Pillow,parsed,pixels,464145,,,,1,485x957; mode=RGBA
+SRC-0103,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 155838.png,Pillow,parsed,pixels,449344,,,,1,472x952; mode=RGBA
+SRC-0104,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 160721.png,Pillow,parsed,pixels,425923,,,,1,773x551; mode=RGBA
+SRC-0105,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 160735.png,Pillow,parsed,pixels,262200,,,,1,475x552; mode=RGBA
+SRC-0106,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 161506.png,Pillow,parsed,pixels,970629,,,,1,1317x737; mode=RGBA
+SRC-0107,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 161542.png,Pillow,parsed,pixels,778488,,,,1,978x796; mode=RGBA
+SRC-0108,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 161635.png,Pillow,parsed,pixels,769590,,,,1,1006x765; mode=RGBA
+SRC-0109,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 163927.png,Pillow,parsed,pixels,557460,,,,1,684x815; mode=RGBA
+SRC-0110,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 163950.png,Pillow,parsed,pixels,281050,,,,1,1022x275; mode=RGBA
+SRC-0111,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 164141.png,Pillow,parsed,pixels,258660,,,,1,479x540; mode=RGBA
+SRC-0112,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 164722.png,Pillow,parsed,pixels,272376,,,,1,468x582; mode=RGBA
+SRC-0113,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 165210.png,Pillow,parsed,pixels,944460,,,,1,1188x795; mode=RGBA
+SRC-0114,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 165421.png,Pillow,parsed,pixels,928710,,,,1,1214x765; mode=RGBA
+SRC-0115,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 165434.png,Pillow,parsed,pixels,729015,,,,1,1113x655; mode=RGBA
+SRC-0116,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 165555.png,Pillow,parsed,pixels,803000,,,,1,1000x803; mode=RGBA
+SRC-0117,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 165721.png,Pillow,parsed,pixels,71010,,,,1,526x135; mode=RGBA
+SRC-0118,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 165941.png,Pillow,parsed,pixels,434395,,,,1,815x533; mode=RGBA
+SRC-0119,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 170057.png,Pillow,parsed,pixels,225500,,,,1,1025x220; mode=RGBA
+SRC-0120,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 174542.png,Pillow,parsed,pixels,236368,,,,1,869x272; mode=RGBA
+SRC-0121,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 175623.png,Pillow,parsed,pixels,626171,,,,1,983x637; mode=RGBA
+SRC-0122,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 175651.png,Pillow,parsed,pixels,617855,,,,1,973x635; mode=RGBA
+SRC-0123,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 175735.png,Pillow,parsed,pixels,686784,,,,1,876x784; mode=RGBA
+SRC-0124,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 175847.png,Pillow,parsed,pixels,446957,,,,1,469x953; mode=RGBA
+SRC-0125,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 175859.png,Pillow,parsed,pixels,100608,,,,1,192x524; mode=RGBA
+SRC-0126,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 175908.png,Pillow,parsed,pixels,109140,,,,1,428x255; mode=RGBA
+SRC-0127,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 175914.png,Pillow,parsed,pixels,123123,,,,1,429x287; mode=RGBA
+SRC-0128,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 175922.png,Pillow,parsed,pixels,760494,,,,1,953x798; mode=RGBA
+SRC-0129,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 180339.png,Pillow,parsed,pixels,716957,,,,1,911x787; mode=RGBA
+SRC-0130,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 191333.png,Pillow,parsed,pixels,243540,,,,1,495x492; mode=RGBA
+SRC-0131,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 191733.png,Pillow,parsed,pixels,747100,,,,1,964x775; mode=RGBA
+SRC-0132,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 192021.png,Pillow,parsed,pixels,894574,,,,1,1411x634; mode=RGBA
+SRC-0133,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 193003.png,Pillow,parsed,pixels,267595,,,,1,491x545; mode=RGBA
+SRC-0134,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 193556.png,Pillow,parsed,pixels,132731,,,,1,401x331; mode=RGBA
+SRC-0135,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 195211.png,Pillow,parsed,pixels,77695,,,,1,379x205; mode=RGBA
+SRC-0136,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 200628.png,Pillow,parsed,pixels,419650,,,,1,770x545; mode=RGBA
+SRC-0137,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 201112.png,Pillow,parsed,pixels,393492,,,,1,726x542; mode=RGBA
+SRC-0138,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 201540.png,Pillow,parsed,pixels,290157,,,,1,1011x287; mode=RGBA
+SRC-0139,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202315.png,Pillow,parsed,pixels,799365,,,,1,993x805; mode=RGBA
+SRC-0140,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202433.png,Pillow,parsed,pixels,596988,,,,1,966x618; mode=RGBA
+SRC-0141,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202522.png,Pillow,parsed,pixels,479080,,,,1,590x812; mode=RGBA
+SRC-0142,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202530.png,Pillow,parsed,pixels,467670,,,,1,595x786; mode=RGBA
+SRC-0143,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202558.png,Pillow,parsed,pixels,269492,,,,1,757x356; mode=RGBA
+SRC-0144,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202603.png,Pillow,parsed,pixels,345949,,,,1,757x457; mode=RGBA
+SRC-0145,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202614.png,Pillow,parsed,pixels,123656,,,,1,533x232; mode=RGBA
+SRC-0146,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202624.png,Pillow,parsed,pixels,235224,,,,1,484x486; mode=RGBA
+SRC-0147,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202654.png,Pillow,parsed,pixels,778800,,,,1,1320x590; mode=RGBA
+SRC-0148,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 202743.png,Pillow,parsed,pixels,402320,,,,1,856x470; mode=RGBA
+SRC-0149,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 203837.png,Pillow,parsed,pixels,1210265,,,,1,1603x755; mode=RGBA
+SRC-0150,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 203849.png,Pillow,parsed,pixels,1348162,,,,1,1681x802; mode=RGBA
+SRC-0151,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 204129.png,Pillow,parsed,pixels,1652150,,,,1,1910x865; mode=RGBA
+SRC-0152,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 204158.png,Pillow,parsed,pixels,1496650,,,,1,1850x809; mode=RGBA
+SRC-0153,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 204445.png,Pillow,parsed,pixels,1632959,,,,1,1901x859; mode=RGBA
+SRC-0154,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 204516.png,Pillow,parsed,pixels,1605240,,,,1,1911x840; mode=RGBA
+SRC-0155,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 210036.png,Pillow,parsed,pixels,8460,,,,1,235x36; mode=RGBA
+SRC-0156,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 210041.png,Pillow,parsed,pixels,92196,,,,1,394x234; mode=RGBA
+SRC-0157,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 210856.png,Pillow,parsed,pixels,420582,,,,1,573x734; mode=RGBA
+SRC-0158,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 210942.png,Pillow,parsed,pixels,601563,,,,1,717x839; mode=RGBA
+SRC-0159,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211030.png,Pillow,parsed,pixels,427458,,,,1,573x746; mode=RGBA
+SRC-0160,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211040.png,Pillow,parsed,pixels,620312,,,,1,836x742; mode=RGBA
+SRC-0161,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211051.png,Pillow,parsed,pixels,371332,,,,1,481x772; mode=RGBA
+SRC-0162,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211104.png,Pillow,parsed,pixels,333696,,,,1,474x704; mode=RGBA
+SRC-0163,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211129.png,Pillow,parsed,pixels,409731,,,,1,763x537; mode=RGBA
+SRC-0164,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211137.png,Pillow,parsed,pixels,281122,,,,1,766x367; mode=RGBA
+SRC-0165,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211334.png,Pillow,parsed,pixels,296856,,,,1,399x744; mode=RGBA
+SRC-0166,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211340.png,Pillow,parsed,pixels,324008,,,,1,404x802; mode=RGBA
+SRC-0167,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211722.png,Pillow,parsed,pixels,125316,,,,1,531x236; mode=RGBA
+SRC-0168,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 211833.png,Pillow,parsed,pixels,772038,,,,1,986x783; mode=RGBA
+SRC-0169,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 214226.png,Pillow,parsed,pixels,319424,,,,1,448x713; mode=RGBA
+SRC-0170,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 214229.png,Pillow,parsed,pixels,356724,,,,1,486x734; mode=RGBA
+SRC-0171,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 214542.png,Pillow,parsed,pixels,1731888,,,,1,1899x912; mode=RGBA
+SRC-0172,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 214819.png,Pillow,parsed,pixels,1835856,,,,1,1881x976; mode=RGBA
+SRC-0173,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 215624.png,Pillow,parsed,pixels,245680,,,,1,332x740; mode=RGBA
+SRC-0174,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 215632.png,Pillow,parsed,pixels,230640,,,,1,310x744; mode=RGBA
+SRC-0175,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 215702.png,Pillow,parsed,pixels,793281,,,,1,983x807; mode=RGBA
+SRC-0176,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 215820.png,Pillow,parsed,pixels,669658,,,,1,998x671; mode=RGBA
+SRC-0177,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 215829.png,Pillow,parsed,pixels,657580,,,,1,980x671; mode=RGBA
+SRC-0178,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 215957.png,Pillow,parsed,pixels,516681,,,,1,921x561; mode=RGBA
+SRC-0179,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 220300.png,Pillow,parsed,pixels,500192,,,,1,812x616; mode=RGBA
+SRC-0180,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 220308.png,Pillow,parsed,pixels,482160,,,,1,820x588; mode=RGBA
+SRC-0181,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 220321.png,Pillow,parsed,pixels,543848,,,,1,866x628; mode=RGBA
+SRC-0182,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221102.png,Pillow,parsed,pixels,673740,,,,1,985x684; mode=RGBA
+SRC-0183,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221116.png,Pillow,parsed,pixels,674804,,,,1,988x683; mode=RGBA
+SRC-0184,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221351.png,Pillow,parsed,pixels,576638,,,,1,802x719; mode=RGBA
+SRC-0185,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221401.png,Pillow,parsed,pixels,456950,,,,1,481x950; mode=RGBA
+SRC-0186,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221417.png,Pillow,parsed,pixels,822528,,,,1,1428x576; mode=RGBA
+SRC-0187,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221424.png,Pillow,parsed,pixels,455520,,,,1,480x949; mode=RGBA
+SRC-0188,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221437.png,Pillow,parsed,pixels,339809,,,,1,419x811; mode=RGBA
+SRC-0189,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221449.png,Pillow,parsed,pixels,456950,,,,1,481x950; mode=RGBA
+SRC-0190,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221505.png,Pillow,parsed,pixels,453628,,,,1,476x953; mode=RGBA
+SRC-0191,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221512.png,Pillow,parsed,pixels,420750,,,,1,765x550; mode=RGBA
+SRC-0192,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221521.png,Pillow,parsed,pixels,427576,,,,1,776x551; mode=RGBA
+SRC-0193,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221542.png,Pillow,parsed,pixels,409252,,,,1,404x1013; mode=RGBA
+SRC-0194,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221553.png,Pillow,parsed,pixels,1871188,,,,1,1892x989; mode=RGBA
+SRC-0195,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221627.png,Pillow,parsed,pixels,805805,,,,1,1001x805; mode=RGBA
+SRC-0196,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 221711.png,Pillow,parsed,pixels,681634,,,,1,998x683; mode=RGBA
+SRC-0197,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 222407.png,Pillow,parsed,pixels,199281,,,,1,543x367; mode=RGBA
+SRC-0198,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 222410.png,Pillow,parsed,pixels,788724,,,,1,981x804; mode=RGBA
+SRC-0199,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-04-14 222606.png,Pillow,parsed,pixels,813000,,,,1,1000x813; mode=RGBA
+SRC-0200,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163230.png,Pillow,parsed,pixels,39364,,,,1,757x52; mode=RGBA
+SRC-0201,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163316.png,Pillow,parsed,pixels,37804,,,,1,727x52; mode=RGBA
+SRC-0202,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163341.png,Pillow,parsed,pixels,141696,,,,1,738x192; mode=RGBA
+SRC-0203,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163405.png,Pillow,parsed,pixels,33718,,,,1,733x46; mode=RGBA
+SRC-0204,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163416.png,Pillow,parsed,pixels,60756,,,,1,732x83; mode=RGBA
+SRC-0205,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163432.png,Pillow,parsed,pixels,94976,,,,1,742x128; mode=RGBA
+SRC-0206,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163520.png,Pillow,parsed,pixels,64467,,,,1,741x87; mode=RGBA
+SRC-0207,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163540.png,Pillow,parsed,pixels,112660,,,,1,860x131; mode=RGBA
+SRC-0208,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163547.png,Pillow,parsed,pixels,104904,,,,1,846x124; mode=RGBA
+SRC-0209,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163603.png,Pillow,parsed,pixels,202650,,,,1,965x210; mode=RGBA
+SRC-0210,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163619.png,Pillow,parsed,pixels,151384,,,,1,1016x149; mode=RGBA
+SRC-0211,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163634.png,Pillow,parsed,pixels,191675,,,,1,1025x187; mode=RGBA
+SRC-0212,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-28 163648.png,Pillow,parsed,pixels,187000,,,,1,1000x187; mode=RGBA
+SRC-0213,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 141655.png,Pillow,parsed,pixels,288666,,,,1,522x553; mode=RGBA
+SRC-0214,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 141701.png,Pillow,parsed,pixels,206190,,,,1,522x395; mode=RGBA
+SRC-0215,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 141712.png,Pillow,parsed,pixels,317420,,,,1,538x590; mode=RGBA
+SRC-0216,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 141723.png,Pillow,parsed,pixels,323186,,,,1,566x571; mode=RGBA
+SRC-0217,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 141734.png,Pillow,parsed,pixels,345400,,,,1,550x628; mode=RGBA
+SRC-0218,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 141954.png,Pillow,parsed,pixels,210438,,,,1,486x433; mode=RGBA
+SRC-0219,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 143858.png,Pillow,parsed,pixels,330240,,,,1,516x640; mode=RGBA
+SRC-0220,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 143913.png,Pillow,parsed,pixels,341034,,,,1,503x678; mode=RGBA
+SRC-0221,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 143929.png,Pillow,parsed,pixels,323713,,,,1,481x673; mode=RGBA
+SRC-0222,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-29 143937.png,Pillow,parsed,pixels,302577,,,,1,519x583; mode=RGBA
+SRC-0223,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 192127.png,Pillow,parsed,pixels,443700,,,,1,1020x435; mode=RGBA
+SRC-0224,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 192218.png,Pillow,parsed,pixels,624000,,,,1,975x640; mode=RGBA
+SRC-0225,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 195223.png,Pillow,parsed,pixels,414344,,,,1,686x604; mode=RGBA
+SRC-0226,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 195232.png,Pillow,parsed,pixels,918008,,,,1,1183x776; mode=RGBA
+SRC-0227,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 195239.png,Pillow,parsed,pixels,445970,,,,1,805x554; mode=RGBA
+SRC-0228,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 195357.png,Pillow,parsed,pixels,252322,,,,1,538x469; mode=RGBA
+SRC-0229,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 195421.png,Pillow,parsed,pixels,232730,,,,1,629x370; mode=RGBA
+SRC-0230,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 195706.png,Pillow,parsed,pixels,274436,,,,1,628x437; mode=RGBA
+SRC-0231,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 195738.png,Pillow,parsed,pixels,153456,,,,1,417x368; mode=RGBA
+SRC-0232,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200123.png,Pillow,parsed,pixels,110307,,,,1,443x249; mode=RGBA
+SRC-0233,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200502.png,Pillow,parsed,pixels,237354,,,,1,537x442; mode=RGBA
+SRC-0234,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200507.png,Pillow,parsed,pixels,556284,,,,1,906x614; mode=RGBA
+SRC-0235,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200513.png,Pillow,parsed,pixels,507552,,,,1,816x622; mode=RGBA
+SRC-0236,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200525.png,Pillow,parsed,pixels,601749,,,,1,969x621; mode=RGBA
+SRC-0237,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200531.png,Pillow,parsed,pixels,602296,,,,1,953x632; mode=RGBA
+SRC-0238,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200548.png,Pillow,parsed,pixels,589440,,,,1,960x614; mode=RGBA
+SRC-0239,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200610.png,Pillow,parsed,pixels,613655,,,,1,985x623; mode=RGBA
+SRC-0240,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200618.png,Pillow,parsed,pixels,611730,,,,1,971x630; mode=RGBA
+SRC-0241,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200915.png,Pillow,parsed,pixels,791802,,,,1,946x837; mode=RGBA
+SRC-0242,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 200937.png,Pillow,parsed,pixels,1651285,,,,1,1909x865; mode=RGBA
+SRC-0243,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 201127.png,Pillow,parsed,pixels,1693744,,,,1,1916x884; mode=RGBA
+SRC-0244,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 201320.png,Pillow,parsed,pixels,332877,,,,1,1037x321; mode=RGBA
+SRC-0245,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 203551.png,Pillow,parsed,pixels,238995,,,,1,1017x235; mode=RGBA
+SRC-0246,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 203601.png,Pillow,parsed,pixels,217795,,,,1,1013x215; mode=RGBA
+SRC-0247,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-05-31 203608.png,Pillow,parsed,pixels,210944,,,,1,1024x206; mode=RGBA
+SRC-0248,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 164836.png,Pillow,parsed,pixels,937314,,,,1,1211x774; mode=RGBA
+SRC-0249,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 193348.png,Pillow,parsed,pixels,245400,,,,1,600x409; mode=RGBA
+SRC-0250,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 193352.png,Pillow,parsed,pixels,904425,,,,1,1167x775; mode=RGBA
+SRC-0251,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 193657.png,Pillow,parsed,pixels,472368,,,,1,624x757; mode=RGBA
+SRC-0252,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 193707.png,Pillow,parsed,pixels,387453,,,,1,597x649; mode=RGBA
+SRC-0253,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 193717.png,Pillow,parsed,pixels,917430,,,,1,1154x795; mode=RGBA
+SRC-0254,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 193724.png,Pillow,parsed,pixels,959616,,,,1,1176x816; mode=RGBA
+SRC-0255,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 193732.png,Pillow,parsed,pixels,874611,,,,1,1117x783; mode=RGBA
+SRC-0256,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 193741.png,Pillow,parsed,pixels,590604,,,,1,1106x534; mode=RGBA
+SRC-0257,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 194023.png,Pillow,parsed,pixels,400158,,,,1,774x517; mode=RGBA
+SRC-0258,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 194421.png,Pillow,parsed,pixels,836760,,,,1,1101x760; mode=RGBA
+SRC-0259,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 194426.png,Pillow,parsed,pixels,866593,,,,1,1157x749; mode=RGBA
+SRC-0260,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 220830.png,Pillow,parsed,pixels,355040,,,,1,560x634; mode=RGBA
+SRC-0261,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 220841.png,Pillow,parsed,pixels,473250,,,,1,631x750; mode=RGBA
+SRC-0262,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 220913.png,Pillow,parsed,pixels,838116,,,,1,1116x751; mode=RGBA
+SRC-0263,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 220946.png,Pillow,parsed,pixels,830208,,,,1,1128x736; mode=RGBA
+SRC-0264,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 220956.png,Pillow,parsed,pixels,939546,,,,1,1143x822; mode=RGBA
+SRC-0265,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221002.png,Pillow,parsed,pixels,923200,,,,1,1154x800; mode=RGBA
+SRC-0266,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221007.png,Pillow,parsed,pixels,678414,,,,1,1082x627; mode=RGBA
+SRC-0267,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221018.png,Pillow,parsed,pixels,835572,,,,1,1074x778; mode=RGBA
+SRC-0268,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221029.png,Pillow,parsed,pixels,866012,,,,1,1099x788; mode=RGBA
+SRC-0269,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221035.png,Pillow,parsed,pixels,922064,,,,1,1144x806; mode=RGBA
+SRC-0270,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221041.png,Pillow,parsed,pixels,861055,,,,1,1019x845; mode=RGBA
+SRC-0271,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221207.png,Pillow,parsed,pixels,844800,,,,1,1100x768; mode=RGBA
+SRC-0272,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221213.png,Pillow,parsed,pixels,886265,,,,1,1129x785; mode=RGBA
+SRC-0273,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221218.png,Pillow,parsed,pixels,865136,,,,1,1112x778; mode=RGBA
+SRC-0274,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221227.png,Pillow,parsed,pixels,1035378,,,,1,1186x873; mode=RGBA
+SRC-0275,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221231.png,Pillow,parsed,pixels,842703,,,,1,1093x771; mode=RGBA
+SRC-0276,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221236.png,Pillow,parsed,pixels,833443,,,,1,1051x793; mode=RGBA
+SRC-0277,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221241.png,Pillow,parsed,pixels,949926,,,,1,1139x834; mode=RGBA
+SRC-0278,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221245.png,Pillow,parsed,pixels,944478,,,,1,1149x822; mode=RGBA
+SRC-0279,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221251.png,Pillow,parsed,pixels,908424,,,,1,1147x792; mode=RGBA
+SRC-0280,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221258.png,Pillow,parsed,pixels,917980,,,,1,1106x830; mode=RGBA
+SRC-0281,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-01 221306.png,Pillow,parsed,pixels,919335,,,,1,1101x835; mode=RGBA
+SRC-0282,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-02 013019.png,Pillow,parsed,pixels,597780,,,,1,972x615; mode=RGBA
+SRC-0283,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-02 013103.png,Pillow,parsed,pixels,649740,,,,1,980x663; mode=RGBA
+SRC-0284,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-02 013442.png,Pillow,parsed,pixels,652732,,,,1,986x662; mode=RGBA
+SRC-0285,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-02 015309.png,Pillow,parsed,pixels,446424,,,,1,836x534; mode=RGBA
+SRC-0286,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131213.png,Pillow,parsed,pixels,78731,,,,1,601x131; mode=RGBA
+SRC-0287,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131331.png,Pillow,parsed,pixels,51760,,,,1,647x80; mode=RGBA
+SRC-0288,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131346.png,Pillow,parsed,pixels,69960,,,,1,636x110; mode=RGBA
+SRC-0289,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131423.png,Pillow,parsed,pixels,44530,,,,1,610x73; mode=RGBA
+SRC-0290,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131439.png,Pillow,parsed,pixels,40936,,,,1,602x68; mode=RGBA
+SRC-0291,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131539.png,Pillow,parsed,pixels,56544,,,,1,608x93; mode=RGBA
+SRC-0292,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131553.png,Pillow,parsed,pixels,30753,,,,1,603x51; mode=RGBA
+SRC-0293,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131604.png,Pillow,parsed,pixels,20229,,,,1,613x33; mode=RGBA
+SRC-0294,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131617.png,Pillow,parsed,pixels,44496,,,,1,618x72; mode=RGBA
+SRC-0295,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131630.png,Pillow,parsed,pixels,43400,,,,1,620x70; mode=RGBA
+SRC-0296,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 131828.png,Pillow,parsed,pixels,49955,,,,1,515x97; mode=RGBA
+SRC-0297,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 151942.png,Pillow,parsed,pixels,149776,,,,1,368x407; mode=RGBA
+SRC-0298,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 162010.png,Pillow,parsed,pixels,132356,,,,1,326x406; mode=RGBA
+SRC-0299,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 164932.png,Pillow,parsed,pixels,560476,,,,1,1036x541; mode=RGBA
+SRC-0300,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 165021.png,Pillow,parsed,pixels,250002,,,,1,646x387; mode=RGBA
+SRC-0301,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 165420.png,Pillow,parsed,pixels,565472,,,,1,1312x431; mode=RGBA
+SRC-0302,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 165457.png,Pillow,parsed,pixels,461244,,,,1,1292x357; mode=RGBA
+SRC-0303,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-08 171620.png,Pillow,parsed,pixels,815647,,,,1,1069x763; mode=RGBA
+SRC-0304,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 144807.png,Pillow,parsed,pixels,194820,,,,1,1020x191; mode=RGBA
+SRC-0305,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 144855.png,Pillow,parsed,pixels,274380,,,,1,1020x269; mode=RGBA
+SRC-0306,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 144914.png,Pillow,parsed,pixels,305877,,,,1,1023x299; mode=RGBA
+SRC-0307,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 182007.png,Pillow,parsed,pixels,1071213,,,,1,1573x681; mode=RGBA
+SRC-0308,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 182858.png,Pillow,parsed,pixels,241452,,,,1,1059x228; mode=RGBA
+SRC-0309,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 183956.png,Pillow,parsed,pixels,399582,,,,1,474x843; mode=RGBA
+SRC-0310,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 184010.png,Pillow,parsed,pixels,617392,,,,1,752x821; mode=RGBA
+SRC-0311,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 184020.png,Pillow,parsed,pixels,498664,,,,1,664x751; mode=RGBA
+SRC-0312,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 184611.png,Pillow,parsed,pixels,825516,,,,1,997x828; mode=RGBA
+SRC-0313,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 184620.png,Pillow,parsed,pixels,191889,,,,1,621x309; mode=RGBA
+SRC-0314,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 185008.png,Pillow,parsed,pixels,679212,,,,1,993x684; mode=RGBA
+SRC-0315,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 185258.png,Pillow,parsed,pixels,654390,,,,1,990x661; mode=RGBA
+SRC-0316,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 185409.png,Pillow,parsed,pixels,632434,,,,1,979x646; mode=RGBA
+SRC-0317,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 185520.png,Pillow,parsed,pixels,377986,,,,1,551x686; mode=RGBA
+SRC-0318,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 190122.png,Pillow,parsed,pixels,306000,,,,1,1000x306; mode=RGBA
+SRC-0319,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 190713.png,Pillow,parsed,pixels,282600,,,,1,450x628; mode=RGBA
+SRC-0320,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 191415.png,Pillow,parsed,pixels,668136,,,,1,984x679; mode=RGBA
+SRC-0321,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 191813.png,Pillow,parsed,pixels,671531,,,,1,989x679; mode=RGBA
+SRC-0322,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 192550.png,Pillow,parsed,pixels,620194,,,,1,986x629; mode=RGBA
+SRC-0323,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 192817.png,Pillow,parsed,pixels,649047,,,,1,997x651; mode=RGBA
+SRC-0324,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 210058.png,Pillow,parsed,pixels,741702,,,,1,962x771; mode=RGBA
+SRC-0325,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 210211.png,Pillow,parsed,pixels,815256,,,,1,1206x676; mode=RGBA
+SRC-0326,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 210229.png,Pillow,parsed,pixels,655380,,,,1,993x660; mode=RGBA
+SRC-0327,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 210307.png,Pillow,parsed,pixels,770280,,,,1,980x786; mode=RGBA
+SRC-0328,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 210327.png,Pillow,parsed,pixels,1099528,,,,1,1336x823; mode=RGBA
+SRC-0329,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 210424.png,Pillow,parsed,pixels,760304,,,,1,976x779; mode=RGBA
+SRC-0330,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 210519.png,Pillow,parsed,pixels,340065,,,,1,687x495; mode=RGBA
+SRC-0331,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 210903.png,Pillow,parsed,pixels,784124,,,,1,1004x781; mode=RGBA
+SRC-0332,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 211310.png,Pillow,parsed,pixels,808567,,,,1,997x811; mode=RGBA
+SRC-0333,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 211654.png,Pillow,parsed,pixels,802000,,,,1,1000x802; mode=RGBA
+SRC-0334,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 211700.png,Pillow,parsed,pixels,845064,,,,1,1164x726; mode=RGBA
+SRC-0335,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 211707.png,Pillow,parsed,pixels,195640,,,,1,670x292; mode=RGBA
+SRC-0336,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 212749.png,Pillow,parsed,pixels,785785,,,,1,1001x785; mode=RGBA
+SRC-0337,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 212753.png,Pillow,parsed,pixels,762960,,,,1,1156x660; mode=RGBA
+SRC-0338,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 212801.png,Pillow,parsed,pixels,257848,,,,1,668x386; mode=RGBA
+SRC-0339,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 213044.png,Pillow,parsed,pixels,802714,,,,1,1177x682; mode=RGBA
+SRC-0340,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 213839.png,Pillow,parsed,pixels,778554,,,,1,1002x777; mode=RGBA
+SRC-0341,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214022.png,Pillow,parsed,pixels,741860,,,,1,980x757; mode=RGBA
+SRC-0342,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214125.png,Pillow,parsed,pixels,675410,,,,1,986x685; mode=RGBA
+SRC-0343,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214432.png,Pillow,parsed,pixels,704172,,,,1,996x707; mode=RGBA
+SRC-0344,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214508.png,Pillow,parsed,pixels,859769,,,,1,1223x703; mode=RGBA
+SRC-0345,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214518.png,Pillow,parsed,pixels,336648,,,,1,676x498; mode=RGBA
+SRC-0346,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214537.png,Pillow,parsed,pixels,345500,,,,1,691x500; mode=RGBA
+SRC-0347,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214550.png,Pillow,parsed,pixels,647870,,,,1,1030x629; mode=RGBA
+SRC-0348,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214607.png,Pillow,parsed,pixels,10,,,,1,2x5; mode=RGBA
+SRC-0349,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214612.png,Pillow,parsed,pixels,1165180,,,,1,1564x745; mode=RGBA
+SRC-0350,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214737.png,Pillow,parsed,pixels,310072,,,,1,686x452; mode=RGBA
+SRC-0351,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 214827.png,Pillow,parsed,pixels,779332,,,,1,989x788; mode=RGBA
+SRC-0352,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 221801.png,Pillow,parsed,pixels,1091109,,,,1,1329x821; mode=RGBA
+SRC-0353,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 221825.png,Pillow,parsed,pixels,622832,,,,1,938x664; mode=RGBA
+SRC-0354,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 221848.png,Pillow,parsed,pixels,338142,,,,1,679x498; mode=RGBA
+SRC-0355,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 221938.png,Pillow,parsed,pixels,821354,,,,1,998x823; mode=RGBA
+SRC-0356,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 222102.png,Pillow,parsed,pixels,796576,,,,1,992x803; mode=RGBA
+SRC-0357,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 222110.png,Pillow,parsed,pixels,561446,,,,1,809x694; mode=RGBA
+SRC-0358,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 222242.png,Pillow,parsed,pixels,534996,,,,1,772x693; mode=RGBA
+SRC-0359,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 222426.png,Pillow,parsed,pixels,790364,,,,1,1003x788; mode=RGBA
+SRC-0360,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 222640.png,Pillow,parsed,pixels,704704,,,,1,1001x704; mode=RGBA
+SRC-0361,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 222712.png,Pillow,parsed,pixels,667575,,,,1,989x675; mode=RGBA
+SRC-0362,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 222728.png,Pillow,parsed,pixels,1695232,,,,1,1892x896; mode=RGBA
+SRC-0363,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 222753.png,Pillow,parsed,pixels,1192996,,,,1,1244x959; mode=RGBA
+SRC-0364,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 222815.png,Pillow,parsed,pixels,1270552,,,,1,1318x964; mode=RGBA
+SRC-0365,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 223246.png,Pillow,parsed,pixels,166634,,,,1,442x377; mode=RGBA
+SRC-0366,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 223553.png,Pillow,parsed,pixels,103918,,,,1,466x223; mode=RGBA
+SRC-0367,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 223618.png,Pillow,parsed,pixels,77510,,,,1,337x230; mode=RGBA
+SRC-0368,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 225617.png,Pillow,parsed,pixels,456660,,,,1,774x590; mode=RGBA
+SRC-0369,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 225624.png,Pillow,parsed,pixels,75744,,,,1,288x263; mode=RGBA
+SRC-0370,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 230236.png,Pillow,parsed,pixels,782432,,,,1,998x784; mode=RGBA
+SRC-0371,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 230421.png,Pillow,parsed,pixels,448256,,,,1,824x544; mode=RGBA
+SRC-0372,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 230451.png,Pillow,parsed,pixels,453495,,,,1,735x617; mode=RGBA
+SRC-0373,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 230504.png,Pillow,parsed,pixels,1021350,,,,1,1238x825; mode=RGBA
+SRC-0374,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 230647.png,Pillow,parsed,pixels,792376,,,,1,988x802; mode=RGBA
+SRC-0375,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 230926.png,Pillow,parsed,pixels,799365,,,,1,993x805; mode=RGBA
+SRC-0376,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 233922.png,Pillow,parsed,pixels,836991,,,,1,1017x823; mode=RGBA
+SRC-0377,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 233950.png,Pillow,parsed,pixels,298683,,,,1,693x431; mode=RGBA
+SRC-0378,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 234018.png,Pillow,parsed,pixels,773971,,,,1,991x781; mode=RGBA
+SRC-0379,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 234414.png,Pillow,parsed,pixels,778050,,,,1,975x798; mode=RGBA
+SRC-0380,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 234525.png,Pillow,parsed,pixels,807665,,,,1,991x815; mode=RGBA
+SRC-0381,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 234714.png,Pillow,parsed,pixels,335296,,,,1,676x496; mode=RGBA
+SRC-0382,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 234731.png,Pillow,parsed,pixels,893144,,,,1,1148x778; mode=RGBA
+SRC-0383,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 234938.png,Pillow,parsed,pixels,792207,,,,1,999x793; mode=RGBA
+SRC-0384,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 235101.png,Pillow,parsed,pixels,814432,,,,1,992x821; mode=RGBA
+SRC-0385,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 235200.png,Pillow,parsed,pixels,771678,,,,1,997x774; mode=RGBA
+SRC-0386,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 235350.png,Pillow,parsed,pixels,770066,,,,1,986x781; mode=RGBA
+SRC-0387,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 235410.png,Pillow,parsed,pixels,255564,,,,1,687x372; mode=RGBA
+SRC-0388,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 235700.png,Pillow,parsed,pixels,682040,,,,1,1003x680; mode=RGBA
+SRC-0389,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 235751.png,Pillow,parsed,pixels,801000,,,,1,1000x801; mode=RGBA
+SRC-0390,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-09 235823.png,Pillow,parsed,pixels,291600,,,,1,486x600; mode=RGBA
+SRC-0391,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-10 000140.png,Pillow,parsed,pixels,102480,,,,1,336x305; mode=RGBA
+SRC-0392,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-10 000154.png,Pillow,parsed,pixels,785544,,,,1,922x852; mode=RGBA
+SRC-0393,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-10 000156.png,Pillow,parsed,pixels,1018546,,,,1,1214x839; mode=RGBA
+SRC-0394,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-10 000228.png,Pillow,parsed,pixels,346320,,,,1,468x740; mode=RGBA
+SRC-0395,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-10 001638.png,Pillow,parsed,pixels,859708,,,,1,1091x788; mode=RGBA
+SRC-0396,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-10 001652.png,Pillow,parsed,pixels,847872,,,,1,1104x768; mode=RGBA
+SRC-0397,고주파공학,사진\homework5\시뮬사진\스크린샷 2026-06-10 002147.png,Pillow,parsed,pixels,334286,,,,1,463x722; mode=RGBA
+SRC-0398,센서응용공학,사진\센서응용공학_[STUDENT-ID]_[AUTHOR]_4학년_AESA 기반 레이더 센서 시스템 분석 및 Diffusion Model 기반 SAR 영상 향상 방안.docx,python-docx,parsed,paragraphs,68,13177,,5,4,
+SRC-0399,센서응용공학,센서응용공학_[STUDENT-ID]_[AUTHOR]_4학년_AESA 기반 레이더 센서 시스템 분석 및 Diffusion Model 기반 SAR 영상 향상 방안.pdf,pypdf,parsed,pages,10,13680,,,4,
+SRC-0400,전기기기,Transformer Design calculator EI-190 (1).xlsx,openpyxl,parsed,worksheets,1,3695,42,202,0,nonempty_cells=202; charts=0; images=0
+SRC-0401,전기기기,Transformer Design calculator UI-1.80MHW.xlsx,openpyxl,parsed,worksheets,1,4273,51,230,0,nonempty_cells=230; charts=0; images=0
+SRC-0402,전기기기,Transformer Design calculator.xlsx,openpyxl,parsed,worksheets,1,3582,40,199,0,nonempty_cells=199; charts=0; images=0
+SRC-0403,전기기기,사진\스크린샷 2026-07-29 102810.png,Pillow,parsed,pixels,57288,,,,1,434x132; mode=RGBA
+SRC-0404,전기기기,사진\스크린샷 2026-07-29 102913.png,Pillow,parsed,pixels,402520,,,,1,580x694; mode=RGBA
+SRC-0405,전기기기,사진\스크린샷 2026-07-29 102922.png,Pillow,parsed,pixels,99360,,,,1,552x180; mode=RGBA
+SRC-0406,전기기기,사진\스크린샷 2026-07-29 102926.png,Pillow,parsed,pixels,129000,,,,1,500x258; mode=RGBA
+SRC-0407,전기기기,사진\스크린샷 2026-07-29 102935.png,Pillow,parsed,pixels,225584,,,,1,613x368; mode=RGBA
+SRC-0408,전기기기,사진\스크린샷 2026-07-29 102944.png,Pillow,parsed,pixels,165678,,,,1,521x318; mode=RGBA
+SRC-0409,전기기기,사진\스크린샷 2026-07-29 103001.png,Pillow,parsed,pixels,73814,,,,1,442x167; mode=RGBA
+SRC-0410,전기기기,사진\스크린샷 2026-07-29 103010.png,Pillow,parsed,pixels,67570,,,,1,466x145; mode=RGBA
+SRC-0411,전기기기,사진\스크린샷 2026-07-29 103013.png,Pillow,parsed,pixels,119415,,,,1,419x285; mode=RGBA
+SRC-0412,전기기기,사진\스크린샷 2026-07-29 103047.png,Pillow,parsed,pixels,319176,,,,1,558x572; mode=RGBA
+SRC-0413,전기기기,전기기기__3분반(10조_변압기_설계_과제_보고서)_250326_162216.pdf,pypdf,parsed,pages,10,6418,,,9,
+SRC-0414,전동기제어,dc machine.zip,metadata,metadata-only,,,,,,,
+SRC-0415,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\.vs\PI contorller calculator\CopilotIndices\18.0.934.24903\CodeChunks.db,metadata,metadata-only,,,,,,,
+SRC-0416,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\.vs\PI contorller calculator\CopilotIndices\18.0.934.24903\SemanticSymbols.db,metadata,metadata-only,,,,,,,
+SRC-0417,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\.vs\PI contorller calculator.slnx\FileContentIndex\034a2e9a-cf60-4eb1-ac0d-7936564f2ad9.vsidx,metadata,metadata-only,,,,,,,
+SRC-0418,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\.vs\PI contorller calculator.slnx\v18\.suo,metadata,metadata-only,,,,,,,
+SRC-0419,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\.vs\PI contorller calculator.slnx\v18\Browse.VC.db,metadata,metadata-only,,,,,,,
+SRC-0420,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\.vs\PI contorller calculator.slnx\v18\DocumentLayout.backup.json,metadata,metadata-only,,,,,,,
+SRC-0421,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\.vs\PI contorller calculator.slnx\v18\DocumentLayout.json,metadata,metadata-only,,,,,,,
+SRC-0422,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\.vs\PI contorller calculator.slnx\v18\ipch\AutoPCH\fa4dffd68a4c7485\PI CONTORLLER CALCULATOR.ipch,metadata,metadata-only,,,,,,,
+SRC-0423,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\.vs\PI contorller calculator.slnx\v18\Solution.VC.db,metadata,metadata-only,,,,,,,
+SRC-0424,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\PI contorller calculator.cpp,text/utf-8-sig,parsed,lines,117,3591,,,,
+SRC-0425,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\PI contorller calculator.vcxproj,metadata,metadata-only,,,,,,,
+SRC-0426,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\PI contorller calculator.vcxproj.filters,metadata,metadata-only,,,,,,,
+SRC-0427,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\PI contorller calculator.vcxproj.user,metadata,metadata-only,,,,,,,
+SRC-0428,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI conto.d3c742dd.tlog\CL.command.1.tlog,metadata,metadata-only,,,,,,,
+SRC-0429,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI conto.d3c742dd.tlog\Cl.items.tlog,metadata,metadata-only,,,,,,,
+SRC-0430,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI conto.d3c742dd.tlog\CL.read.1.tlog,metadata,metadata-only,,,,,,,
+SRC-0431,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI conto.d3c742dd.tlog\CL.write.1.tlog,metadata,metadata-only,,,,,,,
+SRC-0432,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI conto.d3c742dd.tlog\link.command.1.tlog,metadata,metadata-only,,,,,,,
+SRC-0433,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI conto.d3c742dd.tlog\link.read.1.tlog,metadata,metadata-only,,,,,,,
+SRC-0434,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI conto.d3c742dd.tlog\link.secondary.1.tlog,metadata,metadata-only,,,,,,,
+SRC-0435,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI conto.d3c742dd.tlog\link.write.1.tlog,metadata,metadata-only,,,,,,,
+SRC-0436,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI conto.d3c742dd.tlog\PI contorller calculator.lastbuildstate,metadata,metadata-only,,,,,,,
+SRC-0437,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI contorller calculator.exe.recipe,metadata,metadata-only,,,,,,,
+SRC-0438,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI contorller calculator.ilk,metadata,metadata-only,,,,,,,
+SRC-0439,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI contorller calculator.log,text/utf-8-sig,parsed,lines,3,168,,,,
+SRC-0440,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\PI contorller calculator.obj,metadata,metadata-only,,,,,,,
+SRC-0441,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\vc145.idb,metadata,metadata-only,,,,,,,
+SRC-0442,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator\x64\Debug\vc145.pdb,metadata,metadata-only,,,,,,,
+SRC-0443,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\PI contorller calculator.slnx,metadata,metadata-only,,,,,,,
+SRC-0444,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\x64\Debug\PI contorller calculator.exe,metadata,metadata-only,,,,,,,
+SRC-0445,전동기제어,dc machine__extracted\dc machine\PI contorller calculator\x64\Debug\PI contorller calculator.pdb,metadata,metadata-only,,,,,,,
+SRC-0446,전동기제어,PI 계산기.xlsx,openpyxl,parsed,worksheets,1,972,13,72,0,nonempty_cells=72; charts=0; images=0
+SRC-0447,전동기제어,Project2025 -5조-1.pdf,pypdf,parsed,pages,13,7577,,,17,
+SRC-0448,전동기제어,사진\aim3 결과.png,Pillow,parsed,pixels,826590,,,,1,1401x590; mode=RGB
+SRC-0449,전동기제어,사진\속도응답.png,Pillow,parsed,pixels,824600,,,,1,1400x589; mode=RGB
+SRC-0450,전동기제어,사진\속도응답matlab.png,Pillow,parsed,pixels,1436730,,,,1,1731x830; mode=RGB
+SRC-0451,전동기제어,사진\스크린샷 2026-07-29 103254.png,Pillow,parsed,pixels,241995,,,,1,663x365; mode=RGBA
+SRC-0452,전동기제어,사진\스크린샷 2026-07-29 103419.png,Pillow,parsed,pixels,194688,,,,1,676x288; mode=RGBA
+SRC-0453,전동기제어,사진\스크린샷 2026-07-29 103428.png,Pillow,parsed,pixels,116948,,,,1,676x173; mode=RGBA
+SRC-0454,전동기제어,사진\스크린샷 2026-07-29 103432.png,Pillow,parsed,pixels,117302,,,,1,659x178; mode=RGBA
+SRC-0455,전동기제어,사진\스크린샷 2026-07-29 103436.png,Pillow,parsed,pixels,152424,,,,1,657x232; mode=RGBA
+SRC-0456,전동기제어,사진\스크린샷 2026-07-29 103441.png,Pillow,parsed,pixels,123984,,,,1,656x189; mode=RGBA
+SRC-0457,전동기제어,사진\스크린샷 2026-07-29 103446.png,Pillow,parsed,pixels,188064,,,,1,653x288; mode=RGBA
+SRC-0458,전동기제어,사진\스크린샷 2026-07-29 103450.png,Pillow,parsed,pixels,162597,,,,1,653x249; mode=RGBA
+SRC-0459,전동기제어,사진\스크린샷 2026-07-29 103455.png,Pillow,parsed,pixels,247680,,,,1,645x384; mode=RGBA
+SRC-0460,전동기제어,사진\스크린샷 2026-07-29 103505.png,Pillow,parsed,pixels,243648,,,,1,648x376; mode=RGBA
+SRC-0461,전동기제어,사진\스크린샷 2026-07-29 103509.png,Pillow,parsed,pixels,174312,,,,1,648x269; mode=RGBA
+SRC-0462,전동기제어,사진\전류응답.png,Pillow,parsed,pixels,835380,,,,1,1404x595; mode=RGB
+SRC-0463,전동기제어,사진\전류응답matlab.png,Pillow,parsed,pixels,1351360,,,,1,1648x820; mode=RGB
+SRC-0464,전동기제어,사진\토크리플 10000.png,Pillow,parsed,pixels,1680742,,,,1,1897x886; mode=RGB
+SRC-0465,전동기제어,사진\토크리플 25000.png,Pillow,parsed,pixels,1688211,,,,1,1899x889; mode=RGB
+SRC-0466,전동기제어,사진\프정격조건 속도 그래.png,Pillow,parsed,pixels,811179,,,,1,1401x579; mode=RGB
+SRC-0467,전동기제어,사진\회로도.png,Pillow,parsed,pixels,655830,,,,1,1041x630; mode=RGB
+SRC-0468,전동기제어,전동기 프로젝트\aim3 결과.png,Pillow,parsed,pixels,826590,,,,1,1401x590; mode=RGB
+SRC-0469,전동기제어,전동기 프로젝트\dc모터 제어 코드.txt,text/utf-8-sig,parsed,lines,122,3302,,,,
+SRC-0470,전동기제어,전동기 프로젝트\dc모터 최종 코드.txt,text/utf-8-sig,parsed,lines,122,3395,,,,
+SRC-0471,전동기제어,전동기 프로젝트\Project2025.pdf,pypdf,parsed,pages,9,2254,,,23,
+SRC-0472,전동기제어,전동기 프로젝트\속도응답 매트랩코드.txt,text/utf-8-sig,parsed,lines,65,1954,,,,
+SRC-0473,전동기제어,전동기 프로젝트\속도응답 코드.txt,text/utf-8-sig,parsed,lines,93,2146,,,,
+SRC-0474,전동기제어,전동기 프로젝트\속도응답.png,Pillow,parsed,pixels,824600,,,,1,1400x589; mode=RGB
+SRC-0475,전동기제어,전동기 프로젝트\속도응답matlab.png,Pillow,parsed,pixels,1436730,,,,1,1731x830; mode=RGB
+SRC-0476,전동기제어,전동기 프로젝트\전류응답 매트랩코드.txt,text/utf-8-sig,parsed,lines,50,1276,,,,
+SRC-0477,전동기제어,전동기 프로젝트\전류응답 코드.txt,text/utf-8-sig,parsed,lines,81,2005,,,,
+SRC-0478,전동기제어,전동기 프로젝트\전류응답.png,Pillow,parsed,pixels,835380,,,,1,1404x595; mode=RGB
+SRC-0479,전동기제어,전동기 프로젝트\전류응답matlab.png,Pillow,parsed,pixels,1351360,,,,1,1648x820; mode=RGB
+SRC-0480,전동기제어,전동기 프로젝트\토크리플 10000.png,Pillow,parsed,pixels,1680742,,,,1,1897x886; mode=RGB
+SRC-0481,전동기제어,전동기 프로젝트\토크리플 25000.png,Pillow,parsed,pixels,1688211,,,,1,1899x889; mode=RGB
+SRC-0482,전동기제어,전동기 프로젝트\프정격조건 속도 그래.png,Pillow,parsed,pixels,811179,,,,1,1401x579; mode=RGB
+SRC-0483,전동기제어,전동기 프로젝트\회로도.png,Pillow,parsed,pixels,655830,,,,1,1041x630; mode=RGB
+SRC-0484,전동기제어,전동기 프로젝트.zip,metadata,metadata-only,,,,,,,
+SRC-0485,전동기제어,전동기 프로젝트__extracted\aim3 결과.png,Pillow,parsed,pixels,826590,,,,1,1401x590; mode=RGB
+SRC-0486,전동기제어,전동기 프로젝트__extracted\dc모터 제어 코드.txt,text/utf-8-sig,parsed,lines,122,3302,,,,
+SRC-0487,전동기제어,전동기 프로젝트__extracted\dc모터 최종 코드.txt,text/utf-8-sig,parsed,lines,122,3395,,,,
+SRC-0488,전동기제어,전동기 프로젝트__extracted\Project2025.pdf,pypdf,parsed,pages,9,2254,,,23,
+SRC-0489,전동기제어,전동기 프로젝트__extracted\속도응답 매트랩코드.txt,text/utf-8-sig,parsed,lines,65,1954,,,,
+SRC-0490,전동기제어,전동기 프로젝트__extracted\속도응답 코드.txt,text/utf-8-sig,parsed,lines,93,2146,,,,
+SRC-0491,전동기제어,전동기 프로젝트__extracted\속도응답.png,Pillow,parsed,pixels,824600,,,,1,1400x589; mode=RGB
+SRC-0492,전동기제어,전동기 프로젝트__extracted\속도응답matlab.png,Pillow,parsed,pixels,1436730,,,,1,1731x830; mode=RGB
+SRC-0493,전동기제어,전동기 프로젝트__extracted\전류응답 매트랩코드.txt,text/utf-8-sig,parsed,lines,50,1276,,,,
+SRC-0494,전동기제어,전동기 프로젝트__extracted\전류응답 코드.txt,text/utf-8-sig,parsed,lines,81,2005,,,,
+SRC-0495,전동기제어,전동기 프로젝트__extracted\전류응답.png,Pillow,parsed,pixels,835380,,,,1,1404x595; mode=RGB
+SRC-0496,전동기제어,전동기 프로젝트__extracted\전류응답matlab.png,Pillow,parsed,pixels,1351360,,,,1,1648x820; mode=RGB
+SRC-0497,전동기제어,전동기 프로젝트__extracted\토크리플 10000.png,Pillow,parsed,pixels,1680742,,,,1,1897x886; mode=RGB
+SRC-0498,전동기제어,전동기 프로젝트__extracted\토크리플 25000.png,Pillow,parsed,pixels,1688211,,,,1,1899x889; mode=RGB
+SRC-0499,전동기제어,전동기 프로젝트__extracted\프정격조건 속도 그래.png,Pillow,parsed,pixels,811179,,,,1,1401x579; mode=RGB
+SRC-0500,전동기제어,전동기 프로젝트__extracted\회로도.png,Pillow,parsed,pixels,655830,,,,1,1041x630; mode=RGB
+SRC-0501,전력시스템공학,사진\서지임피던스 계산 및 프로그램 실행_[STUDENT-ID]_[AUTHOR].hwpx,HWPX XML,parsed,sections,1,5600,,,17,
+SRC-0502,전력시스템공학,사진\서지임피던스 계산 및 프로그램 실행_[STUDENT-ID]_[AUTHOR].pdf,pypdf,parsed,pages,11,5946,,,17,
+SRC-0503,전력시스템공학,사진\전력시스템공학__서지임피던스 계산 및 프로그램 실행 보고서_32210488_김동혁.pdf,pypdf,parsed,pages,10,3536,,,19,
+SRC-0504,전력시스템공학,제11차 전력수급기본계획요약_전력시스템공학_1분반_[AUTHOR].pdf,pypdf,parsed,pages,20,17925,,,0,
+SRC-0505,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]\B7flatlp.aux,text/utf-8-sig,parsed,lines,530,22426,,,,
+SRC-0506,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]\B7flatlp.pwb,binary signature,metadata-only,,,,,,,header=983a000000000000640000000200000001209848004604070000000000629848
+SRC-0507,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]\sample1 test.PWB,binary signature,metadata-only,,,,,,,header=983a0000000000002a0200000000000014000000000000000000000000000000
+SRC-0508,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]\sample1 test.pwd,binary signature,metadata-only,,,,,,,header=32000000c800c800562700000000000000000000000005b30000792700000000
+SRC-0509,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]\과제 문제.PWB,binary signature,metadata-only,,,,,,,header=983a0000000000002a0200000000000014000000000000000000000000000000
+SRC-0510,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]\과제 문제.pwd,binary signature,metadata-only,,,,,,,header=32000000c800c800562700000000000000000000000005b30000792700000000
+SRC-0511,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]\서지임피던스 계산 및 프로그램 실행_[STUDENT-ID]_[AUTHOR].pdf,pypdf,parsed,pages,11,5946,,,17,
+SRC-0512,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR].zip,metadata,metadata-only,,,,,,,
+SRC-0513,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]__extracted\B7flatlp.aux,text/utf-8-sig,parsed,lines,530,22426,,,,
+SRC-0514,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]__extracted\B7flatlp.pwb,binary signature,metadata-only,,,,,,,header=983a000000000000640000000200000001209848004604070000000000629848
+SRC-0515,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]__extracted\sample1 test.PWB,binary signature,metadata-only,,,,,,,header=983a0000000000002a0200000000000014000000000000000000000000000000
+SRC-0516,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]__extracted\sample1 test.pwd,binary signature,metadata-only,,,,,,,header=32000000c800c800562700000000000000000000000005b30000792700000000
+SRC-0517,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]__extracted\과제 문제.PWB,binary signature,metadata-only,,,,,,,header=983a0000000000002a0200000000000014000000000000000000000000000000
+SRC-0518,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]__extracted\과제 문제.pwd,binary signature,metadata-only,,,,,,,header=32000000c800c800562700000000000000000000000005b30000792700000000
+SRC-0519,전력시스템공학,중간과제\[STUDENT-ID]_[AUTHOR]__extracted\서지임피던스 계산 및 프로그램 실행_[STUDENT-ID]_[AUTHOR].pdf,pypdf,parsed,pages,11,5946,,,17,
+SRC-0520,전력시스템공학,중간과제\7과제6.png,Pillow,parsed,pixels,692244,,,,1,1206x574; mode=RGBA
+SRC-0521,전력시스템공학,중간과제\newcase.pwb,binary signature,metadata-only,,,,,,,header=983a0000000000002a0200000000000014000000000000000000000000000000
+SRC-0522,전력시스템공학,중간과제\newcase.pwd,binary signature,metadata-only,,,,,,,header=32000000c800c800562700000000000000000000000005b30000792700000000
+SRC-0523,전력시스템공학,중간과제\newsample1.png,Pillow,parsed,pixels,704880,,,,1,990x712; mode=RGBA
+SRC-0524,전력시스템공학,중간과제\newsample2.png,Pillow,parsed,pixels,640264,,,,1,982x652; mode=RGBA
+SRC-0525,전력시스템공학,중간과제\sample.png,Pillow,parsed,pixels,459160,,,,1,883x520; mode=RGBA
+SRC-0526,전력시스템공학,중간과제\sample1 test.PWB,binary signature,metadata-only,,,,,,,header=983a0000000000002a0200000000000014000000000000000000000000000000
+SRC-0527,전력시스템공학,중간과제\sample1 test.pwd,binary signature,metadata-only,,,,,,,header=32000000c800c800562700000000000000000000000005b30000792700000000
+SRC-0528,전력시스템공학,중간과제\sample1.png,Pillow,parsed,pixels,457452,,,,1,873x524; mode=RGBA
+SRC-0529,전력시스템공학,중간과제\sample2.png,Pillow,parsed,pixels,478044,,,,1,882x542; mode=RGBA
+SRC-0530,전력시스템공학,중간과제\sample3.png,Pillow,parsed,pixels,518848,,,,1,968x536; mode=RGBA
+SRC-0531,전력시스템공학,중간과제\sample4.png,Pillow,parsed,pixels,518949,,,,1,981x529; mode=RGBA
+SRC-0532,전력시스템공학,중간과제\sample5.png,Pillow,parsed,pixels,529568,,,,1,988x536; mode=RGBA
+SRC-0533,전력시스템공학,중간과제\과제 2400 강하.png,Pillow,parsed,pixels,491022,,,,1,1134x433; mode=RGBA
+SRC-0534,전력시스템공학,중간과제\과제 문제.PWB,binary signature,metadata-only,,,,,,,header=983a0000000000002a0200000000000014000000000000000000000000000000
+SRC-0535,전력시스템공학,중간과제\과제 문제.pwd,binary signature,metadata-only,,,,,,,header=32000000c800c800562700000000000000000000000005b30000792700000000
+SRC-0536,전력시스템공학,중간과제\과제.PWB,binary signature,metadata-only,,,,,,,header=983a0000000000002a0200000000000014000000000000000000000000000000
+SRC-0537,전력시스템공학,중간과제\과제.pwd,binary signature,metadata-only,,,,,,,header=32000000c800c800562700000000000000000000000005b30000792700000000
+SRC-0538,전력시스템공학,중간과제\과제1.png,Pillow,parsed,pixels,679900,,,,1,1300x523; mode=RGBA
+SRC-0539,전력시스템공학,중간과제\과제2.png,Pillow,parsed,pixels,837828,,,,1,1369x612; mode=RGBA
+SRC-0540,전력시스템공학,중간과제\과제3.png,Pillow,parsed,pixels,714045,,,,1,1315x543; mode=RGBA
+SRC-0541,전력시스템공학,중간과제\과제4.png,Pillow,parsed,pixels,799986,,,,1,1426x561; mode=RGBA
+SRC-0542,전력시스템공학,중간과제\과제5.png,Pillow,parsed,pixels,930216,,,,1,1372x678; mode=RGBA
+SRC-0543,전력시스템공학,중간과제\과제6.png,Pillow,parsed,pixels,608950,,,,1,1282x475; mode=RGBA
+SRC-0544,전력시스템공학,중간과제\과제7.png,Pillow,parsed,pixels,550732,,,,1,1246x442; mode=RGBA
+SRC-0545,전력시스템공학,중간과제\서지임피던스 계산 및 프로그램 실행_[STUDENT-ID]_[AUTHOR].hwpx,HWPX XML,parsed,sections,1,5600,,,17,
+SRC-0546,전력시스템공학,중간과제\서지임피던스 계산 및 프로그램 실행_[STUDENT-ID]_[AUTHOR].pdf,pypdf,parsed,pages,11,5946,,,17,
+SRC-0547,전력시스템공학,중간과제\전력시스템공학__서지임피던스 계산 및 프로그램 실행 보고서_32210488_김동혁.pdf,pypdf,parsed,pages,10,3536,,,19,
+SRC-0548,전력시스템공학,중간과제\화면 캡처 2025-06-22 183946.png,Pillow,parsed,pixels,744096,,,,1,1348x552; mode=RGBA
+SRC-0549,전력시스템공학,중간과제\화면 캡처 2025-06-22 190327.png,Pillow,parsed,pixels,520695,,,,1,1197x435; mode=RGBA
+SRC-0550,컨트롤로직설계,04. Introduction to VHDL.pdf,pypdf,parsed,pages,32,11188,,,48,
+SRC-0551,컨트롤로직설계,06. VHDL Modeling.pdf,pypdf,parsed,pages,30,9080,,,70,
+SRC-0552,컨트롤로직설계,07. 4-bit Full Adder.pdf,pypdf,parsed,pages,8,2156,,,18,
+SRC-0553,컨트롤로직설계,08. DEC and MUX.pdf,pypdf,parsed,pages,11,1539,,,17,
+SRC-0554,컨트롤로직설계,09 Finite State MachineFSM_241121_133442.pdf,pypdf,parsed,pages,8,2657,,,16,
+SRC-0555,컨트롤로직설계,10. Universal Shift Register.pdf,pypdf,parsed,pages,8,2516,,,11,
+SRC-0556,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR].zip,metadata,metadata-only,,,,,,,
+SRC-0557,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.cache\sim\ssm.db,metadata,metadata-only,,,,,,,
+SRC-0558,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.cache\wt\project.wpc,metadata,metadata-only,,,,,,,
+SRC-0559,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.cache\wt\xsim.wdf,metadata,metadata-only,,,,,,,
+SRC-0560,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.hw\mealy.lpr,metadata,metadata-only,,,,,,,
+SRC-0561,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.ip_user_files\README.txt,text/utf-8-sig,parsed,lines,2,129,,,,
+SRC-0562,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\compile.bat,text/utf-8-sig,parsed,lines,28,912,,,,
+SRC-0563,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\elaborate.bat,text/utf-8-sig,parsed,lines,27,1041,,,,
+SRC-0564,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\elaborate.log,text/utf-8-sig,parsed,lines,9,531,,,,
+SRC-0565,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\mealy_tb.tcl,text/utf-8-sig,parsed,lines,12,449,,,,
+SRC-0566,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\mealy_tb_behav.wdb,metadata,metadata-only,,,,,,,
+SRC-0567,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\mealy_tb_vhdl.prj,metadata,metadata-only,,,,,,,
+SRC-0568,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\simulate.bat,text/utf-8-sig,parsed,lines,27,979,,,,
+SRC-0569,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\simulate.log,text/utf-8-sig,parsed,lines,2,24,,,,
+SRC-0570,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xelab.pb,metadata,metadata-only,,,,,,,
+SRC-0571,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\Compile_Options.txt,text/utf-8-sig,parsed,lines,2,152,,,,
+SRC-0572,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\obj\xsim_0.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0573,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\obj\xsim_1.c,metadata,metadata-only,,,,,,,
+SRC-0574,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\obj\xsim_1.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0575,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\TempBreakPointFile.txt,text/utf-8-sig,parsed,lines,2,28,,,,
+SRC-0576,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.dbg,metadata,metadata-only,,,,,,,
+SRC-0577,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.mem,metadata,metadata-only,,,,,,,
+SRC-0578,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.reloc,metadata,metadata-only,,,,,,,
+SRC-0579,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.rlx,metadata,metadata-only,,,,,,,
+SRC-0580,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.rtti,metadata,metadata-only,,,,,,,
+SRC-0581,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.svtype,metadata,metadata-only,,,,,,,
+SRC-0582,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.type,metadata,metadata-only,,,,,,,
+SRC-0583,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.xdbg,metadata,metadata-only,,,,,,,
+SRC-0584,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimcrash.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0585,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimk.exe,metadata,metadata-only,,,,,,,
+SRC-0586,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimkernel.log,text/utf-8-sig,parsed,lines,8,315,,,,
+SRC-0587,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimSettings.ini,text/utf-8-sig,parsed,lines,51,1377,,,,
+SRC-0588,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\mealy.vdb,metadata,metadata-only,,,,,,,
+SRC-0589,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\mealy_tb.vdb,metadata,metadata-only,,,,,,,
+SRC-0590,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\xil_defaultlib.rlx,metadata,metadata-only,,,,,,,
+SRC-0591,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.ini,text/utf-8-sig,parsed,lines,2,39,,,,
+SRC-0592,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xvhdl.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0593,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xvhdl.pb,metadata,metadata-only,,,,,,,
+SRC-0594,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.srcs\sim_1\new\mealy_tb.vhd,text/utf-8-sig,parsed,lines,100,2044,,,,
+SRC-0595,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.srcs\sources_1\new\mealy.vhd,text/utf-8-sig,parsed,lines,92,2541,,,,
+SRC-0596,컨트롤로직설계,101 Sequence Recognizer_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.xpr,metadata,metadata-only,,,,,,,
+SRC-0597,컨트롤로직설계,4 bit Universal Shift Register\스크린샷 2026-07-29 110723.png,Pillow,parsed,pixels,475190,,,,1,1159x410; mode=RGBA
+SRC-0598,컨트롤로직설계,4 bit Universal Shift Register\스크린샷 2026-07-29 110726.png,Pillow,parsed,pixels,301996,,,,1,733x412; mode=RGBA
+SRC-0599,컨트롤로직설계,4 bit Universal Shift Register\스크린샷 2026-07-29 110732.png,Pillow,parsed,pixels,844816,,,,1,1064x794; mode=RGBA
+SRC-0600,컨트롤로직설계,4 bit Universal Shift Register\스크린샷 2026-07-29 110744.png,Pillow,parsed,pixels,914896,,,,1,1084x844; mode=RGBA
+SRC-0601,컨트롤로직설계,4 bit Universal Shift Register\스크린샷 2026-07-29 110750.png,Pillow,parsed,pixels,952990,,,,1,1214x785; mode=RGBA
+SRC-0602,컨트롤로직설계,4 bit Universal Shift Register\스크린샷 2026-07-29 110758.png,Pillow,parsed,pixels,874906,,,,1,1234x709; mode=RGBA
+SRC-0603,컨트롤로직설계,4 bit Universal Shift Register\스크린샷 2026-07-29 110805.png,Pillow,parsed,pixels,351769,,,,1,1243x283; mode=RGBA
+SRC-0604,컨트롤로직설계,4 bit Universal Shift Register\스크린샷 2026-07-29 110809.png,Pillow,parsed,pixels,271188,,,,1,1116x243; mode=RGBA
+SRC-0605,컨트롤로직설계,4bit-fulladder\스크린샷 2026-07-29 105828.png,Pillow,parsed,pixels,917232,,,,1,1182x776; mode=RGBA
+SRC-0606,컨트롤로직설계,4bit-fulladder\스크린샷 2026-07-29 105832.png,Pillow,parsed,pixels,760095,,,,1,1143x665; mode=RGBA
+SRC-0607,컨트롤로직설계,4bit-fulladder\스크린샷 2026-07-29 105836.png,Pillow,parsed,pixels,806400,,,,1,1200x672; mode=RGBA
+SRC-0608,컨트롤로직설계,4bit-fulladder\스크린샷 2026-07-29 105842.png,Pillow,parsed,pixels,989407,,,,1,1223x809; mode=RGBA
+SRC-0609,컨트롤로직설계,4bit-fulladder\스크린샷 2026-07-29 105849.png,Pillow,parsed,pixels,710732,,,,1,1114x638; mode=RGBA
+SRC-0610,컨트롤로직설계,4bit-fulladder\스크린샷 2026-07-29 105900.png,Pillow,parsed,pixels,687600,,,,1,1200x573; mode=RGBA
+SRC-0611,컨트롤로직설계,4bit-fulladder\스크린샷 2026-07-29 105907.png,Pillow,parsed,pixels,819819,,,,1,1183x693; mode=RGBA
+SRC-0612,컨트롤로직설계,fsm(FINITE-STATE MACHINE)\스크린샷 2026-07-29 110542.png,Pillow,parsed,pixels,646360,,,,1,1130x572; mode=RGBA
+SRC-0613,컨트롤로직설계,fsm(FINITE-STATE MACHINE)\스크린샷 2026-07-29 110548.png,Pillow,parsed,pixels,835120,,,,1,1144x730; mode=RGBA
+SRC-0614,컨트롤로직설계,fsm(FINITE-STATE MACHINE)\스크린샷 2026-07-29 110555.png,Pillow,parsed,pixels,1025856,,,,1,1233x832; mode=RGBA
+SRC-0615,컨트롤로직설계,fsm(FINITE-STATE MACHINE)\스크린샷 2026-07-29 110600.png,Pillow,parsed,pixels,1010551,,,,1,1219x829; mode=RGBA
+SRC-0616,컨트롤로직설계,fsm(FINITE-STATE MACHINE)\스크린샷 2026-07-29 110605.png,Pillow,parsed,pixels,835920,,,,1,1215x688; mode=RGBA
+SRC-0617,컨트롤로직설계,fsm(FINITE-STATE MACHINE)\스크린샷 2026-07-29 110608.png,Pillow,parsed,pixels,620912,,,,1,1208x514; mode=RGBA
+SRC-0618,컨트롤로직설계,fsm(FINITE-STATE MACHINE)\스크린샷 2026-07-29 110612.png,Pillow,parsed,pixels,1024100,,,,1,1225x836; mode=RGBA
+SRC-0619,컨트롤로직설계,fsm(FINITE-STATE MACHINE)\스크린샷 2026-07-29 110620.png,Pillow,parsed,pixels,653976,,,,1,1116x586; mode=RGBA
+SRC-0620,컨트롤로직설계,fsm(FINITE-STATE MACHINE)\스크린샷 2026-07-29 110625.png,Pillow,parsed,pixels,607893,,,,1,1199x507; mode=RGBA
+SRC-0621,컨트롤로직설계,FSM.zip,metadata,metadata-only,,,,,,,
+SRC-0622,컨트롤로직설계,FSM__extracted\FSM\FSM.cache\sim\ssm.db,metadata,metadata-only,,,,,,,
+SRC-0623,컨트롤로직설계,FSM__extracted\FSM\FSM.cache\wt\project.wpc,metadata,metadata-only,,,,,,,
+SRC-0624,컨트롤로직설계,FSM__extracted\FSM\FSM.cache\wt\xsim.wdf,metadata,metadata-only,,,,,,,
+SRC-0625,컨트롤로직설계,FSM__extracted\FSM\FSM.hw\FSM.lpr,metadata,metadata-only,,,,,,,
+SRC-0626,컨트롤로직설계,FSM__extracted\FSM\FSM.ip_user_files\README.txt,text/utf-8-sig,parsed,lines,2,129,,,,
+SRC-0627,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\compile.bat,text/utf-8-sig,parsed,lines,28,912,,,,
+SRC-0628,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\elaborate.bat,text/utf-8-sig,parsed,lines,27,1041,,,,
+SRC-0629,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\elaborate.log,text/utf-8-sig,parsed,lines,17,835,,,,
+SRC-0630,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\mealy_tb.tcl,text/utf-8-sig,parsed,lines,12,449,,,,
+SRC-0631,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\mealy_tb_behav.wdb,metadata,metadata-only,,,,,,,
+SRC-0632,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\mealy_tb_vhdl.prj,metadata,metadata-only,,,,,,,
+SRC-0633,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\simulate.bat,text/utf-8-sig,parsed,lines,27,979,,,,
+SRC-0634,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\simulate.log,text/utf-8-sig,parsed,lines,2,24,,,,
+SRC-0635,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xelab.pb,metadata,metadata-only,,,,,,,
+SRC-0636,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\Compile_Options.txt,text/utf-8-sig,parsed,lines,2,152,,,,
+SRC-0637,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\obj\xsim_0.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0638,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\obj\xsim_1.c,metadata,metadata-only,,,,,,,
+SRC-0639,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\obj\xsim_1.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0640,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\TempBreakPointFile.txt,text/utf-8-sig,parsed,lines,2,28,,,,
+SRC-0641,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.dbg,metadata,metadata-only,,,,,,,
+SRC-0642,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.mem,metadata,metadata-only,,,,,,,
+SRC-0643,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.reloc,metadata,metadata-only,,,,,,,
+SRC-0644,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.rlx,metadata,metadata-only,,,,,,,
+SRC-0645,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.rtti,metadata,metadata-only,,,,,,,
+SRC-0646,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.svtype,metadata,metadata-only,,,,,,,
+SRC-0647,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.type,metadata,metadata-only,,,,,,,
+SRC-0648,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.xdbg,metadata,metadata-only,,,,,,,
+SRC-0649,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimcrash.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0650,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimk.exe,metadata,metadata-only,,,,,,,
+SRC-0651,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimkernel.log,text/utf-8-sig,parsed,lines,8,317,,,,
+SRC-0652,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimSettings.ini,text/utf-8-sig,parsed,lines,51,1383,,,,
+SRC-0653,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\mealy.vdb,metadata,metadata-only,,,,,,,
+SRC-0654,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\mealy_tb.vdb,metadata,metadata-only,,,,,,,
+SRC-0655,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\xil_defaultlib.rlx,metadata,metadata-only,,,,,,,
+SRC-0656,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xsim.ini,text/utf-8-sig,parsed,lines,2,39,,,,
+SRC-0657,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xvhdl.log,text/utf-8-sig,parsed,lines,3,166,,,,
+SRC-0658,컨트롤로직설계,FSM__extracted\FSM\FSM.sim\sim_1\behav\xsim\xvhdl.pb,metadata,metadata-only,,,,,,,
+SRC-0659,컨트롤로직설계,FSM__extracted\FSM\FSM.srcs\sim_1\new\mealy_tb.vhd,text/utf-8-sig,parsed,lines,93,1838,,,,
+SRC-0660,컨트롤로직설계,FSM__extracted\FSM\FSM.srcs\sources_1\new\FSM.vhd,text/utf-8-sig,parsed,lines,95,1922,,,,
+SRC-0661,컨트롤로직설계,FSM__extracted\FSM\FSM.xpr,metadata,metadata-only,,,,,,,
+SRC-0662,컨트롤로직설계,FSM__extracted\FSM\mealy_tb_behav.wcfg,metadata,metadata-only,,,,,,,
+SRC-0663,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR].zip,metadata,metadata-only,,,,,,,
+SRC-0664,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.cache\sim\ssm.db,metadata,metadata-only,,,,,,,
+SRC-0665,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.cache\wt\project.wpc,metadata,metadata-only,,,,,,,
+SRC-0666,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.cache\wt\xsim.wdf,metadata,metadata-only,,,,,,,
+SRC-0667,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.hw\fulladd.lpr,metadata,metadata-only,,,,,,,
+SRC-0668,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.ip_user_files\README.txt,text/utf-8-sig,parsed,lines,2,129,,,,
+SRC-0669,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\add_4bits_tb.tcl,text/utf-8-sig,parsed,lines,12,449,,,,
+SRC-0670,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\add_4bits_tb_behav.wdb,metadata,metadata-only,,,,,,,
+SRC-0671,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\add_4bits_tb_vhdl.prj,metadata,metadata-only,,,,,,,
+SRC-0672,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\compile.bat,text/utf-8-sig,parsed,lines,28,920,,,,
+SRC-0673,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\compile.log,text/utf-8-sig,parsed,lines,3,186,,,,
+SRC-0674,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\elaborate.bat,text/utf-8-sig,parsed,lines,27,1057,,,,
+SRC-0675,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\elaborate.log,text/utf-8-sig,parsed,lines,18,950,,,,
+SRC-0676,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\fulladd_tb.tcl,text/utf-8-sig,parsed,lines,12,449,,,,
+SRC-0677,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\fulladd_tb_behav.wdb,metadata,metadata-only,,,,,,,
+SRC-0678,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\simulate.bat,text/utf-8-sig,parsed,lines,27,1003,,,,
+SRC-0679,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\simulate.log,text/utf-8-sig,parsed,lines,2,24,,,,
+SRC-0680,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xelab.pb,metadata,metadata-only,,,,,,,
+SRC-0681,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\Compile_Options.txt,text/utf-8-sig,parsed,lines,2,160,,,,
+SRC-0682,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\obj\xsim_0.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0683,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\obj\xsim_1.c,metadata,metadata-only,,,,,,,
+SRC-0684,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\obj\xsim_1.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0685,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\TempBreakPointFile.txt,text/utf-8-sig,parsed,lines,2,28,,,,
+SRC-0686,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.dbg,metadata,metadata-only,,,,,,,
+SRC-0687,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.mem,metadata,metadata-only,,,,,,,
+SRC-0688,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.reloc,metadata,metadata-only,,,,,,,
+SRC-0689,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.rlx,metadata,metadata-only,,,,,,,
+SRC-0690,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.rtti,metadata,metadata-only,,,,,,,
+SRC-0691,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.svtype,metadata,metadata-only,,,,,,,
+SRC-0692,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.type,metadata,metadata-only,,,,,,,
+SRC-0693,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.xdbg,metadata,metadata-only,,,,,,,
+SRC-0694,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsimcrash.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0695,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsimk.exe,metadata,metadata-only,,,,,,,
+SRC-0696,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsimkernel.log,text/utf-8-sig,parsed,lines,8,325,,,,
+SRC-0697,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsimSettings.ini,text/utf-8-sig,parsed,lines,51,1377,,,,
+SRC-0698,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\Compile_Options.txt,text/utf-8-sig,parsed,lines,2,156,,,,
+SRC-0699,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\obj\xsim_0.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0700,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\obj\xsim_1.c,metadata,metadata-only,,,,,,,
+SRC-0701,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\obj\xsim_1.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0702,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\TempBreakPointFile.txt,text/utf-8-sig,parsed,lines,2,28,,,,
+SRC-0703,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.dbg,metadata,metadata-only,,,,,,,
+SRC-0704,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.mem,metadata,metadata-only,,,,,,,
+SRC-0705,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.reloc,metadata,metadata-only,,,,,,,
+SRC-0706,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.rlx,metadata,metadata-only,,,,,,,
+SRC-0707,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.rtti,metadata,metadata-only,,,,,,,
+SRC-0708,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.svtype,metadata,metadata-only,,,,,,,
+SRC-0709,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.type,metadata,metadata-only,,,,,,,
+SRC-0710,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.xdbg,metadata,metadata-only,,,,,,,
+SRC-0711,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsimcrash.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0712,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsimk.exe,metadata,metadata-only,,,,,,,
+SRC-0713,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsimkernel.log,text/utf-8-sig,parsed,lines,8,319,,,,
+SRC-0714,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsimSettings.ini,text/utf-8-sig,parsed,lines,51,1379,,,,
+SRC-0715,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\add_4bits.vdb,metadata,metadata-only,,,,,,,
+SRC-0716,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\add_4bits_tb.vdb,metadata,metadata-only,,,,,,,
+SRC-0717,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\fulladd.vdb,metadata,metadata-only,,,,,,,
+SRC-0718,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\fulladd_tb.vdb,metadata,metadata-only,,,,,,,
+SRC-0719,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\xil_defaultlib.rlx,metadata,metadata-only,,,,,,,
+SRC-0720,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.ini,text/utf-8-sig,parsed,lines,2,39,,,,
+SRC-0721,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xvhdl.log,text/utf-8-sig,parsed,lines,3,186,,,,
+SRC-0722,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.sim\sim_1\behav\xsim\xvhdl.pb,metadata,metadata-only,,,,,,,
+SRC-0723,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.srcs\sim_1\new\add_4bits_tb.vhd,text/utf-8-sig,parsed,lines,74,1825,,,,
+SRC-0724,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.srcs\sim_1\new\fulladd_tb.vhd,text/utf-8-sig,parsed,lines,85,1700,,,,
+SRC-0725,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.srcs\sources_1\new\add_4bits.vhd,text/utf-8-sig,parsed,lines,58,1546,,,,
+SRC-0726,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.srcs\sources_1\new\fulladd.vhd,text/utf-8-sig,parsed,lines,59,1213,,,,
+SRC-0727,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd\fulladd.xpr,metadata,metadata-only,,,,,,,
+SRC-0728,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.cache\sim\ssm.db,metadata,metadata-only,,,,,,,
+SRC-0729,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.cache\wt\project.wpc,metadata,metadata-only,,,,,,,
+SRC-0730,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.cache\wt\xsim.wdf,metadata,metadata-only,,,,,,,
+SRC-0731,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.hw\fulladd.lpr,metadata,metadata-only,,,,,,,
+SRC-0732,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.ip_user_files\README.txt,text/utf-8-sig,parsed,lines,2,129,,,,
+SRC-0733,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\add_4bits_tb.tcl,text/utf-8-sig,parsed,lines,12,449,,,,
+SRC-0734,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\add_4bits_tb_behav.wdb,metadata,metadata-only,,,,,,,
+SRC-0735,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\add_4bits_tb_vhdl.prj,metadata,metadata-only,,,,,,,
+SRC-0736,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\compile.bat,text/utf-8-sig,parsed,lines,28,920,,,,
+SRC-0737,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\compile.log,text/utf-8-sig,parsed,lines,3,186,,,,
+SRC-0738,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\elaborate.bat,text/utf-8-sig,parsed,lines,27,1057,,,,
+SRC-0739,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\elaborate.log,text/utf-8-sig,parsed,lines,18,950,,,,
+SRC-0740,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\fulladd_tb.tcl,text/utf-8-sig,parsed,lines,12,449,,,,
+SRC-0741,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\fulladd_tb_behav.wdb,metadata,metadata-only,,,,,,,
+SRC-0742,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\simulate.bat,text/utf-8-sig,parsed,lines,27,1003,,,,
+SRC-0743,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\simulate.log,text/utf-8-sig,parsed,lines,2,24,,,,
+SRC-0744,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xelab.pb,metadata,metadata-only,,,,,,,
+SRC-0745,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\Compile_Options.txt,text/utf-8-sig,parsed,lines,2,160,,,,
+SRC-0746,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\obj\xsim_0.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0747,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\obj\xsim_1.c,metadata,metadata-only,,,,,,,
+SRC-0748,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\obj\xsim_1.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0749,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\TempBreakPointFile.txt,text/utf-8-sig,parsed,lines,2,28,,,,
+SRC-0750,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.dbg,metadata,metadata-only,,,,,,,
+SRC-0751,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.mem,metadata,metadata-only,,,,,,,
+SRC-0752,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.reloc,metadata,metadata-only,,,,,,,
+SRC-0753,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.rlx,metadata,metadata-only,,,,,,,
+SRC-0754,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.rtti,metadata,metadata-only,,,,,,,
+SRC-0755,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.svtype,metadata,metadata-only,,,,,,,
+SRC-0756,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.type,metadata,metadata-only,,,,,,,
+SRC-0757,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsim.xdbg,metadata,metadata-only,,,,,,,
+SRC-0758,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsimcrash.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0759,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsimk.exe,metadata,metadata-only,,,,,,,
+SRC-0760,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsimkernel.log,text/utf-8-sig,parsed,lines,8,325,,,,
+SRC-0761,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\add_4bits_tb_behav\xsimSettings.ini,text/utf-8-sig,parsed,lines,51,1377,,,,
+SRC-0762,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\Compile_Options.txt,text/utf-8-sig,parsed,lines,2,156,,,,
+SRC-0763,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\obj\xsim_0.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0764,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\obj\xsim_1.c,metadata,metadata-only,,,,,,,
+SRC-0765,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\obj\xsim_1.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0766,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\TempBreakPointFile.txt,text/utf-8-sig,parsed,lines,2,28,,,,
+SRC-0767,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.dbg,metadata,metadata-only,,,,,,,
+SRC-0768,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.mem,metadata,metadata-only,,,,,,,
+SRC-0769,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.reloc,metadata,metadata-only,,,,,,,
+SRC-0770,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.rlx,metadata,metadata-only,,,,,,,
+SRC-0771,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.rtti,metadata,metadata-only,,,,,,,
+SRC-0772,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.svtype,metadata,metadata-only,,,,,,,
+SRC-0773,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.type,metadata,metadata-only,,,,,,,
+SRC-0774,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsim.xdbg,metadata,metadata-only,,,,,,,
+SRC-0775,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsimcrash.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0776,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsimk.exe,metadata,metadata-only,,,,,,,
+SRC-0777,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsimkernel.log,text/utf-8-sig,parsed,lines,8,319,,,,
+SRC-0778,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\fulladd_tb_behav\xsimSettings.ini,text/utf-8-sig,parsed,lines,51,1379,,,,
+SRC-0779,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\add_4bits.vdb,metadata,metadata-only,,,,,,,
+SRC-0780,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\add_4bits_tb.vdb,metadata,metadata-only,,,,,,,
+SRC-0781,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\fulladd.vdb,metadata,metadata-only,,,,,,,
+SRC-0782,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\fulladd_tb.vdb,metadata,metadata-only,,,,,,,
+SRC-0783,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\xil_defaultlib.rlx,metadata,metadata-only,,,,,,,
+SRC-0784,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xsim.ini,text/utf-8-sig,parsed,lines,2,39,,,,
+SRC-0785,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xvhdl.log,text/utf-8-sig,parsed,lines,3,186,,,,
+SRC-0786,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.sim\sim_1\behav\xsim\xvhdl.pb,metadata,metadata-only,,,,,,,
+SRC-0787,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.srcs\sim_1\new\add_4bits_tb.vhd,text/utf-8-sig,parsed,lines,74,1825,,,,
+SRC-0788,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.srcs\sim_1\new\fulladd_tb.vhd,text/utf-8-sig,parsed,lines,85,1700,,,,
+SRC-0789,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.srcs\sources_1\new\add_4bits.vhd,text/utf-8-sig,parsed,lines,58,1546,,,,
+SRC-0790,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.srcs\sources_1\new\fulladd.vhd,text/utf-8-sig,parsed,lines,59,1213,,,,
+SRC-0791,컨트롤로직설계,fulladd_[STUDENT-ID]_[AUTHOR]__extracted\fulladd\fulladd.xpr,metadata,metadata-only,,,,,,,
+SRC-0792,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR].zip,metadata,metadata-only,,,,,,,
+SRC-0793,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.cache\sim\ssm.db,metadata,metadata-only,,,,,,,
+SRC-0794,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.cache\wt\project.wpc,metadata,metadata-only,,,,,,,
+SRC-0795,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.cache\wt\xsim.wdf,metadata,metadata-only,,,,,,,
+SRC-0796,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.hw\mealy.lpr,metadata,metadata-only,,,,,,,
+SRC-0797,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.ip_user_files\README.txt,text/utf-8-sig,parsed,lines,2,129,,,,
+SRC-0798,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\compile.bat,text/utf-8-sig,parsed,lines,28,912,,,,
+SRC-0799,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\elaborate.bat,text/utf-8-sig,parsed,lines,27,1041,,,,
+SRC-0800,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\elaborate.log,text/utf-8-sig,parsed,lines,9,531,,,,
+SRC-0801,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\mealy_tb.tcl,text/utf-8-sig,parsed,lines,12,449,,,,
+SRC-0802,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\mealy_tb_behav.wdb,metadata,metadata-only,,,,,,,
+SRC-0803,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\mealy_tb_vhdl.prj,metadata,metadata-only,,,,,,,
+SRC-0804,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\simulate.bat,text/utf-8-sig,parsed,lines,27,979,,,,
+SRC-0805,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\simulate.log,text/utf-8-sig,parsed,lines,2,24,,,,
+SRC-0806,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xelab.pb,metadata,metadata-only,,,,,,,
+SRC-0807,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\Compile_Options.txt,text/utf-8-sig,parsed,lines,2,152,,,,
+SRC-0808,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\obj\xsim_0.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0809,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\obj\xsim_1.c,metadata,metadata-only,,,,,,,
+SRC-0810,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\obj\xsim_1.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0811,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\TempBreakPointFile.txt,text/utf-8-sig,parsed,lines,2,28,,,,
+SRC-0812,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.dbg,metadata,metadata-only,,,,,,,
+SRC-0813,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.mem,metadata,metadata-only,,,,,,,
+SRC-0814,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.reloc,metadata,metadata-only,,,,,,,
+SRC-0815,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.rlx,metadata,metadata-only,,,,,,,
+SRC-0816,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.rtti,metadata,metadata-only,,,,,,,
+SRC-0817,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.svtype,metadata,metadata-only,,,,,,,
+SRC-0818,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.type,metadata,metadata-only,,,,,,,
+SRC-0819,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsim.xdbg,metadata,metadata-only,,,,,,,
+SRC-0820,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimcrash.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0821,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimk.exe,metadata,metadata-only,,,,,,,
+SRC-0822,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimkernel.log,text/utf-8-sig,parsed,lines,8,315,,,,
+SRC-0823,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\mealy_tb_behav\xsimSettings.ini,text/utf-8-sig,parsed,lines,51,1377,,,,
+SRC-0824,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\mealy.vdb,metadata,metadata-only,,,,,,,
+SRC-0825,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\mealy_tb.vdb,metadata,metadata-only,,,,,,,
+SRC-0826,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\xil_defaultlib.rlx,metadata,metadata-only,,,,,,,
+SRC-0827,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xsim.ini,text/utf-8-sig,parsed,lines,2,39,,,,
+SRC-0828,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xvhdl.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0829,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.sim\sim_1\behav\xsim\xvhdl.pb,metadata,metadata-only,,,,,,,
+SRC-0830,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.srcs\sim_1\new\mealy_tb.vhd,text/utf-8-sig,parsed,lines,100,2044,,,,
+SRC-0831,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.srcs\sources_1\new\mealy.vhd,text/utf-8-sig,parsed,lines,92,2541,,,,
+SRC-0832,컨트롤로직설계,mealy_[STUDENT-ID]_[AUTHOR]__extracted\mealy_[STUDENT-ID]_[AUTHOR]\mealy.xpr,metadata,metadata-only,,,,,,,
+SRC-0833,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110103.png,Pillow,parsed,pixels,765628,,,,1,1108x691; mode=RGBA
+SRC-0834,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110115.png,Pillow,parsed,pixels,673302,,,,1,966x697; mode=RGBA
+SRC-0835,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110244.png,Pillow,parsed,pixels,475790,,,,1,971x490; mode=RGBA
+SRC-0836,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110314.png,Pillow,parsed,pixels,389424,,,,1,976x399; mode=RGBA
+SRC-0837,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110323.png,Pillow,parsed,pixels,681030,,,,1,1081x630; mode=RGBA
+SRC-0838,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110328.png,Pillow,parsed,pixels,744876,,,,1,1089x684; mode=RGBA
+SRC-0839,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110332.png,Pillow,parsed,pixels,422368,,,,1,1072x394; mode=RGBA
+SRC-0840,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110335.png,Pillow,parsed,pixels,313626,,,,1,939x334; mode=RGBA
+SRC-0841,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110339.png,Pillow,parsed,pixels,696960,,,,1,1056x660; mode=RGBA
+SRC-0842,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110347.png,Pillow,parsed,pixels,585812,,,,1,1069x548; mode=RGBA
+SRC-0843,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110357.png,Pillow,parsed,pixels,335880,,,,1,933x360; mode=RGBA
+SRC-0844,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110440.png,Pillow,parsed,pixels,343980,,,,1,980x351; mode=RGBA
+SRC-0845,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110449.png,Pillow,parsed,pixels,577122,,,,1,1057x546; mode=RGBA
+SRC-0846,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110455.png,Pillow,parsed,pixels,697682,,,,1,1046x667; mode=RGBA
+SRC-0847,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110459.png,Pillow,parsed,pixels,755236,,,,1,1082x698; mode=RGBA
+SRC-0848,컨트롤로직설계,mux_8to1\스크린샷 2026-07-29 110503.png,Pillow,parsed,pixels,450590,,,,1,1099x410; mode=RGBA
+SRC-0849,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR].zip,metadata,metadata-only,,,,,,,
+SRC-0850,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.cache\sim\ssm.db,metadata,metadata-only,,,,,,,
+SRC-0851,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.cache\wt\project.wpc,metadata,metadata-only,,,,,,,
+SRC-0852,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.cache\wt\xsim.wdf,metadata,metadata-only,,,,,,,
+SRC-0853,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.hw\mux_8to1.lpr,metadata,metadata-only,,,,,,,
+SRC-0854,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.ip_user_files\README.txt,text/utf-8-sig,parsed,lines,2,129,,,,
+SRC-0855,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\compile.bat,text/utf-8-sig,parsed,lines,28,918,,,,
+SRC-0856,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\compile.log,text/utf-8-sig,parsed,lines,5,370,,,,
+SRC-0857,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\dec_3to8_tb.tcl,text/utf-8-sig,parsed,lines,12,449,,,,
+SRC-0858,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\dec_3to8_tb_behav.wdb,metadata,metadata-only,,,,,,,
+SRC-0859,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\elaborate.bat,text/utf-8-sig,parsed,lines,27,1053,,,,
+SRC-0860,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\elaborate.log,text/utf-8-sig,parsed,lines,18,946,,,,
+SRC-0861,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\mux_8to1_tb.tcl,text/utf-8-sig,parsed,lines,12,449,,,,
+SRC-0862,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\mux_8to1_tb_behav.wdb,metadata,metadata-only,,,,,,,
+SRC-0863,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\mux_8to1_tb_vhdl.prj,metadata,metadata-only,,,,,,,
+SRC-0864,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\simulate.bat,text/utf-8-sig,parsed,lines,27,997,,,,
+SRC-0865,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\simulate.log,text/utf-8-sig,parsed,lines,2,24,,,,
+SRC-0866,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xelab.pb,metadata,metadata-only,,,,,,,
+SRC-0867,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\Compile_Options.txt,text/utf-8-sig,parsed,lines,2,158,,,,
+SRC-0868,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\obj\xsim_0.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0869,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\obj\xsim_1.c,metadata,metadata-only,,,,,,,
+SRC-0870,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\obj\xsim_1.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0871,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\TempBreakPointFile.txt,text/utf-8-sig,parsed,lines,2,28,,,,
+SRC-0872,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsim.dbg,metadata,metadata-only,,,,,,,
+SRC-0873,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsim.mem,metadata,metadata-only,,,,,,,
+SRC-0874,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsim.reloc,metadata,metadata-only,,,,,,,
+SRC-0875,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsim.rlx,metadata,metadata-only,,,,,,,
+SRC-0876,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsim.rtti,metadata,metadata-only,,,,,,,
+SRC-0877,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsim.svtype,metadata,metadata-only,,,,,,,
+SRC-0878,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsim.type,metadata,metadata-only,,,,,,,
+SRC-0879,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsim.xdbg,metadata,metadata-only,,,,,,,
+SRC-0880,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsimcrash.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0881,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsimk.exe,metadata,metadata-only,,,,,,,
+SRC-0882,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsimkernel.log,text/utf-8-sig,parsed,lines,8,321,,,,
+SRC-0883,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\dec_3to8_tb_behav\xsimSettings.ini,text/utf-8-sig,parsed,lines,51,1370,,,,
+SRC-0884,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\Compile_Options.txt,text/utf-8-sig,parsed,lines,2,158,,,,
+SRC-0885,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\obj\xsim_0.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0886,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\obj\xsim_1.c,metadata,metadata-only,,,,,,,
+SRC-0887,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\obj\xsim_1.win64.obj,metadata,metadata-only,,,,,,,
+SRC-0888,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\TempBreakPointFile.txt,text/utf-8-sig,parsed,lines,2,28,,,,
+SRC-0889,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsim.dbg,metadata,metadata-only,,,,,,,
+SRC-0890,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsim.mem,metadata,metadata-only,,,,,,,
+SRC-0891,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsim.reloc,metadata,metadata-only,,,,,,,
+SRC-0892,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsim.rlx,metadata,metadata-only,,,,,,,
+SRC-0893,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsim.rtti,metadata,metadata-only,,,,,,,
+SRC-0894,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsim.svtype,metadata,metadata-only,,,,,,,
+SRC-0895,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsim.type,metadata,metadata-only,,,,,,,
+SRC-0896,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsim.xdbg,metadata,metadata-only,,,,,,,
+SRC-0897,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsimcrash.log,text/utf-8-sig,parsed,lines,1,0,,,,
+SRC-0898,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsimk.exe,metadata,metadata-only,,,,,,,
+SRC-0899,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsimkernel.log,text/utf-8-sig,parsed,lines,8,321,,,,
+SRC-0900,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\mux_8to1_tb_behav\xsimSettings.ini,text/utf-8-sig,parsed,lines,51,1378,,,,
+SRC-0901,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\dec_3to8.vdb,metadata,metadata-only,,,,,,,
+SRC-0902,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\dec_3to8_tb.vdb,metadata,metadata-only,,,,,,,
+SRC-0903,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\mux_8to1.vdb,metadata,metadata-only,,,,,,,
+SRC-0904,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\mux_8to1_tb.vdb,metadata,metadata-only,,,,,,,
+SRC-0905,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.dir\xil_defaultlib\xil_defaultlib.rlx,metadata,metadata-only,,,,,,,
+SRC-0906,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xsim.ini,text/utf-8-sig,parsed,lines,2,39,,,,
+SRC-0907,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xvhdl.log,text/utf-8-sig,parsed,lines,5,370,,,,
+SRC-0908,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.sim\sim_1\behav\xsim\xvhdl.pb,metadata,metadata-only,,,,,,,
+SRC-0909,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.srcs\sim_1\new\mux_8to1_tb.vhd,text/utf-8-sig,parsed,lines,164,3444,,,,
+SRC-0910,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.srcs\sources_1\new\mux_8to1.vhd,text/utf-8-sig,parsed,lines,76,1970,,,,
+SRC-0911,컨트롤로직설계,mux_8to1_[STUDENT-ID]_[AUTHOR]__extracted\mux_8to1.xpr,metadata,metadata-only,,,,,,,

@@ -4,7 +4,10 @@ __pycache__/
 *.exe
 *.cf
 *.vcd
+!00_digital_hardware/controller_logic/results/vcd/
+!00_digital_hardware/controller_logic/results/vcd/*.vcd
 build/
+docs/audit/source_contact_sheets/
 dist/
 .DS_Store
 Thumbs.db
