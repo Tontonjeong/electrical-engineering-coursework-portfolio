@@ -195,9 +195,7 @@ COURSES = [
             ("assets/motor/torque_ripple_comparison.png", "Independent Recalculation", "Torque-ripple comparison"),
         ],
         "source_visuals": [
-            ("assets/archive/motor/psim_circuit_archive.png", "Existing PSIM Archive", "Recovered PSIM control and plant model"),
             ("assets/archive/motor/reference_speed_profile_archive.png", "Existing PSIM Archive", "0→850→1200 rpm reference profile"),
-            ("assets/archive/motor/speed_response_psim_archive.png", "Existing PSIM Archive", "Recovered PSIM speed response"),
             ("assets/archive/motor/speed_response_matlab_archive.png", "Existing MATLAB Archive", "Recovered MATLAB speed response"),
             ("assets/archive/motor/current_response_psim_archive.png", "Existing PSIM Archive", "Recovered PSIM current response"),
             ("assets/archive/motor/current_response_matlab_archive.png", "Existing MATLAB Archive", "Recovered MATLAB current response"),

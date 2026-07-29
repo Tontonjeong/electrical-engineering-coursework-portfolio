@@ -83,23 +83,11 @@
 
 고해상도 원본 후보를 전수 감사한 뒤 개인정보·학번·로컬 경로·제3자 교재를 제외한 공개 가능 산출물입니다.
 
-### Recovered PSIM control and plant model
-
-**Existing PSIM Archive**
-
-![Recovered PSIM control and plant model](../../docs/assets/archive/motor/psim_circuit_archive.png)
-
 ### 0→850→1200 rpm reference profile
 
 **Existing PSIM Archive**
 
 ![0→850→1200 rpm reference profile](../../docs/assets/archive/motor/reference_speed_profile_archive.png)
-
-### Recovered PSIM speed response
-
-**Existing PSIM Archive**
-
-![Recovered PSIM speed response](../../docs/assets/archive/motor/speed_response_psim_archive.png)
 
 ### Recovered MATLAB speed response
 
