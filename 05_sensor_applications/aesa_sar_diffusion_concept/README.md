@@ -26,6 +26,10 @@ AESA 하드웨어와 SAR 영상형성, 생성모델을 한 문장으로 묶는 �
 3. 영상 품질 지표와 physics-consistency 지표를 함께 사용하도록 제안했습니다.
 4. conditioning과 loss term의 ablation, noise·model mismatch robustness를 검증 순서에 포함했습니다.
 
+## 상세 근거와 분리된 하위 사례
+
+- [Source/proposal evidence matrix](evidence_matrix.md)
+
 ## 구조와 설계 흐름
 
 ![Engineering flow](../../docs/assets/sensor/validation_roadmap.svg)
@@ -115,10 +119,6 @@ python scripts/validate_publication.py
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
 
 <!-- Source-bounded case study; no unsupported claim is implied. -->
 

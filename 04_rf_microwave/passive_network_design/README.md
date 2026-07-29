@@ -26,6 +26,15 @@ Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybr
 3. Wilkinson은 이론 70.7 Ω λ/4 branch와 100 Ω isolation resistor를 기준으로 봤습니다.
 4. Branch-line hybrid는 35.35 Ω/50 Ω branch를 사용한 기존 설계 결과를 보존했습니다.
 
+## 상세 근거와 분리된 하위 사례
+
+- [Homework 2 microstrip](cases/homework2_microstrip.md)
+- [Homework 4 L-section](cases/homework4_l_section.md)
+- [Homework 4 single-stub](cases/homework4_single_stub.md)
+- [Homework 5 Wilkinson](cases/homework5_wilkinson.md)
+- [Homework 5 branch-line hybrid](cases/homework5_branch_line.md)
+- [Homework 5 Ex. 12-3 incomplete](cases/homework5_ex12_3_incomplete.md)
+
 ## 구조와 설계 흐름
 
 ![Engineering flow](../../docs/assets/rf/passive-networks.svg)

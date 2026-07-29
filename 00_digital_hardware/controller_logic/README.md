@@ -26,6 +26,10 @@
 3. 비표준 산술 패키지 의존을 피하고 공개 재구성 testbench에는 numeric_std를 사용했습니다.
 4. 모든 testbench는 assertion 실패 시 CI가 실패하고, 성공 시 PASS와 VCD를 남깁니다.
 
+## 상세 근거와 분리된 하위 사례
+
+- [Local GHDL 6.0.0 verification summary](results/verification_summary.md)
+
 ## 구조와 설계 흐름
 
 ![Engineering flow](../../docs/assets/digital/rtl-flow.svg)
@@ -35,9 +39,11 @@
 | Metric | Value |
 |---|---:|
 | Design units | 7 |
+| Recovered Vivado projects | 4 |
+| Original stimuli | 4 STIMULUS_COMPLETE |
 | Self-checking TB | 7 |
 | Regression | 7 PASS / 0 FAIL |
-| Portable target | Ubuntu + GHDL |
+| Local tool | GHDL 6.0.0 mcode |
 
 ## 시각 근거
 
@@ -142,7 +148,7 @@
 
 ## 검증 경계
 
-> 원본 Vivado 프로젝트, device constraint, synthesis/timing report, 보드 실증 자료는 확인되지 않았습니다. 따라서 LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다. 재구성 usr_4bit의 asynchronous clear는 공개 검증용 가정입니다.
+> 원본 Vivado 2023.2 프로젝트와 XSim context 4건은 회수했지만, device constraint, synthesis/timing report, 보드 실증은 없습니다. 원본 testbench에는 assertion이 없어 STIMULUS_COMPLETE로만 표시하고, PASS는 별도 self-checking GHDL 6.0.0 suite에만 부여합니다. LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다.
 
 ## 재현 절차
 

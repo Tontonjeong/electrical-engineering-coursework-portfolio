@@ -18,6 +18,7 @@ SITE = "https://tontonjeong.github.io/electrical-engineering-coursework-portfoli
 COURSES = [
     {
         "id": "controller-logic",
+        "detail_links": [("Local GHDL 6.0.0 verification summary", "results/verification_summary.md")],
         "path": "00_digital_hardware/controller_logic",
         "term": "2-2",
         "ko_title": "Controller Logic — VHDL 설계와 Portable Verification",
@@ -65,15 +66,18 @@ COURSES = [
         ],
         "metrics": [
             ("Design units", "7"),
+            ("Recovered Vivado projects", "4"),
+            ("Original stimuli", "4 STIMULUS_COMPLETE"),
             ("Self-checking TB", "7"),
             ("Regression", "7 PASS / 0 FAIL"),
-            ("Portable target", "Ubuntu + GHDL"),
+            ("Local tool", "GHDL 6.0.0 mcode"),
         ],
-        "boundary_ko": "원본 Vivado 프로젝트, device constraint, synthesis/timing report, 보드 실증 자료는 확인되지 않았습니다. 따라서 LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다. 재구성 usr_4bit의 asynchronous clear는 공개 검증용 가정입니다.",
-        "boundary_en": "No original Vivado project, constraints, synthesis/timing report, or board evidence was recovered. LUT/FF use, Fmax, power, and hardware PASS are therefore not claimed. The reconstructed usr_4bit asynchronous clear is a public-test assumption.",
+        "boundary_ko": "원본 Vivado 2023.2 프로젝트와 XSim context 4건은 회수했지만, device constraint, synthesis/timing report, 보드 실증은 없습니다. 원본 testbench에는 assertion이 없어 STIMULUS_COMPLETE로만 표시하고, PASS는 별도 self-checking GHDL 6.0.0 suite에만 부여합니다. LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다.",
+        "boundary_en": "Four original Vivado 2023.2 projects and XSim contexts were recovered, but device constraints, implementation reports, and board evidence were not. Original benches contain no assertions and are labelled STIMULUS_COMPLETE; PASS belongs only to the separate self-checking GHDL 6.0.0 suite. FPGA utilization, Fmax, power, and hardware PASS are not claimed.",
     },
     {
         "id": "electrical-machines",
+        "detail_links": [("Report case and workbook reconciliation", "source_case_reconciliation.md")],
         "path": "01_electrical_machines/transformer_design",
         "term": "3-1",
         "ko_title": "Electrical Machines — 900 W 변압기 설계",
@@ -122,14 +126,15 @@ COURSES = [
     },
     {
         "id": "power-systems",
+        "detail_links": [("PowerWorld 24 source-case rerun record", "powerworld_24_rerun.md")],
         "path": "02_power_systems/transmission_line_and_policy",
         "term": "3-1",
         "ko_title": "Power Systems — 765 kV 송전선로와 전력정책 검토",
         "en_title": "Power Systems — 765 kV Line & Policy Review",
         "ko_short": "분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다.",
         "en_short": "Surge impedance and SIL were recalculated while a non-convergent PowerWorld archive and policy figures were kept in separate evidence classes.",
-        "status": "Zc 255.38 Ω · SIL 2.292 GW",
-        "evidence": "Source-Derived · Independent Recalculation · Existing Model Archive",
+        "status": "Zc 255.38 Ω · SIL 2.292 GW · PWB rerun: Blackout",
+        "evidence": "Source-Derived · Independent Recalculation · PowerWorld 24 Tool Rerun",
         "accent": "violet",
         "hero": "assets/power/transmission_line_pi_model.svg",
         "flow": "assets/power/model_result_boundary.svg",
@@ -154,12 +159,14 @@ COURSES = [
             "765 kV, 350 km, z=j0.3 Ω/km, y=j4.6 µS/km 조건으로 lossless Zc와 SIL을 계산했습니다.",
             "독립 계산 결과 Zc≈255.38 Ω, SIL≈2.292 GW, SIL 전류≈1.729 kA입니다.",
             "PowerWorld full-load case의 비현실적 pu 전압과 blackout 상태는 실제 계통 성능으로 해석하지 않았습니다.",
+            "설치된 PowerWorld 24에서 `newcase.pwb`의 2214 MW 저장 상태를 Newton 해석했고 실제 Blackout을 재현했습니다.",
             "2038 수요·피크·설비 수치는 보고서와 공개 정책 출처의 맥락을 분리해 표시했습니다.",
         ],
         "en_decisions": [
             "Lossless Zc and SIL use 765 kV, 350 km, z=j0.3 Ω/km, and y=j4.6 µS/km.",
             "Independent results are Zc≈255.38 Ω, SIL≈2.292 GW, and current≈1.729 kA.",
             "Non-physical per-unit voltages and blackout state are not interpreted as real-grid performance.",
+            "PowerWorld 24 reran the saved 2214 MW `newcase.pwb` state and reproduced Blackout.",
             "2038 demand, peak, and capacity figures retain their report/source context.",
         ],
         "metrics": [
@@ -167,14 +174,16 @@ COURSES = [
             ("Surge impedance", "255.38 Ω"),
             ("SIL", "2.292 GW"),
             ("SIL current", "1.729 kA"),
+            ("PowerWorld 24 rerun", "2214 MW → Blackout"),
             ("2038 energy", "735.1 → 624.5 TWh"),
             ("2038 peak", "145.6 → 129.3 GW"),
         ],
-        "boundary_ko": "동적 안정도, 보호계전, N-1, 실계통 조류 검증은 수행 증거가 없습니다. 비수렴 PowerWorld 화면은 모델 구축·오류 인지 증거이지 PASS가 아닙니다. 정책 보고서의 AI 보조 작성 사실도 숨기지 않습니다.",
-        "boundary_en": "There is no evidence of dynamic stability, protection, N-1, or validated production power-flow analysis. The non-convergent PowerWorld view is evidence of modeling/debugging, not PASS. The report's disclosed AI assistance is retained transparently.",
+        "boundary_ko": "PowerWorld 24 재실행은 2214 MW 저장 상태에서 Blackout 진단을 확인한 것이며, 보고서의 3000/3100/3200 MW 단계나 5380 MW 보상 사례를 검증한 것이 아닙니다. 동적 안정도, 보호계전, N-1, 실계통 검증은 주장하지 않습니다. 화면의 이름·학번은 공개하지 않습니다.",
+        "boundary_en": "The PowerWorld 24 rerun confirms a Blackout diagnostic for the saved 2214 MW state; it does not validate the report's 3000/3100/3200 MW stages or 5380 MW compensated case. Dynamic stability, protection, N-1, and production-grid validation are not claimed. Personal identifiers in the GUI are withheld.",
     },
     {
         "id": "motor-control",
+        "detail_links": [("Parameter consistency audit", "parameter_consistency_audit.md")],
         "path": "03_motor_control/dc_motor_pi_control",
         "term": "3-2",
         "ko_title": "Motor Control — 직류전동기 이중 PI 제어",
@@ -235,6 +244,14 @@ COURSES = [
     },
     {
         "id": "rf-microwave",
+        "detail_links": [
+            ("Homework 2 microstrip", "cases/homework2_microstrip.md"),
+            ("Homework 4 L-section", "cases/homework4_l_section.md"),
+            ("Homework 4 single-stub", "cases/homework4_single_stub.md"),
+            ("Homework 5 Wilkinson", "cases/homework5_wilkinson.md"),
+            ("Homework 5 branch-line hybrid", "cases/homework5_branch_line.md"),
+            ("Homework 5 Ex. 12-3 incomplete", "cases/homework5_ex12_3_incomplete.md"),
+        ],
         "path": "04_rf_microwave/passive_network_design",
         "term": "4-1",
         "ko_title": "RF/Microwave — 수동회로 설계와 Cadence 결과",
@@ -297,6 +314,7 @@ COURSES = [
     },
     {
         "id": "sensor-applications",
+        "detail_links": [("Source/proposal evidence matrix", "evidence_matrix.md")],
         "path": "05_sensor_applications/aesa_sar_diffusion_concept",
         "term": "4-1",
         "ko_title": "Sensor Applications — AESA-SAR와 Physics-Guided Diffusion",
@@ -730,6 +748,7 @@ def root_readme(lang: str) -> str:
         "- Portable Reconstruction: 원본 기능을 공개 환경에서 다시 검증하기 위한 재구성" if ko else "- Portable Reconstruction: public implementation used to reproduce documented behavior",
         "- Independent Recalculation: 보고서 입력과 식을 별도 코드로 재계산" if ko else "- Independent Recalculation: equations rerun from documented inputs",
         "- Existing Result Archive: 기존 PSIM·MATLAB·Cadence·PowerWorld 화면이며 현재 환경 재실행 아님" if ko else "- Existing Result Archive: prior PSIM, MATLAB, Cadence, or PowerWorld evidence; not rerun here",
+        "- Tool Rerun: 현재 설치된 도구에서 원본 파일을 다시 실행한 결과" if ko else "- Tool Rerun: original source reopened and executed with a currently installed tool",
         "- Portfolio Redraw: 원본 내용을 바탕으로 공개용으로 다시 그린 도식" if ko else "- Portfolio Redraw: public visual redrawn from source-derived structure",
         "- Concept / Proposal: 구현·학습·실증이 완료되지 않은 연구 설계" if ko else "- Concept / Proposal: research design without implementation or experimental claims",
         "",
@@ -793,9 +812,9 @@ def root_readme(lang: str) -> str:
         "## Verification matrix" if not ko else "## 검증 매트릭스", "",
         "| Area | Reproducible now | Archive only | Not claimed |",
         "|---|---|---|---|",
-        "| Controller Logic | GHDL 7/7 regression | Original Vivado context unavailable | FPGA timing / board result |",
+        "| Controller Logic | GHDL 6.0.0: 7/7 PASS + 4 original stimuli | Vivado/XSim projects recovered | FPGA timing / board result |",
         "| Transformer | Python loss/efficiency check | Workbook snapshots | Fabrication and hardware tests |",
-        "| Power Systems | Zc/SIL arithmetic | PowerWorld divergence view | Validated grid power flow |",
+        "| Power Systems | Zc/SIL arithmetic + PowerWorld 24 blackout rerun | report load-stage screenshots | Validated production grid flow |",
         "| Motor Control | PI/ripple calculations | PSIM/MATLAB screenshots | New licensed simulation or hardware test |",
         "| RF/Microwave | Source-derived equations | Cadence screenshots | VNA measurement / exact 3.5 GHz rerun |",
         "| Sensor Applications | Architecture review plan | None | Dataset, model, prototype, gain |",
@@ -844,6 +863,9 @@ def course_readme(course: dict) -> str:
         "## 설계 판단", "",
     ]
     lines += [f"{i}. {item}" for i, item in enumerate(course["ko_decisions"], 1)]
+    if course.get("detail_links"):
+        lines += ["", "## 상세 근거와 분리된 하위 사례", ""]
+        lines += [f"- [{label}]({href})" for label, href in course["detail_links"]]
     lines += ["", "## 구조와 설계 흐름", "", f"![Engineering flow](../../docs/{course['flow']})", "", "## 핵심 수치", "", "| Metric | Value |", "|---|---:|"]
     lines += [f"| {label} | {value} |" for label, value in course["metrics"]]
     lines += ["", "## 시각 근거", ""]

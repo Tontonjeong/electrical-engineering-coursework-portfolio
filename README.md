@@ -12,6 +12,7 @@
 - Portable Reconstruction: 원본 기능을 공개 환경에서 다시 검증하기 위한 재구성
 - Independent Recalculation: 보고서 입력과 식을 별도 코드로 재계산
 - Existing Result Archive: 기존 PSIM·MATLAB·Cadence·PowerWorld 화면이며 현재 환경 재실행 아님
+- Tool Rerun: 현재 설치된 도구에서 원본 파일을 다시 실행한 결과
 - Portfolio Redraw: 원본 내용을 바탕으로 공개용으로 다시 그린 도식
 - Concept / Proposal: 구현·학습·실증이 완료되지 않은 연구 설계
 
@@ -21,7 +22,7 @@
 |---|---|---|---|
 | 2-2 | [Controller Logic — VHDL 설계와 Portable Verification](00_digital_hardware/controller_logic/README.md) | 조합회로에서 FSM·범용 시프트 레지스터까지 7개 RTL 블록을 self-checking testbench로 재검증했습니다. | GHDL 7/7 PASS |
 | 3-1 | [Electrical Machines — 900 W 변압기 설계](01_electrical_machines/transformer_design/README.md) | 220/110 V, 900 W, 300 Hz 조건에서 DU·EI·UI 코어를 계산 비교하고 UI-100 설계를 선택했습니다. | Independent recalculation |
-| 3-1 | [Power Systems — 765 kV 송전선로와 전력정책 검토](02_power_systems/transmission_line_and_policy/README.md) | 분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다. | Zc 255.38 Ω · SIL 2.292 GW |
+| 3-1 | [Power Systems — 765 kV 송전선로와 전력정책 검토](02_power_systems/transmission_line_and_policy/README.md) | 분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다. | Zc 255.38 Ω · SIL 2.292 GW · PWB rerun: Blackout |
 | 3-2 | [Motor Control — 직류전동기 이중 PI 제어](03_motor_control/dc_motor_pi_control/README.md) | 500 Hz 전류 루프와 25 Hz 속도 루프, 전류 제한·anti-windup·field weakening을 하나의 제어 구조로 정리했습니다. | Calculation + existing simulation archive |
 | 4-1 | [RF/Microwave — 수동회로 설계와 Cadence 결과](04_rf_microwave/passive_network_design/README.md) | Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybrid를 이론과 기존 Cadence 결과로 비교했습니다. | Theory + existing Cadence archive |
 | 4-1 | [Sensor Applications — AESA-SAR와 Physics-Guided Diffusion](05_sensor_applications/aesa_sar_diffusion_concept/README.md) | AESA 수집, SAR 복원, physics-conditioned diffusion을 연결한 연구 제안과 단계별 검증 로드맵입니다. | Concept / Proposal Only |
@@ -40,11 +41,13 @@
 - **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/controller-logic/)
 
 - Design units: 7
+- Recovered Vivado projects: 4
+- Original stimuli: 4 STIMULUS_COMPLETE
 - Self-checking TB: 7
 - Regression: 7 PASS / 0 FAIL
-- Portable target: Ubuntu + GHDL
+- Local tool: GHDL 6.0.0 mcode
 
-> 원본 Vivado 프로젝트, device constraint, synthesis/timing report, 보드 실증 자료는 확인되지 않았습니다. 따라서 LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다. 재구성 usr_4bit의 asynchronous clear는 공개 검증용 가정입니다.
+> 원본 Vivado 2023.2 프로젝트와 XSim context 4건은 회수했지만, device constraint, synthesis/timing report, 보드 실증은 없습니다. 원본 testbench에는 assertion이 없어 STIMULUS_COMPLETE로만 표시하고, PASS는 별도 self-checking GHDL 6.0.0 suite에만 부여합니다. LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다.
 
 ### 2. Electrical Machines — 900 W 변압기 설계
 
@@ -71,8 +74,8 @@
 
 분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다.
 
-- **Status:** Zc 255.38 Ω · SIL 2.292 GW
-- **Evidence:** Source-Derived · Independent Recalculation · Existing Model Archive
+- **Status:** Zc 255.38 Ω · SIL 2.292 GW · PWB rerun: Blackout
+- **Evidence:** Source-Derived · Independent Recalculation · PowerWorld 24 Tool Rerun
 - **Source:** [02_power_systems/transmission_line_and_policy](02_power_systems/transmission_line_and_policy/)
 - **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/)
 
@@ -80,10 +83,11 @@
 - Surge impedance: 255.38 Ω
 - SIL: 2.292 GW
 - SIL current: 1.729 kA
+- PowerWorld 24 rerun: 2214 MW → Blackout
 - 2038 energy: 735.1 → 624.5 TWh
 - 2038 peak: 145.6 → 129.3 GW
 
-> 동적 안정도, 보호계전, N-1, 실계통 조류 검증은 수행 증거가 없습니다. 비수렴 PowerWorld 화면은 모델 구축·오류 인지 증거이지 PASS가 아닙니다. 정책 보고서의 AI 보조 작성 사실도 숨기지 않습니다.
+> PowerWorld 24 재실행은 2214 MW 저장 상태에서 Blackout 진단을 확인한 것이며, 보고서의 3000/3100/3200 MW 단계나 5380 MW 보상 사례를 검증한 것이 아닙니다. 동적 안정도, 보호계전, N-1, 실계통 검증은 주장하지 않습니다. 화면의 이름·학번은 공개하지 않습니다.
 
 ### 4. Motor Control — 직류전동기 이중 PI 제어
 
@@ -182,9 +186,9 @@ python scripts/validate_publication.py
 
 | Area | Reproducible now | Archive only | Not claimed |
 |---|---|---|---|
-| Controller Logic | GHDL 7/7 regression | Original Vivado context unavailable | FPGA timing / board result |
+| Controller Logic | GHDL 6.0.0: 7/7 PASS + 4 original stimuli | Vivado/XSim projects recovered | FPGA timing / board result |
 | Transformer | Python loss/efficiency check | Workbook snapshots | Fabrication and hardware tests |
-| Power Systems | Zc/SIL arithmetic | PowerWorld divergence view | Validated grid power flow |
+| Power Systems | Zc/SIL arithmetic + PowerWorld 24 blackout rerun | report load-stage screenshots | Validated production grid flow |
 | Motor Control | PI/ripple calculations | PSIM/MATLAB screenshots | New licensed simulation or hardware test |
 | RF/Microwave | Source-derived equations | Cadence screenshots | VNA measurement / exact 3.5 GHz rerun |
 | Sensor Applications | Architecture review plan | None | Dataset, model, prototype, gain |
@@ -214,10 +218,6 @@ The July 2026 archive audit inventories standalone and embedded visuals, exact/n
 ## License notice
 
 The repository license applies only to public, directly authored or reconstructed material. Withheld originals and third-party material are not relicensed.
-
-<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
-
-<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
 
 <!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
 

@@ -1,7 +1,7 @@
 # Power Systems — 765 kV 송전선로와 전력정책 검토
 
 **학기:** 3-1 · **프로젝트 유형:** Team Project · Individual contribution unconfirmed
-**Evidence:** Source-Derived · Independent Recalculation · Existing Model Archive
+**Evidence:** Source-Derived · Independent Recalculation · PowerWorld 24 Tool Rerun
 
 ![Architecture](../../docs/assets/power/transmission_line_pi_model.svg)
 
@@ -11,8 +11,8 @@
 
 | 항목 | 내용 |
 |---|---|
-| 공개 상태 | Zc 255.38 Ω · SIL 2.292 GW |
-| 소스 상태 | Source-Derived · Independent Recalculation · Existing Model Archive |
+| 공개 상태 | Zc 255.38 Ω · SIL 2.292 GW · PWB rerun: Blackout |
+| 소스 상태 | Source-Derived · Independent Recalculation · PowerWorld 24 Tool Rerun |
 | Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/) |
 
 ## 문제 정의
@@ -24,7 +24,12 @@
 1. 765 kV, 350 km, z=j0.3 Ω/km, y=j4.6 µS/km 조건으로 lossless Zc와 SIL을 계산했습니다.
 2. 독립 계산 결과 Zc≈255.38 Ω, SIL≈2.292 GW, SIL 전류≈1.729 kA입니다.
 3. PowerWorld full-load case의 비현실적 pu 전압과 blackout 상태는 실제 계통 성능으로 해석하지 않았습니다.
-4. 2038 수요·피크·설비 수치는 보고서와 공개 정책 출처의 맥락을 분리해 표시했습니다.
+4. 설치된 PowerWorld 24에서 `newcase.pwb`의 2214 MW 저장 상태를 Newton 해석했고 실제 Blackout을 재현했습니다.
+5. 2038 수요·피크·설비 수치는 보고서와 공개 정책 출처의 맥락을 분리해 표시했습니다.
+
+## 상세 근거와 분리된 하위 사례
+
+- [PowerWorld 24 source-case rerun record](powerworld_24_rerun.md)
 
 ## 구조와 설계 흐름
 
@@ -38,6 +43,7 @@
 | Surge impedance | 255.38 Ω |
 | SIL | 2.292 GW |
 | SIL current | 1.729 kA |
+| PowerWorld 24 rerun | 2214 MW → Blackout |
 | 2038 energy | 735.1 → 624.5 TWh |
 | 2038 peak | 145.6 → 129.3 GW |
 
@@ -107,14 +113,14 @@
 
 | 질문 | 답변 |
 |---|---|
-| 지금 재현 가능한가? | Zc 255.38 Ω · SIL 2.292 GW 범위에서 가능 |
+| 지금 재현 가능한가? | Zc 255.38 Ω · SIL 2.292 GW · PWB rerun: Blackout 범위에서 가능 |
 | 과거 결과 화면인가? | Existing Result Archive로 표시된 항목만 해당 |
 | 재구성인가? | Portable Reconstruction 또는 Portfolio Redraw로 표시 |
 | 실물 구현인가? | 원본이 지원하지 않으면 주장하지 않음 |
 
 ## 검증 경계
 
-> 동적 안정도, 보호계전, N-1, 실계통 조류 검증은 수행 증거가 없습니다. 비수렴 PowerWorld 화면은 모델 구축·오류 인지 증거이지 PASS가 아닙니다. 정책 보고서의 AI 보조 작성 사실도 숨기지 않습니다.
+> PowerWorld 24 재실행은 2214 MW 저장 상태에서 Blackout 진단을 확인한 것이며, 보고서의 3000/3100/3200 MW 단계나 5380 MW 보상 사례를 검증한 것이 아닙니다. 동적 안정도, 보호계전, N-1, 실계통 검증은 주장하지 않습니다. 화면의 이름·학번은 공개하지 않습니다.
 
 ## 재현 절차
 
@@ -140,7 +146,3 @@ python scripts/validate_publication.py
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->

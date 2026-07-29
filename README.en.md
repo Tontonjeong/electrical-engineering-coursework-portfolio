@@ -12,6 +12,7 @@ This portfolio reconstructs electrical engineering coursework as public, evidenc
 - Portable Reconstruction: public implementation used to reproduce documented behavior
 - Independent Recalculation: equations rerun from documented inputs
 - Existing Result Archive: prior PSIM, MATLAB, Cadence, or PowerWorld evidence; not rerun here
+- Tool Rerun: original source reopened and executed with a currently installed tool
 - Portfolio Redraw: public visual redrawn from source-derived structure
 - Concept / Proposal: research design without implementation or experimental claims
 
@@ -21,7 +22,7 @@ This portfolio reconstructs electrical engineering coursework as public, evidenc
 |---|---|---|---|
 | 2-2 | [Controller Logic — VHDL Design & Portable Verification](00_digital_hardware/controller_logic/README.md) | Seven RTL blocks spanning combinational logic, an FSM, and a universal shift register were rerun with self-checking testbenches. | GHDL 7/7 PASS |
 | 3-1 | [Electrical Machines — 900 W Transformer Design](01_electrical_machines/transformer_design/README.md) | DU, EI, and UI cores were compared for a 220/110 V, 900 W, 300 Hz transformer, leading to the UI-100 calculation case. | Independent recalculation |
-| 3-1 | [Power Systems — 765 kV Line & Policy Review](02_power_systems/transmission_line_and_policy/README.md) | Surge impedance and SIL were recalculated while a non-convergent PowerWorld archive and policy figures were kept in separate evidence classes. | Zc 255.38 Ω · SIL 2.292 GW |
+| 3-1 | [Power Systems — 765 kV Line & Policy Review](02_power_systems/transmission_line_and_policy/README.md) | Surge impedance and SIL were recalculated while a non-convergent PowerWorld archive and policy figures were kept in separate evidence classes. | Zc 255.38 Ω · SIL 2.292 GW · PWB rerun: Blackout |
 | 3-2 | [Motor Control — Cascaded PI Control of a DC Motor](03_motor_control/dc_motor_pi_control/README.md) | A 500 Hz current loop and 25 Hz speed loop are integrated with current limiting, anti-windup, and field weakening. | Calculation + existing simulation archive |
 | 4-1 | [RF/Microwave — Passive Networks & Cadence Archive](04_rf_microwave/passive_network_design/README.md) | Microstrip, L-section and single-stub matching, a Wilkinson divider, and a branch-line hybrid are compared through theory and an existing Cadence archive. | Theory + existing Cadence archive |
 | 4-1 | [Sensor Applications — AESA-SAR & Physics-Guided Diffusion](05_sensor_applications/aesa_sar_diffusion_concept/README.md) | A research proposal links AESA acquisition, conventional SAR reconstruction, and physics-conditioned diffusion with a staged validation roadmap. | Concept / Proposal Only |
@@ -40,11 +41,13 @@ Seven RTL blocks spanning combinational logic, an FSM, and a universal shift reg
 - **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/en/courses/controller-logic/)
 
 - Design units: 7
+- Recovered Vivado projects: 4
+- Original stimuli: 4 STIMULUS_COMPLETE
 - Self-checking TB: 7
 - Regression: 7 PASS / 0 FAIL
-- Portable target: Ubuntu + GHDL
+- Local tool: GHDL 6.0.0 mcode
 
-> No original Vivado project, constraints, synthesis/timing report, or board evidence was recovered. LUT/FF use, Fmax, power, and hardware PASS are therefore not claimed. The reconstructed usr_4bit asynchronous clear is a public-test assumption.
+> Four original Vivado 2023.2 projects and XSim contexts were recovered, but device constraints, implementation reports, and board evidence were not. Original benches contain no assertions and are labelled STIMULUS_COMPLETE; PASS belongs only to the separate self-checking GHDL 6.0.0 suite. FPGA utilization, Fmax, power, and hardware PASS are not claimed.
 
 ### 2. Electrical Machines — 900 W Transformer Design
 
@@ -71,8 +74,8 @@ DU, EI, and UI cores were compared for a 220/110 V, 900 W, 300 Hz transformer, l
 
 Surge impedance and SIL were recalculated while a non-convergent PowerWorld archive and policy figures were kept in separate evidence classes.
 
-- **Status:** Zc 255.38 Ω · SIL 2.292 GW
-- **Evidence:** Source-Derived · Independent Recalculation · Existing Model Archive
+- **Status:** Zc 255.38 Ω · SIL 2.292 GW · PWB rerun: Blackout
+- **Evidence:** Source-Derived · Independent Recalculation · PowerWorld 24 Tool Rerun
 - **Source:** [02_power_systems/transmission_line_and_policy](02_power_systems/transmission_line_and_policy/)
 - **Web:** [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/en/courses/power-systems/)
 
@@ -80,10 +83,11 @@ Surge impedance and SIL were recalculated while a non-convergent PowerWorld arch
 - Surge impedance: 255.38 Ω
 - SIL: 2.292 GW
 - SIL current: 1.729 kA
+- PowerWorld 24 rerun: 2214 MW → Blackout
 - 2038 energy: 735.1 → 624.5 TWh
 - 2038 peak: 145.6 → 129.3 GW
 
-> There is no evidence of dynamic stability, protection, N-1, or validated production power-flow analysis. The non-convergent PowerWorld view is evidence of modeling/debugging, not PASS. The report's disclosed AI assistance is retained transparently.
+> The PowerWorld 24 rerun confirms a Blackout diagnostic for the saved 2214 MW state; it does not validate the report's 3000/3100/3200 MW stages or 5380 MW compensated case. Dynamic stability, protection, N-1, and production-grid validation are not claimed. Personal identifiers in the GUI are withheld.
 
 ### 4. Motor Control — Cascaded PI Control of a DC Motor
 
@@ -182,9 +186,9 @@ The public CI target uses GHDL and g++ where applicable.
 
 | Area | Reproducible now | Archive only | Not claimed |
 |---|---|---|---|
-| Controller Logic | GHDL 7/7 regression | Original Vivado context unavailable | FPGA timing / board result |
+| Controller Logic | GHDL 6.0.0: 7/7 PASS + 4 original stimuli | Vivado/XSim projects recovered | FPGA timing / board result |
 | Transformer | Python loss/efficiency check | Workbook snapshots | Fabrication and hardware tests |
-| Power Systems | Zc/SIL arithmetic | PowerWorld divergence view | Validated grid power flow |
+| Power Systems | Zc/SIL arithmetic + PowerWorld 24 blackout rerun | report load-stage screenshots | Validated production grid flow |
 | Motor Control | PI/ripple calculations | PSIM/MATLAB screenshots | New licensed simulation or hardware test |
 | RF/Microwave | Source-derived equations | Cadence screenshots | VNA measurement / exact 3.5 GHz rerun |
 | Sensor Applications | Architecture review plan | None | Dataset, model, prototype, gain |
@@ -214,10 +218,6 @@ The July 2026 archive audit inventories standalone and embedded visuals, exact/n
 ## License notice
 
 The repository license applies only to public, directly authored or reconstructed material. Withheld originals and third-party material are not relicensed.
-
-<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
-
-<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
 
 <!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->
 

@@ -26,6 +26,10 @@
 3. 속도 지령은 0→850 rpm, hold, 850→1200 rpm 순서로 구성됩니다.
 4. ±10 A current limit, ±200 V voltage saturation, field weakening 구간을 제어 흐름에 포함했습니다.
 
+## 상세 근거와 분리된 하위 사례
+
+- [Parameter consistency audit](parameter_consistency_audit.md)
+
 ## 구조와 설계 흐름
 
 ![Engineering flow](../../docs/assets/motor/cascaded_pi_controller.svg)

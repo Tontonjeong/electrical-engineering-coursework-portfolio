@@ -26,6 +26,10 @@
 3. UI-100 최종안은 1차 180회, 2차 93회, 효율 96.360%, 전압변동률 1.136%로 정리했습니다.
 4. 회수 workbook 중 다른 입력 조건과 #VALUE! 오류는 최종 설계 근거와 분리했습니다.
 
+## 상세 근거와 분리된 하위 사례
+
+- [Report case and workbook reconciliation](source_case_reconciliation.md)
+
 ## 구조와 설계 흐름
 
 ![Engineering flow](../../docs/assets/transformer/core_geometry_flow.svg)
@@ -123,10 +127,6 @@ python scripts/validate_publication.py
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
 
 <!-- Source-bounded case study; no unsupported claim is implied. -->
 
