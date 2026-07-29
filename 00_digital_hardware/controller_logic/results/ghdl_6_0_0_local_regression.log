@@ -1,0 +1,82 @@
+﻿tool=GHDL 6.0.0 (6.0.0.r0.ge589c698c.dirty) [Dunoon edition]
+executed_kst=2026-07-30T00:29:07.0690093+09:00
+
+> ghdl -a --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-fulladd_tb C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\original\fulladd.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\original_archive\fulladd_tb.vhd
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-fulladd_tb fulladd_tb
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-fulladd_tb fulladd_tb --stop-time=160ns --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\original_fulladd_tb.vcd
+RESULT fulladd_tb=STIMULUS_COMPLETE checker=none
+
+> ghdl -a --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-add_4bits_tb C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\original\fulladd.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\original\add_4bits.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\original_archive\add_4bits_tb.vhd
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-add_4bits_tb add_4bits_tb
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-add_4bits_tb add_4bits_tb --stop-time=200ns --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\original_add_4bits_tb.vcd
+RESULT add_4bits_tb=STIMULUS_COMPLETE checker=none
+
+> ghdl -a --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-mealy_tb C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\original\mealy_101.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\original_archive\mealy_tb.vhd
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-mealy_tb mealy_tb
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-mealy_tb mealy_tb --stop-time=260ns --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\original_mealy_tb.vcd
+ghdl:info: simulation stopped by --stop-time @260ns
+RESULT mealy_tb=STIMULUS_COMPLETE checker=none
+
+> ghdl -a --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-mux_8to1_tb C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\portable_reconstruction\dec_3to8.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\original\mux_8to1.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\original_archive\mux_8to1_tb.vhd
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-mux_8to1_tb mux_8to1_tb
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\original-mux_8to1_tb mux_8to1_tb --stop-time=400ns --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\original_mux_8to1_tb.vcd
+RESULT mux_8to1_tb=STIMULUS_COMPLETE checker=none
+
+> ghdl -a --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\original\fulladd.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\original\add_4bits.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\original\mux_8to1.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\original\mealy_101.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\portable_reconstruction\dec_3to8.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\portable_reconstruction\mux_8to1_4bits.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\src\portable_reconstruction\usr_4bit.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_fulladd.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_add_4bits.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_dec_3to8.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_mux_8to1.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_mux_8to1_4bits.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_mealy_101.vhd C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_usr_4bit.vhd
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_fulladd
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_fulladd --assert-level=error --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\tb_fulladd.vcd
+C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_fulladd.vhd:27:5:@8ns:(report note): PASS tb_fulladd
+simulation stopped @8ns
+RESULT tb_fulladd=PASS checker=assertions
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_add_4bits
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_add_4bits --assert-level=error --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\tb_add_4bits.vcd
+C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_add_4bits.vhd:32:5:@512ns:(report note): PASS tb_add_4bits
+simulation stopped @512ns
+RESULT tb_add_4bits=PASS checker=assertions
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_dec_3to8
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_dec_3to8 --assert-level=error --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\tb_dec_3to8.vcd
+C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_dec_3to8.vhd:22:5:@8ns:(report note): PASS tb_dec_3to8
+simulation stopped @8ns
+RESULT tb_dec_3to8=PASS checker=assertions
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_mux_8to1
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_mux_8to1 --assert-level=error --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\tb_mux_8to1.vcd
+C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_mux_8to1.vhd:23:5:@8ns:(report note): PASS tb_mux_8to1
+simulation stopped @8ns
+RESULT tb_mux_8to1=PASS checker=assertions
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_mux_8to1_4bits
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_mux_8to1_4bits --assert-level=error --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\tb_mux_8to1_4bits.vcd
+C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_mux_8to1_4bits.vhd:23:5:@8ns:(report note): PASS tb_mux_8to1_4bits
+simulation stopped @8ns
+RESULT tb_mux_8to1_4bits=PASS checker=assertions
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_mealy_101
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_mealy_101 --assert-level=error --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\tb_mealy_101.vcd
+C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_mealy_101.vhd:26:5:@51ns:(report note): PASS tb_mealy_101
+simulation stopped @51ns
+RESULT tb_mealy_101=PASS checker=assertions
+
+> ghdl -e --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_usr_4bit
+
+> ghdl -r --std=08 --workdir=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\build\ghdl-local\self-checking tb_usr_4bit --assert-level=error --vcd=C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\results\vcd\tb_usr_4bit.vcd
+C:\Users\User\Documents\Codex\2026-07-28\files-mentioned-by-the-user-shift\work\repos\electrical-engineering-coursework-portfolio\00_digital_hardware\controller_logic\tb\tb_usr_4bit.vhd:25:5:@36ns:(report note): PASS tb_usr_4bit
+simulation stopped @36ns
+RESULT tb_usr_4bit=PASS checker=assertions

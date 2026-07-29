@@ -4,7 +4,7 @@
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
           <meta name="theme-color" content="#08111f">
-          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <meta name="description" content="Electrical engineering coursework, calculations, source files, and verification results">
           <title>Controller Logic — VHDL Design &amp; Portable Verification</title>
           <link rel="stylesheet" href="../../../styles.css">
         </head>
@@ -20,7 +20,7 @@
           <main id="main">
         <section class="case-hero accent-cyan">
           <div>
-            <p class="eyebrow">Term 2-2 · Visual Engineering Case Study</p>
+            <p class="eyebrow">Term 2-2 · Electrical Engineering Coursework</p>
             <h1>Controller Logic — VHDL Design &amp; Portable Verification</h1>
             <p class="lede">Seven RTL blocks spanning combinational logic, an FSM, and a universal shift register were rerun with self-checking testbenches.</p>
             <div class="actions"><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/00_digital_hardware/controller_logic">Source directory</a></div>
@@ -30,7 +30,7 @@
           </button>
         </section>
         <section class="snapshot section">
-          <div class="section-heading"><span>01</span><h2>30-second summary</h2></div>
+          <div class="section-heading"><span>01</span><h2>RTL scope and executed tools</h2></div>
           <div class="snapshot-grid">
             <p>Seven RTL blocks spanning combinational logic, an FSM, and a universal shift register were rerun with self-checking testbenches.</p>
             <dl>
@@ -41,10 +41,10 @@
           </div>
         </section>
         <section class="section split">
-          <div><div class="section-heading"><span>02</span><h2>Problem and design decisions</h2></div><p>The source material traces a progression from logic equations through hierarchy, state machines, and register control. Because not every source file was recoverable, recovered originals and public reconstructions are separated in both the tree and the evidence labels.</p><ul class="decision-list"><li>Small combinational blocks use exhaustive input-space checks.</li><li>Sequential tests isolate reset, hold, load, both shift directions, and overlap detection.</li><li>Public reconstructions avoid non-standard arithmetic packages and use numeric_std.</li><li>Assertions fail CI, while successful runs emit PASS messages and VCD evidence.</li></ul></div>
+          <div><div class="section-heading"><span>02</span><h2>Original sources versus portable verification</h2></div><p>The source material traces a progression from logic equations through hierarchy, state machines, and register control. Because not every source file was recoverable, recovered originals and public reconstructions are separated in both the tree and the evidence labels.</p><ul class="decision-list"><li>Small combinational blocks use exhaustive input-space checks.</li><li>Sequential tests isolate reset, hold, load, both shift directions, and overlap detection.</li><li>Public reconstructions avoid non-standard arithmetic packages and use numeric_std.</li><li>Assertions fail CI, while successful runs emit PASS messages and VCD evidence.</li></ul></div>
           <figure class="visual-card featured"><button class="image-button" data-lightbox="../../../assets/digital/rtl-flow.svg"><img src="../../../assets/digital/rtl-flow.svg" alt="Engineering flow"></button><figcaption><span class="evidence-badge">Portfolio Redraw</span>Architecture and decision flow</figcaption></figure>
         </section>
-        <section class="section"><div class="section-heading"><span>03</span><h2>Design and verification evidence</h2></div>
+        <section class="section"><div class="section-heading"><span>03</span><h2>Gate structure and GHDL waveforms</h2></div>
           <div class="gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../../assets/digital/one_bit_full_adder_gate.svg" aria-label="Expand image: 1-bit full-adder gate structure">
@@ -90,8 +90,8 @@
 </div>
         </section>
 
-        <section class="section"><div class="section-heading"><span>04</span><h2>Reviewed source evidence</h2></div>
-          <p class="section-note">High-resolution, manually reviewed project evidence. Private identifiers, participant-level data, local paths, and third-party teaching material are excluded.</p>
+        <section class="section"><div class="section-heading"><span>04</span><h2>Recovered Vivado/XSim views</h2></div>
+          <p class="section-note">Source result views excluding student identifiers, personal data, local paths, and third-party teaching material.</p>
           <div class="gallery source-gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../../gallery/controller-logic/full-adder-hierarchy.png" aria-label="Expand image: 4-bit adder hierarchy and carry-chain mapping">
@@ -130,7 +130,7 @@
 </div>
         </section>
 
-        <section class="section"><div class="section-heading"><span>05</span><h2>Code evidence</h2></div>
+        <section class="section"><div class="section-heading"><span>05</span><h2>VHDL entities and assertion testbenches</h2></div>
           <div class="gallery code-gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../../assets/code/vhdl_full_adder.svg" aria-label="Expand image: Full-adder concurrent assignments">
@@ -154,15 +154,15 @@
 </figure>
 </div>
         </section>
-        <section class="section"><div class="section-heading"><span>06</span><h2>Key results</h2></div>
-          <div class="metrics"><div class="metric"><span>Design units</span><strong>7</strong></div><div class="metric"><span>Self-checking TB</span><strong>7</strong></div><div class="metric"><span>Regression</span><strong>7 PASS / 0 FAIL</strong></div><div class="metric"><span>Portable target</span><strong>Ubuntu + GHDL</strong></div></div>
+        <section class="section"><div class="section-heading"><span>06</span><h2>Regression results</h2></div>
+          <div class="metrics"><div class="metric"><span>Design units</span><strong>7</strong></div><div class="metric"><span>Recovered Vivado projects</span><strong>4</strong></div><div class="metric"><span>Original stimuli</span><strong>4 STIMULUS_COMPLETE</strong></div><div class="metric"><span>Self-checking TB</span><strong>7</strong></div><div class="metric"><span>Regression</span><strong>7 PASS / 0 FAIL</strong></div><div class="metric"><span>Local tool</span><strong>GHDL 6.0.0 mcode</strong></div></div>
         </section>
-        <section class="section boundary"><div class="section-heading"><span>07</span><h2>Verification boundary</h2></div><p>No original Vivado project, constraints, synthesis/timing report, or board evidence was recovered. LUT/FF use, Fmax, power, and hardware PASS are therefore not claimed. The reconstructed usr_4bit asynchronous clear is a public-test assumption.</p></section>
-        <section class="section source-panel"><div><h2>Source and reproduction</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/00_digital_hardware/controller_logic">Open source</a><a class="button" href="../../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <section class="section boundary"><div class="section-heading"><span>07</span><h2>Synthesis and board-test boundary</h2></div><p>Four original Vivado 2023.2 projects and XSim contexts were recovered, but device constraints, implementation reports, and board evidence were not. Original benches contain no assertions and are labelled STIMULUS_COMPLETE; PASS belongs only to the separate self-checking GHDL 6.0.0 suite. FPGA utilization, Fmax, power, and hardware PASS are not claimed.</p></section>
+        <section class="section source-panel"><div><h2>Sources, logs, and VCD</h2><p>Links point to publishable sources, calculations, logs, and detailed provenance.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/00_digital_hardware/controller_logic">Open source</a><a class="button" href="../../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
         <nav class="case-nav"><a href="../../../en/">← All courses</a></nav>
 </main>
           <footer>
-            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <p>Original source, rerun, archived result, recalculation, and proposal labels follow the source record.</p>
             <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
           </footer>
           <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>

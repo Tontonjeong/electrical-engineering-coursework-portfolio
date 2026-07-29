@@ -4,7 +4,7 @@
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
           <meta name="theme-color" content="#08111f">
-          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <meta name="description" content="Electrical engineering coursework, calculations, source files, and verification results">
           <title>Electrical Machines — 900 W 변압기 설계</title>
           <link rel="stylesheet" href="../../styles.css">
         </head>
@@ -20,7 +20,7 @@
           <main id="main">
         <section class="case-hero accent-amber">
           <div>
-            <p class="eyebrow">3-1학기 · Visual Engineering Case Study</p>
+            <p class="eyebrow">3-1학기 · 전자전기공학 과제</p>
             <h1>Electrical Machines — 900 W 변압기 설계</h1>
             <p class="lede">220/110 V, 900 W, 300 Hz 조건에서 DU·EI·UI 코어를 계산 비교하고 UI-100 설계를 선택했습니다.</p>
             <div class="actions"><a class="button primary" href="../../tools/transformer-case-calculator/">Transformer Case Calculator</a><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/01_electrical_machines/transformer_design">Source directory</a></div>
@@ -30,7 +30,7 @@
           </button>
         </section>
         <section class="snapshot section">
-          <div class="section-heading"><span>01</span><h2>30초 요약</h2></div>
+          <div class="section-heading"><span>01</span><h2>900 W 변압기 설계 조건</h2></div>
           <div class="snapshot-grid">
             <p>220/110 V, 900 W, 300 Hz 조건에서 DU·EI·UI 코어를 계산 비교하고 UI-100 설계를 선택했습니다.</p>
             <dl>
@@ -41,10 +41,10 @@
           </div>
         </section>
         <section class="section split">
-          <div><div class="section-heading"><span>02</span><h2>문제 정의와 설계 판단</h2></div><p>정격 요구에서 권선수와 도체를 산정하고, 동손·철손·효율·전압변동률·창 이용률을 계산해 서로 다른 코어 형상을 비교했습니다. 최종 선택은 단일 최고 수치가 아니라 효율과 전압변동률, 창 이용률을 함께 본 trade study입니다.</p><ul class="decision-list"><li>설계 입력은 220/110 V, 900 W, 300 Hz, silicon steel, Bmax 1.5 T로 고정했습니다.</li><li>DU-75, EI-112 초기·재설계, UI-100 사례를 동일한 판단 축으로 비교했습니다.</li><li>UI-100 최종안은 1차 180회, 2차 93회, 효율 96.360%, 전압변동률 1.136%로 정리했습니다.</li><li>회수 workbook 중 다른 입력 조건과 #VALUE! 오류는 최종 설계 근거와 분리했습니다.</li></ul></div>
+          <div><div class="section-heading"><span>02</span><h2>UI·EI·DU 코어 후보 계산</h2></div><p>정격 요구에서 권선수와 도체를 산정하고, 동손·철손·효율·전압변동률·창 이용률을 계산해 서로 다른 코어 형상을 비교했습니다. 최종 선택은 단일 최고 수치가 아니라 효율과 전압변동률, 창 이용률을 함께 본 trade study입니다.</p><ul class="decision-list"><li>설계 입력은 220/110 V, 900 W, 300 Hz, silicon steel, Bmax 1.5 T로 고정했습니다.</li><li>DU-75, EI-112 초기·재설계, UI-100 사례를 동일한 판단 축으로 비교했습니다.</li><li>UI-100 최종안은 1차 180회, 2차 93회, 효율 96.360%, 전압변동률 1.136%로 정리했습니다.</li><li>회수 workbook 중 다른 입력 조건과 #VALUE! 오류는 최종 설계 근거와 분리했습니다.</li></ul></div>
           <figure class="visual-card featured"><button class="image-button" data-lightbox="../../assets/transformer/core_geometry_flow.svg"><img src="../../assets/transformer/core_geometry_flow.svg" alt="Engineering flow"></button><figcaption><span class="evidence-badge">Portfolio Redraw</span>Architecture and decision flow</figcaption></figure>
         </section>
-        <section class="section"><div class="section-heading"><span>03</span><h2>설계·검증 근거</h2></div>
+        <section class="section"><div class="section-heading"><span>03</span><h2>권선·손실·효율 계산</h2></div>
           <div class="gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../assets/transformer/transformer_requirements_card.png" aria-label="이미지 확대: Source-derived design requirements">
@@ -91,7 +91,7 @@
         </section>
 
 
-        <section class="section"><div class="section-heading"><span>04</span><h2>코드 근거</h2></div>
+        <section class="section"><div class="section-heading"><span>04</span><h2>독립 재계산식</h2></div>
           <div class="gallery code-gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../assets/code/calc_transformer.svg" aria-label="이미지 확대: Loss and efficiency equations">
@@ -101,15 +101,15 @@
 </figure>
 </div>
         </section>
-        <section class="section"><div class="section-heading"><span>05</span><h2>핵심 결과</h2></div>
+        <section class="section"><div class="section-heading"><span>05</span><h2>후보별 계산 결과</h2></div>
           <div class="metrics"><div class="metric"><span>Primary / secondary</span><strong>180 / 93 turns</strong></div><div class="metric"><span>Copper loss</span><strong>10.2267 W</strong></div><div class="metric"><span>Core loss</span><strong>23.7760 W</strong></div><div class="metric"><span>Efficiency</span><strong>96.360%</strong></div><div class="metric"><span>Regulation</span><strong>1.136%</strong></div></div>
         </section>
-        <section class="section boundary"><div class="section-heading"><span>06</span><h2>검증 경계와 한계</h2></div><p>최종 제작, 온도상승, 절연 내력, 무부하·단락 시험의 실물 증거는 확인되지 않았습니다. 결과는 계산 기반 설계입니다. Workbook 화면은 셀 값을 렌더링한 snapshot이며 Excel 애플리케이션 실행 화면이 아닙니다.</p></section>
-        <section class="section source-panel"><div><h2>소스와 재현</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/01_electrical_machines/transformer_design">Open source</a><a class="button" href="../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <section class="section boundary"><div class="section-heading"><span>06</span><h2>제작·온도·절연 시험 범위</h2></div><p>최종 제작, 온도상승, 절연 내력, 무부하·단락 시험의 실물 증거는 확인되지 않았습니다. 결과는 계산 기반 설계입니다. Workbook 화면은 셀 값을 렌더링한 snapshot이며 Excel 애플리케이션 실행 화면이 아닙니다.</p></section>
+        <section class="section source-panel"><div><h2>Workbook 감사와 계산 코드</h2><p>공개 가능한 소스·계산·로그와 상세 provenance를 연결합니다.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/01_electrical_machines/transformer_design">Open source</a><a class="button" href="../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
         <nav class="case-nav"><a href="../../">← 전체 과목 보기</a></nav>
 </main>
           <footer>
-            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <p>Original source, rerun, archived result, recalculation, and proposal labels follow the source record.</p>
             <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
           </footer>
           <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>

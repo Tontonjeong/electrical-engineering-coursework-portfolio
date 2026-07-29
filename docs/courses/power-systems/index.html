@@ -4,7 +4,7 @@
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
           <meta name="theme-color" content="#08111f">
-          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <meta name="description" content="Electrical engineering coursework, calculations, source files, and verification results">
           <title>Power Systems — 765 kV 송전선로와 전력정책 검토</title>
           <link rel="stylesheet" href="../../styles.css">
         </head>
@@ -20,7 +20,7 @@
           <main id="main">
         <section class="case-hero accent-violet">
           <div>
-            <p class="eyebrow">3-1학기 · Visual Engineering Case Study</p>
+            <p class="eyebrow">3-1학기 · 전자전기공학 과제</p>
             <h1>Power Systems — 765 kV 송전선로와 전력정책 검토</h1>
             <p class="lede">분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다.</p>
             <div class="actions"><a class="button primary" href="../../tools/transmission-line-calculator/">Transmission-Line Calculator</a><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/02_power_systems/transmission_line_and_policy">Source directory</a></div>
@@ -30,21 +30,21 @@
           </button>
         </section>
         <section class="snapshot section">
-          <div class="section-heading"><span>01</span><h2>30초 요약</h2></div>
+          <div class="section-heading"><span>01</span><h2>765 kV 선로 입력과 실행 상태</h2></div>
           <div class="snapshot-grid">
             <p>분포정수 선로의 Zc·SIL을 재계산하고, PowerWorld 비수렴 결과와 정책 수치를 서로 다른 증거로 분리했습니다.</p>
             <dl>
-              <div><dt>Status</dt><dd>Zc 255.38 Ω · SIL 2.292 GW</dd></div>
-              <div><dt>Evidence</dt><dd>Source-Derived · Independent Recalculation · Existing Model Archive</dd></div>
+              <div><dt>Status</dt><dd>Zc 255.38 Ω · SIL 2.292 GW · PWB rerun: Blackout</dd></div>
+              <div><dt>Evidence</dt><dd>Source-Derived · Independent Recalculation · PowerWorld 24 Tool Rerun</dd></div>
               <div><dt>Contribution</dt><dd>Team Project · Individual contribution unconfirmed</dd></div>
             </dl>
           </div>
         </section>
         <section class="section split">
-          <div><div class="section-heading"><span>02</span><h2>문제 정의와 설계 판단</h2></div><p>계산 가능한 전송선로 파라미터, 수렴하지 않은 모델 화면, 정책 보고서 수치를 한 가지 ‘결과’로 묶지 않고 증거 수준을 분리하는 것이 핵심입니다. 선로 계산은 독립 재계산했고, 모델 비수렴은 디버깅 증거로만 남겼습니다.</p><ul class="decision-list"><li>765 kV, 350 km, z=j0.3 Ω/km, y=j4.6 µS/km 조건으로 lossless Zc와 SIL을 계산했습니다.</li><li>독립 계산 결과 Zc≈255.38 Ω, SIL≈2.292 GW, SIL 전류≈1.729 kA입니다.</li><li>PowerWorld full-load case의 비현실적 pu 전압과 blackout 상태는 실제 계통 성능으로 해석하지 않았습니다.</li><li>2038 수요·피크·설비 수치는 보고서와 공개 정책 출처의 맥락을 분리해 표시했습니다.</li></ul></div>
+          <div><div class="section-heading"><span>02</span><h2>선로 계산과 조류해석 결과 분리</h2></div><p>계산 가능한 전송선로 파라미터, 수렴하지 않은 모델 화면, 정책 보고서 수치를 한 가지 ‘결과’로 묶지 않고 증거 수준을 분리하는 것이 핵심입니다. 선로 계산은 독립 재계산했고, 모델 비수렴은 디버깅 증거로만 남겼습니다.</p><ul class="decision-list"><li>765 kV, 350 km, z=j0.3 Ω/km, y=j4.6 µS/km 조건으로 lossless Zc와 SIL을 계산했습니다.</li><li>독립 계산 결과 Zc≈255.38 Ω, SIL≈2.292 GW, SIL 전류≈1.729 kA입니다.</li><li>PowerWorld full-load case의 비현실적 pu 전압과 blackout 상태는 실제 계통 성능으로 해석하지 않았습니다.</li><li>설치된 PowerWorld 24에서 `newcase.pwb`의 2214 MW 저장 상태를 Newton 해석했고 실제 Blackout을 재현했습니다.</li><li>2038 수요·피크·설비 수치는 보고서와 공개 정책 출처의 맥락을 분리해 표시했습니다.</li></ul></div>
           <figure class="visual-card featured"><button class="image-button" data-lightbox="../../assets/power/model_result_boundary.svg"><img src="../../assets/power/model_result_boundary.svg" alt="Engineering flow"></button><figcaption><span class="evidence-badge">Portfolio Redraw</span>Architecture and decision flow</figcaption></figure>
         </section>
-        <section class="section"><div class="section-heading"><span>03</span><h2>설계·검증 근거</h2></div>
+        <section class="section"><div class="section-heading"><span>03</span><h2>Zc·SIL·수요 수치</h2></div>
           <div class="gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../assets/power/zc_sil_formula_flow.svg" aria-label="이미지 확대: Distributed-line calculation flow">
@@ -90,8 +90,8 @@
 </div>
         </section>
 
-        <section class="section"><div class="section-heading"><span>04</span><h2>검토된 원본 시각 증거</h2></div>
-          <p class="section-note">High-resolution, manually reviewed project evidence. Private identifiers, participant-level data, local paths, and third-party teaching material are excluded.</p>
+        <section class="section"><div class="section-heading"><span>04</span><h2>PowerWorld 모델 화면</h2></div>
+          <p class="section-note">학번·개인정보·로컬 경로·제3자 교재를 제외한 원본 결과 화면입니다.</p>
           <div class="gallery source-gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../gallery/power-systems/powerworld-baseline-case.png" aria-label="이미지 확대: Multi-area PowerWorld baseline model">
@@ -109,7 +109,7 @@
 </div>
         </section>
 
-        <section class="section"><div class="section-heading"><span>05</span><h2>코드 근거</h2></div>
+        <section class="section"><div class="section-heading"><span>05</span><h2>선로 재계산식</h2></div>
           <div class="gallery code-gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../assets/code/calc_transmission.svg" aria-label="이미지 확대: Zc, SIL, and current equations">
@@ -119,15 +119,15 @@
 </figure>
 </div>
         </section>
-        <section class="section"><div class="section-heading"><span>06</span><h2>핵심 결과</h2></div>
-          <div class="metrics"><div class="metric"><span>Voltage / length</span><strong>765 kV / 350 km</strong></div><div class="metric"><span>Surge impedance</span><strong>255.38 Ω</strong></div><div class="metric"><span>SIL</span><strong>2.292 GW</strong></div><div class="metric"><span>SIL current</span><strong>1.729 kA</strong></div><div class="metric"><span>2038 energy</span><strong>735.1 → 624.5 TWh</strong></div><div class="metric"><span>2038 peak</span><strong>145.6 → 129.3 GW</strong></div></div>
+        <section class="section"><div class="section-heading"><span>06</span><h2>계산값과 solver 상태</h2></div>
+          <div class="metrics"><div class="metric"><span>Voltage / length</span><strong>765 kV / 350 km</strong></div><div class="metric"><span>Surge impedance</span><strong>255.38 Ω</strong></div><div class="metric"><span>SIL</span><strong>2.292 GW</strong></div><div class="metric"><span>SIL current</span><strong>1.729 kA</strong></div><div class="metric"><span>PowerWorld 24 rerun</span><strong>2214 MW → Blackout</strong></div><div class="metric"><span>2038 energy</span><strong>735.1 → 624.5 TWh</strong></div><div class="metric"><span>2038 peak</span><strong>145.6 → 129.3 GW</strong></div></div>
         </section>
-        <section class="section boundary"><div class="section-heading"><span>07</span><h2>검증 경계와 한계</h2></div><p>동적 안정도, 보호계전, N-1, 실계통 조류 검증은 수행 증거가 없습니다. 비수렴 PowerWorld 화면은 모델 구축·오류 인지 증거이지 PASS가 아닙니다. 정책 보고서의 AI 보조 작성 사실도 숨기지 않습니다.</p></section>
-        <section class="section source-panel"><div><h2>소스와 재현</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/02_power_systems/transmission_line_and_policy">Open source</a><a class="button" href="../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <section class="section boundary"><div class="section-heading"><span>07</span><h2>Blackout 진단과 보고서 수치 경계</h2></div><p>PowerWorld 24 재실행은 2214 MW 저장 상태에서 Blackout 진단을 확인한 것이며, 보고서의 3000/3100/3200 MW 단계나 5380 MW 보상 사례를 검증한 것이 아닙니다. 동적 안정도, 보호계전, N-1, 실계통 검증은 주장하지 않습니다. 화면의 이름·학번은 공개하지 않습니다.</p></section>
+        <section class="section source-panel"><div><h2>계산 코드와 PowerWorld 실행 기록</h2><p>공개 가능한 소스·계산·로그와 상세 provenance를 연결합니다.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/02_power_systems/transmission_line_and_policy">Open source</a><a class="button" href="../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
         <nav class="case-nav"><a href="../../">← 전체 과목 보기</a></nav>
 </main>
           <footer>
-            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <p>Original source, rerun, archived result, recalculation, and proposal labels follow the source record.</p>
             <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
           </footer>
           <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>

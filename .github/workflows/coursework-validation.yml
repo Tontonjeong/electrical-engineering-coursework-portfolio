@@ -18,6 +18,7 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -54,9 +55,6 @@ jobs:
       - name: Validate exact and near-duplicate groups
         run: python scripts/detect_visual_duplicates.py
 
-      - name: Validate minimum visual coverage
-        run: python scripts/check_visual_coverage.py
-
       - name: Validate visual references, captions, and file integrity
         run: python scripts/check_visual_references.py
 
@@ -68,44 +66,15 @@ jobs:
             -o build/cpp/pi_gain_calculator
           build/cpp/pi_gain_calculator
 
-      - name: Analyze VHDL
-        working-directory: 00_digital_hardware/controller_logic
-        run: |
-          mkdir -p build
-          ghdl -a --std=08 --workdir=build \
-            src/original/fulladd.vhd \
-            src/original/add_4bits.vhd \
-            src/original/mux_8to1.vhd \
-            src/original/mealy_101.vhd \
-            src/portable_reconstruction/dec_3to8.vhd \
-            src/portable_reconstruction/mux_8to1_4bits.vhd \
-            src/portable_reconstruction/usr_4bit.vhd \
-            tb/tb_fulladd.vhd \
-            tb/tb_add_4bits.vhd \
-            tb/tb_dec_3to8.vhd \
-            tb/tb_mux_8to1.vhd \
-            tb/tb_mux_8to1_4bits.vhd \
-            tb/tb_mealy_101.vhd \
-            tb/tb_usr_4bit.vhd
+      - name: Execute original stimuli and self-checking VHDL regression
+        run: bash scripts/run_controller_logic_ci.sh
 
-      - name: Execute self-checking VHDL regression
-        working-directory: 00_digital_hardware/controller_logic
-        run: |
-          set -euo pipefail
-          for test in \
-            tb_fulladd tb_add_4bits tb_dec_3to8 tb_mux_8to1 \
-            tb_mux_8to1_4bits tb_mealy_101 tb_usr_4bit
-          do
-            ghdl -e --std=08 --workdir=build "$test"
-            ghdl -r --std=08 --workdir=build "$test" \
-              --assert-level=error --vcd="build/${test}.vcd"
-          done
-
-      - name: Upload VHDL waveforms
+      - name: Upload VHDL verification evidence
         uses: actions/upload-artifact@v4
         with:
-          name: controller-logic-vcd
-          path: 00_digital_hardware/controller_logic/build/*.vcd
+          name: controller-logic-verification
+          path: 00_digital_hardware/controller_logic/build/artifacts/vhdl-verification
+          retention-days: 90
 
       - name: Configure Pages
         if: github.event_name != 'pull_request'
@@ -117,9 +86,39 @@ jobs:
         with:
           path: docs
 
+  visual-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PPG_REPO_ROOT: ${{ github.workspace }}/.visual-dependencies/ppg-hrv
+      RADAR_REPO_ROOT: ${{ github.workspace }}/.visual-dependencies/fmcw-radar
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout PPG-HRV visual dependency
+        uses: actions/checkout@v4
+        with:
+          repository: Tontonjeong/PPG-HRV-Cognitive-Load-CNN
+          ref: 3c6e6bcebbce000e7a1c3552a69aad6e030d527a
+          path: .visual-dependencies/ppg-hrv
+          sparse-checkout: docs
+          persist-credentials: false
+
+      - name: Checkout FMCW Radar visual dependency
+        uses: actions/checkout@v4
+        with:
+          repository: Tontonjeong/fmcw-radar-aoac-cardiac-analysis
+          ref: 86d97c55f21cf469e67de4acc0b91b43089de0c3
+          path: .visual-dependencies/fmcw-radar
+          sparse-checkout: docs
+          persist-credentials: false
+
+      - name: Validate cross-repository visual coverage
+        run: python scripts/check_visual_coverage.py
+
   deploy:
     if: github.event_name != 'pull_request'
-    needs: validate
+    needs: [validate, visual-integration]
     runs-on: ubuntu-latest
     environment:
       name: github-pages

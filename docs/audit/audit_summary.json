@@ -1,0 +1,29 @@
+{
+  "files": 911,
+  "bytes": 440532658,
+  "subjects": {
+    "VRET (withheld)": 9,
+    "고주파공학": 388,
+    "센서응용공학": 2,
+    "전기기기": 14,
+    "전동기제어": 87,
+    "전력시스템공학": 49,
+    "컨트롤로직설계": 362
+  },
+  "classifications": {
+    "PRIVATE_OR_CONFIDENTIAL": 9,
+    "THIRD_PARTY": 10,
+    "PUBLIC_USED": 171,
+    "DUPLICATE": 225,
+    "INCOMPLETE_WORK": 15,
+    "PUBLIC_REFERENCE_ONLY": 340,
+    "NOT_RELEVANT_WITH_REASON": 141
+  },
+  "content_status": {
+    "withheld": 9,
+    "parsed": 657,
+    "metadata-only": 245
+  },
+  "exact_duplicate_groups": 156,
+  "visual_files": 482
+}
