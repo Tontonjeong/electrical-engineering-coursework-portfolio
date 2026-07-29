@@ -25,9 +25,8 @@ Audit date: 2026-07-29 KST
 | Sensor Applications | Literature/concept report only; no dataset, model training, or hardware | Label Concept / Proposal Only |
 | VRET | Industry R&D disclosure status is unconfirmed | Withhold all source names/content |
 
-## Hiring-review implication
+## Supported and unsupported claims
 
-The public portfolio can support design reasoning, executable VHDL verification,
-independent arithmetic, and transparent source reconciliation. It cannot support
-claims of fabricated hardware, RF measurement, production grid validation, or
-trained diffusion-model performance.
+Supported: design calculations, executable VHDL verification, and source
+reconciliation. Unsupported: fabricated hardware, RF measurement, production
+grid validation, and trained diffusion-model performance.

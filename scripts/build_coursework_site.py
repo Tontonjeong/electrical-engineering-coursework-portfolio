@@ -361,6 +361,141 @@ COURSES = [
     },
 ]
 
+COURSE_SECTION_TITLES = {
+    "controller-logic": {
+        "ko": {
+            "summary": "RTL 범위와 실행 도구",
+            "problem": "원본 소스와 portable 검증 분리",
+            "evidence": "게이트 구조와 GHDL 파형",
+            "source_visuals": "회수된 Vivado/XSim 화면",
+            "code": "VHDL entity와 assertion testbench",
+            "results": "Regression 결과",
+            "boundary": "합성·보드 검증 범위",
+            "source": "소스·로그·VCD",
+        },
+        "en": {
+            "summary": "RTL scope and executed tools",
+            "problem": "Original sources versus portable verification",
+            "evidence": "Gate structure and GHDL waveforms",
+            "source_visuals": "Recovered Vivado/XSim views",
+            "code": "VHDL entities and assertion testbenches",
+            "results": "Regression results",
+            "boundary": "Synthesis and board-test boundary",
+            "source": "Sources, logs, and VCD",
+        },
+    },
+    "electrical-machines": {
+        "ko": {
+            "summary": "900 W 변압기 설계 조건",
+            "problem": "UI·EI·DU 코어 후보 계산",
+            "evidence": "권선·손실·효율 계산",
+            "source_visuals": "Workbook 입력·수식·출력",
+            "code": "독립 재계산식",
+            "results": "후보별 계산 결과",
+            "boundary": "제작·온도·절연 시험 범위",
+            "source": "Workbook 감사와 계산 코드",
+        },
+        "en": {
+            "summary": "900 W transformer requirements",
+            "problem": "UI, EI, and DU core calculations",
+            "evidence": "Winding, loss, and efficiency calculations",
+            "source_visuals": "Workbook inputs, formulas, and outputs",
+            "code": "Independent recalculation",
+            "results": "Candidate calculations",
+            "boundary": "Fabrication, thermal, and insulation tests",
+            "source": "Workbook audit and calculation code",
+        },
+    },
+    "power-systems": {
+        "ko": {
+            "summary": "765 kV 선로 입력과 실행 상태",
+            "problem": "선로 계산과 조류해석 결과 분리",
+            "evidence": "Zc·SIL·수요 수치",
+            "source_visuals": "PowerWorld 모델 화면",
+            "code": "선로 재계산식",
+            "results": "계산값과 solver 상태",
+            "boundary": "Blackout 진단과 보고서 수치 경계",
+            "source": "계산 코드와 PowerWorld 실행 기록",
+        },
+        "en": {
+            "summary": "765 kV inputs and run status",
+            "problem": "Line calculations versus power-flow output",
+            "evidence": "Zc, SIL, and demand values",
+            "source_visuals": "PowerWorld model views",
+            "code": "Transmission-line recalculation",
+            "results": "Calculated values and solver state",
+            "boundary": "Blackout diagnosis versus report values",
+            "source": "Calculation code and PowerWorld run record",
+        },
+    },
+    "motor-control": {
+        "ko": {
+            "summary": "DC motor 파라미터와 제어 주기",
+            "problem": "전류·속도 이중 PI 설계",
+            "evidence": "응답과 torque ripple",
+            "source_visuals": "PSIM·MATLAB 기존 결과",
+            "code": "PI gain 계산 코드",
+            "results": "Gain·제한값·ripple",
+            "boundary": "Archive와 재계산 범위",
+            "source": "계산 코드와 기존 결과 파일",
+        },
+        "en": {
+            "summary": "DC motor parameters and control rates",
+            "problem": "Cascaded current and speed PI design",
+            "evidence": "Responses and torque ripple",
+            "source_visuals": "Existing PSIM and MATLAB results",
+            "code": "PI-gain calculation code",
+            "results": "Gains, limits, and ripple",
+            "boundary": "Archive and recalculation boundary",
+            "source": "Calculation code and archived results",
+        },
+    },
+    "rf-microwave": {
+        "ko": {
+            "summary": "회로별 주파수·기판·임피던스",
+            "problem": "이론값·Cadence 입력·튜닝값 분리",
+            "evidence": "Schematic·Smith chart·S-parameter",
+            "source_visuals": "Cadence 회로·parameter·marker",
+            "code": "계산식",
+            "results": "회로별 중심주파수와 응답",
+            "boundary": "Archive·미완료·측정 범위",
+            "source": "회로별 보고서와 결과 파일",
+        },
+        "en": {
+            "summary": "Frequency, substrate, and impedance by circuit",
+            "problem": "Theory, Cadence inputs, and tuned values",
+            "evidence": "Schematics, Smith charts, and S-parameters",
+            "source_visuals": "Cadence circuits, parameters, and markers",
+            "code": "Calculation equations",
+            "results": "Center frequency and response by circuit",
+            "boundary": "Archive, incomplete work, and measurement",
+            "source": "Circuit reports and result files",
+        },
+    },
+    "sensor-applications": {
+        "ko": {
+            "summary": "AESA-SAR 연구 제안 범위",
+            "problem": "신호처리 baseline과 diffusion 적용 위치",
+            "evidence": "처리 블록과 검증 계획",
+            "source_visuals": "보고서 figure",
+            "code": "구현 코드",
+            "results": "현재 산출물",
+            "boundary": "Dataset·학습·prototype 부재",
+            "source": "보고서와 검증 계획",
+        },
+        "en": {
+            "summary": "AESA-SAR proposal scope",
+            "problem": "Signal-processing baseline and diffusion stage",
+            "evidence": "Processing blocks and validation plan",
+            "source_visuals": "Report figures",
+            "code": "Implementation code",
+            "results": "Current deliverables",
+            "boundary": "Dataset, training, and prototype absence",
+            "source": "Report and validation plan",
+        },
+    },
+}
+
 
 def write(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -428,7 +563,7 @@ def page_shell(title: str, body: str, *, css: str, script: str, lang: str, home:
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
           <meta name="theme-color" content="#08111f">
-          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <meta name="description" content="Electrical engineering coursework, calculations, source files, and verification results">
           <title>{escape(title)}</title>
           <link rel="stylesheet" href="{css}">
         </head>
@@ -443,7 +578,7 @@ def page_shell(title: str, body: str, *, css: str, script: str, lang: str, home:
           </header>
           <main id="main">{body}</main>
           <footer>
-            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <p>Original source, rerun, archived result, recalculation, and proposal labels follow the source record.</p>
             <a href="{REPO}/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
           </footer>
           <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>
@@ -475,7 +610,7 @@ def course_page(course: dict, lang: str) -> str:
     decision_items = "".join(f"<li>{escape(item)}</li>" for item in decisions)
     sections = {
         "ko": {
-            "eyebrow": f"{course['term']}학기 · Visual Engineering Case Study",
+            "eyebrow": f"{course['term']}학기 · 전자전기공학 과제",
             "summary": "30초 요약",
             "problem": "문제 정의와 설계 판단",
             "architecture": "시스템 구조",
@@ -487,7 +622,7 @@ def course_page(course: dict, lang: str) -> str:
             "prev": "전체 과목 보기",
         },
         "en": {
-            "eyebrow": f"Term {course['term']} · Visual Engineering Case Study",
+            "eyebrow": f"Term {course['term']} · Electrical Engineering Coursework",
             "summary": "30-second summary",
             "problem": "Problem and design decisions",
             "architecture": "System architecture",
@@ -499,13 +634,14 @@ def course_page(course: dict, lang: str) -> str:
             "prev": "All courses",
         },
     }[lang]
+    sections.update(COURSE_SECTION_TITLES[course["id"]][lang])
     section_number = 4
     source_visual_section = ""
     if course.get("source_visuals"):
-        source_title = "검토된 원본 시각 증거" if ko else "Reviewed source evidence"
+        source_title = sections["source_visuals"]
         source_visual_section = f"""
         <section class="section"><div class="section-heading"><span>{section_number:02d}</span><h2>{source_title}</h2></div>
-          <p class="section-note">High-resolution, manually reviewed project evidence. Private identifiers, participant-level data, local paths, and third-party teaching material are excluded.</p>
+          <p class="section-note">{'학번·개인정보·로컬 경로·제3자 교재를 제외한 원본 결과 화면입니다.' if ko else 'Source result views excluding student identifiers, personal data, local paths, and third-party teaching material.'}</p>
           <div class="gallery source-gallery">{gallery_html(course['source_visuals'], prefix, lang)}</div>
         </section>"""
         section_number += 1
@@ -555,7 +691,7 @@ def course_page(course: dict, lang: str) -> str:
           <div class="metrics">{metrics_html(course['metrics'])}</div>
         </section>
         <section class="section boundary"><div class="section-heading"><span>{boundary_number:02d}</span><h2>{sections['boundary']}</h2></div><p>{escape(boundary)}</p></section>
-        <section class="section source-panel"><div><h2>{sections['source']}</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="{repo_path}">Open source</a><a class="button" href="{prefix}assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <section class="section source-panel"><div><h2>{sections['source']}</h2><p>{'공개 가능한 소스·계산·로그와 상세 provenance를 연결합니다.' if ko else 'Links point to publishable sources, calculations, logs, and detailed provenance.'}</p></div><div class="actions"><a class="button primary" href="{repo_path}">Open source</a><a class="button" href="{prefix}assets/asset_manifest.yaml">Asset manifest</a></div></section>
         <nav class="case-nav"><a href="{'../../' if ko else '../../../en/'}">← {sections['prev']}</a></nav>
         """
     )
@@ -586,17 +722,17 @@ def home_page(lang: str) -> str:
         title = "Electrical Engineering Coursework Portfolio"
         switch = "en/"
         home = "./"
-        intro = "전자전기공학 전공과목에서 수행한 설계·계산·RTL·시뮬레이션·연구 제안을 증거 수준과 함께 재구성했습니다."
+        intro = "전자전기공학 전공과목의 설계 조건, 계산식, RTL, 시뮬레이션 결과, 남은 검증 항목을 과목별로 기록했습니다."
         kicker = "RTL · Machines · Power · Control · RF · Sensors"
-        disclaimer = "원본, 재구성, 재계산, 기존 결과 화면, 제안 단계를 같은 색으로 포장하지 않습니다. 각 시각 자료와 주장에 증거 상태를 표시했습니다."
+        disclaimer = "원본 소스, portable 검증, 독립 재계산, 기존 결과 화면, 연구 제안을 서로 다른 상태로 표시합니다."
         calc_title = "직접 확인하는 계산"
     else:
         title = "Electrical Engineering Coursework Portfolio"
         switch = "../"
         home = "./"
-        intro = "Coursework in RTL, machines, power, control, RF, and sensors is reconstructed as evidence-aware engineering case studies."
+        intro = "Course pages record design conditions, equations, RTL, simulation results, and remaining verification work."
         kicker = "RTL · Machines · Power · Control · RF · Sensors"
-        disclaimer = "Recovered originals, public reconstructions, recalculations, archived results, and proposals are never presented as the same evidence class."
+        disclaimer = "Recovered originals, portable verification, recalculations, archived results, and proposals use separate status labels."
         calc_title = "Interactive calculators"
     body = dedent(
         f"""
@@ -606,7 +742,7 @@ def home_page(lang: str) -> str:
           </div>
           <button class="image-button hero-visual" data-lightbox="{prefix}assets/hero/coursework_portfolio_hero.png"><picture><source srcset="{prefix}assets/hero/coursework_portfolio_hero.webp" type="image/webp"><img src="{prefix}assets/hero/coursework_portfolio_hero.png" alt="Coursework portfolio map"></picture></button>
         </section>
-        <section class="evidence-strip"><strong>Evidence-first</strong><p>{disclaimer}</p><a href="{REPO}/blob/main/SOURCE_PROVENANCE.md">Provenance</a></section>
+        <section class="evidence-strip"><strong>Evidence status</strong><p>{disclaimer}</p><a href="{REPO}/blob/main/SOURCE_PROVENANCE.md">Provenance</a></section>
         <section id="courses" class="section"><div class="section-heading"><span>01</span><h2>{'6개 엔지니어링 Case Study' if ko else 'Six engineering case studies'}</h2></div><div class="course-grid">{''.join(cards)}</div></section>
         <section class="section tools-section"><div class="section-heading"><span>02</span><h2>{calc_title}</h2></div>
           <div class="tool-grid">
@@ -737,13 +873,13 @@ def root_readme(lang: str) -> str:
     title = "# Electrical Engineering Coursework Portfolio"
     links = "[English](README.en.md) · [GitHub Pages](" + SITE + ") · [Source Provenance](SOURCE_PROVENANCE.md)" if ko else "[한국어](README.md) · [GitHub Pages](" + SITE + "en/) · [Source Provenance](SOURCE_PROVENANCE.md)"
     intro = (
-        "단국대학교 전자전기공학 전공과목에서 수행한 설계·계산·RTL·시뮬레이션·연구 제안을 공개 가능한 근거로 다시 구성한 포트폴리오입니다."
+        "단국대학교 전자전기공학 전공과목의 설계 조건, 계산식, RTL, 시뮬레이션 결과, 검증 한계를 기록합니다."
         if ko else
-        "This portfolio reconstructs electrical engineering coursework as public, evidence-aware case studies spanning RTL, machines, power, control, RF, and sensors."
+        "This repository records design conditions, equations, RTL, simulation results, and verification limits from electrical engineering coursework."
     )
     lines = [title, "", links, "", f"![Portfolio hero](docs/assets/hero/coursework_portfolio_hero.png)", "", intro, ""]
     lines += [
-        "## Portfolio principle" if not ko else "## 포트폴리오 원칙", "",
+        "## Evidence labels" if not ko else "## 증거 상태", "",
         "- Recovered Original: 제출물에서 회수한 직접 작성 소스" if ko else "- Recovered Original: directly authored source recovered from the archive",
         "- Portable Reconstruction: 원본 기능을 공개 환경에서 다시 검증하기 위한 재구성" if ko else "- Portable Reconstruction: public implementation used to reproduce documented behavior",
         "- Independent Recalculation: 보고서 입력과 식을 별도 코드로 재계산" if ko else "- Independent Recalculation: equations rerun from documented inputs",
@@ -752,7 +888,7 @@ def root_readme(lang: str) -> str:
         "- Portfolio Redraw: 원본 내용을 바탕으로 공개용으로 다시 그린 도식" if ko else "- Portfolio Redraw: public visual redrawn from source-derived structure",
         "- Concept / Proposal: 구현·학습·실증이 완료되지 않은 연구 설계" if ko else "- Concept / Proposal: research design without implementation or experimental claims",
         "",
-        "## Recruiter snapshot" if not ko else "## 채용 담당자용 30초 요약", "",
+        "## Coursework index" if not ko else "## 과목별 산출물", "",
         "| Term | Case study | Core output | Evidence state |",
         "|---|---|---|---|",
     ]
@@ -760,23 +896,6 @@ def root_readme(lang: str) -> str:
         name = c["ko_title"] if ko else c["en_title"]
         detail = c["ko_short"] if ko else c["en_short"]
         lines.append(f"| {c['term']} | [{name}]({c['path']}/README.md) | {detail} | {c['status']} |")
-    lines += ["", "## Visual case-study map" if not ko else "## Visual Case Study 지도", ""]
-    for idx, c in enumerate(COURSES, 1):
-        name = c["ko_title"] if ko else c["en_title"]
-        detail = c["ko_short"] if ko else c["en_short"]
-        lines += [
-            f"### {idx}. {name}", "",
-            f"![{name}](docs/{c['hero']})", "",
-            detail, "",
-            f"- **Status:** {c['status']}",
-            f"- **Evidence:** {c['evidence']}",
-            f"- **Source:** [{c['path']}]({c['path']}/)",
-            f"- **Web:** [Visual case study]({SITE}{'en/' if not ko else ''}courses/{c['id']}/)",
-            "",
-        ]
-        for label, value in c["metrics"]:
-            lines.append(f"- {label}: {value}")
-        lines += ["", f"> {c['boundary_ko'] if ko else c['boundary_en']}", ""]
     lines += [
         "## Interactive calculators" if not ko else "## Interactive Calculator", "",
         "| Tool | Scope | Link |",
@@ -842,81 +961,62 @@ def root_readme(lang: str) -> str:
         "## License notice", "",
         "The repository license applies only to public, directly authored or reconstructed material. Withheld originals and third-party material are not relicensed.",
     ]
-    while len(lines) < 270:
-        lines += ["", "<!-- Evidence-aware portfolio: claims remain bounded by the source and manifest. -->"]
     return "\n".join(lines)
 
 
 def course_readme(course: dict) -> str:
+    sections = COURSE_SECTION_TITLES[course["id"]]["ko"]
     lines = [
         f"# {course['ko_title']}", "",
         f"**학기:** {course['term']} · **프로젝트 유형:** Team Project · Individual contribution unconfirmed",
         f"**Evidence:** {course['evidence']}", "",
         f"![Architecture](../../docs/{course['hero']})", "",
-        "## 30초 요약", "", course["ko_short"], "",
+        f"## {sections['summary']}", "", course["ko_short"], "",
         "| 항목 | 내용 |", "|---|---|",
         f"| 공개 상태 | {course['status']} |",
         f"| 소스 상태 | {course['evidence']} |",
         f"| Web case study | [{SITE}courses/{course['id']}/]({SITE}courses/{course['id']}/) |",
         "",
-        "## 문제 정의", "", course["ko_problem"], "",
-        "## 설계 판단", "",
+        f"## {sections['problem']}", "", course["ko_problem"], "",
+        "### 적용한 설계 조건", "",
     ]
     lines += [f"{i}. {item}" for i, item in enumerate(course["ko_decisions"], 1)]
     if course.get("detail_links"):
         lines += ["", "## 상세 근거와 분리된 하위 사례", ""]
         lines += [f"- [{label}]({href})" for label, href in course["detail_links"]]
-    lines += ["", "## 구조와 설계 흐름", "", f"![Engineering flow](../../docs/{course['flow']})", "", "## 핵심 수치", "", "| Metric | Value |", "|---|---:|"]
+    lines += ["", "## 설계 구조", "", f"![Engineering flow](../../docs/{course['flow']})", "", f"## {sections['results']}", "", "| Metric | Value |", "|---|---:|"]
     lines += [f"| {label} | {value} |" for label, value in course["metrics"]]
-    lines += ["", "## 시각 근거", ""]
+    lines += ["", f"## {sections['evidence']}", ""]
     for src, label, caption in course["visuals"]:
         lines += [f"### {caption}", "", f"**{label}**", "", f"![{caption}](../../docs/{src})", ""]
     if course.get("source_visuals"):
         lines += [
-            "## 검토된 원본 시각 증거",
+            f"## {sections['source_visuals']}",
             "",
-            "고해상도 원본 후보를 전수 감사한 뒤 개인정보·학번·로컬 경로·제3자 교재를 제외한 공개 가능 산출물입니다.",
+            "학번·개인정보·로컬 경로·제3자 교재를 제외한 원본 결과 화면입니다.",
             "",
         ]
         for src, label, caption in course["source_visuals"]:
             lines += [f"### {caption}", "", f"**{label}**", "", f"![{caption}](../../docs/{src})", ""]
     if course["code"]:
-        lines += ["## 코드 근거", ""]
+        lines += [f"## {sections['code']}", ""]
         for src, label, caption in course["code"]:
             lines += [f"### {caption}", "", f"**{label}**", "", f"![{caption}](../../docs/{src})", ""]
     lines += [
-        "## 검증 상태", "",
-        "| 질문 | 답변 |", "|---|---|",
-        f"| 지금 재현 가능한가? | {course['status']} 범위에서 가능 |",
-        "| 과거 결과 화면인가? | Existing Result Archive로 표시된 항목만 해당 |",
-        "| 재구성인가? | Portable Reconstruction 또는 Portfolio Redraw로 표시 |",
-        "| 실물 구현인가? | 원본이 지원하지 않으면 주장하지 않음 |",
-        "",
-        "## 검증 경계", "", f"> {course['boundary_ko']}", "",
-        "## 재현 절차", "",
+        f"## {sections['boundary']}", "", f"> {course['boundary_ko']}", "",
+        f"## {sections['source']}", "",
         "```bash",
         "python scripts/run_all_calculations.py",
         "python scripts/validate_publication.py",
         "```",
         "",
-        "세부 소스와 계산은 이 디렉터리의 `src/`, `tb/`, `calculations/`, `data/`, `results/` 중 존재하는 경로를 참조합니다.",
+        "세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.",
         "",
-        "## Source classification", "",
-        "- **Source-Derived:** 보고서 또는 회수 소스에 직접 존재",
-        "- **Portable Reconstruction:** 공개 검증을 위해 기능을 재작성",
-        "- **Independent Recalculation:** 원본 입력을 별도 코드로 계산",
-        "- **Existing Result Archive:** 과거 제출물의 결과 화면",
-        "- **Portfolio Redraw:** 공개 설명을 위한 재도식화",
-        "- **Publicly Withheld:** 개인정보·라이선스·제3자 권리 때문에 미공개",
-        "",
-        "## Navigation", "",
         f"- [Visual case study]({SITE}courses/{course['id']}/)",
         "- [Portfolio home](../../README.md)",
         "- [Asset manifest](../../docs/assets/asset_manifest.yaml)",
         "- [Source provenance](../../SOURCE_PROVENANCE.md)",
     ]
-    while len(lines) < 145:
-        lines += ["", "<!-- Source-bounded case study; no unsupported claim is implied. -->"]
     return "\n".join(lines)
 
 

@@ -5,7 +5,7 @@
 
 ![Architecture](../../docs/assets/sensor/aesa_system_architecture.svg)
 
-## 30초 요약
+## AESA-SAR 연구 제안 범위
 
 AESA 수집, SAR 복원, physics-conditioned diffusion을 연결한 연구 제안과 단계별 검증 로드맵입니다.
 
@@ -15,11 +15,11 @@ AESA 수집, SAR 복원, physics-conditioned diffusion을 연결한 연구 제�
 | 소스 상태 | Research Concept · Architecture · Validation Roadmap · No Implemented Result |
 | Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/) |
 
-## 문제 정의
+## 신호처리 baseline과 diffusion 적용 위치
 
 AESA 하드웨어와 SAR 영상형성, 생성모델을 한 문장으로 묶는 대신 RF sensing, DBF, conventional reconstruction, conditional diffusion, evaluation으로 계층화했습니다. 이 페이지의 성과는 구현 결과가 아니라 검증 가능한 연구 설계입니다.
 
-## 설계 판단
+### 적용한 설계 조건
 
 1. RDA/CSA/BPA 중 하나를 먼저 baseline으로 고정한 뒤 학습 모델과 비교하도록 했습니다.
 2. 관측 열화·undersampling 조건과 train/validation/test 분리를 사전에 문서화합니다.
@@ -30,11 +30,11 @@ AESA 하드웨어와 SAR 영상형성, 생성모델을 한 문장으로 묶는 �
 
 - [Source/proposal evidence matrix](evidence_matrix.md)
 
-## 구조와 설계 흐름
+## 설계 구조
 
 ![Engineering flow](../../docs/assets/sensor/validation_roadmap.svg)
 
-## 핵심 수치
+## 현재 산출물
 
 | Metric | Value |
 |---|---:|
@@ -44,7 +44,7 @@ AESA 하드웨어와 SAR 영상형성, 생성모델을 한 문장으로 묶는 �
 | Performance gain | Not claimed |
 | Deliverable | Architecture + validation plan |
 
-## 시각 근거
+## 처리 블록과 검증 계획
 
 ### T/R module abstraction
 
@@ -82,64 +82,20 @@ AESA 하드웨어와 SAR 영상형성, 생성모델을 한 문장으로 묶는 �
 
 ![Proposal versus implementation](../../docs/assets/sensor/implementation_boundary.svg)
 
-## 검증 상태
-
-| 질문 | 답변 |
-|---|---|
-| 지금 재현 가능한가? | Concept / Proposal Only 범위에서 가능 |
-| 과거 결과 화면인가? | Existing Result Archive로 표시된 항목만 해당 |
-| 재구성인가? | Portable Reconstruction 또는 Portfolio Redraw로 표시 |
-| 실물 구현인가? | 원본이 지원하지 않으면 주장하지 않음 |
-
-## 검증 경계
+## Dataset·학습·prototype 부재
 
 > 학습 모델, 데이터셋, AESA prototype, field/flight test, 정량 성능 향상은 존재한다고 주장하지 않습니다. 군사 운용 절차나 구현 가능한 공격 정보가 아니라 공개 가능한 시스템 계층과 검증 방법만 다룹니다.
 
-## 재현 절차
+## 보고서와 검증 계획
 
 ```bash
 python scripts/run_all_calculations.py
 python scripts/validate_publication.py
 ```
 
-세부 소스와 계산은 이 디렉터리의 `src/`, `tb/`, `calculations/`, `data/`, `results/` 중 존재하는 경로를 참조합니다.
-
-## Source classification
-
-- **Source-Derived:** 보고서 또는 회수 소스에 직접 존재
-- **Portable Reconstruction:** 공개 검증을 위해 기능을 재작성
-- **Independent Recalculation:** 원본 입력을 별도 코드로 계산
-- **Existing Result Archive:** 과거 제출물의 결과 화면
-- **Portfolio Redraw:** 공개 설명을 위한 재도식화
-- **Publicly Withheld:** 개인정보·라이선스·제3자 권리 때문에 미공개
-
-## Navigation
+세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.
 
 - [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/)
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->

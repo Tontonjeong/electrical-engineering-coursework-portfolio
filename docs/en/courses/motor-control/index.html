@@ -4,7 +4,7 @@
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
           <meta name="theme-color" content="#08111f">
-          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <meta name="description" content="Electrical engineering coursework, calculations, source files, and verification results">
           <title>Motor Control — Cascaded PI Control of a DC Motor</title>
           <link rel="stylesheet" href="../../../styles.css">
         </head>
@@ -20,7 +20,7 @@
           <main id="main">
         <section class="case-hero accent-emerald">
           <div>
-            <p class="eyebrow">Term 3-2 · Visual Engineering Case Study</p>
+            <p class="eyebrow">Term 3-2 · Electrical Engineering Coursework</p>
             <h1>Motor Control — Cascaded PI Control of a DC Motor</h1>
             <p class="lede">A 500 Hz current loop and 25 Hz speed loop are integrated with current limiting, anti-windup, and field weakening.</p>
             <div class="actions"><a class="button primary" href="../../../tools/motor-pi-calculator/">Motor PI Calculator</a><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/03_motor_control/dc_motor_pi_control">Source directory</a></div>
@@ -30,7 +30,7 @@
           </button>
         </section>
         <section class="snapshot section">
-          <div class="section-heading"><span>01</span><h2>30-second summary</h2></div>
+          <div class="section-heading"><span>01</span><h2>DC motor parameters and control rates</h2></div>
           <div class="snapshot-grid">
             <p>A 500 Hz current loop and 25 Hz speed loop are integrated with current limiting, anti-windup, and field weakening.</p>
             <dl>
@@ -41,10 +41,10 @@
           </div>
         </section>
         <section class="section split">
-          <div><div class="section-heading"><span>02</span><h2>Problem and design decisions</h2></div><p>The controller separates fast electrical current dynamics from slower mechanical speed dynamics. Formula results, recovered C/C++ constants, and archived PSIM/MATLAB views are reconciled through an explicit parameter-consistency audit.</p><ul class="decision-list"><li>At 500 Hz current bandwidth, the recalculated gains are Kp=62.832 and Ki=314.16.</li><li>The report&#x27;s speed values Kp=24.8 and Ki≈3898 coexist with recovered-source Ki=3895.</li><li>The reference profile is 0→850 rpm, hold, then 850→1200 rpm.</li><li>The flow includes ±10 A current limiting, ±200 V voltage saturation, and field weakening.</li></ul></div>
+          <div><div class="section-heading"><span>02</span><h2>Cascaded current and speed PI design</h2></div><p>The controller separates fast electrical current dynamics from slower mechanical speed dynamics. Formula results, recovered C/C++ constants, and archived PSIM/MATLAB views are reconciled through an explicit parameter-consistency audit.</p><ul class="decision-list"><li>At 500 Hz current bandwidth, the recalculated gains are Kp=62.832 and Ki=314.16.</li><li>The report&#x27;s speed values Kp=24.8 and Ki≈3898 coexist with recovered-source Ki=3895.</li><li>The reference profile is 0→850 rpm, hold, then 850→1200 rpm.</li><li>The flow includes ±10 A current limiting, ±200 V voltage saturation, and field weakening.</li></ul></div>
           <figure class="visual-card featured"><button class="image-button" data-lightbox="../../../assets/motor/cascaded_pi_controller.svg"><img src="../../../assets/motor/cascaded_pi_controller.svg" alt="Engineering flow"></button><figcaption><span class="evidence-badge">Portfolio Redraw</span>Architecture and decision flow</figcaption></figure>
         </section>
-        <section class="section"><div class="section-heading"><span>03</span><h2>Design and verification evidence</h2></div>
+        <section class="section"><div class="section-heading"><span>03</span><h2>Responses and torque ripple</h2></div>
           <div class="gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../../assets/motor/current_loop_design.svg" aria-label="Expand image: 500 Hz inner-loop design">
@@ -90,8 +90,8 @@
 </div>
         </section>
 
-        <section class="section"><div class="section-heading"><span>04</span><h2>Reviewed source evidence</h2></div>
-          <p class="section-note">High-resolution, manually reviewed project evidence. Private identifiers, participant-level data, local paths, and third-party teaching material are excluded.</p>
+        <section class="section"><div class="section-heading"><span>04</span><h2>Existing PSIM and MATLAB results</h2></div>
+          <p class="section-note">Source result views excluding student identifiers, personal data, local paths, and third-party teaching material.</p>
           <div class="gallery source-gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../../assets/archive/motor/reference_speed_profile_archive.png" aria-label="Expand image: 0→850→1200 rpm reference profile">
@@ -144,7 +144,7 @@
 </div>
         </section>
 
-        <section class="section"><div class="section-heading"><span>05</span><h2>Code evidence</h2></div>
+        <section class="section"><div class="section-heading"><span>05</span><h2>PI-gain calculation code</h2></div>
           <div class="gallery code-gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../../assets/code/motor_reference_profile.svg" aria-label="Expand image: 0→850→1200 rpm reference">
@@ -168,15 +168,15 @@
 </figure>
 </div>
         </section>
-        <section class="section"><div class="section-heading"><span>06</span><h2>Key results</h2></div>
+        <section class="section"><div class="section-heading"><span>06</span><h2>Gains, limits, and ripple</h2></div>
           <div class="metrics"><div class="metric"><span>Current loop</span><strong>500 Hz</strong></div><div class="metric"><span>Current PI</span><strong>62.832 / 314.16</strong></div><div class="metric"><span>Speed loop</span><strong>25 Hz</strong></div><div class="metric"><span>Speed PI</span><strong>24.8 / 3898 report</strong></div><div class="metric"><span>Source Ki</span><strong>3895</strong></div><div class="metric"><span>Torque ripple</span><strong>2.28 → 0.38 N·m</strong></div></div>
         </section>
-        <section class="section boundary"><div class="section-heading"><span>07</span><h2>Verification boundary</h2></div><p>PSIM/MATLAB projects were not recovered in a license-independent rerunnable form. Screenshots are Existing Result Archive, not new runs. The 25 kHz filename versus 30 kHz text conflict remains visible. Hardware testing is not claimed.</p></section>
-        <section class="section source-panel"><div><h2>Source and reproduction</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/03_motor_control/dc_motor_pi_control">Open source</a><a class="button" href="../../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <section class="section boundary"><div class="section-heading"><span>07</span><h2>Archive and recalculation boundary</h2></div><p>PSIM/MATLAB projects were not recovered in a license-independent rerunnable form. Screenshots are Existing Result Archive, not new runs. The 25 kHz filename versus 30 kHz text conflict remains visible. Hardware testing is not claimed.</p></section>
+        <section class="section source-panel"><div><h2>Calculation code and archived results</h2><p>Links point to publishable sources, calculations, logs, and detailed provenance.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/03_motor_control/dc_motor_pi_control">Open source</a><a class="button" href="../../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
         <nav class="case-nav"><a href="../../../en/">← All courses</a></nav>
 </main>
           <footer>
-            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <p>Original source, rerun, archived result, recalculation, and proposal labels follow the source record.</p>
             <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
           </footer>
           <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>

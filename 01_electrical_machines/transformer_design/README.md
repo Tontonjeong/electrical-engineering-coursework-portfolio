@@ -5,7 +5,7 @@
 
 ![Architecture](../../docs/assets/transformer/transformer_winding_architecture.svg)
 
-## 30초 요약
+## 900 W 변압기 설계 조건
 
 220/110 V, 900 W, 300 Hz 조건에서 DU·EI·UI 코어를 계산 비교하고 UI-100 설계를 선택했습니다.
 
@@ -15,11 +15,11 @@
 | 소스 상태 | Source-Derived · Workbook Snapshot · Independent Recalculation |
 | Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/) |
 
-## 문제 정의
+## UI·EI·DU 코어 후보 계산
 
 정격 요구에서 권선수와 도체를 산정하고, 동손·철손·효율·전압변동률·창 이용률을 계산해 서로 다른 코어 형상을 비교했습니다. 최종 선택은 단일 최고 수치가 아니라 효율과 전압변동률, 창 이용률을 함께 본 trade study입니다.
 
-## 설계 판단
+### 적용한 설계 조건
 
 1. 설계 입력은 220/110 V, 900 W, 300 Hz, silicon steel, Bmax 1.5 T로 고정했습니다.
 2. DU-75, EI-112 초기·재설계, UI-100 사례를 동일한 판단 축으로 비교했습니다.
@@ -30,11 +30,11 @@
 
 - [Report case and workbook reconciliation](source_case_reconciliation.md)
 
-## 구조와 설계 흐름
+## 설계 구조
 
 ![Engineering flow](../../docs/assets/transformer/core_geometry_flow.svg)
 
-## 핵심 수치
+## 후보별 계산 결과
 
 | Metric | Value |
 |---|---:|
@@ -44,7 +44,7 @@
 | Efficiency | 96.360% |
 | Regulation | 1.136% |
 
-## 시각 근거
+## 권선·손실·효율 계산
 
 ### Source-derived design requirements
 
@@ -82,7 +82,7 @@
 
 ![Portable report-case recalculation](../../docs/assets/calculators/transformer_case_snapshot.png)
 
-## 코드 근거
+## 독립 재계산식
 
 ### Loss and efficiency equations
 
@@ -90,56 +90,20 @@
 
 ![Loss and efficiency equations](../../docs/assets/code/calc_transformer.svg)
 
-## 검증 상태
-
-| 질문 | 답변 |
-|---|---|
-| 지금 재현 가능한가? | Independent recalculation 범위에서 가능 |
-| 과거 결과 화면인가? | Existing Result Archive로 표시된 항목만 해당 |
-| 재구성인가? | Portable Reconstruction 또는 Portfolio Redraw로 표시 |
-| 실물 구현인가? | 원본이 지원하지 않으면 주장하지 않음 |
-
-## 검증 경계
+## 제작·온도·절연 시험 범위
 
 > 최종 제작, 온도상승, 절연 내력, 무부하·단락 시험의 실물 증거는 확인되지 않았습니다. 결과는 계산 기반 설계입니다. Workbook 화면은 셀 값을 렌더링한 snapshot이며 Excel 애플리케이션 실행 화면이 아닙니다.
 
-## 재현 절차
+## Workbook 감사와 계산 코드
 
 ```bash
 python scripts/run_all_calculations.py
 python scripts/validate_publication.py
 ```
 
-세부 소스와 계산은 이 디렉터리의 `src/`, `tb/`, `calculations/`, `data/`, `results/` 중 존재하는 경로를 참조합니다.
-
-## Source classification
-
-- **Source-Derived:** 보고서 또는 회수 소스에 직접 존재
-- **Portable Reconstruction:** 공개 검증을 위해 기능을 재작성
-- **Independent Recalculation:** 원본 입력을 별도 코드로 계산
-- **Existing Result Archive:** 과거 제출물의 결과 화면
-- **Portfolio Redraw:** 공개 설명을 위한 재도식화
-- **Publicly Withheld:** 개인정보·라이선스·제3자 권리 때문에 미공개
-
-## Navigation
+세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.
 
 - [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/)
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->
-
-<!-- Source-bounded case study; no unsupported claim is implied. -->

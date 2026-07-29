@@ -4,7 +4,7 @@
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width,initial-scale=1">
           <meta name="theme-color" content="#08111f">
-          <meta name="description" content="Evidence-first electrical engineering coursework portfolio">
+          <meta name="description" content="Electrical engineering coursework, calculations, source files, and verification results">
           <title>Power Systems — 765 kV Line &amp; Policy Review</title>
           <link rel="stylesheet" href="../../../styles.css">
         </head>
@@ -20,7 +20,7 @@
           <main id="main">
         <section class="case-hero accent-violet">
           <div>
-            <p class="eyebrow">Term 3-1 · Visual Engineering Case Study</p>
+            <p class="eyebrow">Term 3-1 · Electrical Engineering Coursework</p>
             <h1>Power Systems — 765 kV Line &amp; Policy Review</h1>
             <p class="lede">Surge impedance and SIL were recalculated while a non-convergent PowerWorld archive and policy figures were kept in separate evidence classes.</p>
             <div class="actions"><a class="button primary" href="../../../tools/transmission-line-calculator/">Transmission-Line Calculator</a><a class="button" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/02_power_systems/transmission_line_and_policy">Source directory</a></div>
@@ -30,7 +30,7 @@
           </button>
         </section>
         <section class="snapshot section">
-          <div class="section-heading"><span>01</span><h2>30-second summary</h2></div>
+          <div class="section-heading"><span>01</span><h2>765 kV inputs and run status</h2></div>
           <div class="snapshot-grid">
             <p>Surge impedance and SIL were recalculated while a non-convergent PowerWorld archive and policy figures were kept in separate evidence classes.</p>
             <dl>
@@ -41,10 +41,10 @@
           </div>
         </section>
         <section class="section split">
-          <div><div class="section-heading"><span>02</span><h2>Problem and design decisions</h2></div><p>The core engineering task is evidence separation: reproducible line arithmetic, a solver-divergence archive, and policy figures must not be collapsed into one result. The line values were independently recalculated; divergence is retained only as debugging evidence.</p><ul class="decision-list"><li>Lossless Zc and SIL use 765 kV, 350 km, z=j0.3 Ω/km, and y=j4.6 µS/km.</li><li>Independent results are Zc≈255.38 Ω, SIL≈2.292 GW, and current≈1.729 kA.</li><li>Non-physical per-unit voltages and blackout state are not interpreted as real-grid performance.</li><li>PowerWorld 24 reran the saved 2214 MW `newcase.pwb` state and reproduced Blackout.</li><li>2038 demand, peak, and capacity figures retain their report/source context.</li></ul></div>
+          <div><div class="section-heading"><span>02</span><h2>Line calculations versus power-flow output</h2></div><p>The core engineering task is evidence separation: reproducible line arithmetic, a solver-divergence archive, and policy figures must not be collapsed into one result. The line values were independently recalculated; divergence is retained only as debugging evidence.</p><ul class="decision-list"><li>Lossless Zc and SIL use 765 kV, 350 km, z=j0.3 Ω/km, and y=j4.6 µS/km.</li><li>Independent results are Zc≈255.38 Ω, SIL≈2.292 GW, and current≈1.729 kA.</li><li>Non-physical per-unit voltages and blackout state are not interpreted as real-grid performance.</li><li>PowerWorld 24 reran the saved 2214 MW `newcase.pwb` state and reproduced Blackout.</li><li>2038 demand, peak, and capacity figures retain their report/source context.</li></ul></div>
           <figure class="visual-card featured"><button class="image-button" data-lightbox="../../../assets/power/model_result_boundary.svg"><img src="../../../assets/power/model_result_boundary.svg" alt="Engineering flow"></button><figcaption><span class="evidence-badge">Portfolio Redraw</span>Architecture and decision flow</figcaption></figure>
         </section>
-        <section class="section"><div class="section-heading"><span>03</span><h2>Design and verification evidence</h2></div>
+        <section class="section"><div class="section-heading"><span>03</span><h2>Zc, SIL, and demand values</h2></div>
           <div class="gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../../assets/power/zc_sil_formula_flow.svg" aria-label="Expand image: Distributed-line calculation flow">
@@ -90,8 +90,8 @@
 </div>
         </section>
 
-        <section class="section"><div class="section-heading"><span>04</span><h2>Reviewed source evidence</h2></div>
-          <p class="section-note">High-resolution, manually reviewed project evidence. Private identifiers, participant-level data, local paths, and third-party teaching material are excluded.</p>
+        <section class="section"><div class="section-heading"><span>04</span><h2>PowerWorld model views</h2></div>
+          <p class="section-note">Source result views excluding student identifiers, personal data, local paths, and third-party teaching material.</p>
           <div class="gallery source-gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../../gallery/power-systems/powerworld-baseline-case.png" aria-label="Expand image: Multi-area PowerWorld baseline model">
@@ -109,7 +109,7 @@
 </div>
         </section>
 
-        <section class="section"><div class="section-heading"><span>05</span><h2>Code evidence</h2></div>
+        <section class="section"><div class="section-heading"><span>05</span><h2>Transmission-line recalculation</h2></div>
           <div class="gallery code-gallery">
 <figure class="visual-card">
   <button class="image-button" data-lightbox="../../../assets/code/calc_transmission.svg" aria-label="Expand image: Zc, SIL, and current equations">
@@ -119,15 +119,15 @@
 </figure>
 </div>
         </section>
-        <section class="section"><div class="section-heading"><span>06</span><h2>Key results</h2></div>
+        <section class="section"><div class="section-heading"><span>06</span><h2>Calculated values and solver state</h2></div>
           <div class="metrics"><div class="metric"><span>Voltage / length</span><strong>765 kV / 350 km</strong></div><div class="metric"><span>Surge impedance</span><strong>255.38 Ω</strong></div><div class="metric"><span>SIL</span><strong>2.292 GW</strong></div><div class="metric"><span>SIL current</span><strong>1.729 kA</strong></div><div class="metric"><span>PowerWorld 24 rerun</span><strong>2214 MW → Blackout</strong></div><div class="metric"><span>2038 energy</span><strong>735.1 → 624.5 TWh</strong></div><div class="metric"><span>2038 peak</span><strong>145.6 → 129.3 GW</strong></div></div>
         </section>
-        <section class="section boundary"><div class="section-heading"><span>07</span><h2>Verification boundary</h2></div><p>The PowerWorld 24 rerun confirms a Blackout diagnostic for the saved 2214 MW state; it does not validate the report&#x27;s 3000/3100/3200 MW stages or 5380 MW compensated case. Dynamic stability, protection, N-1, and production-grid validation are not claimed. Personal identifiers in the GUI are withheld.</p></section>
-        <section class="section source-panel"><div><h2>Source and reproduction</h2><p>Repository files, calculations, and evidence labels are linked without publishing withheld originals.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/02_power_systems/transmission_line_and_policy">Open source</a><a class="button" href="../../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
+        <section class="section boundary"><div class="section-heading"><span>07</span><h2>Blackout diagnosis versus report values</h2></div><p>The PowerWorld 24 rerun confirms a Blackout diagnostic for the saved 2214 MW state; it does not validate the report&#x27;s 3000/3100/3200 MW stages or 5380 MW compensated case. Dynamic stability, protection, N-1, and production-grid validation are not claimed. Personal identifiers in the GUI are withheld.</p></section>
+        <section class="section source-panel"><div><h2>Calculation code and PowerWorld run record</h2><p>Links point to publishable sources, calculations, logs, and detailed provenance.</p></div><div class="actions"><a class="button primary" href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/tree/main/02_power_systems/transmission_line_and_policy">Open source</a><a class="button" href="../../../assets/asset_manifest.yaml">Asset manifest</a></div></section>
         <nav class="case-nav"><a href="../../../en/">← All courses</a></nav>
 </main>
           <footer>
-            <p>Evidence-first portfolio · Recovered original, rerun result, archive, redraw, and proposal are labeled separately.</p>
+            <p>Original source, rerun, archived result, recalculation, and proposal labels follow the source record.</p>
             <a href="https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio/blob/main/SOURCE_PROVENANCE.md">Source provenance</a>
           </footer>
           <dialog id="lightbox" class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img alt=""><p></p></dialog>

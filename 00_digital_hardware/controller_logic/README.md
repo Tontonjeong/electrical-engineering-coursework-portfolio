@@ -5,7 +5,7 @@
 
 ![Architecture](../../docs/assets/digital/controller_logic_progression.svg)
 
-## 30초 요약
+## RTL 범위와 실행 도구
 
 조합회로에서 FSM·범용 시프트 레지스터까지 7개 RTL 블록을 self-checking testbench로 재검증했습니다.
 
@@ -15,11 +15,11 @@
 | 소스 상태 | Recovered Original · Portable Reconstruction · GHDL Rerun |
 | Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/controller-logic/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/controller-logic/) |
 
-## 문제 정의
+## 원본 소스와 portable 검증 분리
 
 과제 원본의 핵심은 단일 회로가 아니라, 논리식 → 계층화 → 상태기계 → 레지스터 제어로 확장되는 RTL 사고 과정입니다. 회수된 소스만으로는 모든 블록을 동일 환경에서 검증할 수 없었기 때문에, 원본과 재구성을 디렉터리·표시·검증 결과에서 분리했습니다.
 
-## 설계 판단
+### 적용한 설계 조건
 
 1. 작은 조합회로는 입력공간을 완전탐색해 예제 벡터만 맞는 착시를 제거했습니다.
 2. 순차회로는 reset, hold, load, 양방향 shift, overlap 검출을 directed test로 분리했습니다.
@@ -30,11 +30,11 @@
 
 - [Local GHDL 6.0.0 verification summary](results/verification_summary.md)
 
-## 구조와 설계 흐름
+## 설계 구조
 
 ![Engineering flow](../../docs/assets/digital/rtl-flow.svg)
 
-## 핵심 수치
+## Regression 결과
 
 | Metric | Value |
 |---|---:|
@@ -45,7 +45,7 @@
 | Regression | 7 PASS / 0 FAIL |
 | Local tool | GHDL 6.0.0 mcode |
 
-## 시각 근거
+## 게이트 구조와 GHDL 파형
 
 ### 1-bit full-adder gate structure
 
@@ -83,9 +83,9 @@
 
 ![Directed overlapping-sequence waveform](../../docs/assets/results/digital/tb_mealy_101_waveform.svg)
 
-## 검토된 원본 시각 증거
+## 회수된 Vivado/XSim 화면
 
-고해상도 원본 후보를 전수 감사한 뒤 개인정보·학번·로컬 경로·제3자 교재를 제외한 공개 가능 산출물입니다.
+학번·개인정보·로컬 경로·제3자 교재를 제외한 원본 결과 화면입니다.
 
 ### 4-bit adder hierarchy and carry-chain mapping
 
@@ -117,7 +117,7 @@
 
 ![Hold, shift, and load mode waveform](../../docs/gallery/controller-logic/universal-shift-register-waveform.png)
 
-## 코드 근거
+## VHDL entity와 assertion testbench
 
 ### Full-adder concurrent assignments
 
@@ -137,38 +137,18 @@
 
 ![Universal shift-register mode selection](../../docs/assets/code/vhdl_usr_mode.svg)
 
-## 검증 상태
-
-| 질문 | 답변 |
-|---|---|
-| 지금 재현 가능한가? | GHDL 7/7 PASS 범위에서 가능 |
-| 과거 결과 화면인가? | Existing Result Archive로 표시된 항목만 해당 |
-| 재구성인가? | Portable Reconstruction 또는 Portfolio Redraw로 표시 |
-| 실물 구현인가? | 원본이 지원하지 않으면 주장하지 않음 |
-
-## 검증 경계
+## 합성·보드 검증 범위
 
 > 원본 Vivado 2023.2 프로젝트와 XSim context 4건은 회수했지만, device constraint, synthesis/timing report, 보드 실증은 없습니다. 원본 testbench에는 assertion이 없어 STIMULUS_COMPLETE로만 표시하고, PASS는 별도 self-checking GHDL 6.0.0 suite에만 부여합니다. LUT/FF, Fmax, 전력, hardware PASS는 주장하지 않습니다.
 
-## 재현 절차
+## 소스·로그·VCD
 
 ```bash
 python scripts/run_all_calculations.py
 python scripts/validate_publication.py
 ```
 
-세부 소스와 계산은 이 디렉터리의 `src/`, `tb/`, `calculations/`, `data/`, `results/` 중 존재하는 경로를 참조합니다.
-
-## Source classification
-
-- **Source-Derived:** 보고서 또는 회수 소스에 직접 존재
-- **Portable Reconstruction:** 공개 검증을 위해 기능을 재작성
-- **Independent Recalculation:** 원본 입력을 별도 코드로 계산
-- **Existing Result Archive:** 과거 제출물의 결과 화면
-- **Portfolio Redraw:** 공개 설명을 위한 재도식화
-- **Publicly Withheld:** 개인정보·라이선스·제3자 권리 때문에 미공개
-
-## Navigation
+세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.
 
 - [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/controller-logic/)
 - [Portfolio home](../../README.md)

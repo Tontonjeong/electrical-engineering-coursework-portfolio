@@ -5,7 +5,7 @@
 
 ![Architecture](../../docs/assets/rf/microstrip_design_flow.svg)
 
-## 30초 요약
+## 회로별 주파수·기판·임피던스
 
 Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybrid를 이론과 기존 Cadence 결과로 비교했습니다.
 
@@ -15,11 +15,11 @@ Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybr
 | 소스 상태 | Source-Derived · Portfolio Redraw · Existing Cadence Result Archive |
 | Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/) |
 
-## 문제 정의
+## 이론값·Cadence 입력·튜닝값 분리
 
 회로식으로 얻은 이상 설계와 substrate·layout·tuning이 반영된 EM/circuit simulation archive를 분리해 설명합니다. 특히 microstrip 설계 주파수는 3.5 GHz이지만 회수된 marker는 3.7 GHz이므로 이를 정확히 구분했습니다.
 
-## 설계 판단
+### 적용한 설계 조건
 
 1. Alumina εr=9.9, h=0.5 mm, tanδ=0.001 조건에서 50 Ω, 270° microstrip을 설계했습니다.
 2. 1 GHz L-section과 3.5 GHz single-stub의 두 해를 물리 길이로 정리했습니다.
@@ -35,11 +35,11 @@ Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybr
 - [Homework 5 branch-line hybrid](cases/homework5_branch_line.md)
 - [Homework 5 Ex. 12-3 incomplete](cases/homework5_ex12_3_incomplete.md)
 
-## 구조와 설계 흐름
+## 설계 구조
 
 ![Engineering flow](../../docs/assets/rf/passive-networks.svg)
 
-## 핵심 수치
+## 회로별 중심주파수와 응답
 
 | Metric | Value |
 |---|---:|
@@ -50,7 +50,7 @@ Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybr
 | Wilkinson split | ≈ −3 dB archive |
 | Isolation | ≈ −18 dB archive |
 
-## 시각 근거
+## Schematic·Smith chart·S-parameter
 
 ### Alumina microstrip geometry
 
@@ -88,9 +88,9 @@ Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybr
 
 ![Hybrid S-parameter view](../../docs/assets/archive/rf/hybrid_sparameter_archive.png)
 
-## 검토된 원본 시각 증거
+## Cadence 회로·parameter·marker
 
-고해상도 원본 후보를 전수 감사한 뒤 개인정보·학번·로컬 경로·제3자 교재를 제외한 공개 가능 산출물입니다.
+학번·개인정보·로컬 경로·제3자 교재를 제외한 원본 결과 화면입니다.
 
 ### Cadence microstrip-line schematic
 
@@ -170,38 +170,18 @@ Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybr
 
 ![Quadrature hybrid S-parameter response](../../docs/gallery/rf-microwave/hybrid-sparameter.png)
 
-## 검증 상태
-
-| 질문 | 답변 |
-|---|---|
-| 지금 재현 가능한가? | Theory + existing Cadence archive 범위에서 가능 |
-| 과거 결과 화면인가? | Existing Result Archive로 표시된 항목만 해당 |
-| 재구성인가? | Portable Reconstruction 또는 Portfolio Redraw로 표시 |
-| 실물 구현인가? | 원본이 지원하지 않으면 주장하지 않음 |
-
-## 검증 경계
+## Archive·미완료·측정 범위
 
 > Cadence 프로젝트와 라이선스 자료는 공개하지 않습니다. 3.7 GHz marker를 3.5 GHz의 정확한 검증으로 바꾸어 말하지 않습니다. Homework 5 Ex. 12-3은 식별 가능한 최종 결과가 없어 INCOMPLETE_WORK로 분류했습니다. 제작 공차, connector launch, calibration, VNA 측정은 증거 범위 밖입니다.
 
-## 재현 절차
+## 회로별 보고서와 결과 파일
 
 ```bash
 python scripts/run_all_calculations.py
 python scripts/validate_publication.py
 ```
 
-세부 소스와 계산은 이 디렉터리의 `src/`, `tb/`, `calculations/`, `data/`, `results/` 중 존재하는 경로를 참조합니다.
-
-## Source classification
-
-- **Source-Derived:** 보고서 또는 회수 소스에 직접 존재
-- **Portable Reconstruction:** 공개 검증을 위해 기능을 재작성
-- **Independent Recalculation:** 원본 입력을 별도 코드로 계산
-- **Existing Result Archive:** 과거 제출물의 결과 화면
-- **Portfolio Redraw:** 공개 설명을 위한 재도식화
-- **Publicly Withheld:** 개인정보·라이선스·제3자 권리 때문에 미공개
-
-## Navigation
+세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.
 
 - [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/)
 - [Portfolio home](../../README.md)
