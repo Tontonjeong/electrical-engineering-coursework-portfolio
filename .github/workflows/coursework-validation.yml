@@ -66,44 +66,15 @@ jobs:
             -o build/cpp/pi_gain_calculator
           build/cpp/pi_gain_calculator
 
-      - name: Analyze VHDL
-        working-directory: 00_digital_hardware/controller_logic
-        run: |
-          mkdir -p build
-          ghdl -a --std=08 --workdir=build \
-            src/original/fulladd.vhd \
-            src/original/add_4bits.vhd \
-            src/original/mux_8to1.vhd \
-            src/original/mealy_101.vhd \
-            src/portable_reconstruction/dec_3to8.vhd \
-            src/portable_reconstruction/mux_8to1_4bits.vhd \
-            src/portable_reconstruction/usr_4bit.vhd \
-            tb/tb_fulladd.vhd \
-            tb/tb_add_4bits.vhd \
-            tb/tb_dec_3to8.vhd \
-            tb/tb_mux_8to1.vhd \
-            tb/tb_mux_8to1_4bits.vhd \
-            tb/tb_mealy_101.vhd \
-            tb/tb_usr_4bit.vhd
+      - name: Execute original stimuli and self-checking VHDL regression
+        run: bash scripts/run_controller_logic_ci.sh
 
-      - name: Execute self-checking VHDL regression
-        working-directory: 00_digital_hardware/controller_logic
-        run: |
-          set -euo pipefail
-          for test in \
-            tb_fulladd tb_add_4bits tb_dec_3to8 tb_mux_8to1 \
-            tb_mux_8to1_4bits tb_mealy_101 tb_usr_4bit
-          do
-            ghdl -e --std=08 --workdir=build "$test"
-            ghdl -r --std=08 --workdir=build "$test" \
-              --assert-level=error --vcd="build/${test}.vcd"
-          done
-
-      - name: Upload VHDL waveforms
+      - name: Upload VHDL verification evidence
         uses: actions/upload-artifact@v4
         with:
-          name: controller-logic-vcd
-          path: 00_digital_hardware/controller_logic/build/*.vcd
+          name: controller-logic-verification
+          path: 00_digital_hardware/controller_logic/build/artifacts/vhdl-verification
+          retention-days: 90
 
       - name: Configure Pages
         if: github.event_name != 'pull_request'
