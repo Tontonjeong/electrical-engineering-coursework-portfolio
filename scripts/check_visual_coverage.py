@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -12,8 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "docs" / "audit" / "visual_coverage_manifest.json"
 REPOSITORIES = {
     "coursework": ROOT,
-    "ppg": ROOT.parent / "ppg-hrv",
-    "radar": ROOT.parent / "fmcw-radar",
+    "ppg": Path(os.environ.get("PPG_REPO_ROOT", ROOT.parent / "ppg-hrv")),
+    "radar": Path(os.environ.get("RADAR_REPO_ROOT", ROOT.parent / "fmcw-radar")),
 }
 
 
