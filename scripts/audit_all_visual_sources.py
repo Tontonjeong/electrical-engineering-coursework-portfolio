@@ -68,6 +68,51 @@ MANUAL_PRIVATE_ASSETS = {
     "PAP-f39cde9ce860",
     "PAP-4edc6baeaf30",
 }
+NOTION_PAGE_LABELS = {
+    "Controller Logic": ("Coursework Engineering Portfolio", "Controller Logic Detail"),
+    "Electrical Machines": ("Coursework Engineering Portfolio", "Electrical Machines Detail"),
+    "Power Systems": ("Coursework Engineering Portfolio", "Power Systems Detail"),
+    "Motor Control": ("Coursework Engineering Portfolio", "Motor Control Detail"),
+    "RF/Microwave": ("Coursework Engineering Portfolio", "RF/Microwave Detail"),
+    "Sensor Applications": ("Coursework Engineering Portfolio", "Sensor Applications Detail"),
+    "PPG-HRV": ("Main Engineering Portfolio", "PPG-HRV Detail"),
+    "FMCW Radar": ("Main Engineering Portfolio", "FMCW Radar Detail"),
+}
+NOTION_PUBLIC_PATHS = {
+    "docs/gallery/controller-logic/full-adder-hierarchy.png",
+    "docs/gallery/controller-logic/full-adder-waveform.png",
+    "docs/gallery/controller-logic/decoder-3to8-waveform.png",
+    "docs/gallery/controller-logic/mealy-101-waveform.png",
+    "docs/gallery/controller-logic/universal-shift-register-waveform.png",
+    "docs/assets/transformer/turns_and_wire_flow.svg",
+    "docs/assets/transformer/core_tradeoff_chart.png",
+    "docs/gallery/power-systems/powerworld-baseline-case.png",
+    "docs/gallery/power-systems/powerworld-overload-contingency.png",
+    "docs/assets/archive/motor/reference_speed_profile_archive.png",
+    "docs/assets/archive/motor/current_response_psim_archive.png",
+    "docs/assets/archive/motor/current_response_matlab_archive.png",
+    "docs/assets/archive/motor/field_weakening_archive.png",
+    "docs/gallery/rf-microwave/microstrip-response-marker.png",
+    "docs/gallery/rf-microwave/wilkinson-sparameter.png",
+    "docs/gallery/rf-microwave/hybrid-sparameter.png",
+    "docs/gallery/rf-microwave/microstrip-schematic.png",
+    "docs/gallery/rf-microwave/l-section-schematic.png",
+    "docs/gallery/rf-microwave/l-section-smith-response.png",
+    "docs/gallery/rf-microwave/single-stub-solution-1.png",
+    "docs/gallery/rf-microwave/single-stub-solution-2.png",
+    "docs/gallery/rf-microwave/hybrid-line-parameter-a.png",
+    "docs/assets/sensor/interface_and_clocking.svg",
+    "docs/assets/sensor/sar_image_formation.svg",
+    "docs/figures/results/aggregate-source-evidence/group-hrv-boxplots.png",
+    "docs/figures/results/aggregate-source-evidence/group-hrv-heatmap.png",
+    "docs/figures/results/aggregate-source-evidence/real-vs-synthetic-boxplots.png",
+    "docs/figures/results/aggregate-source-evidence/accuracy-loss-history.png",
+    "docs/figures/results/aggregate-source-evidence/kfold-confusion-matrix.png",
+    "docs/figures/paper-source/acquisition-to-aoac-workflow.png",
+    "docs/figures/paper-source/ecg-scg-radar-waveform-excerpt.png",
+    "docs/figures/paper-source/beat-relative-aoac-landmarks.png",
+    "docs/figures/paper-source/scg-radar-relative-timing-boxplot.png",
+}
 
 
 def slug(value: str) -> str:
@@ -693,6 +738,23 @@ def finalize_disposition(records: list[dict[str, Any]]) -> None:
         else:
             record["publication_status"] = "Publicly Withheld"
             record["publication_reason"] = "Lower-value, incomplete, redundant-context, or unverified visual"
+
+
+def apply_notion_usage(records: list[dict[str, Any]]) -> None:
+    """Record only verified Notion placements without exposing workspace URLs."""
+    for record in records:
+        if record["publication_status"] != "Published":
+            continue
+        public_paths = {
+            location.split(":", 1)[-1].replace("\\", "/")
+            for location in record["public_locations"].split("; ")
+            if location
+        }
+        if not public_paths.intersection(NOTION_PUBLIC_PATHS):
+            continue
+        labels = NOTION_PAGE_LABELS.get(record["project"])
+        if labels:
+            record["notion_parent"], record["notion_detail"] = labels
         if record["publication_status"] == "Selected for Publication":
             record["public_filename"] = f"{slug(record['project'])}_{slug(record['original_filename'])}{record['extension']}"
 
@@ -981,6 +1043,7 @@ def main() -> None:
     assign_duplicates(records)
     reconcile_public(records, public_visuals())
     finalize_disposition(records)
+    apply_notion_usage(records)
     for label in summary:
         summary[label]["visuals"] = sum(1 for record in records if record["archive"] == label)
     records.sort(key=lambda item: (item["archive"], item["project"], item["original_path"], item["asset_id"]))
