@@ -278,13 +278,16 @@
         "caption_ko": "K-fold confusion and ROC PR calibration evidence",
         "alt_en": "K-fold confusion and ROC PR calibration evidence"
       },
-      "nback_result": {
+      "nback_task_boundary": {
         "status": "Published",
         "repository": "ppg",
-        "public_paths": ["docs/figures/results/nback_block_result_example.png"],
-        "evidence_status": "Public Example",
-        "caption_ko": "N-back block result example",
-        "alt_en": "N-back block result example"
+        "public_paths": [
+          "docs/figures/infographics/nback_labeling_explainer.png",
+          "docs/figures/experiment_photos/exp03_nback_screen_closeup.jpg"
+        ],
+        "evidence_status": "Portfolio Redraw + Generic Task Interface",
+        "caption_ko": "N-back label 구성과 피험자 정보가 없는 일반 과제 화면",
+        "alt_en": "N-back labeling logic and generic task interface without participant data"
       }
     },
     "FMCW Radar": {

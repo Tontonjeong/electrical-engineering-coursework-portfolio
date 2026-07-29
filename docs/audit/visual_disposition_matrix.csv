@@ -1783,8 +1783,8 @@ PAP-d9c041cadc9d,PPG-HRV,논문/CNN-HRV/loss 그래프.png,595,373,29,,,Publishe
 PAP-86caad5773a5,PPG-HRV,논문/CNN-HRV/loss.jpg,1080,720,31,,,Published,Exact public match,,ppg-hrv:docs/figures/results/fold_5/loss.jpg
 PAP-7012353ded1d,PPG-HRV,논문/CNN-HRV/roc_pr_cal.jpg,2160,720,33,,,Published,Exact public match,,ppg-hrv:docs/figures/results/fold_5/roc_pr_cal.jpg
 PAP-1c51cde2e61b,PPG-HRV,논문/CNN-HRV/youdenJ_metrics_bar.jpg,1080,720,31,,,Published,Exact public match,,ppg-hrv:docs/figures/results/fold_5/youdenJ_metrics_bar.jpg
-WITHHELD-1785,PPG-HRV,[private-source-redacted],672,553,24,NEAR-0070,[private-source-redacted],Private or Sensitive,Participant-level biosignal/result or raw physiological evidence; not public,,ppg-hrv:docs/figures/results/nback_block_result_example.png
-WITHHELD-1786,PPG-HRV,[private-source-redacted],664,548,24,NEAR-0070,[private-source-redacted],Private or Sensitive,Participant-level biosignal/result or raw physiological evidence; not public,,ppg-hrv:docs/figures/results/nback_block_result_example.png
+WITHHELD-1785,PPG-HRV,[private-source-redacted],672,553,24,NEAR-0070,[private-source-redacted],Private or Sensitive,Participant-level biosignal/result or raw physiological evidence; not public,,
+WITHHELD-1786,PPG-HRV,[private-source-redacted],664,548,24,NEAR-0070,[private-source-redacted],Private or Sensitive,Participant-level biosignal/result or raw physiological evidence; not public,,
 WITHHELD-1787,PPG-HRV,[private-source-redacted],680,564,24,NEAR-0071,[private-source-redacted],Private or Sensitive,Participant-level biosignal/result or raw physiological evidence; not public,,
 WITHHELD-1788,PPG-HRV,[private-source-redacted],697,570,24,NEAR-0071,[private-source-redacted],Private or Sensitive,Participant-level biosignal/result or raw physiological evidence; not public,,
 WITHHELD-1789,PPG-HRV,[private-source-redacted],690,559,24,NEAR-0070,[private-source-redacted],Private or Sensitive,Participant-level biosignal/result or raw physiological evidence; not public,,
