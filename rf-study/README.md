@@ -4,6 +4,11 @@ RFDH의 공개 학습 페이지를 읽고, 수식을 다시 계산한 뒤 기존
 Cadence 자료와 연결한 재현용 workspace입니다. RFDH 원문·이미지를 복제하지 않고
 URL·주제 index, 자체 도식, 표준 라이브러리 계산 코드만 보관합니다.
 
+수식과 용어는 주제에 맞춰 [Keysight의 VNA 기초 자료](https://www.keysight.com/us/en/assets/7018-06841/application-notes/5965-7707.pdf),
+[Analog Devices의 RF 사양 해설](https://www.analog.com/en/resources/technical-articles/understand-wireless-data-sheet-specifications--part-1.html),
+[TI mmWave Radar 자료](https://www.ti.com/design-development/embedded-development/mmwave-radar.html),
+[ITU-R 주파수 대역 명명법](https://www.itu.int/rec/r-rec-v.431/en)과 함께 확인했습니다.
+
 ## 읽기 순서
 
 1. [Transmission lines](transmission-lines/README.md)
