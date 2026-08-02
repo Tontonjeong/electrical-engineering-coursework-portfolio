@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">50 Ω 신호 경로</title>
+  <desc id="desc">source, line, port, load의 기준 임피던스를 한 줄로 비교한다.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d6fa5"/></marker></defs>
+  <style>.bg{fill:#f7fafc}.box{fill:#fff;stroke:#1d6fa5;stroke-width:3}.arrow{stroke:#1d6fa5;stroke-width:4;fill:none}.label{font:700 22px system-ui,sans-serif;text-anchor:middle;fill:#13293d}.heading{font:700 34px system-ui,sans-serif;fill:#13293d}.caption{font:20px system-ui,sans-serif;fill:#334e68}</style>
+  <rect width="1200" height="630" rx="24" class="bg"/>
+  <text x="70" y="88" class="heading">50 Ω 신호 경로</text>
+  <text x="70" y="130" class="caption">source, line, port, load의 기준 임피던스를 한 줄로 비교한다.</text>
+  <path d="M290 315 H350" class="arrow" marker-end="url(#arrow)"/><path d="M570 315 H630" class="arrow" marker-end="url(#arrow)"/><path d="M850 315 H910" class="arrow" marker-end="url(#arrow)"/>
+  <rect x="70" y="245" width="220" height="140" rx="18" class="box"/><text x="180" y="310" class="label"><tspan x="180" dy="0">50 Ω source</tspan></text><rect x="350" y="245" width="220" height="140" rx="18" class="box"/><text x="460" y="310" class="label"><tspan x="460" dy="0">50 Ω port</tspan></text><rect x="630" y="245" width="220" height="140" rx="18" class="box"/><text x="740" y="310" class="label"><tspan x="740" dy="0">Z₀ line</tspan></text><rect x="910" y="245" width="220" height="140" rx="18" class="box"/><text x="1020" y="310" class="label"><tspan x="1020" dy="0">ZL load</tspan></text>
+</svg>

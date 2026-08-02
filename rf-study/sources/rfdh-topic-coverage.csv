@@ -1,0 +1,117 @@
+﻿id,title,url,section,status,related_coursework,related_blog_ko,last_reviewed
+bas-rf-htm,RF의 기초,https://rfdh.com/bas_rf.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-beginer-htm,초보만세,https://rfdh.com/bas_rf/beginer.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-whatisrf-php3,RF란 무엇인가?,https://rfdh.com/bas_rf/begin/whatisrf.php3,foundations,indexed,high-frequency-engineering/distributed-circuits,/blog/rf/foundations/,2026-08-02
+rfdb-msline-htm,RFDB : MicroStrip,https://rfdh.com/rfdb/msline.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-dbmw-htm,RFDB : 전력변환,https://rfdh.com/rfdb/dbmw.htm,power-db,indexed,high-frequency-engineering/s-parameters,/blog/rf/db-dbm-power/,2026-08-02
+rfdb-filter-htm,Prototype Filter Design,https://rfdh.com/rfdb/filter.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+bas-rf-maxwell-htm,Maxwell방정식의물리적인의미,https://rfdh.com/bas_rf/maxwell.htm,foundations,indexed,high-frequency-engineering/distributed-circuits,/blog/rf/foundations/,2026-08-02
+bas-rf-act-pass-htm,Active와Passive의차이,https://rfdh.com/bas_rf/act_pass.htm,foundations,indexed,high-frequency-engineering/distributed-circuits,/blog/rf/foundations/,2026-08-02
+bas-rf-imp-htm,임피던스,https://rfdh.com/bas_rf/imp.htm,foundations,indexed,high-frequency-engineering/distributed-circuits,/blog/rf/foundations/,2026-08-02
+bas-rf-smith-htm,스미스차트의용도,https://rfdh.com/bas_rf/smith.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-s-htm,S파라미터,https://rfdh.com/bas_rf/s.htm,s-parameters,indexed,high-frequency-engineering/s-parameters | high-frequency-engineering/cadence-workflow,/blog/rf/s-parameters-vna/,2026-08-02
+bas-rf-trans-wg-htm,TransmissionLine과Waveguide,https://rfdh.com/bas_rf/trans_wg.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+bas-rf-mode-htm,Mode란대체무엇일까?,https://rfdh.com/bas_rf/mode.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+bas-rf-skin-htm,Skin Effect,https://rfdh.com/bas_rf/skin.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+bas-rf-rf-difficult-htm,RF회로를만들때어려운점,https://rfdh.com/bas_rf/rf_difficult.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-rf-emwave-htm,전자파의 성질,https://rfdh.com/bas_rf/emwave.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+bas-rf-microstrip-htm,Microstrip을쓰는이유,https://rfdh.com/bas_rf/microstrip.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+bas-rf-ms-make-htm,Microstrip 제작법,https://rfdh.com/bas_rf/ms_make.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+bas-rf-network-htm,Network Analyzer,https://rfdh.com/bas_rf/network.htm,instrumentation,indexed,high-frequency-engineering/cadence-workflow | high-frequency-engineering/result-interpretation,/blog/rf/measurement-vna/,2026-08-02
+bas-rf-hpib-htm,컴퓨터-계측기 연동,https://rfdh.com/bas_rf/hpib.htm,instrumentation,indexed,high-frequency-engineering/cadence-workflow | high-frequency-engineering/result-interpretation,/blog/rf/measurement-vna/,2026-08-02
+bas-com-1-1-htm,1-1 통신시스템 시뮬레이션의 기초,https://rfdh.com/bas_com/1-1.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-2-htm,제목없음,https://rfdh.com/bas_com/1-2.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-3-htm,제목없음,https://rfdh.com/bas_com/1-3.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-4-htm,제목없음,https://rfdh.com/bas_com/1-4.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-5-htm,제목없음,https://rfdh.com/bas_com/1-5.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-6-htm,제목없음,https://rfdh.com/bas_com/1-6.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-7-htm,제목없음,https://rfdh.com/bas_com/1-7.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-8-htm,제목없음,https://rfdh.com/bas_com/1-8.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-9-htm,제목없음,https://rfdh.com/bas_com/1-9.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-10-htm,제목없음,https://rfdh.com/bas_com/1-10.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-11-htm,제목없음,https://rfdh.com/bas_com/1-11.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-1-12-htm,펄스형상,https://rfdh.com/bas_com/1-12.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-1-htm,제목없음,https://rfdh.com/bas_com/2-1.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-2-htm,제목없음,https://rfdh.com/bas_com/2-2.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-3-htm,제목없음,https://rfdh.com/bas_com/2-3.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-4-htm,제목없음,https://rfdh.com/bas_com/2-4.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-5-htm,제목없음,https://rfdh.com/bas_com/2-5.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-6-htm,제목없음,https://rfdh.com/bas_com/2-6.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-7-htm,제목없음,https://rfdh.com/bas_com/2-7.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-8-htm,제목없음,https://rfdh.com/bas_com/2-8.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-9-htm,제목없음,https://rfdh.com/bas_com/2-9.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-2-10-htm,제목없음,https://rfdh.com/bas_com/2-10.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-3-1-htm,제목없음,https://rfdh.com/bas_com/3-1.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-3-2-htm,제목없음,https://rfdh.com/bas_com/3-2.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-3-3-htm,제목없음,https://rfdh.com/bas_com/3-3.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-3-4-htm,제목없음,https://rfdh.com/bas_com/3-4.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-com-3-5-htm,제목없음,https://rfdh.com/bas_com/3-5.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-rf-begin-start-htm,RF공부를시작하려면,https://rfdh.com/bas_rf/begin/start.htm,foundations,indexed,high-frequency-engineering/distributed-circuits,/blog/rf/foundations/,2026-08-02
+bas-rf-begin-curi-htm,RF 기초 공부과목은?,https://rfdh.com/bas_rf/begin/curi.htm,foundations,indexed,high-frequency-engineering/distributed-circuits,/blog/rf/foundations/,2026-08-02
+bas-rf-begin-diff-htm,RF와통신의차이,https://rfdh.com/bas_rf/begin/diff.htm,instrumentation,indexed,high-frequency-engineering/cadence-workflow | high-frequency-engineering/result-interpretation,/blog/rf/measurement-vna/,2026-08-02
+bas-rf-begin-edu-htm,RF교육과정/워크샵은?,https://rfdh.com/bas_rf/begin/edu.htm,instrumentation,indexed,high-frequency-engineering/cadence-workflow | high-frequency-engineering/result-interpretation,/blog/rf/measurement-vna/,2026-08-02
+bas-rf-begin-grad-htm,관련 대학원 진학은 어떻게?,https://rfdh.com/bas_rf/begin/grad.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+bas-rf-begin-50ohm-htm,50옴을 쓰는 이유는?,https://rfdh.com/bas_rf/begin/50ohm.htm,impedance-matching,indexed,high-frequency-engineering/impedance-matching,/blog/rf/impedance-port-matching/,2026-08-02
+bas-rf-begin-whymicrostrip-htm,Microstrip을왜쓸까?,https://rfdh.com/bas_rf/begin/whymicrostrip.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+bas-rf-begin-whyport-htm,Port의정확한의미는?,https://rfdh.com/bas_rf/begin/whyport.htm,impedance-matching,indexed,high-frequency-engineering/impedance-matching,/blog/rf/impedance-port-matching/,2026-08-02
+bas-rf-begin-whymatch-htm,임피던스매칭을왜할까?,https://rfdh.com/bas_rf/begin/whymatch.htm,impedance-matching,indexed,high-frequency-engineering/impedance-matching,/blog/rf/impedance-port-matching/,2026-08-02
+bas-rf-begin-whys-htm,스미스차트 잘쓰기,https://rfdh.com/bas_rf/begin/whys.htm,s-parameters,indexed,high-frequency-engineering/s-parameters | high-frequency-engineering/cadence-workflow,/blog/rf/s-parameters-vna/,2026-08-02
+bas-rf-begin-whydb-htm,dB단위는왜쓸까?,https://rfdh.com/bas_rf/begin/whydb.htm,power-db,indexed,high-frequency-engineering/s-parameters,/blog/rf/db-dbm-power/,2026-08-02
+bas-rf-begin-dbdbm-htm,dB와 dBm은 뭐가 다를까?,https://rfdh.com/bas_rf/begin/dbdbm.htm,power-db,indexed,high-frequency-engineering/s-parameters,/blog/rf/db-dbm-power/,2026-08-02
+bas-rf-begin-rfbound-htm,RF의 범위는 어디까지인가?,https://rfdh.com/bas_rf/begin/rfbound.htm,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-lc-htm,L과 C가 대체 뭐길래...,https://rfdh.com/bas_rf/begin/lc.htm,s-parameters,indexed,high-frequency-engineering/s-parameters | high-frequency-engineering/cadence-workflow,/blog/rf/s-parameters-vna/,2026-08-02
+bas-rf-begin-baljin-htm,발진이 뭐길래~ ToT,https://rfdh.com/bas_rf/begin/baljin.htm,s-parameters,indexed,high-frequency-engineering/s-parameters | high-frequency-engineering/cadence-workflow,/blog/rf/s-parameters-vna/,2026-08-02
+bas-rf-begin-baljin2-htm,발진을 잡아라!,https://rfdh.com/bas_rf/begin/baljin2.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-largesmall-htm,대신호와 소신호의 차이,https://rfdh.com/bas_rf/begin/largesmall.htm,power-db,indexed,high-frequency-engineering/s-parameters,/blog/rf/db-dbm-power/,2026-08-02
+bas-rf-begin-reso-htm,공진(resonance)의 이해,https://rfdh.com/bas_rf/begin/reso.htm,foundations,indexed,high-frequency-engineering/distributed-circuits,/blog/rf/foundations/,2026-08-02
+bas-rf-begin-if-htm,"IF(중간주파수), 그 존재의 이유",https://rfdh.com/bas_rf/begin/if.htm,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-if2-htm,"IF(중간주파수), 그 존재의 이유",https://rfdh.com/bas_rf/begin/if2.htm,linearity,indexed,electronic-circuits-2/frequency-response,/blog/rf/linearity-p1db-ip3/,2026-08-02
+bas-rf-begin-harmonic-htm,Harmonic은 왜 생기나?,https://rfdh.com/bas_rf/begin/harmonic.htm,linearity,indexed,electronic-circuits-2/frequency-response,/blog/rf/linearity-p1db-ip3/,2026-08-02
+bas-rf-begin-im-htm,Intermodulation의 정체,https://rfdh.com/bas_rf/begin/im.htm,linearity,indexed,electronic-circuits-2/frequency-response,/blog/rf/linearity-p1db-ip3/,2026-08-02
+bas-rf-begin-linear-htm,선형성이 뭐길래?,https://rfdh.com/bas_rf/begin/linear.htm,linearity,indexed,electronic-circuits-2/frequency-response,/blog/rf/linearity-p1db-ip3/,2026-08-02
+bas-rf-begin-ip3-htm,"IMD, P1dB, IP3 의 이해",https://rfdh.com/bas_rf/begin/ip3.htm,linearity,indexed,electronic-circuits-2/frequency-response,/blog/rf/linearity-p1db-ip3/,2026-08-02
+bas-rf-begin-acpr-htm,Power Amp와 ACPR,https://rfdh.com/bas_rf/begin/acpr.htm,linearity,indexed,electronic-circuits-2/frequency-response,/blog/rf/linearity-p1db-ip3/,2026-08-02
+bas-rf-begin-uplin-htm,선형성을 올리자!,https://rfdh.com/bas_rf/begin/uplin.htm,linearity,indexed,electronic-circuits-2/frequency-response,/blog/rf/linearity-p1db-ip3/,2026-08-02
+bas-rf-begin-complex-htm,복소수신호란 도대체무슨뜻?,https://rfdh.com/bas_rf/begin/complex.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-smith1-htm,스미스차트는 왜 쓰는가?,https://rfdh.com/bas_rf/begin/smith1.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-smith2-htm,스미스차트 읽는 법,https://rfdh.com/bas_rf/begin/smith2.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-smith3-htm,Smith tool 사용법,https://rfdh.com/bas_rf/begin/smith3.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-smith4-htm,임피던스 매칭 - lumped RLC,https://rfdh.com/bas_rf/begin/smith4.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-smith5-htm,임피던스 매칭 - Microstrip,https://rfdh.com/bas_rf/begin/smith5.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-smith6-htm,임피던스 매칭 - Microstrip,https://rfdh.com/bas_rf/begin/smith6.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-smith7-htm,"스미스차트, 그 뒷이야기",https://rfdh.com/bas_rf/begin/smith7.htm,smith-chart,indexed,high-frequency-engineering/smith-chart | high-frequency-engineering/l-network-stub,/blog/rf/smith-chart/,2026-08-02
+bas-rf-begin-amp-htm,RF 회로개념 잡기 - PART 1 ▶ Amplifier (증폭기),https://rfdh.com/bas_rf/begin/amp.htm,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-osc-htm,RF 회로개념 잡기 - PART 2 ▶ Oscillator (발진기),https://rfdh.com/bas_rf/begin/osc.htm,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-pll-php3,RF 회로개념 잡기 - PART 3 ▶ PLL (Phase Locked Loop),https://rfdh.com/bas_rf/begin/pll.php3,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-mixer-php3,RF 회로개념 잡기 - PART 4 ▶ Mixer (혼합기),https://rfdh.com/bas_rf/begin/mixer.php3,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-multiplier-php3,RF 회로개념 잡기 - PART 5 ▶ ▶ Frequency Doubler/Multiplier (체배기),https://rfdh.com/bas_rf/begin/multiplier.php3,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-filter-php3,RF 회로개념 잡기 - PART 6 ▶ ▶ Filter (여파기),https://rfdh.com/bas_rf/begin/filter.php3,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-duplexer-php3,RF 회로개념 잡기 - PART 7 ▶ Duplexer/Diplexer,https://rfdh.com/bas_rf/begin/duplexer.php3,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-coupler-php3,RF 회로개념 잡기 - PART 8 ▶ Coupler / Divider / Combiner,https://rfdh.com/bas_rf/begin/coupler.php3,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-isolator-php3,RF 회로개념 잡기 - PART 9 ▶ Isolator / Circulator,https://rfdh.com/bas_rf/begin/isolator.php3,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+bas-rf-begin-antenna-php3,RF 회로개념 잡기 - PART 10 ▶ Antenna (안테나),https://rfdh.com/bas_rf/begin/antenna.php3,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+rfdb-php3,RF database,https://rfdh.com/rfdb.php3,power-db,indexed,high-frequency-engineering/s-parameters,/blog/rf/db-dbm-power/,2026-08-02
+bas-rf-rf-htm,RF란무엇인가?,https://rfdh.com/bas_rf/rf.htm,wireless-communications,indexed,digital-communications,/blog/rf/wireless-communications/,2026-08-02
+rfdb-sline-htm,RFDB : Stripline,https://rfdh.com/rfdb/sline.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-coaxline-htm,RFDB : Coaxial Line,https://rfdh.com/rfdb/coaxline.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-msline-s-htm,RFDB : Suspended Microstrip,https://rfdh.com/rfdb/msline_s.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-msline-i-htm,RFDB : Inverted Microstrip,https://rfdh.com/rfdb/msline_i.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-slotline-htm,RFDB : Slotline,https://rfdh.com/rfdb/slotline.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-cpw-htm,RFDB : Coplanar Waveguide,https://rfdh.com/rfdb/cpw.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-cpwg-htm,RFDB : Coplanar Waveguide with Ground,https://rfdh.com/rfdb/cpwg.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-cps-htm,RFDB : Coplanar Strip,https://rfdh.com/rfdb/cps.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-vswr-htm,RFDB : VSWR,https://rfdh.com/rfdb/vswr.htm,reflection-vswr,indexed,high-frequency-engineering/reflection-vswr,/blog/rf/reflection-vswr/,2026-08-02
+rfdb-pae-htm,RFDB : 전력효율,https://rfdh.com/rfdb/pae.htm,power-db,indexed,high-frequency-engineering/s-parameters,/blog/rf/db-dbm-power/,2026-08-02
+rfdb-atten-htm,RFDB : Coplanar Waveguide,https://rfdh.com/rfdb/atten.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-nf-htm,RFDB : 시스템 잡음지수 계산 (Cascade Noise Figure),https://rfdh.com/rfdb/nf.htm,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+rfdb-divider2-htm,RFDB : 비대칭 전력분배기 (Unequal Split Wilkinson Divider,https://rfdh.com/rfdb/divider2.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-lpf-htm,LPF,https://rfdh.com/rfdb/lpf.htm,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+rfdb-hpf-htm,LPF,https://rfdh.com/rfdb/hpf.htm,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+rfdb-bpf-htm,LPF,https://rfdh.com/rfdb/bpf.htm,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+rfdb-bsf-htm,LPF,https://rfdh.com/rfdb/bsf.htm,circuit-blocks,indexed,high-frequency-engineering/wilkinson-divider | high-frequency-engineering/branch-line-hybrid,/blog/rf/circuit-blocks/,2026-08-02
+rfdb-er-htm,유전율표,https://rfdh.com/rfdb/er.htm,instrumentation,indexed,high-frequency-engineering/cadence-workflow | high-frequency-engineering/result-interpretation,/blog/rf/measurement-vna/,2026-08-02
+rfdb-er2-htm,A B C D E F G H I J K L M N O P Q R S T U V W X Y Z,https://rfdh.com/rfdb/er2.htm,instrumentation,indexed,high-frequency-engineering/cadence-workflow | high-frequency-engineering/result-interpretation,/blog/rf/measurement-vna/,2026-08-02
+rfdb-sigma-htm,유전율표,https://rfdh.com/rfdb/sigma.htm,rf-reference,indexed,high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-mu-htm,자성 재질 데이터,https://rfdh.com/rfdb/mu.htm,rf-reference,indexed,high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-wg-htm,구형 도파관 표준데이타 (Rectangular Waveguide),https://rfdh.com/rfdb/wg.htm,transmission-lines,indexed,high-frequency-engineering/transmission-lines | high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02
+rfdb-coax-htm,동축선 표준 데이터,https://rfdh.com/rfdb/coax.htm,rf-reference,indexed,high-frequency-engineering/microstrip,/blog/rf/transmission-lines/,2026-08-02

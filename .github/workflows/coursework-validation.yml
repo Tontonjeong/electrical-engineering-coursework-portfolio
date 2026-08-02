@@ -43,6 +43,9 @@ jobs:
       - name: Test interactive calculators
         run: node scripts/test_calculators.mjs
 
+      - name: Test RF study calculations
+        run: python -m unittest discover -s rf-study/tests -p 'test_*.py'
+
       - name: Validate SVG viewport and text bounds
         run: python scripts/validate_svg_bounds.py
 
