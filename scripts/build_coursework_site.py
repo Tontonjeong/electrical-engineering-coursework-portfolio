@@ -749,6 +749,7 @@ def home_page(lang: str) -> str:
             <a class="tool-card" href="{prefix}tools/transformer-case-calculator/"><span>01</span><h3>Transformer Case</h3><p>Loss, efficiency, regulation</p></a>
             <a class="tool-card" href="{prefix}tools/motor-pi-calculator/"><span>02</span><h3>Motor PI</h3><p>Current-loop gains and source discrepancy</p></a>
             <a class="tool-card" href="{prefix}tools/transmission-line-calculator/"><span>03</span><h3>Transmission Line</h3><p>Zc, SIL, three-phase current</p></a>
+            <a class="tool-card" href="https://tontonjeong.github.io/blog/rf/start-here/"><span>04</span><h3>RF · Microwave Study</h3><p>32 notes, Smith chart, circuit blocks, RF calculators</p></a>
           </div>
         </section>
         <section class="section boundary"><div class="section-heading"><span>03</span><h2>{'공개 범위' if ko else 'Public boundary'}</h2></div>
@@ -903,6 +904,7 @@ def root_readme(lang: str) -> str:
         f"| Transformer Case | Loss, efficiency, regulation | [{SITE}tools/transformer-case-calculator/]({SITE}tools/transformer-case-calculator/) |",
         f"| Motor PI | Current-loop gains + preserved discrepancy | [{SITE}tools/motor-pi-calculator/]({SITE}tools/motor-pi-calculator/) |",
         f"| Transmission Line | Zc, SIL, current | [{SITE}tools/transmission-line-calculator/]({SITE}tools/transmission-line-calculator/) |",
+        f"| RF · Microwave Study | 32 bilingual notes + 7 calculators | [Main portfolio](https://tontonjeong.github.io/blog/rf/start-here/) |",
         "",
         "## Repository structure" if not ko else "## 저장소 구조", "",
         "```text",
@@ -911,6 +913,7 @@ def root_readme(lang: str) -> str:
         "02_power_systems/         line arithmetic, policy reconciliation",
         "03_motor_control/         PI calculations, recovered source, archived plots",
         "04_rf_microwave/          passive network cases and Cadence archive",
+        "rf-study/                 RFDH source map, redraws, RF calculations, notebook",
         "05_sensor_applications/   AESA-SAR research architecture",
         "docs/                     bilingual multi-page portfolio and visual assets",
         "scripts/                  calculation, build, and publication QA",
@@ -924,6 +927,7 @@ def root_readme(lang: str) -> str:
         "python scripts/validate_svg_bounds.py",
         "node scripts/test_calculators.mjs",
         "python scripts/validate_publication.py",
+        "python -m unittest discover -s rf-study/tests -p 'test_*.py'",
         "```",
         "",
         "The public CI target uses GHDL and g++ where applicable." if not ko else "공개 CI는 가능한 범위에서 GHDL과 g++를 사용합니다.",

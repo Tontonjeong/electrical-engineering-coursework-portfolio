@@ -33,6 +33,7 @@
 | Transformer Case | Loss, efficiency, regulation | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transformer-case-calculator/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transformer-case-calculator/) |
 | Motor PI | Current-loop gains + preserved discrepancy | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/motor-pi-calculator/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/motor-pi-calculator/) |
 | Transmission Line | Zc, SIL, current | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transmission-line-calculator/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transmission-line-calculator/) |
+| RF · Microwave Study | 32 bilingual notes + 7 calculators | [Main portfolio](https://tontonjeong.github.io/blog/rf/start-here/) |
 
 ## 저장소 구조
 
@@ -42,6 +43,7 @@
 02_power_systems/         line arithmetic, policy reconciliation
 03_motor_control/         PI calculations, recovered source, archived plots
 04_rf_microwave/          passive network cases and Cadence archive
+rf-study/                 RFDH source map, redraws, RF calculations, notebook
 05_sensor_applications/   AESA-SAR research architecture
 docs/                     bilingual multi-page portfolio and visual assets
 scripts/                  calculation, build, and publication QA
@@ -56,6 +58,7 @@ python scripts/build_coursework_site.py
 python scripts/validate_svg_bounds.py
 node scripts/test_calculators.mjs
 python scripts/validate_publication.py
+python -m unittest discover -s rf-study/tests -p 'test_*.py'
 ```
 
 공개 CI는 가능한 범위에서 GHDL과 g++를 사용합니다.
