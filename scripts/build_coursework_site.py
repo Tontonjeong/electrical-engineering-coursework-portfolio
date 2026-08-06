@@ -11,8 +11,8 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
-REPO = "https://github.com/Tontonjeong/electrical-engineering-coursework-portfolio"
-SITE = "https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/"
+REPO = "https://github.com/Dororok9061/electrical-engineering-coursework-portfolio"
+SITE = "https://dororok9061.github.io/electrical-engineering-coursework-portfolio/"
 
 
 COURSES = [
@@ -749,7 +749,7 @@ def home_page(lang: str) -> str:
             <a class="tool-card" href="{prefix}tools/transformer-case-calculator/"><span>01</span><h3>Transformer Case</h3><p>Loss, efficiency, regulation</p></a>
             <a class="tool-card" href="{prefix}tools/motor-pi-calculator/"><span>02</span><h3>Motor PI</h3><p>Current-loop gains and source discrepancy</p></a>
             <a class="tool-card" href="{prefix}tools/transmission-line-calculator/"><span>03</span><h3>Transmission Line</h3><p>Zc, SIL, three-phase current</p></a>
-            <a class="tool-card" href="https://tontonjeong.github.io/blog/rf/start-here/"><span>04</span><h3>RF · Microwave Study</h3><p>32 notes, Smith chart, circuit blocks, RF calculators</p></a>
+            <a class="tool-card" href="https://dororok9061.github.io/blog/rf/start-here/"><span>04</span><h3>RF · Microwave Study</h3><p>32 notes, Smith chart, circuit blocks, RF calculators</p></a>
           </div>
         </section>
         <section class="section boundary"><div class="section-heading"><span>03</span><h2>{'공개 범위' if ko else 'Public boundary'}</h2></div>
@@ -904,7 +904,7 @@ def root_readme(lang: str) -> str:
         f"| Transformer Case | Loss, efficiency, regulation | [{SITE}tools/transformer-case-calculator/]({SITE}tools/transformer-case-calculator/) |",
         f"| Motor PI | Current-loop gains + preserved discrepancy | [{SITE}tools/motor-pi-calculator/]({SITE}tools/motor-pi-calculator/) |",
         f"| Transmission Line | Zc, SIL, current | [{SITE}tools/transmission-line-calculator/]({SITE}tools/transmission-line-calculator/) |",
-        f"| RF · Microwave Study | 32 bilingual notes + 7 calculators | [Main portfolio](https://tontonjeong.github.io/blog/rf/start-here/) |",
+        f"| RF · Microwave Study | 32 bilingual notes + 7 calculators | [Main portfolio](https://dororok9061.github.io/blog/rf/start-here/) |",
         "",
         "## Repository structure" if not ko else "## 저장소 구조", "",
         "```text",

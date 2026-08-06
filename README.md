@@ -1,6 +1,6 @@
 # Electrical Engineering Coursework Portfolio
 
-[English](README.en.md) · [GitHub Pages](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/) · [Source Provenance](SOURCE_PROVENANCE.md)
+[English](README.en.md) · [GitHub Pages](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/) · [Source Provenance](SOURCE_PROVENANCE.md)
 
 ![Portfolio hero](docs/assets/hero/coursework_portfolio_hero.png)
 
@@ -30,10 +30,10 @@
 
 | Tool | Scope | Link |
 |---|---|---|
-| Transformer Case | Loss, efficiency, regulation | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transformer-case-calculator/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transformer-case-calculator/) |
-| Motor PI | Current-loop gains + preserved discrepancy | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/motor-pi-calculator/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/motor-pi-calculator/) |
-| Transmission Line | Zc, SIL, current | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transmission-line-calculator/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/tools/transmission-line-calculator/) |
-| RF · Microwave Study | 32 bilingual notes + 7 calculators | [Main portfolio](https://tontonjeong.github.io/blog/rf/start-here/) |
+| Transformer Case | Loss, efficiency, regulation | [https://dororok9061.github.io/electrical-engineering-coursework-portfolio/tools/transformer-case-calculator/](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/tools/transformer-case-calculator/) |
+| Motor PI | Current-loop gains + preserved discrepancy | [https://dororok9061.github.io/electrical-engineering-coursework-portfolio/tools/motor-pi-calculator/](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/tools/motor-pi-calculator/) |
+| Transmission Line | Zc, SIL, current | [https://dororok9061.github.io/electrical-engineering-coursework-portfolio/tools/transmission-line-calculator/](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/tools/transmission-line-calculator/) |
+| RF · Microwave Study | 32 bilingual notes + 7 calculators | [Main portfolio](https://dororok9061.github.io/blog/rf/start-here/) |
 
 ## 저장소 구조
 

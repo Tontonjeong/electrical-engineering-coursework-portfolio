@@ -40,7 +40,7 @@ PUBLIC_REPOS = [
     ROOT,
     ROOT.parent / "ppg-hrv",
     ROOT.parent / "fmcw-radar",
-    ROOT.parent / "Tontonjeong-profile",
+    ROOT.parent / "Dororok9061-profile",
 ]
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".gif", ".tif", ".tiff", ".svg"}
 OOXML_SUFFIXES = {".docx", ".xlsx", ".pptx", ".hwpx"}

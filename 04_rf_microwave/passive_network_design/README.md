@@ -13,7 +13,7 @@ Microstrip, L-section·single-stub matching, Wilkinson divider, branch-line hybr
 |---|---|
 | 공개 상태 | Theory + existing Cadence archive |
 | 소스 상태 | Source-Derived · Portfolio Redraw · Existing Cadence Result Archive |
-| Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/) |
+| Web case study | [https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/) |
 
 ## 이론값·Cadence 입력·튜닝값 분리
 
@@ -183,7 +183,7 @@ python scripts/validate_publication.py
 
 세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.
 
-- [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/)
+- [Visual case study](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/rf-microwave/)
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)

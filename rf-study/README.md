@@ -20,7 +20,7 @@ URL·주제 index, 자체 도식, 표준 라이브러리 계산 코드만 보관
 7. [RF calculators](calculators/rf_calculators.py)
 
 전체 공개 공부글은
-[RF · Microwave 공부 시작점](https://tontonjeong.github.io/blog/rf/start-here/)에서
+[RF · Microwave 공부 시작점](https://dororok9061.github.io/blog/rf/start-here/)에서
 이어집니다. 내 실제 과제 화면과 저장된 simulation 범위는
 [기존 passive-network 기록](../04_rf_microwave/passive_network_design/README.md)에
 그대로 분리되어 있습니다.

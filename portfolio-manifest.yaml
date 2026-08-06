@@ -2,7 +2,7 @@ schema_version: 1
 portfolio:
   title: Electrical Engineering Coursework Portfolio
   languages: [ko, en]
-  public_site: https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/
+  public_site: https://dororok9061.github.io/electrical-engineering-coursework-portfolio/
 projects:
   - id: controller-logic
     term: "2-2"

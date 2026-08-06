@@ -13,7 +13,7 @@
 |---|---|
 | 공개 상태 | Calculation + existing simulation archive |
 | 소스 상태 | Recovered Original · Independent Recalculation · Existing PSIM/MATLAB Archive |
-| Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/motor-control/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/motor-control/) |
+| Web case study | [https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/motor-control/](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/motor-control/) |
 
 ## 전류·속도 이중 PI 설계
 
@@ -162,7 +162,7 @@ python scripts/validate_publication.py
 
 세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.
 
-- [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/motor-control/)
+- [Visual case study](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/motor-control/)
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)

@@ -13,7 +13,7 @@
 |---|---|
 | 공개 상태 | Zc 255.38 Ω · SIL 2.292 GW · PWB rerun: Blackout |
 | 소스 상태 | Source-Derived · Independent Recalculation · PowerWorld 24 Tool Rerun |
-| Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/) |
+| Web case study | [https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/) |
 
 ## 선로 계산과 조류해석 결과 분리
 
@@ -122,7 +122,7 @@ python scripts/validate_publication.py
 
 세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.
 
-- [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/)
+- [Visual case study](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/power-systems/)
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)

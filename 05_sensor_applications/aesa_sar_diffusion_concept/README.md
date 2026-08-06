@@ -13,7 +13,7 @@ AESA 수집, SAR 복원, physics-conditioned diffusion을 연결한 연구 제�
 |---|---|
 | 공개 상태 | Concept / Proposal Only |
 | 소스 상태 | Research Concept · Architecture · Validation Roadmap · No Implemented Result |
-| Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/) |
+| Web case study | [https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/) |
 
 ## 신호처리 baseline과 diffusion 적용 위치
 
@@ -95,7 +95,7 @@ python scripts/validate_publication.py
 
 세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.
 
-- [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/)
+- [Visual case study](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/sensor-applications/)
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)

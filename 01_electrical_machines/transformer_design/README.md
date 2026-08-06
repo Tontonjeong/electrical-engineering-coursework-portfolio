@@ -13,7 +13,7 @@
 |---|---|
 | 공개 상태 | Independent recalculation |
 | 소스 상태 | Source-Derived · Workbook Snapshot · Independent Recalculation |
-| Web case study | [https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/) |
+| Web case study | [https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/) |
 
 ## UI·EI·DU 코어 후보 계산
 
@@ -103,7 +103,7 @@ python scripts/validate_publication.py
 
 세부 소스·계산·로그는 실제 존재하는 `src/`, `tb/`, `calculations/`, `data/`, `results/` 경로에서 확인합니다.
 
-- [Visual case study](https://tontonjeong.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/)
+- [Visual case study](https://dororok9061.github.io/electrical-engineering-coursework-portfolio/courses/electrical-machines/)
 - [Portfolio home](../../README.md)
 - [Asset manifest](../../docs/assets/asset_manifest.yaml)
 - [Source provenance](../../SOURCE_PROVENANCE.md)
